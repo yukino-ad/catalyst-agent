@@ -1,0 +1,34 @@
+{
+  "schema_version": "adsorption-energy-evaluation-v1",
+  "data_version": "c12.7-initial-heuristic-v1",
+  "energy_unit": "eV",
+  "thresholds_ev": {
+    "unfavorable_above": 0.0,
+    "weak_lower": -0.2,
+    "moderate_lower": -1.5
+  },
+  "labels": {
+    "unfavorable": {
+      "strength": "thermodynamically_unfavorable",
+      "activity_hint": "Adsorption may be difficult under the current simplified energy model."
+    },
+    "weak": {
+      "strength": "weak_adsorption",
+      "activity_hint": "Desorption may be easier, but adsorption or activation may be insufficient."
+    },
+    "moderate": {
+      "strength": "moderate_adsorption",
+      "activity_hint": "The site may provide a useful adsorption-desorption balance and merits further validation."
+    },
+    "strong": {
+      "strength": "strong_adsorption",
+      "activity_hint": "The intermediate may remain trapped or block the active site."
+    }
+  },
+  "scientific_limitations": [
+    "The classification is a heuristic based only on adsorption energy.",
+    "Catalytic activity is not proven by adsorption energy alone.",
+    "Reaction barriers, solvent, electrode potential, coverage, entropy and zero-point energy are not included.",
+    "Every result requires human confirmation."
+  ]
+}

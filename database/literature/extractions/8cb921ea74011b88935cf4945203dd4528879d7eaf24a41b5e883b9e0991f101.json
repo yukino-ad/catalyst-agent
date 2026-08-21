@@ -1,0 +1,345 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-24T14:59:55.157761+00:00",
+  "paper": {
+    "paper_id": "openalex:W7160836972",
+    "title": "Theoretical investigation for electrochemical CO2 reduction on silver and tin surfaces",
+    "abstract": "This thesis investigates strategies for enhancing electrochemical carbon dioxide (CO2) reduction through a systematic study of catalyst surface modification. Particular attention is given to silver (Ag) and tin (Sn) as base materials, with a focus on the role of dopants in improving catalytic activity and selectivity. In CO2 electroreduction, the nature and stability of reaction intermediates are critical in determining product distribution. In particular, *COOH is widely recognised as the key intermediate in the formation of carbon monoxide, whereas *OCHO governs the pathway towards formic acid. The competition between these intermediates for active sites plays a decisive role in controlling catalytic selectivity. The study employs density functional theory (DFT) calculations using the Vienna Ab initio Simulation Package (VASP), with the generalised gradient approximation (GGA) to analyse the geometric and electronic properties of the investigated systems. The results provide detailed insights into how targeted doping strategies can be used to optimise catalyst performance. For Ag-based systems, silver and gold clusters supported on the Ag (111) surface are examined to evaluate the effects of cluster composition and size. The presence of these clusters significantly alters the reaction energetics associated with *COOH formation. Smaller Ag clusters exhibit slightly greater reductions in energy barriers than larger ones, whereas larger Au clusters demonstrate superior performance compared with their smaller counterparts. This highlights a distinct size-dependent effect that varies with cluster composition. For Sn-based systems, bismuth (Bi) doping is investigated in both adsorbed and substitutional configurations relative to pristine Sn surfaces. Bi incorporation enhances catalytic activity and promotes selectivity towards formate formation under both gas-phase and solvated conditions. Among the configurations studied, Bi atoms adsorbed on the Sn surface yield the most favourable energetic profiles, characterised by lower reaction barriers. However, achieving precise control over the adsorption of competing intermediates (*COOH and *OCHO) remains a key challenge for further improving selectivity. Overall, this work demonstrates that rational surface modification through doping provides an effective strategy for tuning activity and selectivity in CO2 electroreduction catalysts.",
+    "year": 2026,
+    "journal": "Lancaster EPrints (Lancaster University)",
+    "doi": "https://doi.org/10.17635/lancaster/thesis/3237",
+    "url": "https://doi.org/10.17635/lancaster/thesis/3237",
+    "source": "OpenAlex",
+    "summary": "This thesis investigates strategies for enhancing electrochemical carbon dioxide (CO2) reduction through a systematic study of catalyst surface modification. Particular attention is given to silver (Ag) and tin (Sn) as base materials, with a focus on the role of dopants in improving catalytic activity and selectivity. In CO2 electroreduction, the nature and stability of reaction intermediates are critical in determining product distribution. In particular, *COOH is widely recognised as the key intermediate in the formation of carbon monoxide, whereas *OCHO governs the pathway towards formic acid. The competition between these intermediates for active sites plays a decisive role in controlling catalytic selectivity. The study employs density functional theory (DFT) calculations using the Vienna Ab initio Simulation Package (VASP), with the generalised gradient approximation (GGA) to analyse the geometric and electronic properties of the investigated systems. The results provide detailed insights into how targeted doping strategies can be used to optimise catalyst performance. For Ag-based systems, silver and gold clusters supported on the Ag (111) surface are examined to evaluate the effects of cluster composition and size. The presence of these clusters significantly alters the reaction energetics associated with *COOH formation. Smaller Ag clusters exhibit slightly greater reductions in energy barriers than larger ones, whereas larger Au clusters demonstrate superior performance compared with their smaller counterparts. This highlights a distinct size-dependent effect that varies with cluster composition. For Sn-based systems, bismuth (Bi) doping is investigated in both adsorbed and substitutional configurations relative to pristine Sn surfaces. Bi incorporation enhances catalytic activity and promotes selectivity towards formate formation under both gas-phase and solvated conditions. Among the configurations studied, Bi atoms adsorbed on the Sn surface yield the most favourable energetic profiles, characterised by lower reaction barriers. However, achieving precise control over the adsorption of competing intermediates (*COOH and *OCHO) remains a key challenge for further improving selectivity. Overall, this work demonstrates that rational surface modification through doping provides an effective strategy for tuning activity and selectivity in CO2 electroreduction catalysts.",
+    "assertions": [],
+    "embedding_text": "Theoretical investigation for electrochemical CO2 reduction on silver and tin surfaces This thesis investigates strategies for enhancing electrochemical carbon dioxide (CO2) reduction through a systematic study of catalyst surface modification. Particular attention is given to silver (Ag) and tin (Sn) as base materials, with a focus on the role of dopants in improving catalytic activity and selectivity. In CO2 electroreduction, the nature and stability of reaction intermediates are critical in determining product distribution. In particular, *COOH is widely recognised as the key intermediate in the formation of carbon monoxide, whereas *OCHO governs the pathway towards formic acid. The competition between these intermediates for active sites plays a decisive role in controlling catalytic selectivity. The study employs density functional theory (DFT) calculations using the Vienna Ab initio Simulation Package (VASP), with the generalised gradient approximation (GGA) to analyse the geometric and electronic properties of the investigated systems. The results provide detailed insights into how targeted doping strategies can be used to optimise catalyst performance. For Ag-based systems, silver and gold clusters supported on the Ag (111) surface are examined to evaluate the effects of cluster composition and size. The presence of these clusters significantly alters the reaction energetics associated with *COOH formation. Smaller Ag clusters exhibit slightly greater reductions in energy barriers than larger ones, whereas larger Au clusters demonstrate superior performance compared with their smaller counterparts. This highlights a distinct size-dependent effect that varies with cluster composition. For Sn-based systems, bismuth (Bi) doping is investigated in both adsorbed and substitutional configurations relative to pristine Sn surfaces. Bi incorporation enhances catalytic activity and promotes selectivity towards formate formation under both gas-phase and solvated conditions. Among the configurations studied, Bi atoms adsorbed on the Sn surface yield the most favourable energetic profiles, characterised by lower reaction barriers. However, achieving precise control over the adsorption of competing intermediates (*COOH and *OCHO) remains a key challenge for further improving selectivity. Overall, this work demonstrates that rational surface modification through doping provides an effective strategy for tuning activity and selectivity in CO2 electroreduction catalysts. This thesis investigates strategies for enhancing electrochemical carbon dioxide (CO2) reduction through a systematic study of catalyst surface modification. Particular attention is given to silver (Ag) and tin (Sn) as base materials, with a focus on the role of dopants in improving catalytic activity and selectivity. In CO2 electroreduction, the nature and stability of reaction intermediates are critical in determining product distribution. In particular, *COOH is widely recognised as the key intermediate in the formation of carbon monoxide, whereas *OCHO governs the pathway towards formic acid. The competition between these intermediates for active sites plays a decisive role in controlling catalytic selectivity. The study employs density functional theory (DFT) calculations using the Vienna Ab initio Simulation Package (VASP), with the generalised gradient approximation (GGA) to analyse the geometric and electronic properties of the investigated systems. The results provide detailed insights into how targeted doping strategies can be used to optimise catalyst performance. For Ag-based systems, silver and gold clusters supported on the Ag (111) surface are examined to evaluate the effects of cluster composition and size. The presence of these clusters significantly alters the reaction energetics associated with *COOH formation. Smaller Ag clusters exhibit slightly greater reductions in energy barriers than larger ones, whereas larger Au clusters demonstrate superior performance compared with their smaller counterparts. This highlights a distinct size-dependent effect that varies with cluster composition. For Sn-based systems, bismuth (Bi) doping is investigated in both adsorbed and substitutional configurations relative to pristine Sn surfaces. Bi incorporation enhances catalytic activity and promotes selectivity towards formate formation under both gas-phase and solvated conditions. Among the configurations studied, Bi atoms adsorbed on the Sn surface yield the most favourable energetic profiles, characterised by lower reaction barriers. However, achieving precise control over the adsorption of competing intermediates (*COOH and *OCHO) remains a key challenge for further improving selectivity. Overall, this work demonstrates that rational surface modification through doping provides an effective strategy for tuning activity and selectivity in CO2 electroreduction catalysts.",
+    "score": 33.8677,
+    "matched_terms": [
+      "ag",
+      "au",
+      "bi",
+      "carbon",
+      "catalyst",
+      "co2",
+      "composition",
+      "dioxide",
+      "electrochemical",
+      "electroreduction",
+      "formation",
+      "monoxide",
+      "product",
+      "reaction",
+      "reduction",
+      "selectivity",
+      "sn"
+    ],
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 45.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 45.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 15.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 9.0,
+          "target_product": 6.0,
+          "high_entropy_material": 0.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "The paper does not explicitly identify a high-entropy material.",
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 12.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 0.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [],
+        "performance_claims": [
+          {
+            "quote": "In CO2 electroreduction, the nature and stability of reaction intermediates are critical in determining product distribution.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Overall, this work demonstrates that rational surface modification through doping provides an effective strategy for tuning activity and selectivity in CO2 electroreduction catalysts.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "Smaller Ag clusters exhibit slightly greater reductions in energy barriers than larger ones, whereas larger Au clusters demonstrate superior performance compared with their smaller counterparts.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Bi incorporation enhances catalytic activity and promotes selectivity towards formate formation under both gas-phase and solvated conditions.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Overall, this work demonstrates that rational surface modification through doping provides an effective strategy for tuning activity and selectivity in CO2 electroreduction catalysts.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quotable high-entropy designation."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 15.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": true,
+      "hea_direct": false,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "The paper does not explicitly identify a high-entropy material.",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quotable high-entropy designation.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "retrieval_scores": {
+      "lexical_raw": 33.8677,
+      "lexical_normalized": 1.0,
+      "quality_normalized": 0.45,
+      "combined": 0.78
+    },
+    "local_rank": 2,
+    "evidence_id": "E4",
+    "metadata_verified": false,
+    "metadata_provider": "",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "retrieval_origin": "local",
+    "stored_in_repository": true,
+    "review_status": "pending_review",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "openalex:W7160836972"
+      ],
+      "dois": [
+        "10.17635/lancaster/thesis/3237"
+      ]
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.193548,
+      "title_coverage": 0.032258,
+      "lexical_relevance": 0.145161,
+      "quality_normalized": 0.45,
+      "recency": 1.0,
+      "combined": 0.337339
+    },
+    "merged_rank": 4,
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 45.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 45.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 15.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 9.0,
+          "target_product": 6.0,
+          "high_entropy_material": 0.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "The paper does not explicitly identify a high-entropy material.",
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 12.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 0.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [],
+        "performance_claims": [
+          {
+            "quote": "In CO2 electroreduction, the nature and stability of reaction intermediates are critical in determining product distribution.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Overall, this work demonstrates that rational surface modification through doping provides an effective strategy for tuning activity and selectivity in CO2 electroreduction catalysts.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "Smaller Ag clusters exhibit slightly greater reductions in energy barriers than larger ones, whereas larger Au clusters demonstrate superior performance compared with their smaller counterparts.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Bi incorporation enhances catalytic activity and promotes selectivity towards formate formation under both gas-phase and solvated conditions.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Overall, this work demonstrates that rational surface modification through doping provides an effective strategy for tuning activity and selectivity in CO2 electroreduction catalysts.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quotable high-entropy designation."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 15.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": true,
+      "hea_direct": false,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "The paper does not explicitly identify a high-entropy material.",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quotable high-entropy designation.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [],
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {}
+  }
+}

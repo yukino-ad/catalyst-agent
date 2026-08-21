@@ -1,0 +1,78 @@
+const STATUS_EXPLANATIONS: Record<string, string> = {
+  queued: "等待 Agent 运行",
+  pending: "未开始",
+  running: "运行中",
+  resuming: "正在恢复",
+  paused_for_consultation: "已在节点边界暂停，等待继续确认",
+  completed: "已完成",
+  waiting_for_human: "等待人工审查",
+  waiting_review: "等待人工审查",
+  failed: "失败",
+  skipped: "已跳过",
+  blocked: "已阻塞",
+  archived: "已归档",
+  submitted: "已提交",
+  waiting: "等待处理",
+  translated: "已翻译",
+  cached: "已读取缓存",
+  unavailable: "暂无翻译",
+  incomplete: "VASP 仍在计算或结果不完整",
+  not_checked: "尚未检查 VASP",
+  completed_converged: "VASP 已完成并收敛",
+  completed_unconverged: "VASP 已完成但未收敛",
+  cluster_readonly_preflight_disabled: "等待超算操作授权",
+  adsorption_energy_review_completed: "吸附能审查已完成",
+  passed: "已通过判据",
+  predicted: "已完成预测",
+  waiting_for_dft: "等待 DFT",
+  task_analyzed: "自然语言任务已解析",
+  capability_checked: "能力检查已通过",
+  routed: "工作流分支已确定",
+  planned: "任务计划已生成",
+  literature_evidence_prepared: "文献证据已准备",
+  structure_modeling_completed: "FCC bulk 建模已完成",
+  formation_energy_completed: "形成能预测已完成",
+  formation_energy_partial: "部分结构已完成形成能预测",
+  formation_energy_waiting_for_dft: "等待 DFT 形成能",
+  formation_energy_failed: "形成能预测失败",
+  validating_dataset: "正在校验数据集",
+  formation_energy_source_selected: "已选择形成能来源",
+  formation_energy_source_deferred: "形成能来源选择已暂缓",
+  formation_energy_comparison_completed: "双模型形成能比较完成",
+  not_evaluated: "当前阶段尚未执行该项评价",
+  input_failed: "输入校验失败",
+  cgcnn_prediction_failed: "CGCNN 预测失败",
+  adsorption_structure_generated: "吸附结构已生成",
+  adsorption_structure_approved: "吸附结构已批准",
+  adsorption_structure_review_completed: "吸附结构审查已完成",
+  adsorption_result_parsed: "吸附 DFT 结果已解析",
+  dft_input_preparation_completed: "DFT 输入已准备完成",
+  clean_slab_result_ready: "clean slab 结果已就绪",
+  adsorption_reaction_plan_ready: "吸附中间体方案已就绪",
+  COMPLETED: "Slurm 已完成",
+  RUNNING: "Slurm 运行中",
+  PENDING: "Slurm 排队中",
+  FAILED: "Slurm 失败",
+  CANCELLED: "Slurm 已取消",
+  TIMEOUT: "Slurm 超时",
+  NODE_FAIL: "Slurm 计算节点失败",
+  PREEMPTED: "Slurm 作业被抢占",
+};
+
+export function technicalStatusLabel(value: unknown) {
+  const raw = String(value ?? "unknown").trim() || "unknown";
+  return `${raw} · ${STATUS_EXPLANATIONS[raw] ?? "暂无中文说明"}`;
+}
+
+export function decisionStatusLabel(value: unknown) {
+  const raw = String(value ?? "defer").trim() || "defer";
+  const explanation: Record<string, string> = {
+    accept: "已接受",
+    select: "已选择",
+    approve: "已批准",
+    revise: "要求修改",
+    reject: "已拒绝",
+    defer: "已暂缓",
+  };
+  return `${raw} · ${explanation[raw] ?? "暂无中文说明"}`;
+}

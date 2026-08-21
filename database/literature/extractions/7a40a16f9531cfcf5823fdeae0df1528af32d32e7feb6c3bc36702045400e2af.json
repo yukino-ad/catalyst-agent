@@ -1,0 +1,436 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v3",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-25T10:22:39.616122+00:00",
+  "paper": {
+    "paper_id": "hea-xlsx-e33f08e25cf431b8",
+    "title": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+    "abstract": "",
+    "year": null,
+    "journal": "",
+    "doi": "10.1016/j.jallcom.2022.168582",
+    "url": "https://doi.org/10.1016/j.jallcom.2022.168582",
+    "source": "high_entropy_alloy_xlsx",
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [],
+    "metadata_verified": false,
+    "metadata_provider": "",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": false,
+      "semantic_scholar_verified": false,
+      "required_tools_called": false,
+      "cross_verified": false
+    },
+    "summary": "",
+    "source_file": "C:\\Users\\chenheli\\Documents\\xwechat_files\\wxid_p3j4rxifoooa22_1223\\msg\\file\\2026-07\\高熵合金数据库.xlsx",
+    "source_sheet": "Sheet1",
+    "source_row": 420,
+    "composition_raw": "FeCoNiCrMn",
+    "reaction_labels": [
+      "析氧反应（OER）"
+    ],
+    "keywords": [
+      "oxygen evolution reaction"
+    ],
+    "evidence_snippet": "is and research applications. Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+    "context_misread_flag": true,
+    "provenance": {
+      "metadata": "xlsx_structured_fields",
+      "composition": "Filtered Alloy Composition",
+      "reaction": "Electrocatalytic Reaction",
+      "claim": "Evidence Snippet, Article Abstract, or Article Title",
+      "prompt_fields_are_primary_evidence": false
+    },
+    "assertions": [
+      {
+        "kind": "element_set",
+        "value": [
+          "Fe",
+          "Co",
+          "Ni",
+          "Cr",
+          "Mn"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E13::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "reaction",
+        "value": "OER",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E13::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E13::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction FeCoNiCrMn 析氧反应（OER） oxygen evolution reaction is and research applications. Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+    "score": 21.8924,
+    "matched_terms": [
+      "alloy",
+      "entropy",
+      "evolution",
+      "high",
+      "oer",
+      "oxygen",
+      "reaction"
+    ],
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 60.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 60.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 12.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": false,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": false,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: abstract",
+          "Missing metadata field: year",
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 2.0
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 18.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+            "source": "title",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+            "source": "title"
+          },
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 12.0,
+      "relevance_score": 30.0,
+      "has_title": true,
+      "has_abstract": false,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": false,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Fe",
+        "Co",
+        "Ni",
+        "Cr",
+        "Mn"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": false,
+      "evidence_scope": "title_only",
+      "issues": [
+        "Missing metadata field: abstract",
+        "Missing metadata field: year",
+        "Missing metadata field: publication_type",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "retrieval_scores": {
+      "lexical_raw": 21.8924,
+      "lexical_normalized": 0.431764,
+      "quality_normalized": 0.6,
+      "combined": 0.499059
+    },
+    "local_rank": 29,
+    "evidence_id": "E13",
+    "retrieval_origin": "local",
+    "stored_in_repository": true,
+    "review_status": "pending_review",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": false,
+      "canonical_status": "unknown",
+      "paper_ids": [
+        "hea-xlsx-e33f08e25cf431b8"
+      ],
+      "dois": [
+        "10.1016/j.jallcom.2022.168582"
+      ]
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.134615,
+      "title_coverage": 0.115385,
+      "lexical_relevance": 0.128846,
+      "quality_normalized": 0.6,
+      "recency": 0.0,
+      "local_source": 0.0,
+      "combined": 0.274423
+    },
+    "merged_rank": 13,
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 60.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 60.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 12.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": false,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": false,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: abstract",
+          "Missing metadata field: year",
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 2.0
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 18.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+            "source": "title",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+            "source": "title"
+          },
+          {
+            "quote": "Novel self-supporting thin film electrodes of FeCoNiCrMn high entropy alloy for excellent oxygen evolution reaction",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 12.0,
+      "relevance_score": 30.0,
+      "has_title": true,
+      "has_abstract": false,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": false,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Fe",
+        "Co",
+        "Ni",
+        "Cr",
+        "Mn"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": false,
+      "evidence_scope": "title_only",
+      "issues": [
+        "Missing metadata field: abstract",
+        "Missing metadata field: year",
+        "Missing metadata field: publication_type",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    }
+  }
+}

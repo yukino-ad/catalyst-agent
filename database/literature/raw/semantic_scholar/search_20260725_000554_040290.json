@@ -1,0 +1,493 @@
+{
+  "total": 393,
+  "offset": 0,
+  "next": 10,
+  "data": [
+    {
+      "paperId": "6b86c021ec1052c59572b8d5bbc9684d5ac8bc5c",
+      "externalIds": {
+        "DOI": "10.1016/j.ijhydene.2025.152894",
+        "CorpusId": 283651915
+      },
+      "url": "https://www.semanticscholar.org/paper/6b86c021ec1052c59572b8d5bbc9684d5ac8bc5c",
+      "title": "Microwave synthesis of high-entropy alloy catalysts on different carbon supports for oxygen reduction reactions and carbon dioxide reduction reactions",
+      "venue": "International journal of hydrogen energy",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.ijhydene.2025.152894?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.ijhydene.2025.152894, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2044751926",
+          "name": "Aswini Kumar Nath"
+        },
+        {
+          "authorId": "69491527",
+          "name": "Ajeet Singh"
+        },
+        {
+          "authorId": "2206071934",
+          "name": "Meng-Fang Lin"
+        },
+        {
+          "authorId": "2247985561",
+          "name": "Po-Chih Yang"
+        },
+        {
+          "authorId": "2248135190",
+          "name": "Chien-Te Hsieh"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "66e7c924b9bf2cb244adaf32cd5a6fcdb13b651c",
+      "externalIds": {
+        "DOI": "10.1016/j.ijhydene.2025.02.312",
+        "CorpusId": 276668293
+      },
+      "url": "https://www.semanticscholar.org/paper/66e7c924b9bf2cb244adaf32cd5a6fcdb13b651c",
+      "title": "Liquid-phase microwave synthesis of platinum-based high-entropy alloy catalysts on carbon supports for electrochemical hydrogen adsorption/desorption and oxygen evolution/reduction reactions",
+      "venue": "International journal of hydrogen energy",
+      "year": 2025,
+      "citationCount": 15,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.ijhydene.2025.02.312?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.ijhydene.2025.02.312, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2220744075",
+          "name": "Pradeep Kumar Panda"
+        },
+        {
+          "authorId": "2344209952",
+          "name": "Heng-Yu Huang"
+        },
+        {
+          "authorId": "2005324129",
+          "name": "Pranjyan Dash"
+        },
+        {
+          "authorId": "2248135190",
+          "name": "Chien-Te Hsieh"
+        },
+        {
+          "authorId": "143844812",
+          "name": "Jeng‐Kuei Chang"
+        },
+        {
+          "authorId": "2269697843",
+          "name": "Wei‐Ren Liu"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "0824cc88092be27b5e53b78d2b32099687278a1c",
+      "externalIds": {
+        "DOI": "10.1007/s42247-025-01209-2",
+        "CorpusId": 281166696
+      },
+      "url": "https://www.semanticscholar.org/paper/0824cc88092be27b5e53b78d2b32099687278a1c",
+      "title": "High-entropy carbon nanodots as metal-free electrochemical catalysts for oxygen reduction and oxygen evolution reactions",
+      "venue": "Emergent Materials",
+      "year": 2025,
+      "citationCount": 7,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s42247-025-01209-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s42247-025-01209-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2220744075",
+          "name": "Pradeep Kumar Panda"
+        },
+        {
+          "authorId": "2218762948",
+          "name": "Kuan-Chien Liu"
+        },
+        {
+          "authorId": "2344028780",
+          "name": "You-Cheng Lin"
+        },
+        {
+          "authorId": "2308767100",
+          "name": "Min-Wei Wu"
+        },
+        {
+          "authorId": "2005324129",
+          "name": "Pranjyan Dash"
+        },
+        {
+          "authorId": "2344714533",
+          "name": "Chiao-An Hsieh"
+        },
+        {
+          "authorId": "94736449",
+          "name": "B. Mallick"
+        },
+        {
+          "authorId": "2269697843",
+          "name": "Wei‐Ren Liu"
+        },
+        {
+          "authorId": "143844812",
+          "name": "Jeng‐Kuei Chang"
+        },
+        {
+          "authorId": "2307736274",
+          "name": "Chien-Te Hsieh"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "4f8ed7782a361253b45da69e7f2aada99022ff1e",
+      "externalIds": {
+        "PubMedCentral": "12692486",
+        "DOI": "10.3390/ijms262311504",
+        "CorpusId": 283387899,
+        "PubMed": "41373657"
+      },
+      "url": "https://www.semanticscholar.org/paper/4f8ed7782a361253b45da69e7f2aada99022ff1e",
+      "title": "High-Temperature Synthesis of High-Entropy Alloy PtPd_CoNiCu Nanoparticles as a Catalyst for the Oxygen Reduction Reaction",
+      "venue": "International Journal of Molecular Sciences",
+      "year": 2025,
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12692486, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "94956952",
+          "name": "A. Nevelskaya"
+        },
+        {
+          "authorId": "2301520027",
+          "name": "Anna Gavrilova"
+        },
+        {
+          "authorId": "2395188977",
+          "name": "Nikolay Lyanguzov"
+        },
+        {
+          "authorId": "92306124",
+          "name": "M. Tolstunov"
+        },
+        {
+          "authorId": "144391088",
+          "name": "I. Pankov"
+        },
+        {
+          "authorId": "1693669545",
+          "name": "A. Kremneva"
+        },
+        {
+          "authorId": "143911231",
+          "name": "E. Gerasimov"
+        },
+        {
+          "authorId": "2395189523",
+          "name": "A. Kokhanov"
+        },
+        {
+          "authorId": "95013367",
+          "name": "S. Belenov"
+        }
+      ],
+      "abstract": "The aim of this work was high-temperature synthesis of PtPdCoNiCu/C nanoparticles with high-entropy alloy (HEA) structure as catalysts for oxygen reduction reaction. The materials were synthesized using a highly dispersed PtPd/C support, which was impregnated with Cu, Ni, and Co precursors followed by their precipitation with an alkali. Subsequently, the material was subjected to thermal treatment in a tube furnace at 600 °C for 1 h in a stream of argon containing 5% hydrogen. In combination with HRTEM, element mapping and line scan, XRD, and XPS data, these results confirm the successful synthesis of five-component PtPdCoNiCu high-entropy alloy nanoparticles on the surface of the carbon support. The obtained materials are characterized by a high electrochemical surface area of up to 63 m2/g(PGM), as determined by hydrogen adsorption/desorption and CO-stripping, and a high specific oxygen reduction reaction (ORR) activity of approximately 269 A/g(PGM) at 0.9 V vs. RHE. The synthesized material demonstrated outstanding stability, as confirmed by an accelerated stress test of 10,000 cycles. After the test, the electrochemical surface area decreased by only 12%, while the catalytic activity for ORR even increased. The proposed synthetic strategy opens a new pathway for obtaining promising highly stable five-component HEA nanoparticles of various compositions for application in catalysts."
+    },
+    {
+      "paperId": "ca65d679b435c0908b3d441f5119ef7cf9582c89",
+      "externalIds": {
+        "DOI": "10.1002/admt.202501921",
+        "CorpusId": 285044869
+      },
+      "url": "https://www.semanticscholar.org/paper/ca65d679b435c0908b3d441f5119ef7cf9582c89",
+      "title": "High‐Entropy Alloy Catalysts with Hydrogen‐Rich Skin Layers for Enhanced Carbon Dioxide Electroreduction in Anion Exchange Membrane Cells",
+      "venue": "Advanced Materials & Technologies",
+      "year": 2026,
+      "citationCount": 1,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/admt.202501921?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/admt.202501921, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2220744075",
+          "name": "Pradeep Kumar Panda"
+        },
+        {
+          "authorId": "2349745148",
+          "name": "Hsueh‐Yen Fu"
+        },
+        {
+          "authorId": "2005324129",
+          "name": "Pranjyan Dash"
+        },
+        {
+          "authorId": "2310969090",
+          "name": "Siyong Gu"
+        },
+        {
+          "authorId": "2344714533",
+          "name": "Chiao-An Hsieh"
+        },
+        {
+          "authorId": "2295484687",
+          "name": "Congrui Jin"
+        },
+        {
+          "authorId": "2237385058",
+          "name": "Jianlin Li"
+        },
+        {
+          "authorId": "2248135190",
+          "name": "Chien-Te Hsieh"
+        }
+      ],
+      "abstract": "The growing demand for efficient CO2 conversion technologies in electrochemical systems has spurred the development of advanced catalysts and membrane designs. This study investigates the impact of hydrogen‐rich (H‐rich) skin layers, created through barbituric acid (BTA) modification, on the catalytic performance of Pt‐based and high‐entropy alloy (HEA) catalysts in anion exchange membrane (AEM) water electrolysis systems. The results show that BTA‐modified Pt and HEA catalysts significantly enhance CO2 conversion efficiency, achieving a maximum current density of 395 mA cm−2 at 3 V and 40°C, alongside a CO2 removal rate of 39.3%. The H‐rich skin layer on the catalysts enhances surface hydrophilicity, increasing water molecule affinity and facilitating higher surface concentrations of H2O and CO2, thereby accelerating crucial reaction steps in CO2 reduction. Furthermore, these skin layers enhance ionic transport via hydrogen‐bonding interactions, optimizing both the oxygen evolution reaction at the anode and CO2 reduction at the cathode. These findings suggest that the synergistic effects of H‐rich skin layers and HEA catalysts offer a promising strategy for improving the efficiency of electrochemical CO2 conversion processes, providing valuable insights into the design of high‐performance AEM systems."
+    },
+    {
+      "paperId": "8b8514814bb49697ac16b37f661d1a3ce6779992",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-02412649mtgabs",
+        "CorpusId": 274935496
+      },
+      "url": "https://www.semanticscholar.org/paper/8b8514814bb49697ac16b37f661d1a3ce6779992",
+      "title": "Development of Fe/N/C Type Oxygen Reduction Catalysts Using Carbon Supports Derived from Cellulose Paper by a Microwave Method",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2024-02412649mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2024-02412649mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2336503893",
+          "name": "Zen Akiyama"
+        },
+        {
+          "authorId": "152462935",
+          "name": "Taisei Mizuno"
+        },
+        {
+          "authorId": "2336500688",
+          "name": "Soichiro Suginaga"
+        },
+        {
+          "authorId": "39970733",
+          "name": "H. Shiroishi"
+        },
+        {
+          "authorId": "2292784619",
+          "name": "Morihiro Saito"
+        },
+        {
+          "authorId": "11655744",
+          "name": "M. Kyotani"
+        },
+        {
+          "authorId": "2167356551",
+          "name": "Tatsuhiro Okada"
+        }
+      ],
+      "abstract": "\n Introduction\n \n Effective utilization of abundant forest resources is crucial in Japan, which has vast forest reserves. Cellulose, which constitutes half of plants, has recently garnered attention as a novel material, such as cellulose nanofiber. Kyotani et al. reported that high-yield carbon materials retaining the original shape can be obtained by high-temperature treatment of cellulose-based paper treated with methanesulfonic acid1.We have been preparing Fe/N/C oxygen reduction catalysts using the carbon materials prepared by the method as a support; however, the oxygen reduction activity was insufficient. This study aimed to enhance the oxygen reduction reaction (ORR) activity by employing the microwave method for the preparation of carbon supports, synthesis of catalyst precursors, and drying treatment.\n \n Experimental\n \n Cellulose paper (toilet paper (TP), Nippon Paper Crecia) was immersed in 1.0 M methanesulfonic acid and air-dried for more than two days in a container with a filter attached to the top. The air-dried sample was sandwiched between two carbon plates, placed in an electric furnace, and heat-treated at 800°C for 1 h under Ar atmosphere with a heating rate of 5.5°C/min to obtain a carbonized sample. The sample was heat-treated using microwave oven (ER-SS17A, TOSHIBA) (denoted as MWtre). The sample was pulverized into carbon powder, mixed with 1,10-phenanthroline monohydrate, zinc acetate dihydrate, iron(II) acetate, and Milli-Q water, and heated and stirred for 30 min. Subsequently, the catalyst precursor slurry was obtained by heating using a microwave oven (RE-S5C-W, SHARP) (denoted as MWref). The obtained catalyst precursor slurry was dried using a microwave oven (ER-SS17A, TOSHIBA) to obtain the catalyst precursor (denoted as MWdry). The heat treatment was carried out in two stages. In the first stage, the catalyst precursor was placed in a SUS316 sealed container, replaced with Ar, heated to 800°C at 14°C/min, and then quenched to room temperature to prepare an intermediate material. In the second stage, the intermediate material was placed on a quartz boat and heat-treated at 1050°C for 20 min under Ar flow to obtain the catalyst.\n The oxygen reduction activity of the prepared catalyst was evaluated using the rotating ring-disk electrode (RRDE) method. A 2.00 mg/mL catalyst-2-propanol suspension, prepared by sonication and shaking, was cast on the GC electrode of a Pt ring-glassy carbon (GC) disk electrode (φ 6 mm), air-dried, and then 0.1 wt% Nafion® was cast and air-dried to prepare a catalyst-modified electrode. The evaluation of ORR activity was performed in 0.1 M sulfuric acid using the modified electrode as the working electrode, a GC electrode as the counter electrode, and RHE as the reference electrode.\n \n Results and discussion\n \n Fig. 1 shows the polarization curve and the efficiency of four-electron reduction (%H2O) obtained by the RRDE method. For comparison, the results for the catalyst prepared using the conventional method (refluxing for 24 hours followed by drying using a rotary evaporator) are also shown in Fig. 1 (quoted as EVAdry). The onset potential (@0.1 mA mg−1) derived from the oxygen reduction reaction was improved by 0.012 V compared to the conventional method. The efficiency of 4-electron reduction (@0.6 V vs. RHE) was improved by 8.9 – 21.1% compared to the conventional method.\n \n References\n \n (1) M. Kyotani, K. Hiratani, T. Okada, S. Matsushita, and K. Akagi, Global Challenges, 1, 1700061 (2017).\n \n \n \n \n Figure 1\n"
+    },
+    {
+      "paperId": "86193aa1078815f3a87450b983bd37922c3854ef",
+      "externalIds": {
+        "DOI": "10.1016/j.jcis.2024.02.044",
+        "CorpusId": 267616137,
+        "PubMed": "38340514"
+      },
+      "url": "https://www.semanticscholar.org/paper/86193aa1078815f3a87450b983bd37922c3854ef",
+      "title": "Noble metal-free FeCoNiMnV high entropy alloy anchored on N-doped carbon nanotubes with prominent activity and durability for oxygen reduction and zinc-air batteries.",
+      "venue": "Journal of Colloid and Interface Science",
+      "year": 2024,
+      "citationCount": 100,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jcis.2024.02.044?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jcis.2024.02.044, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2116668700",
+          "name": "Dongmei Wu"
+        },
+        {
+          "authorId": "2284655540",
+          "name": "Mahmood ul Haq"
+        },
+        {
+          "authorId": "48571545",
+          "name": "Lu Zhang"
+        },
+        {
+          "authorId": "48441024",
+          "name": "Jiu-Ju Feng"
+        },
+        {
+          "authorId": "2283825472",
+          "name": "Fa Yang"
+        },
+        {
+          "authorId": "50013714",
+          "name": "Ai-Jun Wang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "6228ce9249f5527893bc78ee33a9a20e204d25de",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-02412696mtgabs",
+        "CorpusId": 274910518
+      },
+      "url": "https://www.semanticscholar.org/paper/6228ce9249f5527893bc78ee33a9a20e204d25de",
+      "title": "Investigation of High Entropy Alloy Nanoparticles Assisted By Resonance Acoustic Mixing for Oxygen Reduction Reaction",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2024-02412696mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2024-02412696mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2238689887",
+          "name": "Jinho Hyun"
+        },
+        {
+          "authorId": "2300163622",
+          "name": "Chanho Pak"
+        }
+      ],
+      "abstract": "High-entropy alloy (HEA) nanoparticles (NPs) are highly promising for electrocatalysis because of their wide range of compositions, adaptable active sites, and robust stability. Nevertheless, synthesizing these complex compositions as uniform NPs remains a challenge by conventional synthesis methods due to variations in reduction rates among metal precursors, leading to phase separation. This study presented a straightforward and scalable method for producing HEAs using a liquid-assisted (LA) solid-state reduction followed by an annealing process. Employing a resonance acoustic mixer (RAM), this process provides a rapid and scalable means for producing dispersed HEA NPs on carbon support. Quinary HEA (PtNiCuCoZn) catalysts were synthesized by initial mixing and reduction using RAM and further annealing under nitrogen at 900 ℃, sequentially. The resulting HEA electrocatalysts have a narrow particle size distribution with minimal particle agglomeration and demonstrate enhanced mass activity (0.75 A/mgPt) and stability toward oxygen reduction reaction (ΔE1/2=16 mV after 10k cycles), outperforming conventional Pt/C catalysts (~0.2 A/mgPt) while achieving superior Pt utilization."
+    },
+    {
+      "paperId": "eac352e19da2bfad779389c4399e8e2f3bd01d5b",
+      "externalIds": {
+        "PubMedCentral": "12402538",
+        "DOI": "10.1038/s41467-025-63527-7",
+        "CorpusId": 281052641,
+        "PubMed": "40890140"
+      },
+      "url": "https://www.semanticscholar.org/paper/eac352e19da2bfad779389c4399e8e2f3bd01d5b",
+      "title": "Hydrocarbothermal flow synthesis of carbon-supported small and dense high-entropy alloy nanoparticles as electrocatalysts",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "citationCount": 21,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12402538, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2153498400",
+          "name": "Guanchao He"
+        },
+        {
+          "authorId": "2337097325",
+          "name": "Xinyu Zhang"
+        },
+        {
+          "authorId": "2135213056",
+          "name": "Jianbin Liu"
+        },
+        {
+          "authorId": "2290539036",
+          "name": "Jinyu Chong"
+        },
+        {
+          "authorId": "5234943",
+          "name": "Gonglan Ye"
+        },
+        {
+          "authorId": "2267978723",
+          "name": "Huilong Fei"
+        }
+      ],
+      "abstract": "Supported small and dense high-entropy-alloy nanoparticles (HEA-NPs) are promising functional materials for many applications. However, their synthesis remains a grand challenge because the extreme heating typically required to raise the entropic contribution to the formation of a solid solution unavoidably causes the sintering of HEA-NPs. Herein, we present a one-step continuous-flow spray pyrolysis strategy to synthesize multicomponent (from quinary to denary) HEA-NPs with an average size of <2 nanometers and metal loadings of ~30 wt% uniformly dispersed on various carbon substrates, including graphene and carbon black. In addition, this flow-type synthesis is featured with notable advantages in facile gram scalability and reproducible production when compared with the existing methods. We identify a hydrocarbothermal synthesis mechanism that in situ generates H2 via the reaction between carbon and water in the aerosol droplets to realize the complete metal reduction and alloying at a reduced temperature. The relatively mild reaction condition, combined with the short heating duration and the strong metal-support interaction, enables the simultaneous achievements of small size and high loading in HEA-NPs. The quinary FeCoNiCuPt HEA-NPs are demonstrated as highly efficient electrocatalysts toward the oxygen reduction and hydrogen evolution reactions. High-entropy alloy nanoparticles (HEA-NPs) are promising catalysts, but their synthesis remains challenging. Here, the authors report a continuous-flow method and a hydrothermal mechanism for the general synthesis of carbon-supported sub-2 nm high-loading HEA-NPs as electrocatalysts."
+    },
+    {
+      "paperId": "885a0da432f5d51f5a6177c73b20f0f2dd8bd41c",
+      "externalIds": {
+        "DOI": "10.1002/smll.74128",
+        "CorpusId": 289068690,
+        "PubMed": "42252823"
+      },
+      "url": "https://www.semanticscholar.org/paper/885a0da432f5d51f5a6177c73b20f0f2dd8bd41c",
+      "title": "Microwave-Driven Confinement Engineering of PtRuFeCoNi High-Entropy Alloy Nanoparticles Within Hierarchically Porous Carbon Nanofibers for High-Performance Trifunctional Electrocatalysis.",
+      "venue": "Small",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/smll.74128?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/smll.74128, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2284908452",
+          "name": "Haoyue Zhao"
+        },
+        {
+          "authorId": "2330405699",
+          "name": "Xinyu Li"
+        },
+        {
+          "authorId": "2344492988",
+          "name": "Fangqin Su"
+        },
+        {
+          "authorId": "2281309644",
+          "name": "Li Niu"
+        },
+        {
+          "authorId": "2281293742",
+          "name": "Zhe Sun"
+        },
+        {
+          "authorId": "2166754443",
+          "name": "Jian Fang"
+        }
+      ],
+      "abstract": "Small-sized high-entropy alloy nanoparticles (HEA NPs) have recently emerged as promising candidates for applications in energy and catalysis, owing to their tunable composition, multi-element synergistic effects, and exceptional structural stability. Nevertheless, achieving controlled synthesis of uniformly small HEA NPs remains challenging, as the high temperatures required for solid-solution formation inevitably induce particle sintering. Herein, a spatial confinement strategy combined with rapid microwave heating is developed to synthesize ultrasmall PtRuFeCoNi HEA NPs (sub-5 nm) embedded in hierarchically porous carbon nanofibers (PtRuFeCoNi-PCNFs). The spatial confinement effect, attributed to the micro-, meso-, and macropores of the PCNFs, is crucial for the high dispersion of HEA NPs, while also enhancing the exposure of active sites and accelerating mass transport during electrochemical processes. PtRuFeCoNi-PCNFs exhibit superior trifunctional electrocatalytic activity for oxygen reduction reaction (ORR), oxygen evolution reaction (OER), and hydrogen evolution reaction (HER), with an ORR half-wave potential of 0.837 V, and low overpotentials of 270 and 13 mV at 10 mA cm-2 for OER and HER, respectively. When applied in Zn-air batteries and water splitting electrolyzers, PtRuFeCoNi-PCNFs achieve high efficiency and outstanding durability. This study provides a novel perspective on designing and synthesizing high-performance HEA NPs for energy and catalytic applications."
+    }
+  ]
+}

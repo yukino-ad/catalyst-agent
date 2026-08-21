@@ -1,0 +1,75 @@
+project:
+  name: catalyst-agent
+  version: 0.1.0
+
+agent:
+  default_target_reaction: CO2 reduction reaction
+  default_product: CO
+  llm_entry_router: true
+  llm_may_choose_rag: true
+  deterministic_execution_constraints: true
+
+llm:
+  provider: openai_compatible
+  env_file: .env
+  planner_enabled: true
+  rag_synthesis_enabled: true
+  offline_fallback: true
+
+literature:
+  source: sqlite_with_json_fallback
+  top_k: 5
+  corpus: data/papers/sample_papers.json
+  database: database/literature/literature.db
+  raw_openalex_dir: database/literature/raw/openalex
+  retrieval: structured_filter_plus_lexical
+
+screening:
+  min_elements: 5
+  candidate_count: 6
+  prefer_elements:
+    - Cu
+    - Fe
+    - Co
+    - Ni
+    - Cr
+    - Mo
+    - Mn
+    - Ti
+    - Al
+    - Zn
+    - Ga
+    - Ge
+  avoid_elements:
+    - Hg
+    - Cd
+    - Pb
+
+dft:
+  software: vasp
+  adsorbates:
+    - CO2*
+    - COOH*
+    - CO*
+    - H*
+
+structure:
+  auto_build: true
+  generation_mode: fixed_cu
+  num_structures: 1
+  seed: 42
+  min_distance: 1.8
+  output_dir: data/structures
+
+cgcnn:
+  dataset_dir: database/750-Formation-regression-t-v-t
+  model_dir: models/formation-energy-cgcnn
+  property: formation_energy_per_atom
+  unit: eV/atom
+  epochs: 60
+  batch_size: 32
+  learning_rate: 0.001
+  manual_split:
+    train: train.csv
+    validation: val.csv
+    test: test.csv

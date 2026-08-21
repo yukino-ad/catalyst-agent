@@ -1,0 +1,22 @@
+SYSTEM = c3-Ag6-Au6-Cu8-Pd6-Pt6-fd54f0c09f-fcc-01_bulk_formation
+
+LWAVE   = F
+LCHARG  = F
+ENCUT   = 400
+ALGO    = Fast
+NELM    = 200
+NELMDL  = -4
+NELMIN  = 6
+EDIFF   = 1.0E-5
+LREAL   = Auto
+NSW     = 800
+EDIFFG  = -0.03
+IBRION  = 2
+ISIF    = 2
+ISMEAR  = 1
+SIGMA   = 0.02
+LORBIT  = 11
+ENAUG   = 800.0
+NCORE   = 4
+
+ISPIN   = 1

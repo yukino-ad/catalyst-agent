@@ -1,0 +1,65 @@
+{
+  "schema_version": "c7.0",
+  "stage": "c7",
+  "status": "stability_screening_completed",
+  "structure_count": 1,
+  "passed_count": 0,
+  "failed_count": 1,
+  "pending_count": 0,
+  "evaluation_error_count": 0,
+  "structures": [
+    {
+      "structure_id": "c3-Ag6-Au6-Cu8-Fe6-Pd6-a873cadae5-fcc-01",
+      "candidate_id": "c3-Ag6-Au6-Cu8-Fe6-Pd6-a873cadae5",
+      "elements": [
+        "Ag",
+        "Au",
+        "Cu",
+        "Fe",
+        "Pd"
+      ],
+      "composition": {
+        "Ag": 6,
+        "Au": 6,
+        "Cu": 8,
+        "Fe": 6,
+        "Pd": 6
+      },
+      "formation_energy": 0.22153372193750087,
+      "formation_energy_unit": "eV/atom",
+      "formation_energy_status": "dft_completed",
+      "formation_energy_source": "bulk_relaxation_toten_and_user_dft_references",
+      "formation_energy_method": "relaxation_final_toten",
+      "source_slurm_job_id": "61783491",
+      "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\POSCAR\\Cu_HEA_FCC_00001_Ag6_Au6_Cu8_Fe6_Pd6_67ea6c37.vasp",
+      "cif_path": null,
+      "eligible_for_slab": false,
+      "average_atomic_radius_ang": 1.3531250000000001,
+      "average_melting_point_k": 1504.0631250000001,
+      "mixing_enthalpy_kj_mol": -5.625,
+      "mixing_entropy_j_mol_k": 13.32023402102735,
+      "delta_percent": 5.650794042707719,
+      "omega": 3.5616840546484823,
+      "delta_threshold_percent": 6.6,
+      "omega_threshold": 1.1,
+      "delta_pass": true,
+      "omega_pass": true,
+      "formation_energy_threshold_ev_atom": 0.05,
+      "formation_energy_available": true,
+      "formation_energy_pass": false,
+      "solid_solution_pass": true,
+      "stability_decision": "failed",
+      "stability_status": "evaluated"
+    }
+  ],
+  "slab_eligible_structures": [],
+  "errors": [],
+  "criteria": {
+    "formation_energy": "< 0.05 eV/atom",
+    "atomic_size_delta": "≤ 6.6%",
+    "omega": "≥ 1.1",
+    "all_required": true
+  },
+  "slab_generated": false,
+  "next_stage": "c8_slab_generation"
+}

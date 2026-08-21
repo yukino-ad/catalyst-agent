@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "requested_count": 1,
+  "generated_count": 1,
+  "attempts": 108,
+  "parameters": {
+    "selected_elements": [
+      "Cu",
+      "Co",
+      "Cr",
+      "Mn",
+      "Ga"
+    ],
+    "generation_mode": "fixed_cu",
+    "seed": 43,
+    "min_distance": 1.8,
+    "composition": {
+      "Cu": 8,
+      "Ga": 3,
+      "Co": 7,
+      "Cr": 7,
+      "Mn": 7
+    }
+  },
+  "results": [
+    {
+      "id": 2,
+      "formula": "Co7Cr7Cu8Ga3Mn7",
+      "elements": [
+        "Cu",
+        "Co",
+        "Cr",
+        "Mn",
+        "Ga"
+      ],
+      "counts": {
+        "Cu": 8,
+        "Ga": 3,
+        "Co": 7,
+        "Cr": 7,
+        "Mn": 7
+      },
+      "lattice_constant_a0": 3.699375,
+      "supercell_a": 7.39875,
+      "minimum_distance": 2.615853,
+      "cif_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\cif\\Cu_HEA_FCC_00002_Co7_Cr7_Cu8_Ga3_Mn7_6da2b5b9.cif",
+      "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\POSCAR\\Cu_HEA_FCC_00002_Co7_Cr7_Cu8_Ga3_Mn7_6da2b5b9.vasp",
+      "signature": "6da2b5b9d718aadcfc3b3ffaede6d138f3d112cd8404db9f409b311db0e3e76c"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "adsorbate": "CO",
+  "adsorbate_atom_count": 2,
+  "adsorbate_geometry_status": "initial_guess_requires_review",
+  "adsorbate_instance_count": 1,
+  "adsorbate_library_version": "c12.3-initial-geometry-v1",
+  "adsorbate_symbols": [
+    "C",
+    "O"
+  ],
+  "adsorption_structure_id": "external-bb74a2856d55-fcc-01-slab111-ontop-001-CO",
+  "anchor_atom_index": 0,
+  "anchor_position_angstrom": [
+    7.7589233943,
+    4.463428455,
+    5.8755522519
+  ],
+  "candidate_id": "external-bb74a2856d55",
+  "cell_unchanged": true,
+  "chemistry_signature": "ontop:Co|shell:Co-Co-Co-Co-Cu-Ga",
+  "clean_slab_atom_count": 48,
+  "clean_slab_coordinates_unchanged": true,
+  "clean_slab_slurm_job_id": "61817369",
+  "clean_slab_source_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\cluster_results\\external-c-dft-20260725-145226\\61817369\\CONTCAR",
+  "coadsorption": false,
+  "coverage_mode": "single_adsorbate",
+  "initial_height_angstrom": 1.8,
+  "requires_human_confirmation": true,
+  "schema_version": "c12.3",
+  "site_id": "external-bb74a2856d55-fcc-01-slab111-ontop-001",
+  "site_type": "ontop",
+  "slab_id": "external-bb74a2856d55-fcc-01-slab111",
+  "structure_source": "relaxed_clean_slab_contcar",
+  "task_id": "external-c-dft-20260725-145226",
+  "total_atom_count": 50
+}

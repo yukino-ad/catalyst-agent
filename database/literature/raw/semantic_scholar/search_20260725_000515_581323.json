@@ -1,0 +1,255 @@
+{
+  "total": 6,
+  "offset": 0,
+  "data": [
+    {
+      "paperId": "021ed502682970e1a493f7e90e2a701dd1340072",
+      "externalIds": {
+        "DOI": "10.1021/acsaem.5c03438",
+        "CorpusId": 285148625
+      },
+      "url": "https://www.semanticscholar.org/paper/021ed502682970e1a493f7e90e2a701dd1340072",
+      "title": "Cu-Rich High-Entropy Alloy Aerogels for Efficient Carbon Dioxide Reduction",
+      "venue": "ACS Applied Energy Materials",
+      "year": 2026,
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acsaem.5c03438?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acsaem.5c03438, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2278239895",
+          "name": "Liheng Guan"
+        },
+        {
+          "authorId": "2206026333",
+          "name": "Cun Chen"
+        },
+        {
+          "authorId": "2408302448",
+          "name": "Meng Xu"
+        },
+        {
+          "authorId": "2238437435",
+          "name": "Danping Chen"
+        },
+        {
+          "authorId": "2111289708",
+          "name": "Muyang Zhong"
+        },
+        {
+          "authorId": "2176166607",
+          "name": "Han Li"
+        },
+        {
+          "authorId": "2153284016",
+          "name": "Nan Zhang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "182ed3914e04e654816546fd28508b251a0135c0",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-02694842mtgabs",
+        "CorpusId": 274929651
+      },
+      "url": "https://www.semanticscholar.org/paper/182ed3914e04e654816546fd28508b251a0135c0",
+      "title": "Carbothermal Shock Derived Electrochemical Regeneration of Spent Biochar for Remediation of Ciprofloxacine Contaminated Water",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 4,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2024-02694842mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2024-02694842mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2336705190",
+          "name": "Hye-Jin Hong"
+        },
+        {
+          "authorId": "2287852922",
+          "name": "Gyubin Lee"
+        },
+        {
+          "authorId": "2283878778",
+          "name": "Hyeon Su Jeong"
+        }
+      ],
+      "abstract": "Biochar, derived from waste biomass, is a potent material for carbon dioxide sequestration, owing to its stable, non-degradable aromatic structure [1]. Biochar is found to have advantageous characteristics, such as a unique pore structure, large specific surface area, complex surface-active functional groups, and stable chemical properties. These properties make biochar as a high potential biosorbent for removal of pollutants from water [2]. Meanwhile, the escalating use of pharmaceuticals has led to pervasive environmental residues, posing public health risks. Specifically, antibiotic contamination risks augmenting antibiotic resistance, underscoring the need for efficient wastewater treatment methods [3]. However, current wastewater treatment plant(WWTP) based on biological treatment was not effectively eliminate this types of waste in the water and it is necessary to investigate efficient method for removal of antibiotics from wastewater.\n This study explores the use of biochar for ciprofloxacin (CIP) removal from water and introduces a novel electrochemical biochar regeneration technique. We utilized sludge from chemical plants to produce biochar through standard and alkali-activated pyrolysis, yielding CB (normal pyrolysis) and CAB (alkali activated pyrolysis) types with distinct physicochemical properties. CAB, with an exceptionally high surface area (~2330 m²/g) and carbon purity (95.4%), demonstrated superior CIP adsorption capacity (~550 mg/g). We investigated the CIP adsorption isotherm, kinetics and thermodynamics to elucidate the underlying mechanisms, which appear dominated by π-π and electrostatic interactions facilitated by the high pyrolysis temperatures reducing oxygen-containing groups on the biochar. After the biochar became saturated with CIP, we regenerated it using joule heating in Ar atmosphere, employing the carbothermal shock method for rapid, short-duration temperature increases [4]. In contrast to traditional CTS which can sometimes lead to structural damage by directly heating the material on the carbon substrate [5], we used radiant heat from the CTS process to ensure controlled temperature elevation. This modified approach maintains the structural integrity of the biochar by avoiding direct contact between the biochar and the carbon substrate while facilitating the regeneration process. Additionally, this method facilitates the physical separation of the biochar from the carbon substrate, enhancing the recovery and reuse of biochar. Such an approach contributes to the efficient regeneration of biochar and environmentally friendly processing. We examined parameters such as distance from the substrate and duration to optimize the regeneration conditions. Ultimately, we assessed the efficacy of the CIP adsorption by the regenerated biochar. Traditional thermal treatments for biochar regeneration are energy-intensive and time-consuming. We propose an innovative approach using joule heating under a nitrogen atmosphere, employing carbothermal shock for rapid, efficient regeneration. By optimizing parameters such as voltage and duration, we identified ideal conditions for regenerating biochar, significantly enhancing its CIP adsorption efficacy. This study not only highlights the potential of biochar in environmental remediation but also introduces an energy-efficient regeneration method, contributing to sustainable pollution management solutions.\n \n References\n \n [1] J. Lehmann, A. Cowie, C.A. Masiello, C. Kammann, D. Woolf, J.E. Ammonette, M.L.Cayuela, M.C-Arbestain, T. Whitman, Biochar in climate change mitigation, Nature Geoscience (2021) 14, 883\n [2] B. Qui, Y. Tao, H. Wang, W. Li, X. Ding, H. Chu, Biochar as a low-cost adsorbent for aqueous heavy metal removal: A review, Journal of Analytical and Applied pyrolysis (2021) 155, 105081\n [3] M. B. Ahmed, J. L. Zhou, H. H. Ngo, W. Guo, Adsorptive removal of antibiotics from water and wastewater: Progress and challenges (2015) 532, 112\n [4] Y. Yao, Z. Huang, P. Xie, S. Lacey, R. Jacob, H. Xie, F. Chen, A. Nie, T. Pu, M. Rehwoldt, D. Yu, M. R. Zachariah, C. Wang, R. Shahbazian-Yassar, J. Li, L. Hu, Carbothermal shock synthesis of high-entropy-alloy nanoparticles. Science (2018) 359, 1489\n [5] C. Kim, J.-Y. Song, C. Choi, J. P. Ha, W. Lee, Y. T. Nam, D. Lee, G. Kim, I. G., W.-B. Jung, H. Lee, Y., H. Jeong, H.-T. Jung, Atomic-Scale Homogeneous Ru-Cu Alloy Nanoparticles for Highly Efficient Electrocatalytic Nitrogen Reduction, Advanced Materials (2022) 34, 2205270\n \n \n \n \n Figure 1\n"
+    },
+    {
+      "paperId": "7082fe8bf36ce63dde6b5a97c5365e82856b86de",
+      "externalIds": {
+        "DOI": "10.1149/ma2022-01341360mtgabs",
+        "CorpusId": 250573803
+      },
+      "url": "https://www.semanticscholar.org/paper/7082fe8bf36ce63dde6b5a97c5365e82856b86de",
+      "title": "High Throughput Synthesis of Perovskite Oxides for Alkaline Oxygen Evolution Reaction Electrocatalysis: Nature of the a and B Sites",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2022,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2022-01341360mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2022-01341360mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "48846197",
+          "name": "A. Farghaly"
+        },
+        {
+          "authorId": "4976667",
+          "name": "M. Ferrandon"
+        },
+        {
+          "authorId": "25236452",
+          "name": "D. Myers"
+        }
+      ],
+      "abstract": "Electrochemical energy conversion technologies based on the oxygen evolution reaction (OER) are at the heart of many efforts to achieve a sustainable future, carbon-free fuel, and a circular economy. The sluggish kinetics of oxygen electrocatalysis, as well as the high overpotential required to attain practical current densities, limit the efficiency of several promising electrochemical technologies, including water and carbon dioxide electrolyzers, metal–oxygen batteries, and fuel cells. The most efficient OER catalysts are precious metals such as iridium- and ruthenium-based materials (i.e., IrO2 and RuO2). This fact represents a challenge against the cost-effective implementation of these electrolysis technologies.1-3 As a result, there is a necessity for the development of cost effective PGM-free OER catalysts, with equivalent or superior activity and durability to the PGM catalysts.\n This presentation will discuss the development and implementation of high-throughput synthesis methodology for PGM-free OER catalysts exploiting the rich chemistry of nanoporous materials4-7 and Argonne National Laboratory's High-Throughput Research Facility. The developed high-throughput methodology will expedite the assessment of the effect of composition and synthesis parameters on the activity of perovskite oxide alkaline electrolyte OER catalysts.\n Acknowledgements\n This work was supported by the U.S. Department of Energy, Advanced Research Projects Agency Energy (ARPA-E) under the DIFFERENTIATE program. This work was authored in part by Argonne National Laboratory, a U.S. Department of Energy (DOE) Office of Science laboratory operated for DOE by UChicago Argonne, LLC under contract no. DE-AC02-06CH11357.\n References \n \n Katsounaros, Ioannis, Serhiy Cherevko, Aleksandar R. Zeradjanin, and Karl JJ Mayrhofer. \"Oxygen electrochemistry as a cornerstone for sustainable energy conversion.\" Angewandte Chemie International Edition53, no. 1 (2014): 102-121.\n \n \n Lee, Youngmin, Jin Suntivich, Kevin J. May, Erin E. Perry, and Yang Shao-Horn. \"Synthesis and activities of rutile IrO2 and RuO2 nanoparticles for oxygen evolution in acid and alkaline solutions.\" The journal of physical chemistry letters3, no. 3 (2012): 399-404.\n \n \n Cherevko, S. et al. Oxygen and hydrogen evolution reactions on Ru, RuO2, Ir, and IrO2 thin film electrodes in acidic and alkaline electrolytes: A comparative study on activity and stability. Today\n 262, 170–180 (2016).\n \n \n Nahar, Lamia, Ahmed A. Farghaly, Richard J. Alan Esteves, and Indika U. Arachchige. \"Shape controlled synthesis of Au/Ag/Pd nanoalloys and their oxidation-induced self-assembly into electrocatalytically active aerogel monoliths.\" Chemistry of Materials29, no. 18 (2017): 7704-7715.\n \n \n Farghaly, Ahmed A., Rezaul K. Khan, and Maryanne M. Collinson. \"Biofouling-resistant platinum bimetallic alloys.\" ACS applied materials & interfaces10, no. 25 (2018): 21103-21112.\n \n \n Khan, Rezaul K., Ahmed A. Farghaly, Tiago A. Silva, Dexian Ye, and Maryanne M. Collinson. \"Gold-Nanoparticle-Decorated Titanium Nitride Electrodes Prepared by Glancing-Angle Deposition for Sensing Applications.\" ACS Applied Nano Materials2, no. 3 (2019): 1562-1569.\n \n \n Farghaly, Ahmed A., Mai Lam, Christopher J. Freeman, Badharinadh Uppalapati, and Maryanne M. Collinson. \"Potentiometric measurements in biofouling solutions: comparison of nanoporous gold to planar gold.\" Journal of The Electrochemical Society 163, no. 4 (2015): H3083.\n \n \n"
+    },
+    {
+      "paperId": "bb72a257ffde98a7ecc620e0135960d775c5e1e4",
+      "externalIds": {
+        "DOI": "10.1149/ma2022-01341359mtgabs",
+        "CorpusId": 250565471
+      },
+      "url": "https://www.semanticscholar.org/paper/bb72a257ffde98a7ecc620e0135960d775c5e1e4",
+      "title": "(Invited) Machine Learning Driven Discovery and Optimization of Perovskite Alkaline Electrolyte Oxygen Evolution Reaction Electrocatalysts",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2022,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2022-01341359mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2022-01341359mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "48846197",
+          "name": "A. Farghaly"
+        },
+        {
+          "authorId": "4976667",
+          "name": "M. Ferrandon"
+        },
+        {
+          "authorId": "1415163723",
+          "name": "Daniel Schwalbe-Koda"
+        },
+        {
+          "authorId": "1402206737",
+          "name": "James R. Damewood"
+        },
+        {
+          "authorId": "2130406736",
+          "name": "Jessica Karaguesian"
+        },
+        {
+          "authorId": "1398336096",
+          "name": "Rafael Gómez‐Bombarelli"
+        },
+        {
+          "authorId": "25236452",
+          "name": "D. Myers"
+        }
+      ],
+      "abstract": "Electrochemical energy conversion technologies based on the oxygen evolution reaction (OER) are at the heart of many efforts to achieve a sustainable future, carbon-free fuel, and a circular economy. The sluggish kinetics of oxygen electrocatalysis, as well as the high overpotential required to attain practical current densities, limit the efficiency of several promising electrochemical technologies, including water and carbon dioxide electrolyzers, metal–oxygen batteries, and fuel cells. The most efficient OER catalysts are precious metals such as iridium- and ruthenium-based materials (i.e., IrO2 and RuO2). This fact represents a challenge against the cost-effective implementation of these electrolysis technologies.1-3 As a result, there is a necessity for the development of cost effective PGM-free OER catalysts, with equivalent or superior activity and durability to the PGM catalysts.\n This presentation will describe the application of machine learning (ML)-guided materials discovery and high-throughput synthesis to address these concerns, taking advantage of the intriguing properties and rich chemistry of nanoporous materials, the demonstrated capability of machine learning (ML)-guided materials discovery, and the high OER electrocatalytic activity of perovskites especially in alkaline media.4-10 Simulation of over 8,000 perovskites across a variety of cell sizes, space groups, and compositions using density functional theory (DFT) has been performed. Mining of the simulation data indicated that experimentally-known perovskites are characterized by low energy above the thermodynamic convex hull. Efficient search algorithms, deep learning-based models, and DFT calculations have been used to explore the space of perovskite oxides to produce novel compositions with tailored electronic descriptors. Promising compositions designed for high activity and stability are then selected for high throughput automated synthesis using the High-Throughput Research Facility at Argonne National Laboratory. A correlation between the phase purity, annealing temperature and OER activity has been identified.\n Acknowledgements\n This work was supported by the U.S. Department of Energy, Advanced Research Projects Agency-Energy (ARPA-E) under the DIFFERENTIATE program. This work was authored in part by Argonne National Laboratory, a U.S. Department of Energy (DOE) Office of Science laboratory operated for DOE by UChicago Argonne, LLC under contract no. DE-AC02-06CH11357.\n References \n \n Katsounaros, Ioannis, Serhiy Cherevko, Aleksandar R. Zeradjanin, and Karl JJ Mayrhofer. \"Oxygen electrochemistry as a cornerstone for sustainable energy conversion.\" Angewandte Chemie International Edition53, no. 1 (2014): 102-121.\n \n \n Lee, Youngmin, Jin Suntivich, Kevin J. May, Erin E. Perry, and Yang Shao-Horn. \"Synthesis and activities of rutile IrO2 and RuO2 nanoparticles for oxygen evolution in acid and alkaline solutions.\" The journal of physical chemistry letters3, no. 3 (2012): 399-404.\n \n \n Cherevko, S. et al. Oxygen and hydrogen evolution reactions on Ru, RuO2, Ir, and IrO2 thin film electrodes in acidic and alkaline electrolytes: A comparative study on activity and stability. Today\n 262, 170–180 (2016).\n \n \n Nahar, Lamia, Ahmed A. Farghaly, Richard J. Alan Esteves, and Indika U. Arachchige. \"Shape controlled synthesis of Au/Ag/Pd nanoalloys and their oxidation-induced self-assembly into electrocatalytically active aerogel monoliths.\" Chemistry of Materials29, no. 18 (2017): 7704-7715.\n \n \n Farghaly, Ahmed A., Rezaul K. Khan, and Maryanne M. Collinson. \"Biofouling-resistant platinum bimetallic alloys.\" ACS applied materials & interfaces10, no. 25 (2018): 21103-21112.\n \n \n Khan, Rezaul K., Ahmed A. Farghaly, Tiago A. Silva, Dexian Ye, and Maryanne M. Collinson. \"Gold-Nanoparticle-Decorated Titanium Nitride Electrodes Prepared by Glancing-Angle Deposition for Sensing Applications.\" ACS Applied Nano Materials2, no. 3 (2019): 1562-1569.\n \n \n Farghaly, Ahmed A., Mai Lam, Christopher J. Freeman, Badharinadh Uppalapati, and Maryanne M. Collinson. \"Potentiometric measurements in biofouling solutions: comparison of nanoporous gold to planar gold.\" Journal of The Electrochemical Society163, no. 4 (2015): H3083.\n \n \n Suntivich, Jin, Kevin J. May, Hubert A. Gasteiger, John B. Goodenough, and Yang Shao-Horn. \"A perovskite oxide optimized for oxygen evolution catalysis from molecular orbital principles.\" Science334, no. 6061 (2011): 1383-1385.\n \n \n Hwang, Jonathan, Zhenxing Feng, Nenian Charles, Xiao Renshaw Wang, Dongkyu Lee, Kelsey A. Stoerzinger, Sokseiha Muy et al. \"Tuning perovskite oxides by strain: electronic structure, properties, and functions in (electro) catalysis and ferroelectricity.\" Materials Today31 (2019): 100-118.\n \n \n Gómez-Bombarelli, Rafael, Jennifer N. Wei, David Duvenaud, José Miguel Hernández-Lobato, Benjamín Sánchez-Lengeling, Dennis Sheberla, Jorge Aguilera-Iparraguirre, Timothy D. Hirzel, Ryan P. Adams, and Alán Aspuru-Guzik. \"Automatic chemical design using a data-driven continuous representation of molecules.\" ACS central science 4, no. 2 (2018): 268-276.\n \n \n"
+    },
+    {
+      "paperId": "73efb57fb9aca9562e09b2f0bac6dd2178f1f396",
+      "externalIds": {
+        "DOI": "10.1149/ma2022-01341366mtgabs",
+        "CorpusId": 250578776
+      },
+      "url": "https://www.semanticscholar.org/paper/73efb57fb9aca9562e09b2f0bac6dd2178f1f396",
+      "title": "Metal Organic Framework-Based Alkaline Oxygen Evolution Reaction Electrocatalysts: Morphology, Metal Loading, and Durability",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2022,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2022-01341366mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2022-01341366mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "48846197",
+          "name": "A. Farghaly"
+        },
+        {
+          "authorId": "2121421861",
+          "name": "D. Cullen"
+        },
+        {
+          "authorId": "25236452",
+          "name": "D. Myers"
+        }
+      ],
+      "abstract": "Electrochemical energy conversion technologies based on the oxygen evolution reaction (OER) are at the heart of many efforts to achieve a sustainable future, carbon-free fuel, and a circular economy. The sluggish kinetics of oxygen electrocatalysis, as well as the high overpotential required to attain practical current densities, limit the efficiency of several promising electrochemical technologies, including water and carbon dioxide electrolyzers, metal–oxygen batteries, and fuel cells. The most efficient OER catalysts are precious metals such as iridium- and ruthenium-based materials (i.e., IrO2 and RuO2). This fact represents a challenge against the cost-effective implementation of these electrolysis technologies.1-3 The rich chemistry of nanoporous materials provides an opportunity for the development of cost effective PGM-free OER catalysts, with equivalent or superior activity and durability to the PGM catalysts.4-7\n \n Metal organic framework (MOF)-based OER catalysts with high activity and long-term stability in alkaline electrolytes will be discussed in this presentation. We will discuss the relationship between MOF morphology and metal-ion loading, and how their impact on OER activity.\n Acknowledgements: Argonne National Laboratory is managed for the U.S Department of Energy (DOE) by the University of Chicago Argonne, LLC, under contract DE-AC-02-06CH11357. This work was performed under the auspices of the Electrocatalysis Consortium (ElectroCat 2.0), a DOE Office of Energy Efficiency, Hydrogen and Fuel Cell Technologies (HFTO) consortium. Electron microscopy was conducted at the Center for Nanophase Materials Sciences, which is a DOE Office of Science User Facility.\n References \n \n Katsounaros, Ioannis, Serhiy Cherevko, Aleksandar R. Zeradjanin, and Karl JJ Mayrhofer. \"Oxygen electrochemistry as a cornerstone for sustainable energy conversion.\" Angewandte Chemie International Edition53, no. 1 (2014): 102-121.\n \n \n Lee, Youngmin, Jin Suntivich, Kevin J. May, Erin E. Perry, and Yang Shao-Horn. \"Synthesis and activities of rutile IrO2 and RuO2 nanoparticles for oxygen evolution in acid and alkaline solutions.\" The journal of physical chemistry letters3, no. 3 (2012): 399-404.\n \n \n Cherevko, S. et al. Oxygen and hydrogen evolution reactions on Ru, RuO2, Ir, and IrO2 thin film electrodes in acidic and alkaline electrolytes: A comparative study on activity and stability. Today\n 262, 170–180 (2016).\n \n \n Nahar, Lamia, Ahmed A. Farghaly, Richard J. Alan Esteves, and Indika U. Arachchige. \"Shape controlled synthesis of Au/Ag/Pd nanoalloys and their oxidation-induced self-assembly into electrocatalytically active aerogel monoliths.\" Chemistry of Materials29, no. 18 (2017): 7704-7715.\n \n \n Farghaly, Ahmed A., Rezaul K. Khan, and Maryanne M. Collinson. \"Biofouling-resistant platinum bimetallic alloys.\" ACS applied materials & interfaces10, no. 25 (2018): 21103-21112.\n \n \n Khan, Rezaul K., Ahmed A. Farghaly, Tiago A. Silva, Dexian Ye, and Maryanne M. Collinson. \"Gold-Nanoparticle-Decorated Titanium Nitride Electrodes Prepared by Glancing-Angle Deposition for Sensing Applications.\" ACS Applied Nano Materials2, no. 3 (2019): 1562-1569.\n \n \n Farghaly, Ahmed A., Mai Lam, Christopher J. Freeman, Badharinadh Uppalapati, and Maryanne M. Collinson. \"Potentiometric measurements in biofouling solutions: comparison of nanoporous gold to planar gold.\" Journal of The Electrochemical Society 163, no. 4 (2015): H3083.\n \n \n"
+    },
+    {
+      "paperId": "d5cb7ea4193321e72fe0b5acac176c8a0a668da2",
+      "externalIds": {
+        "MAG": "2564131521",
+        "DOI": "10.5339/QFARC.2016.EEPP1761",
+        "CorpusId": 99681271
+      },
+      "url": "https://www.semanticscholar.org/paper/d5cb7ea4193321e72fe0b5acac176c8a0a668da2",
+      "title": "Low-Temperature CO Oxidation Over CuO-TiO2 Nanocatalysts",
+      "venue": "",
+      "year": 2016,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "http://qspace.qu.edu.qa/bitstream/10576/27942/1/qfarc.2016.EEPP1761.pdf",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.5339/QFARC.2016.EEPP1761?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5339/QFARC.2016.EEPP1761, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "9943523",
+          "name": "S. AlQaradawi"
+        },
+        {
+          "authorId": "10690357",
+          "name": "A. Zedan"
+        },
+        {
+          "authorId": "93318237",
+          "name": "H. Rady"
+        },
+        {
+          "authorId": "50497087",
+          "name": "K. Soliman"
+        },
+        {
+          "authorId": "9946692",
+          "name": "Amina S. Aljaber"
+        },
+        {
+          "authorId": "8643365",
+          "name": "Nageh K. Allam"
+        }
+      ],
+      "abstract": null
+    }
+  ]
+}

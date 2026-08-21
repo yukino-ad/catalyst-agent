@@ -1,0 +1,50 @@
+{
+  "schema_version": "adsorption-reference-values-v1",
+  "data_version": "user-vasp-intermediates-2026-07-25-v1",
+  "status": "accepted_user_calculation",
+  "energy_unit": "eV",
+  "energy_field": "VASP_TOTEN",
+  "calculation_scope": "isolated_intermediate_total_energy",
+  "provenance": {
+    "source_type": "user_provided_vasp_calculation",
+    "functional_and_parameters": "user_confirmed_consistent_with_adsorption_workflow",
+    "automatic_derivation_allowed": false
+  },
+  "references": {
+    "CO": {
+      "energy_ev": -14.94164602,
+      "structure_label": "C#O",
+      "aliases": []
+    },
+    "H": {
+      "energy_ev": -1.11732424,
+      "structure_label": "H radical",
+      "aliases": []
+    },
+    "NH2": {
+      "energy_ev": -13.53355710,
+      "structure_label": "NH2 radical",
+      "aliases": []
+    },
+    "NO": {
+      "energy_ev": -12.48451407,
+      "structure_label": "NO radical",
+      "aliases": []
+    },
+    "NH": {
+      "energy_ev": -8.07757445,
+      "structure_label": "NH radical",
+      "aliases": []
+    },
+    "CHO": {
+      "energy_ev": -17.19120783,
+      "structure_label": "formyl radical",
+      "aliases": ["HCO"]
+    },
+    "OOH": {
+      "energy_ev": -13.37235776,
+      "structure_label": "hydroperoxyl radical",
+      "aliases": ["HO2"]
+    }
+  }
+}

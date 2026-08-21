@@ -1,0 +1,280 @@
+{
+  "total": 22,
+  "offset": 0,
+  "next": 5,
+  "data": [
+    {
+      "paperId": "021ed502682970e1a493f7e90e2a701dd1340072",
+      "externalIds": {
+        "DOI": "10.1021/acsaem.5c03438",
+        "CorpusId": 285148625
+      },
+      "url": "https://www.semanticscholar.org/paper/021ed502682970e1a493f7e90e2a701dd1340072",
+      "title": "Cu-Rich High-Entropy Alloy Aerogels for Efficient Carbon Dioxide Reduction",
+      "venue": "ACS Applied Energy Materials",
+      "year": 2026,
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acsaem.5c03438?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acsaem.5c03438, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2278239895",
+          "name": "Liheng Guan"
+        },
+        {
+          "authorId": "2206026333",
+          "name": "Cun Chen"
+        },
+        {
+          "authorId": "2408302448",
+          "name": "Meng Xu"
+        },
+        {
+          "authorId": "2238437435",
+          "name": "Danping Chen"
+        },
+        {
+          "authorId": "2111289708",
+          "name": "Muyang Zhong"
+        },
+        {
+          "authorId": "2176166607",
+          "name": "Han Li"
+        },
+        {
+          "authorId": "2153284016",
+          "name": "Nan Zhang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "67cba535d1002267d65b60607119d73a78ec5ea0",
+      "externalIds": {
+        "DOI": "10.1002/adma.202209242",
+        "CorpusId": 253508738,
+        "PubMed": "36373568"
+      },
+      "url": "https://www.semanticscholar.org/paper/67cba535d1002267d65b60607119d73a78ec5ea0",
+      "title": "High‐Entropy Alloy Aerogels: A New Platform for Carbon Dioxide Reduction",
+      "venue": "Advances in Materials",
+      "year": 2022,
+      "citationCount": 180,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/adma.202209242?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/adma.202209242, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2118386209",
+          "name": "Hanjun Li"
+        },
+        {
+          "authorId": "143922280",
+          "name": "H. Huang"
+        },
+        {
+          "authorId": "2155437422",
+          "name": "Yao Chen"
+        },
+        {
+          "authorId": "4918877",
+          "name": "Feili Lai"
+        },
+        {
+          "authorId": "2118645317",
+          "name": "Hui Fu"
+        },
+        {
+          "authorId": "92385690",
+          "name": "Longsheng Zhang"
+        },
+        {
+          "authorId": "2153284016",
+          "name": "Nan Zhang"
+        },
+        {
+          "authorId": "152190762",
+          "name": "Shuxing Bai"
+        },
+        {
+          "authorId": "2149904443",
+          "name": "Tianxi Liu"
+        }
+      ],
+      "abstract": "High‐entropy alloy aerogels (HEAAs) combined with the advantages of high‐entropy alloys and aerogels are prospective new platforms in catalytic reactions. However, due to the differences in reduction potentials and miscibility behavior of different metals, the realization of HEAAs with a single phase is still a great challenge. Herein, a series of HEAAs is fabricated via the freeze–thaw method as highly active and durable electrocatalysts for the carbon dioxide reduction reaction (CO2RR). Especially, the PdCuAuAgBiIn HEAAs can achieve Faradaic efficiency (FE) of C1 products almost 100% from −0.7 to −1.1 V versus reversible hydrogen electrode (VRHE), and a maximum FE for formic acid (FEHCOOH) of 98.1% at −1.1 VRHE, outperforming PdCuAuAgBiIn high‐entropy alloy particles (HEAPs) and Pd metallic aerogels (MAs). Specifically, the current density and FEHCOOH are almost 200 mA cm−2 and 87% in a flow cell. The impressive CO2RR performance of the PdCuAuAgBiIn HEAAs is attributed to the strong interactions between the different metals and the surface unsaturated sites, which can regulate the electronic structures of different metals and allow the optimal HCOO* intermediate adsorption and desorption onto the catalysts surface to enhance HCOOH production. The work not only provides a facile synthetic strategy to fabricate HEAAs, but also opens the avenue for development of efficient catalysts and beyond."
+    },
+    {
+      "paperId": "ca65d679b435c0908b3d441f5119ef7cf9582c89",
+      "externalIds": {
+        "DOI": "10.1002/admt.202501921",
+        "CorpusId": 285044869
+      },
+      "url": "https://www.semanticscholar.org/paper/ca65d679b435c0908b3d441f5119ef7cf9582c89",
+      "title": "High‐Entropy Alloy Catalysts with Hydrogen‐Rich Skin Layers for Enhanced Carbon Dioxide Electroreduction in Anion Exchange Membrane Cells",
+      "venue": "Advanced Materials & Technologies",
+      "year": 2026,
+      "citationCount": 1,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/admt.202501921?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/admt.202501921, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2220744075",
+          "name": "Pradeep Kumar Panda"
+        },
+        {
+          "authorId": "2349745148",
+          "name": "Hsueh‐Yen Fu"
+        },
+        {
+          "authorId": "2005324129",
+          "name": "Pranjyan Dash"
+        },
+        {
+          "authorId": "2310969090",
+          "name": "Siyong Gu"
+        },
+        {
+          "authorId": "2344714533",
+          "name": "Chiao-An Hsieh"
+        },
+        {
+          "authorId": "2295484687",
+          "name": "Congrui Jin"
+        },
+        {
+          "authorId": "2237385058",
+          "name": "Jianlin Li"
+        },
+        {
+          "authorId": "2248135190",
+          "name": "Chien-Te Hsieh"
+        }
+      ],
+      "abstract": "The growing demand for efficient CO2 conversion technologies in electrochemical systems has spurred the development of advanced catalysts and membrane designs. This study investigates the impact of hydrogen‐rich (H‐rich) skin layers, created through barbituric acid (BTA) modification, on the catalytic performance of Pt‐based and high‐entropy alloy (HEA) catalysts in anion exchange membrane (AEM) water electrolysis systems. The results show that BTA‐modified Pt and HEA catalysts significantly enhance CO2 conversion efficiency, achieving a maximum current density of 395 mA cm−2 at 3 V and 40°C, alongside a CO2 removal rate of 39.3%. The H‐rich skin layer on the catalysts enhances surface hydrophilicity, increasing water molecule affinity and facilitating higher surface concentrations of H2O and CO2, thereby accelerating crucial reaction steps in CO2 reduction. Furthermore, these skin layers enhance ionic transport via hydrogen‐bonding interactions, optimizing both the oxygen evolution reaction at the anode and CO2 reduction at the cathode. These findings suggest that the synergistic effects of H‐rich skin layers and HEA catalysts offer a promising strategy for improving the efficiency of electrochemical CO2 conversion processes, providing valuable insights into the design of high‐performance AEM systems."
+    },
+    {
+      "paperId": "7bcc7033fdc946c762be17ad488d307f4bf35080",
+      "externalIds": {
+        "DOI": "10.1021/acsnano.4c17546",
+        "CorpusId": 276341779,
+        "PubMed": "39950250"
+      },
+      "url": "https://www.semanticscholar.org/paper/7bcc7033fdc946c762be17ad488d307f4bf35080",
+      "title": "Quaternary Medium-Entropy Alloy Metallene with Strong Charge Polarization for Highly Selective Urea Electrosynthesis from Carbon Dioxide and Nitrate.",
+      "venue": "ACS Nano",
+      "year": 2025,
+      "citationCount": 29,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acsnano.4c17546?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acsnano.4c17546, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2290244242",
+          "name": "Yuanbo Zhou"
+        },
+        {
+          "authorId": "48958093",
+          "name": "Mengfan Wang"
+        },
+        {
+          "authorId": "2108025250",
+          "name": "Lifang Zhang"
+        },
+        {
+          "authorId": "5903191",
+          "name": "Najun Li"
+        },
+        {
+          "authorId": "145956525",
+          "name": "Tao Qian"
+        },
+        {
+          "authorId": "2271298832",
+          "name": "Chenglin Yan"
+        },
+        {
+          "authorId": "2261742110",
+          "name": "Jianmei Lu"
+        }
+      ],
+      "abstract": "Electrochemical urea synthesis via the coreduction of CO2 and NO3- is a sustainable alternative to the traditional Bosch-Meiser process. However, the sluggish reaction kinetics usually result in a low efficiency. Herein, we designed a kind of quaternary PdCuCoZn medium-entropy alloy (MEA) metallene for highly selective urea electrosynthesis. The random occupation of Cu, Co, and Zn with lower electronegativity in the face-centered cubic lattice of Pd-based metallene enables abundant electron donation from transition metals to adjacent Pd atoms, leading to the formation of charge-polarized Pdδ--Cu/Co/Znδ+ sites. Considering that the pivotal C- and N-intermediates, namely, *CO and *NH2, are electrophilic and nucleophilic, respectively, such strong charge polarization would greatly benefit their respective formation and stabilization. The stable adsorption with *CO bonded to electron-rich Pd-based sites and *NH2 bonded to electron-deficient Cu/Co/Zn-based sites is demonstrated by the combination of in situ characterizations and theoretical calculations. The proof-of-concept PdCuCoZn MEA metallene achieves a maximum urea yield rate of 1840 μg h-1 mg-1 and a high Faradaic efficiency of 70.2%, surpassing most of the reported state-of-the-arts. Our strategy proposed in this work is believed to enlighten the design of an effective catalyst used for multistep reactions."
+    },
+    {
+      "paperId": "164d0d34be8a99d7263d672369cc4e31bb75c280",
+      "externalIds": {
+        "DOI": "10.1021/acsnano.4c14279",
+        "CorpusId": 275247280,
+        "PubMed": "39746182"
+      },
+      "url": "https://www.semanticscholar.org/paper/164d0d34be8a99d7263d672369cc4e31bb75c280",
+      "title": "Precise Regulation of In Situ Exsolution Components of Nanoparticles for Constructing Active Interfaces toward Carbon Dioxide Reduction.",
+      "venue": "ACS Nano",
+      "year": 2025,
+      "citationCount": 38,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acsnano.4c14279?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acsnano.4c14279, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2215898422",
+          "name": "Yao Luo"
+        },
+        {
+          "authorId": "2298524154",
+          "name": "Xu Chang"
+        },
+        {
+          "authorId": "2186525749",
+          "name": "Jietao Wang"
+        },
+        {
+          "authorId": "2109796106",
+          "name": "Dong Zhang"
+        },
+        {
+          "authorId": "2240147469",
+          "name": "Lei Fu"
+        },
+        {
+          "authorId": "2319654667",
+          "name": "Xiang-kui Gu"
+        },
+        {
+          "authorId": "2303461940",
+          "name": "Yao Wang"
+        },
+        {
+          "authorId": "2262397310",
+          "name": "Tong Liu"
+        },
+        {
+          "authorId": "2256866553",
+          "name": "Mingyue Ding"
+        }
+      ],
+      "abstract": "Metal nanocatalysts supported on oxide scaffolds have been widely used in energy storage and conversion reactions. So far, the main research is still focused on the growth, density, size, and activity enhancement of exsolved nanoparticles (NPs). However, the lack of precise regulation of the type and composition of NPs elements under reduction conditions has restricted the architectural development of in situ exsolution systems. Herein, we propose a strategy to attain a regulated distribution of exsolved transition metals (Cu, Ni, and Fe) on Sr2Fe1.2Ni0.2Cu0.2Mo0.4O6-δ medium-entropy perovskite oxides by varying the oxygen partial pressure (pO2) gradient in the mixture. At 800 °C, the unitary Cu, binary Cu-Ni, and ternary Cu-Ni-Fe NPs are exsolved as pO2 decreases from high to low. Combining experimental and theoretical simulations, we further corroborate that solid oxide electrolysis cells with ternary alloy clusters at the CNF@SFO interface exhibit superior CO2 electrolytic performance. Our results provide tailored strategies for nanostructures and nanointerfaces for studying metal oxide exsolution systems, including fuel electrode materials."
+    }
+  ]
+}

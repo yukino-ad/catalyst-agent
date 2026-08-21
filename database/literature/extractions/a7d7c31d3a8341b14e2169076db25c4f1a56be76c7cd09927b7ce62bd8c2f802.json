@@ -1,0 +1,496 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v3",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-25T10:22:39.604392+00:00",
+  "paper": {
+    "paper_id": "hea-xlsx-a962e40d75e9fd5d",
+    "title": "Nanostructured amorphous Fe29Co27Ni23Si9B12 high-entropy-alloy: an efficient electrocatalyst for oxygen evolution reaction",
+    "abstract": "Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential energy, and loose atom bonding. Herein, nanostructured amorphous Fe29Co27Ni23Si9B12 HEA ribbon is fabricated via a melt spinning method combined with electrochemical corrosion etching process, which is applied as the potential oxygen evolution reaction electrocatalyst. It is found that there are micro/nano pits on the surface of etched amorphous Fe29Co27Ni23Si9B12 ribbons. Various elements of HEAs bond with each other to form a highly disordered configuration, which could result in an optimized bonding energy and enhanced intrinsic catalytic activity. The electrocatalysis activity measurements indicate that the amorphous HEAs endows a much higher activity than the crystalline one, which is further improved by the electrochemical etching treatment. Especially, the HEA ribbon etched for 3 h requires a low overpotential of 230 mV to afford 10 mA cm-2 current density. In addition, density functional theory calculations demonstrate that the amorphous structure can weaken the interaction between the surface of Fe29Co27Ni23Si9B12 alloy and the intermediates, leading to an optimized adsorption Gibbs free energy.",
+    "year": null,
+    "journal": "",
+    "doi": "10.1016/j.jmst.2020.06.045",
+    "url": "https://doi.org/10.1016/j.jmst.2020.06.045",
+    "source": "high_entropy_alloy_xlsx",
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [],
+    "metadata_verified": false,
+    "metadata_provider": "",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": false,
+      "semantic_scholar_verified": false,
+      "required_tools_called": false,
+      "cross_verified": false
+    },
+    "summary": "Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential energy, and loose atom bonding. Herein, nanostructured amorphous Fe29Co27Ni23Si9B12 HEA ribbon is fabricated via a melt spinning method combined with electrochemical corrosion etching process, which is applied as the potential oxygen evolution reaction electrocatalyst. It is found that there are micro/nano pits on the surface of etched amorphous Fe29Co27Ni23Si9B12 ribbons. Various elements of HEAs bond with each other to form a highly disordered configuration, which could result in an optimized bonding energy and enhanced intrinsic catalytic activity. The electrocatalysis activity measurements indicate that the amorphous HEAs endows a much higher activity than the crystalline one, which is further improved by the electrochemical etching treatment. Especially, the HEA ribbon etched for 3 h requires a low overpotential of 230 mV to afford 10 mA cm-2 current density. In addition, density functional theory calculations demonstrate that the amorphous structure can weaken the interaction between the surface of Fe29Co27Ni23Si9B12 alloy and the intermediates, leading to an optimized adsorption Gibbs free energy.",
+    "source_file": "C:\\Users\\chenheli\\Documents\\xwechat_files\\wxid_p3j4rxifoooa22_1223\\msg\\file\\2026-07\\高熵合金数据库.xlsx",
+    "source_sheet": "Sheet1",
+    "source_row": 603,
+    "composition_raw": "AlCoCrFeNi",
+    "reaction_labels": [
+      "析氧反应（OER）"
+    ],
+    "keywords": [
+      "oxygen evolution reaction"
+    ],
+    "evidence_snippet": "ne phases, classified as a mixed solution. Nanostructured amorphous Fe29Co27Ni23Si9B12 high-entropy-alloy: an efficient electrocatalyst for oxygen evolution reaction Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential ener",
+    "context_misread_flag": true,
+    "provenance": {
+      "metadata": "xlsx_structured_fields",
+      "composition": "Filtered Alloy Composition",
+      "reaction": "Electrocatalytic Reaction",
+      "claim": "Evidence Snippet, Article Abstract, or Article Title",
+      "prompt_fields_are_primary_evidence": false
+    },
+    "assertions": [
+      {
+        "kind": "reaction",
+        "value": "OER",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Nanostructured amorphous Fe29Co27Ni23Si9B12 high-entropy-alloy: an efficient electrocatalyst for oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E11::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Nanostructured amorphous Fe29Co27Ni23Si9B12 high-entropy-alloy: an efficient electrocatalyst for oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E11::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential energy, and loose atom bonding.",
+            "source": "abstract",
+            "sentence_index": 1
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E11::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "reaction",
+        "value": "OER",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Herein, nanostructured amorphous Fe29Co27Ni23Si9B12 HEA ribbon is fabricated via a melt spinning method combined with electrochemical corrosion etching process, which is applied as the potential oxygen evolution reaction electrocatalyst.",
+            "source": "abstract",
+            "sentence_index": 2
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E11::A4",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Herein, nanostructured amorphous Fe29Co27Ni23Si9B12 HEA ribbon is fabricated via a melt spinning method combined with electrochemical corrosion etching process, which is applied as the potential oxygen evolution reaction electrocatalyst.",
+            "source": "abstract",
+            "sentence_index": 2
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E11::A5",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Especially, the HEA ribbon etched for 3 h requires a low overpotential of 230 mV to afford 10 mA cm-2 current density.",
+            "source": "abstract",
+            "sentence_index": 6
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E11::A6",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "Nanostructured amorphous Fe29Co27Ni23Si9B12 high-entropy-alloy: an efficient electrocatalyst for oxygen evolution reaction Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential energy, and loose atom bonding. Herein, nanostructured amorphous Fe29Co27Ni23Si9B12 HEA ribbon is fabricated via a melt spinning method combined with electrochemical corrosion etching process, which is applied as the potential oxygen evolution reaction electrocatalyst. It is found that there are micro/nano pits on the surface of etched amorphous Fe29Co27Ni23Si9B12 ribbons. Various elements of HEAs bond with each other to form a highly disordered configuration, which could result in an optimized bonding energy and enhanced intrinsic catalytic activity. The electrocatalysis activity measurements indicate that the amorphous HEAs endows a much higher activity than the crystalline one, which is further improved by the electrochemical etching treatment. Especially, the HEA ribbon etched for 3 h requires a low overpotential of 230 mV to afford 10 mA cm-2 current density. In addition, density functional theory calculations demonstrate that the amorphous structure can weaken the interaction between the surface of Fe29Co27Ni23Si9B12 alloy and the intermediates, leading to an optimized adsorption Gibbs free energy. Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential energy, and loose atom bonding. Herein, nanostructured amorphous Fe29Co27Ni23Si9B12 HEA ribbon is fabricated via a melt spinning method combined with electrochemical corrosion etching process, which is applied as the potential oxygen evolution reaction electrocatalyst. It is found that there are micro/nano pits on the surface of etched amorphous Fe29Co27Ni23Si9B12 ribbons. Various elements of HEAs bond with each other to form a highly disordered configuration, which could result in an optimized bonding energy and enhanced intrinsic catalytic activity. The electrocatalysis activity measurements indicate that the amorphous HEAs endows a much higher activity than the crystalline one, which is further improved by the electrochemical etching treatment. Especially, the HEA ribbon etched for 3 h requires a low overpotential of 230 mV to afford 10 mA cm-2 current density. In addition, density functional theory calculations demonstrate that the amorphous structure can weaken the interaction between the surface of Fe29Co27Ni23Si9B12 alloy and the intermediates, leading to an optimized adsorption Gibbs free energy. AlCoCrFeNi 析氧反应（OER） oxygen evolution reaction ne phases, classified as a mixed solution. Nanostructured amorphous Fe29Co27Ni23Si9B12 high-entropy-alloy: an efficient electrocatalyst for oxygen evolution reaction Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential ener",
+    "score": 39.4214,
+    "matched_terms": [
+      "abstract",
+      "alloy",
+      "electrocatalysis",
+      "electrocatalyst",
+      "evolution",
+      "high",
+      "oer",
+      "oxygen",
+      "reaction",
+      "structure"
+    ],
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 61.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 61.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 16.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": false,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: year",
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 29.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 16.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [
+          {
+            "quote": "Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential energy, and loose atom bonding.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Herein, nanostructured amorphous Fe29Co27Ni23Si9B12 HEA ribbon is fabricated via a melt spinning method combined with electrochemical corrosion etching process, which is applied as the potential oxygen evolution reaction electrocatalyst.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Various elements of HEAs bond with each other to form a highly disordered configuration, which could result in an optimized bonding energy and enhanced intrinsic catalytic activity.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "Especially, the HEA ribbon etched for 3 h requires a low overpotential of 230 mV to afford 10 mA cm-2 current density.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "Various elements of HEAs bond with each other to form a highly disordered configuration, which could result in an optimized bonding energy and enhanced intrinsic catalytic activity.",
+            "source": "abstract"
+          },
+          {
+            "quote": "The electrocatalysis activity measurements indicate that the amorphous HEAs endows a much higher activity than the crystalline one, which is further improved by the electrochemical etching treatment.",
+            "source": "abstract"
+          },
+          {
+            "quote": "In addition, density functional theory calculations demonstrate that the amorphous structure can weaken the interaction between the surface of Fe29Co27Ni23Si9B12 alloy and the intermediates, leading to an optimized adsorption Gibbs free energy.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 16.0,
+      "relevance_score": 29.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": false,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Al",
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: year",
+        "Missing metadata field: publication_type",
+        "No quotable explicit four- or five-metal composition claim.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "retrieval_scores": {
+      "lexical_raw": 39.4214,
+      "lexical_normalized": 0.777473,
+      "quality_normalized": 0.616,
+      "combined": 0.712884
+    },
+    "local_rank": 4,
+    "evidence_id": "E11",
+    "retrieval_origin": "local",
+    "stored_in_repository": true,
+    "review_status": "pending_review",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": false,
+      "canonical_status": "unknown",
+      "paper_ids": [
+        "hea-xlsx-a962e40d75e9fd5d"
+      ],
+      "dois": [
+        "10.1016/j.jmst.2020.06.045"
+      ]
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.192308,
+      "title_coverage": 0.076923,
+      "lexical_relevance": 0.157692,
+      "quality_normalized": 0.616,
+      "recency": 0.0,
+      "local_source": 0.0,
+      "combined": 0.294446
+    },
+    "merged_rank": 11,
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 61.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 61.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 16.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": false,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: year",
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 29.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 16.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [
+          {
+            "quote": "Abstract Proximal configuration of dissimilar metal atoms in amorphous high-entropy-alloys (HEAs) always result in interatomic d-band ligand effect, dense defect distribution, coordinatively unsaturated sites, high potential energy, and loose atom bonding.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Herein, nanostructured amorphous Fe29Co27Ni23Si9B12 HEA ribbon is fabricated via a melt spinning method combined with electrochemical corrosion etching process, which is applied as the potential oxygen evolution reaction electrocatalyst.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Various elements of HEAs bond with each other to form a highly disordered configuration, which could result in an optimized bonding energy and enhanced intrinsic catalytic activity.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "Especially, the HEA ribbon etched for 3 h requires a low overpotential of 230 mV to afford 10 mA cm-2 current density.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "Various elements of HEAs bond with each other to form a highly disordered configuration, which could result in an optimized bonding energy and enhanced intrinsic catalytic activity.",
+            "source": "abstract"
+          },
+          {
+            "quote": "The electrocatalysis activity measurements indicate that the amorphous HEAs endows a much higher activity than the crystalline one, which is further improved by the electrochemical etching treatment.",
+            "source": "abstract"
+          },
+          {
+            "quote": "In addition, density functional theory calculations demonstrate that the amorphous structure can weaken the interaction between the surface of Fe29Co27Ni23Si9B12 alloy and the intermediates, leading to an optimized adsorption Gibbs free energy.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 16.0,
+      "relevance_score": 29.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": false,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Al",
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: year",
+        "Missing metadata field: publication_type",
+        "No quotable explicit four- or five-metal composition claim.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    }
+  }
+}

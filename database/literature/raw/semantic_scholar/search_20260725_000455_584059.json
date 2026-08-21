@@ -1,0 +1,690 @@
+{
+  "total": 79,
+  "offset": 0,
+  "next": 15,
+  "data": [
+    {
+      "paperId": "4f8ed7782a361253b45da69e7f2aada99022ff1e",
+      "externalIds": {
+        "PubMedCentral": "12692486",
+        "DOI": "10.3390/ijms262311504",
+        "CorpusId": 283387899,
+        "PubMed": "41373657"
+      },
+      "url": "https://www.semanticscholar.org/paper/4f8ed7782a361253b45da69e7f2aada99022ff1e",
+      "title": "High-Temperature Synthesis of High-Entropy Alloy PtPd_CoNiCu Nanoparticles as a Catalyst for the Oxygen Reduction Reaction",
+      "venue": "International Journal of Molecular Sciences",
+      "year": 2025,
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12692486, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "94956952",
+          "name": "A. Nevelskaya"
+        },
+        {
+          "authorId": "2301520027",
+          "name": "Anna Gavrilova"
+        },
+        {
+          "authorId": "2395188977",
+          "name": "Nikolay Lyanguzov"
+        },
+        {
+          "authorId": "92306124",
+          "name": "M. Tolstunov"
+        },
+        {
+          "authorId": "144391088",
+          "name": "I. Pankov"
+        },
+        {
+          "authorId": "1693669545",
+          "name": "A. Kremneva"
+        },
+        {
+          "authorId": "143911231",
+          "name": "E. Gerasimov"
+        },
+        {
+          "authorId": "2395189523",
+          "name": "A. Kokhanov"
+        },
+        {
+          "authorId": "95013367",
+          "name": "S. Belenov"
+        }
+      ],
+      "abstract": "The aim of this work was high-temperature synthesis of PtPdCoNiCu/C nanoparticles with high-entropy alloy (HEA) structure as catalysts for oxygen reduction reaction. The materials were synthesized using a highly dispersed PtPd/C support, which was impregnated with Cu, Ni, and Co precursors followed by their precipitation with an alkali. Subsequently, the material was subjected to thermal treatment in a tube furnace at 600 °C for 1 h in a stream of argon containing 5% hydrogen. In combination with HRTEM, element mapping and line scan, XRD, and XPS data, these results confirm the successful synthesis of five-component PtPdCoNiCu high-entropy alloy nanoparticles on the surface of the carbon support. The obtained materials are characterized by a high electrochemical surface area of up to 63 m2/g(PGM), as determined by hydrogen adsorption/desorption and CO-stripping, and a high specific oxygen reduction reaction (ORR) activity of approximately 269 A/g(PGM) at 0.9 V vs. RHE. The synthesized material demonstrated outstanding stability, as confirmed by an accelerated stress test of 10,000 cycles. After the test, the electrochemical surface area decreased by only 12%, while the catalytic activity for ORR even increased. The proposed synthetic strategy opens a new pathway for obtaining promising highly stable five-component HEA nanoparticles of various compositions for application in catalysts."
+    },
+    {
+      "paperId": "83f81cff1d3426df8c825b7686f3094526afa566",
+      "externalIds": {
+        "DOI": "10.1007/s12678-025-00989-9",
+        "CorpusId": 282217690
+      },
+      "url": "https://www.semanticscholar.org/paper/83f81cff1d3426df8c825b7686f3094526afa566",
+      "title": "Electrochemical CO2-Reduction to Formate over Activated-Carbon-Supported Transition Metals (M = Cu, Fe, Zn, Ni, Co)-Based High-Entropy Oxide",
+      "venue": "Electrocatalysis",
+      "year": 2025,
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12678-025-00989-9?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12678-025-00989-9, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2357159807",
+          "name": "Naveen Kumar Verma"
+        },
+        {
+          "authorId": "10017867",
+          "name": "Basker Sundararaju"
+        },
+        {
+          "authorId": "2302432358",
+          "name": "Nishith Verma"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "cb2662d679f1b82a5f10d66504e358a48d8ab238",
+      "externalIds": {
+        "PubMedCentral": "11575638",
+        "DOI": "10.1039/d4sc05326e",
+        "CorpusId": 273521484,
+        "PubMed": "39568924"
+      },
+      "url": "https://www.semanticscholar.org/paper/cb2662d679f1b82a5f10d66504e358a48d8ab238",
+      "title": "A high entropy metallic–high entropy nonmetallic community as a high performance electrocatalyst for the oxygen evolution reaction and oxygen reduction reaction",
+      "venue": "Chemical Science",
+      "year": 2024,
+      "citationCount": 4,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/sc/d4sc05326e",
+        "status": "GOLD",
+        "license": "CCBYNC",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11575638, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2143411169",
+          "name": "Chunyan Zhang"
+        },
+        {
+          "authorId": "2145572039",
+          "name": "Hang Li"
+        },
+        {
+          "authorId": "2164347056",
+          "name": "Mengfei Su"
+        },
+        {
+          "authorId": "2248478248",
+          "name": "Shengfa Li"
+        },
+        {
+          "authorId": "2256787703",
+          "name": "Feng Gao"
+        },
+        {
+          "authorId": "2264366209",
+          "name": "Qingyi Lu"
+        }
+      ],
+      "abstract": "The multi-element synergism in high-entropy materials (HEMs) provides great opportunities as multi-functional catalysts or for the promotion of tandem reactions. Herein, a strategy that utilizes a high entropy precursor is proposed to realize the formation of a unique high entropy metallic–high entropy non-metallic community (HEM–HENMC). Aminotriazole acts as a “bonding agent” for the high entropy precursor, and not only binds the five metals Cr, Mn, Fe, Co and Ni together, but also introduces nitrogen and carbon in situ. After simultaneous phosphorization and vulcanization and surface oxidation, the unique HEM–HENMC containing five metals (Cr, Mn, Fe, Co and Ni) and five non-metals (C, N, O, P and S) was successfully prepared. The synergistic effect of the various non-metal and metal ions imparts the HEM–HENMC with excellent electrochemical activity. When used as an OER electrocatalyst, the HEM–HENMC exhibits a low overpotential of 211.9 mV (@10 mA cm−2) and has excellent stability for over 25 h, while as an ORR electrocatalyst, a satisfactory initial voltage of 0.977 V, half wave potential of 0.841 V and excellent 25 h electrochemical stability are achieved. This work provides an important research basis for the development of high entropy metallic–high entropy nonmetallic materials."
+    },
+    {
+      "paperId": "7e00da6ba535d4688c21b25e0ca2001601790a7f",
+      "externalIds": {
+        "DOI": "10.1149/ma2025-01412199mtgabs",
+        "CorpusId": 280226696
+      },
+      "url": "https://www.semanticscholar.org/paper/7e00da6ba535d4688c21b25e0ca2001601790a7f",
+      "title": "Spatial Confinement Enhancement and Orbital Modification of Copper-Aluminum Alloy Encapsulated within Carbon Nanofibers for Ampere-Level Carbon Dioxide Reduction Reaction",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2025,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2025-01412199mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2025-01412199mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2285341620",
+          "name": "Kang-Shun Peng"
+        },
+        {
+          "authorId": "2242631453",
+          "name": "Sung‐Fu Hung"
+        }
+      ],
+      "abstract": "Electrochemically converting carbon dioxide (CO2) into valuable multicarbon products by electrocatalysis, such as ethylene and ethanol, has drawn attention recently because it can decrease CO2 in the atmosphere effectively and create economic value. Copper is the only catalyst capable of producing multicarbon products but still shows poor selectivity under a high current density. To resolve this problem, in this study, we developed a copper-aluminum alloy enclosed inside the carbon nanofiber. Carbon nanofibers with a larger diameter provide good carbon dioxide permeability, conductivity, and a well-defined spatial confined environment, concentrating CO* intermediates. Copper-aluminum alloy can regulate the 3d orbitals of the active sites, enhancing the overall catalytic activity. X-ray absorption spectroscopy and resonant inelastic X-ray scattering enable us to observe the alteration in 3d orbitals of copper by aluminum, confirming aluminum changing the electronic structure and improving the copper for carbon dioxide reduction reactions. Our developed electrocatalyst achieves the Faradaic efficiency of 73.05% toward C2+ products under the operating current density of 1200 mA/cm2 and the partial current density of 876.6 mA/cm2. It overperforms the pristine copper, whose C2+ Faradaic efficiency is 70.29% under the operating current density of 200 mA/cm2 and the partial current density of 140.58 mA/cm2. We hope our results can provide insightful information for industrial development of carbon dioxide reduction reaction, aiming to reduce carbon dioxide emissions and contribute to the well-being of our planet.\n \n \n \n \n \n Figure 1\n"
+    },
+    {
+      "paperId": "54e43b5a367244f7f757bae4659e9e7a9f5fdc41",
+      "externalIds": {
+        "DOI": "10.1149/ma2025-01381982mtgabs",
+        "CorpusId": 280200396
+      },
+      "url": "https://www.semanticscholar.org/paper/54e43b5a367244f7f757bae4659e9e7a9f5fdc41",
+      "title": "Precision Size Control of 1-Nm High-Entropy Alloy Nanoparticles Via Autocatalytic Reduction for HER Electrocatalysis",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2025,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2025-01381982mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2025-01381982mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2182461610",
+          "name": "Chun‐Wei Chang"
+        },
+        {
+          "authorId": "2258290859",
+          "name": "Tung‐Han Yang"
+        }
+      ],
+      "abstract": "Since their discovery in 2004, solid-solution high-entropy alloys (HEAs), a class of solid-solution materials composed of at least five principal elements, have demonstrated remarkable versatility across various applications due to unique properties such as synergistic atomic interactions and limitless compositional design. In particular, nanoscale HEA particles have shown exceptional performance in electrocatalysis, photocatalysis, thermocatalysis, and energy storage. Achieving sub-1 nm HEA nanoparticles is critical for optimizing atomic utilization, but synthesizing such ultrasmall particles while maintaining high-entropy random mixing remains a major challenge due to complex multicomponent interactions.\n Herein, we report a novel template-confined synthesis strategy that employs mesoporous carbon (CMK-3) to fabricate a library of 1-nm HEA nanoparticles. By leveraging the confinement effect of the mesoporous framework and the autocatalytic reduction mechanism under reducing conditions, HEA nanoparticles with a narrow size distribution (1.12 ± 0.13 nm) and homogeneous element distribution were achieved. This library spans diverse compositions, including quinary to denary combinations, incorporating elements such as Pt, Pd, Ru, Rh, Fe, Co, Ni, Cu, Mo, and Zn. Notably, the temperature programmed reduction (TPR) experiments revealed that Pt and Ru significantly lower the reduction temperature of Fe(III), Co(II), and Ni(II), enabling the simultaneous reduction of multimetal precursors at a peak temperature of 189 oC. The electronic structures and coordination environments of PtRuFeCoNi HEA nanoparticles were also analyzed using synchrotron X-ray absorption spectroscopy (XAS), confirming the distinct orbital hybridizations of the HEA nanoparticles. These findings underscore the fine-tuned electronic structure and strongly indicate atomic mixing among the five elements within the PtRuFeCoNi HEA nanoparticles.\n The synthesized PtRuFeCoNi nanoparticles demonstrated outstanding catalytic performance in the hydrogen evolution reaction (HER), surpassing both other HEA systems and commercial Pt/C catalysts in mass activity and atom utilization. Operando XAS further uncovered a strong synergistic effect among constituent elements, with Pt and Ru identified as active centers for HER, facilitated by charge transfer from Fe. Complementary density functional theory (DFT) calculations revealed a hydrogen-adsorption free energy (ΔGH*) of -0.15 eV, which is near the ideal value of 0 eV, demonstrating optimal hydrogen adsorption properties.\n This research highlights the benefits of combining template-confinement and autocatalytic reduction for synthesizing ultrasmall HEA nanoparticles. The resulting enhanced catalytic efficiency, coupled with a systematic understanding of multicomponent synergy, provides a promising approach for developing next-generation catalysts for hydrogen-related energy applications."
+    },
+    {
+      "paperId": "6df57e1cd56177875b923769c80d99d3bc3a3068",
+      "externalIds": {
+        "DOI": "10.1002/adfm.202310683",
+        "CorpusId": 264943651
+      },
+      "url": "https://www.semanticscholar.org/paper/6df57e1cd56177875b923769c80d99d3bc3a3068",
+      "title": "The Elements Selection of High Entropy Alloy Guided by Thermodynamics and the Enhanced Electrocatalytic Mechanism for Oxygen Reduction Reaction",
+      "venue": "Advanced Functional Materials",
+      "year": 2023,
+      "citationCount": 44,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/adfm.202310683?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/adfm.202310683, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2244613645",
+          "name": "Kun Wang"
+        },
+        {
+          "authorId": "2265255332",
+          "name": "Rui Chen"
+        },
+        {
+          "authorId": "2265396764",
+          "name": "Hao Yang"
+        },
+        {
+          "authorId": "2264940037",
+          "name": "Yuhui Chen"
+        },
+        {
+          "authorId": "2264766758",
+          "name": "Hao Jia"
+        },
+        {
+          "authorId": "2181398921",
+          "name": "Yu He"
+        },
+        {
+          "authorId": "89467952",
+          "name": "Shuqin Song"
+        },
+        {
+          "authorId": "2241376314",
+          "name": "Yi Wang"
+        }
+      ],
+      "abstract": "Owing to their exceptional properties, high‐entropy alloys (HEAs) have received considerable attention in the field of electrocatalysis. However, few studies focus on the origin of their outstanding performance. Here, carbon‐supported PtFeCoNiMn (with an atomic ratio of 21:20:20:20:19) HEA nanoparticles via shock‐heating and shock‐cooling strategy are rationally designed and successfully prepared. The above five metal elements are rationally selected from the perspective of thermodynamics and geometric effects. Subsequently, the alloying process of the PtFeCoNiMn HEA is investigated via operando X‐ray diffraction characterizations. The electronic structures of each metal atom on the PtFeCoNiMn HEA and monometallic nanoparticles surface are revealed by density function theory calculations for illustrating the performance enhancement mechanism. It is found that Pt atoms on the PtFeCoNiMn HEA surface exhibit a wider range of d‐band center distribution range than the corresponding monometallic nanoparticles, which contributes to the enhanced selective adsorption of O2 reactants/intermediates. Importantly, some Fe, Co, Ni, and Mn atoms on the HEA surface manifest less positive d‐band center values than the corresponding monometallic nanoparticles, with similar d‐band center positions to some Pt atoms. This indicates that the inactive atoms in monometallic nanoparticles can be transformed into ORR active sites in the HEA matrix owing to the electronic interaction between adjacent atoms."
+    },
+    {
+      "paperId": "b95dbaba84fd6b7cac3b9296e641ca202762a15b",
+      "externalIds": {
+        "DOI": "10.1002/aenm.202204143",
+        "CorpusId": 258538330
+      },
+      "url": "https://www.semanticscholar.org/paper/b95dbaba84fd6b7cac3b9296e641ca202762a15b",
+      "title": "Confinement of SnCuxO2+x Nanoclusters in Zeolites for High‐Efficient Electrochemical Carbon Dioxide Reduction",
+      "venue": "Advanced Energy Materials",
+      "year": 2023,
+      "citationCount": 38,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/aenm.202204143?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/aenm.202204143, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "92194875",
+          "name": "Yanbin Zhu"
+        },
+        {
+          "authorId": "47471245",
+          "name": "Peize Li"
+        },
+        {
+          "authorId": "47008389",
+          "name": "Xiaoju Yang"
+        },
+        {
+          "authorId": "2108593202",
+          "name": "Muqin Wang"
+        },
+        {
+          "authorId": "2142986716",
+          "name": "Yali Zhang"
+        },
+        {
+          "authorId": "2216475919",
+          "name": "Pengkun Gao"
+        },
+        {
+          "authorId": "2216550338",
+          "name": "Qikang Huang"
+        },
+        {
+          "authorId": "2184020409",
+          "name": "Yan Wei"
+        },
+        {
+          "authorId": "2145271570",
+          "name": "Xuan Yang"
+        },
+        {
+          "authorId": "2118961360",
+          "name": "Deyu Wang"
+        },
+        {
+          "authorId": "2215987565",
+          "name": "Yan Shen"
+        },
+        {
+          "authorId": "2556318",
+          "name": "Mingkui Wang"
+        }
+      ],
+      "abstract": "Electrochemical reduction of carbon dioxide (CO2RR) to methane has achieved impressive Faradaic efficiencies of over 40% with copper‐based catalysts including Cu2O, copper‐silver alloys and others. Although copper‐based catalysts work effectively in the CO2RR, they suffer from a major disadvantage: low selectivity of desired products due to the difficulty of regulating the intermediate coverage on the catalyst surface. Here, this work presents new SnCuxO2+x nanocluster electrocatalysts encapsulated in purely siliceous MFI zeolites (coded as SnCuxO2+x@MFI) for a high‐efficient CO2RR. This allows the formation of *CO intermediates in the channels of zeolites, which further undergoes a multi‐step protonation process to generate methane, a very attractive feature for Li‐CO2 batteries that use the CO2RR catalyst as the cathode. The obtained SnCu1.5O3.5@MFI catalyst possesses a desired catalytic performance with the Faradaic efficiency of CO2 reduction to methane at 66.6 ± 3.2% in a 0.1 m KHCO3 electrolyte. Using the SnCu1.5O3.5@MFI as a cathode within a Li‐CO2 battery, this work achieves a full discharge specific capacity of 23 000 mAh g−1 at a cut‐off voltage of 2.0 V (vs Li+/Li) and an operational life over 100 cycles at 1000 mAh g−1 cutoff specific capacity. This novel confinement catalyst offers a viable pathway to develop efficient CO2RR and Li‐CO2 batteries with attractive properties for practical applications."
+    },
+    {
+      "paperId": "d89c58cddb3c0f2f10a793aaa62cb7e70ff7dd61",
+      "externalIds": {
+        "DOI": "10.1002/ente.202300542",
+        "CorpusId": 260819376
+      },
+      "url": "https://www.semanticscholar.org/paper/d89c58cddb3c0f2f10a793aaa62cb7e70ff7dd61",
+      "title": "Enhancement in CO Selectivity by Modification of ZnO with CuxO for Electrochemical Reduction of CO2",
+      "venue": "Energy Technology",
+      "year": 2023,
+      "citationCount": 8,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/ente.202300542?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/ente.202300542, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2203530566",
+          "name": "Muhammed Yusufoglu"
+        },
+        {
+          "authorId": "1394857248",
+          "name": "S. Tafazoli"
+        },
+        {
+          "authorId": "11280009",
+          "name": "T. Balkan"
+        },
+        {
+          "authorId": null,
+          "name": "Sarp Kaya"
+        }
+      ],
+      "abstract": "The electrochemical reduction of carbon dioxide (CO2RR) has garnered significant attention due to its potential for the formation of carbon monoxide (CO), which has industrial relevance. Herein, we report an oxide‐derived Cu‐Zn electrocatalyst with an optimized CuxO layer that shows high selectivity toward CO with a faradic efficiency (FE) of 75% at a low overpotential (‐0.8 V vs. RHE). We conducted various structural characterizations and activity tests to understand the origin of this improvement depending on the CuxO amount. Electrochemical surface area (ECSA) and electrochemical impedance spectroscopy (EIS) measurements suggested that the addition of CuxO increased double‐layer capacitance and decreased charge transfer resistance (Rct). Scanning electron microscopy (SEM) images indicated that the electrodes underwent a severe reconstruction process, which was further confirmed by X‐ray diffraction (XRD) that showed the formation of CuZn4 alloy during the reduction reaction. Furthermore, X‐ray photoelectron spectroscopy (XPS) depth profile analysis showed that after CO2RR at ‐0.8 V, the Cu/Zn ratio was higher than that after ‐1.2 V, which suggested that applied potential played a significant role in the reconstruction process and hence the difference in selectivity. The presence of copper in the surface layer had a significant impact on the improvement of selectivity toward CO.This article is protected by copyright. All rights reserved."
+    },
+    {
+      "paperId": "2f4651781f46a30f9683ea9b7359a5522b7692d3",
+      "externalIds": {
+        "DOI": "10.1002/adfm.202413115",
+        "CorpusId": 272799718
+      },
+      "url": "https://www.semanticscholar.org/paper/2f4651781f46a30f9683ea9b7359a5522b7692d3",
+      "title": "Nano‐High Entropy Materials in Electrocatalysis",
+      "venue": "Advanced Functional Materials",
+      "year": 2024,
+      "citationCount": 71,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/adfm.202413115?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/adfm.202413115, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2273416439",
+          "name": "Xinyue Yan"
+        },
+        {
+          "authorId": "2322223245",
+          "name": "Yansong Zhou"
+        },
+        {
+          "authorId": "2225278829",
+          "name": "Shuangyin Wang"
+        }
+      ],
+      "abstract": "High entropy materials (HEMs) compositing of at least five elements have gained widespread attention in the field of electrocatalysis due to their tunable activities and high stability. These intrinsic properties can be further highlighted when the size of HEMs comes to the nanoscale. In nanostructured HEMs, the fascinating properties including large composition space, multi‐element synergy, and high configuration entropy are expected to endow nano‐HEMs with excellent catalytic activity and stability, thus providing greater potential for the design of advanced electrocatalysts. In this review, nano‐HEMs are differentiated in detail in dimensions and the common synthesis methods are summarized. Additionally, from the perspective of the complex nanostructure‐performance relationship, the applications of nano‐HEMs in electrocatalysis systems, including water‐splitting (hydrogen evolution reaction (HER), oxygen evolution reaction (OER)), hydrogen oxidation reaction (HOR), oxygen reduction reaction (ORR), carbon dioxide reduction reaction (CO2RR), nitrogen reduction reaction (NRR) and alcohol oxidation reaction (AOR) are discussed. Finally, the main challenges faced by nano‐HEMs electrocatalysis are underscored. This review is expected to provide more insights into understanding and developing efficient electrocatalytic materials for practical applications."
+    },
+    {
+      "paperId": "ad240e9b4d1d618f2a50676858178ba1cc8a574d",
+      "externalIds": {
+        "DOI": "10.1021/acsnano.4c13961",
+        "CorpusId": 275880427,
+        "PubMed": "39853992"
+      },
+      "url": "https://www.semanticscholar.org/paper/ad240e9b4d1d618f2a50676858178ba1cc8a574d",
+      "title": "Gold Single Atom Doped Defective Nanoporous Copper Octahedrons for Electrocatalytic Reduction of Carbon Dioxide to Ethylene.",
+      "venue": "ACS Nano",
+      "year": 2025,
+      "citationCount": 31,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acsnano.4c13961?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acsnano.4c13961, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2239195264",
+          "name": "Yang Zhao"
+        },
+        {
+          "authorId": "2143394421",
+          "name": "Yanan Wang"
+        },
+        {
+          "authorId": "2273915183",
+          "name": "Zhipeng Yu"
+        },
+        {
+          "authorId": "2343729484",
+          "name": "Chao Song"
+        },
+        {
+          "authorId": "2266356440",
+          "name": "Jingwei Wang"
+        },
+        {
+          "authorId": "2296857691",
+          "name": "Haoliang Huang"
+        },
+        {
+          "authorId": "2152000395",
+          "name": "Lijian Meng"
+        },
+        {
+          "authorId": "2301920316",
+          "name": "Miao Liu"
+        },
+        {
+          "authorId": "2300426237",
+          "name": "Lifeng Liu"
+        }
+      ],
+      "abstract": "Electrocatalytic CO2 reduction into high-value multicarbon products offers a sustainable approach to closing the anthropogenic carbon cycle and contributing to carbon neutrality, particularly when renewable electricity is used to power the reaction. However, the lack of efficient and durable electrocatalysts with high selectivity for multicarbons severely hinders the practical application of this promising technology. Herein, a nanoporous defective Au1Cu single-atom alloy (De-Au1Cu SAA) catalyst is developed through facile low-temperature thermal reduction in hydrogen and a subsequent dealloying process, which shows high selectivity toward ethylene (C2H4), with a Faradaic efficiency of 52% at the current density of 252 mA cm-2 under a potential of -1.1 V versus reversible hydrogen electrode (RHE). In situ spectroscopy measurements and density functional theory (DFT) calculations reveal that the high C2H4 product selectivity results from the synergistic effect between Au single atoms and defective Cu sites on the surface of catalysts, where Au single atoms promote *CO generation and Cu defects stabilize the key intermediate *OCCO, which altogether enhances C-C coupling kinetics. This work provides important insights into the catalyst design for electrochemical CO2 reduction to multicarbon products."
+    },
+    {
+      "paperId": "62ffbc6a1cdfb3016fa401156e2fd904db1d9654",
+      "externalIds": {
+        "MAG": "2990599789",
+        "DOI": "10.1016/j.jpowsour.2019.227496",
+        "CorpusId": 212972097
+      },
+      "url": "https://www.semanticscholar.org/paper/62ffbc6a1cdfb3016fa401156e2fd904db1d9654",
+      "title": "Iron/nickel nano-alloy encapsulated in nitrogen-doped carbon framework for CO2 electrochemical conversion with prominent CO selectivity",
+      "venue": "",
+      "year": 2020,
+      "citationCount": 22,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jpowsour.2019.227496?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jpowsour.2019.227496, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2069299322",
+          "name": "Peilong Lu"
+        },
+        {
+          "authorId": "2108084735",
+          "name": "Jingxian Zhang"
+        },
+        {
+          "authorId": "46350194",
+          "name": "Hongyan He"
+        },
+        {
+          "authorId": "66986549",
+          "name": "Meng Wang"
+        },
+        {
+          "authorId": "2140289314",
+          "name": "Zhaopeng Luo"
+        },
+        {
+          "authorId": "16205402",
+          "name": "Denglei Gao"
+        },
+        {
+          "authorId": "2026897955",
+          "name": "Zhanjun Liu"
+        },
+        {
+          "authorId": "47207419",
+          "name": "Xi Wang"
+        },
+        {
+          "authorId": "51220974",
+          "name": "Menglei Yuan"
+        },
+        {
+          "authorId": "79326726",
+          "name": "Sobia Dilpazir"
+        },
+        {
+          "authorId": "40351549",
+          "name": "He Zhao"
+        },
+        {
+          "authorId": "9776165",
+          "name": "Yongbing Xie"
+        },
+        {
+          "authorId": "2768941",
+          "name": "Guangjin Zhang"
+        }
+      ],
+      "abstract": "Abstract The electrochemical conversion of carbon dioxide (CO2) into renewable fuel offers a promising approach to combat raising level of greenhouse gas accumulation in the atmosphere. However, the lack of catalysts with high selectivity still impede the implement of this conversion in industry. Herein we introduce Fe/Ni nano-alloy, encapsulated in nitrogen-doped carbon frameworks, as an efficient electrocatalyst to boost the reduction process from CO2 to carbon monoxide (CO). This dual-metal decorated catalyst possesses outstanding CO2 electroreduction behavior, reaching Faradaic efficiency for CO as high as 96% under the potential of −1.0 V versus reversible hydrogen electrode. Moreover, the catalyst remains over 90% of CO Faradaic efficiency over 50 h electrolysis due to its promising architecture. Bader analysis reveals that the charge transferred from Fe/Ni nano-alloy to the N-doped carbon shell leads to an increased charge density on carbon layer, effectively promoting the electrochemical reduction of CO2."
+    },
+    {
+      "paperId": "647dbf25956f65e5fe677f397affc027d11655e8",
+      "externalIds": {
+        "MAG": "2999482379",
+        "DOI": "10.26434/chemrxiv.9850997",
+        "CorpusId": 213137065
+      },
+      "url": "https://www.semanticscholar.org/paper/647dbf25956f65e5fe677f397affc027d11655e8",
+      "title": "High-Entropy Alloys as Catalysts for the CO2 and CO Reduction Reactions",
+      "venue": "ACS Catalysis",
+      "year": 2019,
+      "citationCount": 389,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.26434/chemrxiv.9850997.v1",
+        "status": "GREEN",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.26434/chemrxiv.9850997?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.26434/chemrxiv.9850997, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "145275892",
+          "name": "T. A. Batchelor"
+        },
+        {
+          "authorId": "24021244",
+          "name": "A. Bagger"
+        },
+        {
+          "authorId": "6447967",
+          "name": "J. Rossmeisl"
+        }
+      ],
+      "abstract": "Using the high-entropy alloys (HEAs) CoCuGaNiZn and AgAuCuPdPt as starting points we provide a framework for tuning the composition of disordered multi-metallic alloys to control the selectivity and activity of the reduction of carbon dioxide (CO2) to highly reduced compounds. By combining density functional theory (DFT) with supervised machine learning we predicted the CO and hydrogen (H) adsorption energies of all surface sites on the (111) surface of the two HEAs. This allowed an optimization for the HEA compositions with increased likelihood for sites with weak hydrogen adsorption{to suppress the formation of molecular hydrogen (H2) and with strong CO adsorption to favor the reduction of CO. This led to the discovery of several disordered alloy catalyst candidates for which selectivity towards highly reduced carbon compounds is expected, as well as insights into the rational design of disordered alloy catalysts for the CO2 and CO reduction reaction."
+    },
+    {
+      "paperId": "0857fde9a22f9fc695f963fcab8f2d3896b063f6",
+      "externalIds": {
+        "DOI": "10.1039/d6nr00598e",
+        "CorpusId": 286847551,
+        "PubMed": "41944735"
+      },
+      "url": "https://www.semanticscholar.org/paper/0857fde9a22f9fc695f963fcab8f2d3896b063f6",
+      "title": "Recent progress in electrochemical carbon dioxide reduction using atomically precise copper nanoclusters.",
+      "venue": "Nanoscale",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1039/d6nr00598e?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/d6nr00598e, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2280626806",
+          "name": "Yang Zuo"
+        },
+        {
+          "authorId": "2280887256",
+          "name": "Xiaoshuang Ma"
+        },
+        {
+          "authorId": "2351573517",
+          "name": "Shuo Zhang"
+        },
+        {
+          "authorId": "2302792914",
+          "name": "Shuxin Wang"
+        }
+      ],
+      "abstract": "Electrocatalytic carbon dioxide reduction (eCO2RR) is a promising pathway for carbon recycling and clean energy conversion, where catalyst structural engineering plays a critical role in enhancing performance. Metal nanoclusters (NCs), with their atomically precise composition, unique quantum-size effects, and tunable electronic structures, have become a key focus in eCO2RR catalyst research, where significant progress has been made. Herein, recent advances in eCO2RR using NC catalysts are reviewed. This review systematically examines the mechanisms by which the performance of metal NCs in eCO2RR can be modulated, highlighting five key factors: core size effects, single-atom modulation, ligand effects, metal doping, and support effects. The core size directly influences catalytic activity and selectivity by altering the number of active sites and electronic structures. Doping, adding, or removing single atoms enables precise control over electronic states and reaction pathways. Functional ligands optimize activity and stability by modulating the coordination environment, electron transfer, and local microenvironment. Alloying improves performance through interatomic electron transfer and structural symmetry breaking, while the use of supports enhances catalytic outcomes via physical dispersion, electronic modulation, and improved intermediate transport. Finally, recent advances are summarized, and some perspectives in this research direction are provided. This review provides insightful guidelines for the rational design of high-performance electrocatalysts and discusses the challenges and opportunities in this emerging field."
+    },
+    {
+      "paperId": "4350c27f1c810b337d850d5f7df46892c9f479ab",
+      "externalIds": {
+        "DOI": "10.1002/cssc.202501817",
+        "CorpusId": 288156779,
+        "PubMed": "42108821"
+      },
+      "url": "https://www.semanticscholar.org/paper/4350c27f1c810b337d850d5f7df46892c9f479ab",
+      "title": "Hydrocarbon Selectivity in CO and CO2 Reduction on Al-Cu Single-Atom Alloy Electrocatalysts: Effects of Potential, pH, and Facet.",
+      "venue": "ChemSusChem",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/cssc.202501817?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/cssc.202501817, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2344325409",
+          "name": "Shivam Chaturvedi"
+        },
+        {
+          "authorId": "15190603",
+          "name": "Abhijit Gogoi"
+        },
+        {
+          "authorId": "6133926",
+          "name": "Ananth Govind Rajan"
+        }
+      ],
+      "abstract": "Electrochemical carbon dioxide (CO2) and carbon monoxide (CO) reduction reactions (CO(2)RR) are promising routes for carbon utilization. Previous work unraveled Al-Cu single-atom alloys to be thermodynamically favorable for CO2RR. Here, we explore the kinetics of acidic CO(2)RR to C1 products on Al-Cu(111)/(211) using first principles. We consider pathways involving CHO, COH, and HCOO intermediates. Ab initio molecular dynamics simulations provide insights into catalyst stability and interfacial water structure. Microkinetic modeling elucidates potential- and pH-dependent selectivity trends on Al-Cu(111), indicating that H2 evolution is suppressed. For CO2 reduction, HCOOH dominates across potentials and pH ≥ 2 $\\ge 2$ , with hydrogen evolution competing at pH 0. In contrast, CO reduction yields higher current densities, with CH3OH prevailing at pH ≥ 2 $\\ge 2$ . The CHO pathway exhibits a high activation barrier for CH4 due to protonation/deoxygenation of CH3O, leading instead to CH3OH. The COH pathway, though less thermodynamically favored, shows kinetic superiority, with COH dehydroxylation as the rate-determining step (RDS) for CH4 formation. This RDS, when analyzed over the stepped Al-Cu(211), has a lower barrier by 0.62 eV. These results highlight the influence of reactant species, electrochemical conditions, and material faceting on catalytic performance, offering insights into tuning selectivity for desired C1 products."
+    },
+    {
+      "paperId": "4e3ae3aa16cda0f657605ac3885b5e58ecf93230",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-02282141mtgabs",
+        "CorpusId": 274917096
+      },
+      "url": "https://www.semanticscholar.org/paper/4e3ae3aa16cda0f657605ac3885b5e58ecf93230",
+      "title": "FCC-Based High Entropy Alloy (AlFeCoNiCu) Catalysts for Electrochemical Ammonia Production from Nitrate",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 1,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2024-02282141mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2024-02282141mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2268289220",
+          "name": "Jinuk Choi"
+        },
+        {
+          "authorId": "2324795200",
+          "name": "Hyojung Lim"
+        },
+        {
+          "authorId": "2326007404",
+          "name": "Gyoung Hwa Jeong"
+        },
+        {
+          "authorId": "4645260",
+          "name": "Uk Sim"
+        }
+      ],
+      "abstract": "Ammonia (NH₃) is one of the most important materials for human activities, finding versatile applications in areas such as fertilizers, hydrogen carrier, and carbon-free energy fuel. Traditionally, NH₃ is produced through the energy-intensive Haber-Bosch (HB) process, resulting in considerable CO₂ emissions. As an alternative, electrochemical NH₃ production is gaining attentions. The electrochemical nitrate reduction reaction (NO₃RR) has been explored due to its advantages, including a low energy barrier, high nitrogen source solubility in the electrolyte, and high activity. In order to produce NH3 electrochemically, transition metal-based alloys have been employed as catalysts due to their features such as high conductivity, synergy effects, and low cost. However, transition metal catalysts suffer from low NH3 selectivity and high activity of hydrogen evolution reaction (HER), which is a competitive reaction. Recently, high-entropy alloy (HEA) catalysts have been employed as catalysts due to their features such as high entropy effect, lattice distortion, cocktail effect, and sluggish diffusion. To enhance the activity and selectivity of the NO₃RR, we developed FCC-based HEA (AlFeCoNiCu) electrocatalyst. The FCC-based HEA catalysts demonstrated a yield rate exceeding 9.88 mg h-1 cm-2 and a faradaic efficiency (FE) of 90.2 % at -0.6 V vs. RHE in 0.1 M NO₃- and 1 M KOH solution. This research is expected to contribute not only to the efficient production of ammonia under ambient conditions but also to the exploration of HEAs catalysts for enhancing the NO3RR pathway."
+    }
+  ]
+}

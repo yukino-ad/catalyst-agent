@@ -1,0 +1,267 @@
+{
+  "total": 5534,
+  "offset": 0,
+  "next": 5,
+  "data": [
+    {
+      "paperId": "e81d1f875925b975fe2700d34645995084db5302",
+      "externalIds": {
+        "PubMedCentral": "12421496",
+        "DOI": "10.1021/acsaem.5c02324",
+        "CorpusId": 280727015,
+        "PubMed": "40937099"
+      },
+      "url": "https://www.semanticscholar.org/paper/e81d1f875925b975fe2700d34645995084db5302",
+      "title": "Correction to “Analysis of Ionomer Distribution and Reaction Mechanisms on Polymer Electrolyte Fuel Cell Pt Catalysts Supported on Mesoporous Carbon under Various Humidity Conditions”",
+      "venue": "ACS Applied Energy Materials",
+      "year": 2025,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12421496, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "92325685",
+          "name": "Kiyotaka Nagamori"
+        },
+        {
+          "authorId": "2266595947",
+          "name": "Satoshi Aoki"
+        },
+        {
+          "authorId": "2266592783",
+          "name": "Mayumi Ikegawa"
+        },
+        {
+          "authorId": "2266593180",
+          "name": "Yasuhiro Seki"
+        },
+        {
+          "authorId": "2266592872",
+          "name": "Hiroshi Igarashi"
+        },
+        {
+          "authorId": "2238041460",
+          "name": "M. Uchida"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1021/acsaem.5c01411.]."
+    },
+    {
+      "paperId": "fec08fccbe65bad398ed1c8b6859ebc40d75c705",
+      "externalIds": {
+        "PubMedCentral": "12933512",
+        "DOI": "10.1021/acsaem.6c00322",
+        "CorpusId": 285390916,
+        "PubMed": "41756053"
+      },
+      "url": "https://www.semanticscholar.org/paper/fec08fccbe65bad398ed1c8b6859ebc40d75c705",
+      "title": "Correction to “Online Mass Spectrometry Investigation of SEI Formation on Carbon Electrode Surfaces in Sodium-Ion Batteries: Oxygen and Additive Effects”",
+      "venue": "ACS Applied Energy Materials",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12933512, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2402189825",
+          "name": "Puhan Zhang"
+        },
+        {
+          "authorId": "2402242039",
+          "name": "Seiya Nakahata"
+        },
+        {
+          "authorId": "152602993",
+          "name": "Baoxu Peng"
+        },
+        {
+          "authorId": "2258703508",
+          "name": "Bingbing Li"
+        },
+        {
+          "authorId": "2148922426",
+          "name": "Dongyu Zhang"
+        },
+        {
+          "authorId": "152749888",
+          "name": "Ken‐ichi Inoue"
+        },
+        {
+          "authorId": "2402241941",
+          "name": "Limin Wang"
+        },
+        {
+          "authorId": "2269101524",
+          "name": "Itaru Honma"
+        },
+        {
+          "authorId": "2114089952",
+          "name": "Shen Ye"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1021/acsaem.5c03054.]."
+    },
+    {
+      "paperId": "cd14a7368ccb720ce9980064ee8b413157f3f8ee",
+      "externalIds": {
+        "PubMedCentral": "11267493",
+        "DOI": "10.1021/acsaem.4c01594",
+        "CorpusId": 270966196,
+        "PubMed": "39055069"
+      },
+      "url": "https://www.semanticscholar.org/paper/cd14a7368ccb720ce9980064ee8b413157f3f8ee",
+      "title": "Correction to “Efficient Visible Light Photocatalytic Hydrogen Evolution by Boosting the Interfacial Electron Transfer in Mesoporous Mott–Schottky Heterojunctions of Co2P-Modified CdIn2S4 Nanocrystals”",
+      "venue": "ACS Applied Energy Materials",
+      "year": 2024,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1021/acsaem.4c01594",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11267493, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2071759605",
+          "name": "E. Andreou"
+        },
+        {
+          "authorId": "12329996",
+          "name": "Ioannis Vamvasakis"
+        },
+        {
+          "authorId": "5929683",
+          "name": "G. Armatas"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1021/acsaem.4c00710.]."
+    },
+    {
+      "paperId": "289a867bbbcee942f6d3c654606a1e1b4451d504",
+      "externalIds": {
+        "PubMedCentral": "10716845",
+        "DOI": "10.1021/acsaem.3c02818",
+        "CorpusId": 265653238,
+        "PubMed": "38098870"
+      },
+      "url": "https://www.semanticscholar.org/paper/289a867bbbcee942f6d3c654606a1e1b4451d504",
+      "title": "Correction to “Bimetallic Copper–Silver Catalysts for the Electrochemical Reduction of CO2 to Ethanol”",
+      "venue": "ACS Applied Energy Materials",
+      "year": 2023,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1021/acsaem.3c02818",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10716845, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2269679114",
+          "name": "Elisabeth Robens"
+        },
+        {
+          "authorId": "32407398",
+          "name": "Burkhard Hecker"
+        },
+        {
+          "authorId": "9098620",
+          "name": "H. Kungl"
+        },
+        {
+          "authorId": "50560179",
+          "name": "H. Tempel"
+        },
+        {
+          "authorId": "94720594",
+          "name": "Rüdiger-Albrecht Eichel"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1021/acsaem.3c00985.]."
+    },
+    {
+      "paperId": "451c9daebabc26aa4c57a59acea3df6765012c2c",
+      "externalIds": {
+        "PubMedCentral": "9975953",
+        "DOI": "10.1021/acsaem.3c00252",
+        "CorpusId": 257279618,
+        "PubMed": "36875351"
+      },
+      "url": "https://www.semanticscholar.org/paper/451c9daebabc26aa4c57a59acea3df6765012c2c",
+      "title": "Correction to Influence of Generated Defects by Ar Implantation on the Thermoelectric Properties of ScN",
+      "venue": "ACS Applied Energy Materials",
+      "year": 2023,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1021/acsaem.3c00252",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9975953, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2428845330",
+          "name": "R. Burcea"
+        },
+        {
+          "authorId": "9121144",
+          "name": "J. Barbot"
+        },
+        {
+          "authorId": "102734073",
+          "name": "P. Renault"
+        },
+        {
+          "authorId": "11795453",
+          "name": "D. Eyidi"
+        },
+        {
+          "authorId": "12506281",
+          "name": "T. Girardeau"
+        },
+        {
+          "authorId": "48649739",
+          "name": "M. Marteau"
+        },
+        {
+          "authorId": "47523670",
+          "name": "F. Giovannelli"
+        },
+        {
+          "authorId": "2050708350",
+          "name": "A. Zenji"
+        },
+        {
+          "authorId": "3130004",
+          "name": "J. Rampnoux"
+        },
+        {
+          "authorId": "1900454",
+          "name": "S. Dilhaire"
+        },
+        {
+          "authorId": "49031700",
+          "name": "P. Eklund"
+        },
+        {
+          "authorId": "88739838",
+          "name": "A. le Febvrier"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1021/acsaem.2c01672.]."
+    }
+  ]
+}

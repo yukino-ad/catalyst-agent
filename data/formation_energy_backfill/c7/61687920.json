@@ -1,0 +1,63 @@
+{
+  "schema_version": "c7.0",
+  "stage": "c7",
+  "status": "stability_screening_completed",
+  "structure_count": 1,
+  "passed_count": 0,
+  "failed_count": 1,
+  "pending_count": 0,
+  "evaluation_error_count": 0,
+  "structures": [
+    {
+      "structure_id": "c3-Au6-Co6-Cu8-Fe6-Ni6-f521bd4e57-fcc-01",
+      "candidate_id": "c116-Cu8Ni6Fe6Au6Co6",
+      "elements": [
+        "Cu",
+        "Au",
+        "Co",
+        "Fe",
+        "Ni"
+      ],
+      "composition": {
+        "Cu": 8,
+        "Au": 6,
+        "Co": 6,
+        "Fe": 6,
+        "Ni": 6
+      },
+      "formation_energy": 0.2088322700624996,
+      "formation_energy_unit": "eV/atom",
+      "formation_energy_status": "dft_completed",
+      "formation_energy_source": "bulk_relaxation_toten_and_user_dft_references",
+      "formation_energy_method": "relaxation_final_toten",
+      "source_slurm_job_id": "61687920",
+      "eligible_for_slab": false,
+      "average_atomic_radius_ang": 1.2950000000000002,
+      "average_melting_point_k": 1585.254375,
+      "mixing_enthalpy_kj_mol": 3.46875,
+      "mixing_entropy_j_mol_k": 13.32023402102735,
+      "delta_percent": 5.453454398388232,
+      "omega": 6.087483750012958,
+      "delta_threshold_percent": 6.6,
+      "omega_threshold": 1.1,
+      "delta_pass": true,
+      "omega_pass": true,
+      "formation_energy_threshold_ev_atom": 0.05,
+      "formation_energy_available": true,
+      "formation_energy_pass": false,
+      "solid_solution_pass": true,
+      "stability_decision": "failed",
+      "stability_status": "evaluated"
+    }
+  ],
+  "slab_eligible_structures": [],
+  "errors": [],
+  "criteria": {
+    "formation_energy": "< 0.05 eV/atom",
+    "atomic_size_delta": "≤ 6.6%",
+    "omega": "≥ 1.1",
+    "all_required": true
+  },
+  "slab_generated": false,
+  "next_stage": "c8_slab_generation"
+}

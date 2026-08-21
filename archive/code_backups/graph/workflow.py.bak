@@ -1,0 +1,148 @@
+from __future__ import annotations
+
+from langgraph.checkpoint.memory import (
+    InMemorySaver,
+)
+from langgraph.graph import (
+    END,
+    START,
+    StateGraph,
+)
+
+from app.graph.nodes import (
+    capability_gate_node,
+    literature_commit_node,
+    literature_evidence_node,
+    literature_review_node,
+    literature_summary_node,
+    planner_node,
+    reviewed_rag_node,
+    router_node,
+    skip_rag_node,
+    task_analysis_node,
+)
+from app.graph.routes import (
+    route_after_planner,
+)
+from app.graph.state import CatalystState
+
+
+def build_graph():
+    """构建带文献人工审查的科研 LangGraph。"""
+
+    builder = StateGraph(
+        CatalystState
+    )
+
+    builder.add_node(
+        "task_analysis",
+        task_analysis_node,
+    )
+
+    builder.add_node(
+        "capability_gate",
+        capability_gate_node,
+    )
+
+    builder.add_node(
+        "router",
+        router_node,
+    )
+
+    builder.add_node(
+        "planner",
+        planner_node,
+    )
+
+    builder.add_node(
+        "literature_evidence",
+        literature_evidence_node,
+    )
+
+    builder.add_node(
+        "literature_review",
+        literature_review_node,
+    )
+
+    builder.add_node(
+        "literature_commit",
+        literature_commit_node,
+    )
+
+    builder.add_node(
+        "reviewed_rag",
+        reviewed_rag_node,
+    )
+    
+    builder.add_node(
+        "skip_rag",
+        skip_rag_node,
+    )
+
+    builder.add_node(
+        "literature_summary",
+        literature_summary_node,
+    )
+
+    builder.add_edge(
+        START,
+        "task_analysis",
+    )
+
+    builder.add_edge(
+        "task_analysis",
+        "capability_gate",
+    )
+
+    builder.add_edge(
+        "capability_gate",
+        "router",
+    )
+
+    builder.add_edge(
+        "router",
+        "planner",
+    )
+
+    builder.add_conditional_edges(
+        "planner",
+        route_after_planner,
+        {
+            "rag": "literature_evidence",
+            "skip_rag": "skip_rag",
+        },
+    )
+
+    builder.add_edge(
+        "literature_evidence",
+        "literature_review",
+    )
+
+    builder.add_edge(
+        "literature_review",
+        "reviewed_rag",
+    )
+
+    builder.add_edge(
+        "reviewed_rag",
+        "literature_summary",
+    )
+
+    builder.add_edge(
+        "skip_rag",
+        "literature_summary",
+    )
+
+    builder.add_edge(
+        "literature_summary",
+        END,
+    )
+
+    checkpointer = InMemorySaver()
+
+    return builder.compile(
+        checkpointer=checkpointer
+    )
+
+
+graph = build_graph()

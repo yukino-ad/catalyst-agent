@@ -1,0 +1,116 @@
+from __future__ import annotations
+
+from langgraph.checkpoint.memory import InMemorySaver
+from langgraph.graph import END, START, StateGraph
+
+from app.graph.nodes import (
+    literature_summary_node,
+    planner_node,
+    rag_node,
+    router_node,
+    skip_rag_node,
+    capability_gate_node,
+    task_analysis_node,
+)
+from app.graph.routes import route_after_planner
+from app.graph.state import CatalystState
+
+
+def build_graph():
+    """构建第一阶段催化剂科研 LangGraph。"""
+
+    builder = StateGraph(
+        CatalystState
+    )
+
+    # 注册五个节点。
+    builder.add_node(
+        "router",
+        router_node,
+    )
+
+    builder.add_node(
+        "planner",
+        planner_node,
+    )
+
+    builder.add_node(
+        "rag",
+        rag_node,
+    )
+
+    builder.add_node(
+        "skip_rag",
+        skip_rag_node,
+    )
+
+    builder.add_node(
+        "literature_summary",
+        literature_summary_node,
+    )
+    
+    builder.add_node(
+        "task_analysis",
+        task_analysis_node,
+    )
+
+    builder.add_node(
+        "capability_gate",
+        capability_gate_node,
+    )
+    # 定义固定边。
+    builder.add_edge(
+        START,
+        "task_analysis",
+    )
+
+    builder.add_edge(
+        "task_analysis",
+        "capability_gate",
+    )
+
+    builder.add_edge(
+        "capability_gate",
+        "router",
+    )
+
+    builder.add_edge(
+        "router",
+        "planner",
+    )
+
+    # Planner 结束后，根据 Router 的决定分支。
+    builder.add_conditional_edges(
+        "planner",
+        route_after_planner,
+        {
+            "rag": "rag",
+            "skip_rag": "skip_rag",
+        },
+    )
+
+    # 两条分支最后都进入文献结果标准化节点。
+    builder.add_edge(
+        "rag",
+        "literature_summary",
+    )
+
+    builder.add_edge(
+        "skip_rag",
+        "literature_summary",
+    )
+
+    builder.add_edge(
+        "literature_summary",
+        END,
+    )
+
+    # 第一阶段先使用内存状态保存器。
+    checkpointer = InMemorySaver()
+
+    return builder.compile(
+        checkpointer=checkpointer
+    )
+
+
+graph = build_graph()

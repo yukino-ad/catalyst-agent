@@ -1,0 +1,50 @@
+[
+  {
+    "title": "High-entropy alloy catalysts for electrochemical CO2 reduction",
+    "year": 2023,
+    "keywords": ["high entropy alloy", "CO2 reduction", "CO", "Cu", "Ag", "Pd", "Ni"],
+    "elements": ["Cu", "Ag", "Pd", "Ni", "Co"],
+    "adsorbates": ["CO2*", "COOH*", "CO*", "H*"],
+    "insights": [
+      "Cu-rich sites can activate CO2 and stabilize COOH* intermediates.",
+      "Ag and Pd can tune CO binding strength and improve CO selectivity.",
+      "High-entropy mixing provides diverse local coordination environments."
+    ]
+  },
+  {
+    "title": "Machine learning screening of multimetallic catalysts for CO2 electroreduction",
+    "year": 2022,
+    "keywords": ["machine learning", "XGBoost", "adsorption energy", "CO2RR", "selectivity"],
+    "elements": ["Fe", "Co", "Ni", "Cu", "Zn", "Sn"],
+    "adsorbates": ["COOH*", "CO*", "H*"],
+    "insights": [
+      "COOH* formation energy and H* adsorption energy are useful descriptors for CO2RR selectivity.",
+      "XGBoost can provide a fast first-pass ranking before expensive DFT calculations.",
+      "Weak H* binding helps suppress the competing hydrogen evolution reaction."
+    ]
+  },
+  {
+    "title": "DFT descriptors for CO production on transition-metal surfaces",
+    "year": 2021,
+    "keywords": ["DFT", "CO production", "transition metal", "COOH", "HER"],
+    "elements": ["Fe", "Co", "Ni", "Cu", "Ag", "Au"],
+    "adsorbates": ["CO2*", "COOH*", "CO*", "H*"],
+    "insights": [
+      "Moderate COOH* stabilization is important for the first proton-electron transfer step.",
+      "Overly strong CO* binding may block active sites.",
+      "The balance between COOH* formation and H* adsorption can guide catalyst selection."
+    ]
+  },
+  {
+    "title": "Stability design principles for high-entropy electrocatalysts",
+    "year": 2024,
+    "keywords": ["stability", "high entropy", "AIMD", "surface segregation", "electrocatalyst"],
+    "elements": ["Fe", "Co", "Ni", "Mn", "Cu", "Zn"],
+    "adsorbates": ["H*", "CO*"],
+    "insights": [
+      "Configurational entropy can improve phase stability in multicomponent catalysts.",
+      "Surface segregation should be checked because active surface composition may differ from bulk composition.",
+      "AIMD can be used after initial DFT screening to verify thermal stability."
+    ]
+  }
+]

@@ -1,0 +1,331 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback_after_llm_error",
+  "created_at": "2026-07-24T15:47:21.851321+00:00",
+  "paper": {
+    "paper_id": "openalex:W4292681410",
+    "title": "Structural evolution and strain generation of derived-Cu catalysts during CO2 electroreduction",
+    "abstract": "Abstract Copper (Cu)-based catalysts generally exhibit high C 2+ selectivity during the electrochemical CO 2 reduction reaction (CO 2 RR). However, the origin of this selectivity and the influence of catalyst precursors on it are not fully understood. We combine operando X-ray diffraction and operando Raman spectroscopy to monitor the structural and compositional evolution of three Cu precursors during the CO 2 RR. The results indicate that despite different kinetics, all three precursors are completely reduced to Cu(0) with similar grain sizes (~11 nm), and that oxidized Cu species are not involved in the CO 2 RR. Furthermore, Cu(OH) 2 - and Cu 2 (OH) 2 CO 3 -derived Cu exhibit considerable tensile strain (0.43%~0.55%), whereas CuO-derived Cu does not. Theoretical calculations suggest that the tensile strain in Cu lattice is conducive to promoting CO 2 RR, which is consistent with experimental observations. The high CO 2 RR performance of some derived Cu catalysts is attributed to the combined effect of the small grain size and lattice strain, both originating from the in situ electroreduction of precursors. These findings establish correlations between Cu precursors, lattice strains, and catalytic behaviors, demonstrating the unique ability of operando characterization in studying electrochemical processes.",
+    "year": 2022,
+    "journal": "Nature Communications",
+    "doi": "https://doi.org/10.1038/s41467-022-32601-9",
+    "url": "https://doi.org/10.1038/s41467-022-32601-9",
+    "source": "OpenAlex",
+    "summary": "Abstract Copper (Cu)-based catalysts generally exhibit high C 2+ selectivity during the electrochemical CO 2 reduction reaction (CO 2 RR). However, the origin of this selectivity and the influence of catalyst precursors on it are not fully understood. We combine operando X-ray diffraction and operando Raman spectroscopy to monitor the structural and compositional evolution of three Cu precursors during the CO 2 RR. The results indicate that despite different kinetics, all three precursors are completely reduced to Cu(0) with similar grain sizes (~11 nm), and that oxidized Cu species are not involved in the CO 2 RR. Furthermore, Cu(OH) 2 - and Cu 2 (OH) 2 CO 3 -derived Cu exhibit considerable tensile strain (0.43%~0.55%), whereas CuO-derived Cu does not. Theoretical calculations suggest that the tensile strain in Cu lattice is conducive to promoting CO 2 RR, which is consistent with experimental observations. The high CO 2 RR performance of some derived Cu catalysts is attributed to the combined effect of the small grain size and lattice strain, both originating from the in situ electroreduction of precursors. These findings establish correlations between Cu precursors, lattice strains, and catalytic behaviors, demonstrating the unique ability of operando characterization in studying electrochemical processes.",
+    "assertions": [],
+    "embedding_text": "Structural evolution and strain generation of derived-Cu catalysts during CO2 electroreduction Abstract Copper (Cu)-based catalysts generally exhibit high C 2+ selectivity during the electrochemical CO 2 reduction reaction (CO 2 RR). However, the origin of this selectivity and the influence of catalyst precursors on it are not fully understood. We combine operando X-ray diffraction and operando Raman spectroscopy to monitor the structural and compositional evolution of three Cu precursors during the CO 2 RR. The results indicate that despite different kinetics, all three precursors are completely reduced to Cu(0) with similar grain sizes (~11 nm), and that oxidized Cu species are not involved in the CO 2 RR. Furthermore, Cu(OH) 2 - and Cu 2 (OH) 2 CO 3 -derived Cu exhibit considerable tensile strain (0.43%~0.55%), whereas CuO-derived Cu does not. Theoretical calculations suggest that the tensile strain in Cu lattice is conducive to promoting CO 2 RR, which is consistent with experimental observations. The high CO 2 RR performance of some derived Cu catalysts is attributed to the combined effect of the small grain size and lattice strain, both originating from the in situ electroreduction of precursors. These findings establish correlations between Cu precursors, lattice strains, and catalytic behaviors, demonstrating the unique ability of operando characterization in studying electrochemical processes. Abstract Copper (Cu)-based catalysts generally exhibit high C 2+ selectivity during the electrochemical CO 2 reduction reaction (CO 2 RR). However, the origin of this selectivity and the influence of catalyst precursors on it are not fully understood. We combine operando X-ray diffraction and operando Raman spectroscopy to monitor the structural and compositional evolution of three Cu precursors during the CO 2 RR. The results indicate that despite different kinetics, all three precursors are completely reduced to Cu(0) with similar grain sizes (~11 nm), and that oxidized Cu species are not involved in the CO 2 RR. Furthermore, Cu(OH) 2 - and Cu 2 (OH) 2 CO 3 -derived Cu exhibit considerable tensile strain (0.43%~0.55%), whereas CuO-derived Cu does not. Theoretical calculations suggest that the tensile strain in Cu lattice is conducive to promoting CO 2 RR, which is consistent with experimental observations. The high CO 2 RR performance of some derived Cu catalysts is attributed to the combined effect of the small grain size and lattice strain, both originating from the in situ electroreduction of precursors. These findings establish correlations between Cu precursors, lattice strains, and catalytic behaviors, demonstrating the unique ability of operando characterization in studying electrochemical processes.",
+    "score": 20.0413,
+    "matched_terms": [
+      "abstract",
+      "all",
+      "catalyst",
+      "co2",
+      "electrochemical",
+      "electroreduction",
+      "high",
+      "reaction",
+      "reduction",
+      "three"
+    ],
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 45.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 45.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 15.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 0.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "The paper does not explicitly identify a high-entropy material.",
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 12.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 0.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [],
+        "performance_claims": [
+          {
+            "quote": "Abstract Copper (Cu)-based catalysts generally exhibit high C 2+ selectivity during the electrochemical CO 2 reduction reaction (CO 2 RR).",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "Abstract Copper (Cu)-based catalysts generally exhibit high C 2+ selectivity during the electrochemical CO 2 reduction reaction (CO 2 RR).",
+            "source": "abstract"
+          },
+          {
+            "quote": "The results indicate that despite different kinetics, all three precursors are completely reduced to Cu(0) with similar grain sizes (~11 nm), and that oxidized Cu species are not involved in the CO 2 RR.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Furthermore, Cu(OH) 2 - and Cu 2 (OH) 2 CO 3 -derived Cu exhibit considerable tensile strain (0.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quotable high-entropy designation."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 15.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": false,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "The paper does not explicitly identify a high-entropy material.",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quotable high-entropy designation.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "retrieval_scores": {
+      "lexical_raw": 20.0413,
+      "lexical_normalized": 0.812669,
+      "quality_normalized": 0.45,
+      "combined": 0.667601
+    },
+    "local_rank": 4,
+    "evidence_id": "E10",
+    "metadata_verified": false,
+    "metadata_provider": "",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "retrieval_origin": "local",
+    "stored_in_repository": true,
+    "review_status": "pending_review",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "openalex:W4292681410"
+      ],
+      "dois": [
+        "10.1038/s41467-022-32601-9"
+      ]
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.185185,
+      "title_coverage": 0.037037,
+      "lexical_relevance": 0.140741,
+      "quality_normalized": 0.45,
+      "recency": 0.6,
+      "combined": 0.294907
+    },
+    "merged_rank": 10,
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 45.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 45.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 15.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 0.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "The paper does not explicitly identify a high-entropy material.",
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 12.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 0.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [],
+        "performance_claims": [
+          {
+            "quote": "Abstract Copper (Cu)-based catalysts generally exhibit high C 2+ selectivity during the electrochemical CO 2 reduction reaction (CO 2 RR).",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "Abstract Copper (Cu)-based catalysts generally exhibit high C 2+ selectivity during the electrochemical CO 2 reduction reaction (CO 2 RR).",
+            "source": "abstract"
+          },
+          {
+            "quote": "The results indicate that despite different kinetics, all three precursors are completely reduced to Cu(0) with similar grain sizes (~11 nm), and that oxidized Cu species are not involved in the CO 2 RR.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Furthermore, Cu(OH) 2 - and Cu 2 (OH) 2 CO 3 -derived Cu exhibit considerable tensile strain (0.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quotable high-entropy designation."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 15.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": false,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "The paper does not explicitly identify a high-entropy material.",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quotable high-entropy designation.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "llm_extraction_error": "大模型没有返回合法 JSON: ",
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [],
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {}
+  }
+}

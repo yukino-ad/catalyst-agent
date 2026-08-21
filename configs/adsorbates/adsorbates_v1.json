@@ -1,0 +1,129 @@
+{
+  "schema_version": "adsorbate-library-v1",
+  "data_version": "c12.3-initial-geometry-v1",
+  "status": "initial_geometry_requires_review",
+  "coordinate_unit": "angstrom",
+  "coordinate_system": "local_surface_frame",
+  "adsorbates": {
+    "H": {
+      "symbols": ["H"],
+      "coordinates": [[0.0, 0.0, 0.0]],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.6
+    },
+    "CO": {
+      "symbols": ["C", "O"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.15]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.8
+    },
+    "COOH": {
+      "symbols": ["C", "O", "O", "H"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.23],
+        [1.15, 0.0, 0.55],
+        [1.65, 0.0, 1.25]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.8
+    },
+    "OH": {
+      "symbols": ["O", "H"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.98]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.7
+    },
+    "O": {
+      "symbols": ["O"],
+      "coordinates": [[0.0, 0.0, 0.0]],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.6
+    },
+    "OOH": {
+      "symbols": ["O", "O", "H"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.45],
+        [0.75, 0.0, 1.95]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.7
+    },
+    "O2": {
+      "symbols": ["O", "O"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.23]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.8
+    },
+    "OCHO": {
+      "symbols": ["O", "C", "H", "O"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.28],
+        [0.0, 0.9, 1.75],
+        [1.15, 0.0, 1.7]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.7
+    },
+    "HCOO": {
+      "symbols": ["O", "C", "O", "H"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.28],
+        [1.15, 0.0, 1.7],
+        [0.0, 0.9, 1.75]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.7
+    },
+    "N2": {
+      "symbols": ["N", "N"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.1]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.8
+    },
+    "NNH": {
+      "symbols": ["N", "N", "H"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.25],
+        [0.75, 0.0, 1.75]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.8
+    },
+    "NH": {
+      "symbols": ["N", "H"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 1.02]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.7
+    },
+    "NH2": {
+      "symbols": ["N", "H", "H"],
+      "coordinates": [
+        [0.0, 0.0, 0.0],
+        [0.8, 0.0, 0.65],
+        [-0.8, 0.0, 0.65]
+      ],
+      "anchor_atom_index": 0,
+      "initial_height_angstrom": 1.7
+    }
+  }
+}

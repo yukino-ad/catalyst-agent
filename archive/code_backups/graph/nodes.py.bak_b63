@@ -1,0 +1,976 @@
+from __future__ import annotations
+
+import os
+from typing import Any
+
+from langgraph.types import interrupt
+
+from app.graph.services import GraphServices, create_services
+from app.graph.state import CatalystState
+
+
+# 图加载时创建一次，后续节点共享这些服务。
+services: GraphServices = create_services()
+
+def task_analysis_node(
+    state: CatalystState,
+) -> dict[str, Any]:
+    """识别反应、产物、材料类型和用户所需工具。"""
+
+    question = state.get(
+        "question",
+        "",
+    ).strip()
+
+    if not question:
+        return {
+            "status": "task_analysis_failed",
+            "errors": _append_message(
+                state=state,
+                node="task_analysis",
+                error_type="missing_question",
+                message="用户科研问题不能为空。",
+            ),
+        }
+
+    try:
+        analysis = services.analyzer.analyze(
+            question
+        )
+
+        return {
+            "task_analysis": analysis,
+            "reaction_profile": analysis[
+                "reaction_profile"
+            ],
+            "status": "task_analyzed",
+        }
+
+    except Exception as error:
+        return {
+            "status": "task_analysis_failed",
+            "errors": _append_error(
+                state=state,
+                node="task_analysis",
+                error=error,
+            ),
+        }
+
+
+def capability_gate_node(
+    state: CatalystState,
+) -> dict[str, Any]:
+    """检查当前 Agent 是否具备任务需要的工具能力。"""
+
+    analysis = state.get(
+        "task_analysis",
+        {},
+    )
+
+    if not analysis:
+        return {
+            "status": "capability_check_failed",
+            "errors": _append_message(
+                state=state,
+                node="capability_gate",
+                error_type="missing_task_analysis",
+                message="能力检查前没有任务分析结果。",
+            ),
+        }
+
+    try:
+        capability = (
+            services.capability_gate.evaluate(
+                analysis
+            )
+        )
+
+        warnings = list(
+            state.get("warnings", [])
+        )
+
+        for warning in capability.get(
+            "warnings",
+            [],
+        ):
+            if warning not in warnings:
+                warnings.append(warning)
+
+        return {
+            "capability": capability,
+            "warnings": warnings,
+            "status": "capability_checked",
+        }
+
+    except Exception as error:
+        return {
+            "status": "capability_check_failed",
+            "errors": _append_error(
+                state=state,
+                node="capability_gate",
+                error=error,
+            ),
+        }
+
+def router_node(state: CatalystState) -> dict[str, Any]:
+    """理解用户意图，并决定是否需要文献 RAG。"""
+
+    question = state.get("question", "").strip()
+
+    if not question:
+        return {
+            "route": {
+                "intent": "",
+                "use_rag": False,
+                "rag_reason": "用户没有提供科研问题。",
+                "rag_query": "",
+                "rag_focus": [],
+                "requested_actions": [],
+                "router_mode": "validation",
+            },
+            "status": "invalid_question",
+            "errors": _append_message(
+                state=state,
+                node="router",
+                error_type="missing_question",
+                message="用户科研问题不能为空。",
+            ),
+        }
+
+    try:
+        route = services.router.route(question)
+
+        return {
+            "route": route,
+            "status": "routed",
+        }
+
+    except Exception as error:
+        return {
+            "route": {
+                "intent": question,
+                "use_rag": False,
+                "rag_reason": "入口路由执行失败，暂时跳过 RAG。",
+                "rag_query": "",
+                "rag_focus": [],
+                "requested_actions": [],
+                "router_mode": "error_fallback",
+            },
+            "status": "router_failed",
+            "errors": _append_error(
+                state=state,
+                node="router",
+                error=error,
+            ),
+        }
+
+
+def planner_node(state: CatalystState) -> dict[str, Any]:
+    """将用户问题转换为结构化科研计划。"""
+
+    question = state.get("question", "").strip()
+
+    if not question:
+        return {
+            "status": "planning_failed",
+            "errors": _append_message(
+                state=state,
+                node="planner",
+                error_type="missing_question",
+                message="Planner 没有收到用户科研问题。",
+            ),
+        }
+
+    try:
+        plan = services.planner.plan(question)
+        route = state.get("route", {})
+
+        original_keywords = plan.get("keywords", [])
+        route_focus = route.get("rag_focus", [])
+
+        plan["keywords"] = _unique_strings(
+            [
+                *original_keywords,
+                *route_focus,
+            ]
+        )
+
+        return {
+            "plan": plan,
+            "status": "planned",
+        }
+
+    except Exception as error:
+        return {
+            "status": "planning_failed",
+            "errors": _append_error(
+                state=state,
+                node="planner",
+                error=error,
+            ),
+        }
+
+
+def rag_node(state: CatalystState) -> dict[str, Any]:
+    """检索文献并生成带 E1/E2 引用的总结。"""
+
+    question = state.get("question", "").strip()
+    route = state.get("route", {})
+    plan = state.get("plan", {})
+
+    rag_query = str(
+        route.get("rag_query", "")
+    ).strip() or question
+
+    if not plan:
+        return {
+            "status": "rag_failed",
+            "errors": _append_message(
+                state=state,
+                node="rag",
+                error_type="missing_plan",
+                message="执行 RAG 前没有找到任务规划结果。",
+            ),
+        }
+
+    try:
+        rag_result = services.rag.run(
+            question=rag_query,
+            plan=plan,
+            top_k=5,
+        )
+
+        evidence = rag_result.get(
+            "evidence",
+            [],
+        )
+
+        return {
+            "rag_result": rag_result,
+            "papers": evidence,
+            "status": (
+                "literature_retrieved"
+                if evidence
+                else "literature_not_found"
+            ),
+        }
+
+    except Exception as error:
+        return {
+            "rag_result": {
+                "evidence": [],
+                "synthesis": {
+                    "answer": "",
+                    "citations": [],
+                    "mode": "rag_error",
+                },
+            },
+            "papers": [],
+            "status": "rag_failed",
+            "errors": _append_error(
+                state=state,
+                node="rag",
+                error=error,
+            ),
+        }
+
+
+def literature_evidence_node(
+    state: CatalystState,
+) -> dict[str, Any]:
+    """
+    执行 B2-B5 文献证据准备流程。
+
+    B2：本地检索；
+    B3：判断是否需要联网；
+    B4：按需查询 OpenAlex；
+    B5：合并、去重、评分和重排。
+
+    本节点不会修改正式文献数据库。
+    """
+
+    question = str(
+        state.get("question", "") or ""
+    ).strip()
+
+    route = state.get("route", {})
+    plan = state.get("plan", {})
+    task_analysis = state.get(
+        "task_analysis",
+        {},
+    )
+
+    rag_query = str(
+        route.get("rag_query", "") or ""
+    ).strip() or question
+
+    keywords = _unique_strings(
+        plan.get("keywords", [])
+    )
+
+    if not question:
+        return {
+            "papers": [],
+            "status": (
+                "literature_evidence_failed"
+            ),
+            "errors": _append_message(
+                state=state,
+                node="literature_evidence",
+                error_type="missing_question",
+                message=(
+                    "文献证据准备节点没有收到"
+                    "用户科研问题。"
+                ),
+            ),
+        }
+
+    try:
+        local_result = (
+            services.local_retriever.retrieve(
+                query=rag_query,
+                keywords=keywords,
+                task_analysis=task_analysis,
+                recall_count=20,
+                final_count=5,
+            )
+        )
+
+        policy_result = (
+            services.online_policy.evaluate(
+                local_result=local_result,
+                task_analysis=task_analysis,
+                question=question,
+            )
+        )
+
+        online_result = (
+            services.online_retriever.retrieve(
+                policy_result=policy_result,
+                question=question,
+                task_analysis=task_analysis,
+                keywords=keywords,
+                per_page=10,
+                mailto=os.getenv(
+                    "OPENALEX_MAILTO",
+                    "",
+                ),
+            )
+        )
+
+        merged_result = (
+            services.evidence_merger.merge(
+                local_result=local_result,
+                online_result=online_result,
+                question=question,
+                task_analysis=task_analysis,
+                keywords=keywords,
+                final_count=5,
+            )
+        )
+
+        candidates = merged_result.get(
+            "selected",
+            [],
+        )
+
+        warnings = _unique_strings(
+            [
+                *state.get("warnings", []),
+                *policy_result.get(
+                    "warnings",
+                    [],
+                ),
+                *online_result.get(
+                    "warnings",
+                    [],
+                ),
+                *merged_result.get(
+                    "warnings",
+                    [],
+                ),
+            ]
+        )
+
+        return {
+            "local_literature_result": (
+                local_result
+            ),
+            "online_search_policy": (
+                policy_result
+            ),
+            "online_literature_result": (
+                online_result
+            ),
+            "merged_literature_result": (
+                merged_result
+            ),
+            # 审查前暂存 B5 候选，之后由接受项覆盖。
+            "papers": candidates,
+            "warnings": warnings,
+            "status": (
+                "literature_evidence_prepared"
+                if candidates
+                else "literature_evidence_empty"
+            ),
+        }
+
+    except Exception as error:
+        return {
+            "local_literature_result": {},
+            "online_search_policy": {},
+            "online_literature_result": {},
+            "merged_literature_result": {
+                "status": "failed",
+                "selected": [],
+            },
+            "papers": [],
+            "status": (
+                "literature_evidence_failed"
+            ),
+            "errors": _append_error(
+                state=state,
+                node="literature_evidence",
+                error=error,
+            ),
+        }
+
+
+def literature_review_node(
+    state: CatalystState,
+) -> dict[str, Any]:
+    """暂停 LangGraph，等待人工提交文献审查决定。"""
+
+    merged_result = state.get(
+        "merged_literature_result",
+        {},
+    )
+
+    candidates = merged_result.get(
+        "selected",
+        [],
+    )
+
+    if not isinstance(candidates, list):
+        candidates = []
+
+    # 没有候选时不需要中断流程。
+    if not candidates:
+        review_result = (
+            services.review_gate.review(
+                candidates=[],
+                decision={
+                    "accept": [],
+                    "reject": [],
+                    "defer": [],
+                    "note": (
+                        "没有候选论文，"
+                        "无需人工审查。"
+                    ),
+                },
+            )
+        )
+
+        return {
+            "literature_review": review_result,
+            "papers": [],
+            "status": (
+                "literature_review_skipped"
+            ),
+        }
+
+    review_request = {
+        "type": (
+            "literature_review_required"
+        ),
+        "message": (
+            "请人工检查论文标题、DOI、"
+            "摘要原文和版本信息。"
+        ),
+        "task_id": state.get(
+            "task_id",
+            "",
+        ),
+        "question": state.get(
+            "question",
+            "",
+        ),
+        "instructions": {
+            "accept": (
+                "允许本轮 RAG 使用；"
+                "纯在线论文可在 B6.3 入库。"
+            ),
+            "reject": (
+                "本轮不使用，也不入库。"
+            ),
+            "defer": (
+                "暂缓判断，本轮不使用。"
+            ),
+            "default": (
+                "未分类论文自动进入 defer。"
+            ),
+        },
+        "candidates": [
+            _review_candidate(paper)
+            for paper in candidates
+        ],
+    }
+
+    # LangGraph 使用 GraphInterrupt 作为正常暂停信号，
+    # 因此 interrupt 不能放在通用异常捕获中。
+    decision = interrupt(
+        review_request
+    )
+
+    try:
+        review_result = (
+            services.review_gate.review(
+                candidates=candidates,
+                decision=decision,
+            )
+        )
+
+        accepted = review_result.get(
+            "accepted",
+            [],
+        )
+
+        warnings = _unique_strings(
+            [
+                *state.get("warnings", []),
+                *review_result.get(
+                    "warnings",
+                    [],
+                ),
+            ]
+        )
+
+        return {
+            "literature_review": review_result,
+            # 仅人工接受的证据可以进入后续 RAG。
+            "papers": accepted,
+            "warnings": warnings,
+            "status": (
+                "literature_review_completed"
+            ),
+        }
+
+    except Exception as error:
+        return {
+            "literature_review": {
+                "status": "review_failed",
+                "accepted": [],
+                "rejected": [],
+                "deferred": candidates,
+            },
+            "papers": [],
+            "status": (
+                "literature_review_failed"
+            ),
+            "errors": _append_error(
+                state=state,
+                node="literature_review",
+                error=error,
+            ),
+        }
+
+
+def reviewed_rag_node(
+    state: CatalystState,
+) -> dict[str, Any]:
+    """只使用人工接受的论文生成 RAG 总结。"""
+
+    question = str(
+        state.get("question", "") or ""
+    ).strip()
+
+    plan = state.get("plan", {})
+    review_result = state.get(
+        "literature_review",
+        {},
+    )
+
+    accepted = review_result.get(
+        "accepted",
+        [],
+    )
+
+    if not isinstance(accepted, list):
+        accepted = []
+
+    if not accepted:
+        rag_result = {
+            "evidence": [],
+            "synthesis": {
+                "answer": (
+                    "本轮没有人工接受的文献证据，"
+                    "因此不生成材料结论。"
+                ),
+                "citations": [],
+                "mode": (
+                    "no_accepted_evidence"
+                ),
+            },
+        }
+
+        return {
+            "rag_result": rag_result,
+            "papers": [],
+            "status": (
+                "reviewed_rag_no_evidence"
+            ),
+        }
+
+    try:
+        synthesis = services.rag.answer(
+            question=question,
+            plan=plan,
+            evidence=accepted,
+        )
+
+        return {
+            "rag_result": {
+                "evidence": accepted,
+                "synthesis": synthesis,
+            },
+            "papers": accepted,
+            "status": (
+                "reviewed_rag_completed"
+            ),
+        }
+
+    except Exception as error:
+        return {
+            "rag_result": {
+                "evidence": accepted,
+                "synthesis": {
+                    "answer": (
+                        "文献已经完成人工审查，"
+                        "但 RAG 总结生成失败。"
+                    ),
+                    "citations": [],
+                    "mode": "rag_error",
+                },
+            },
+            "papers": accepted,
+            "status": (
+                "reviewed_rag_failed"
+            ),
+            "errors": _append_error(
+                state=state,
+                node="reviewed_rag",
+                error=error,
+            ),
+        }
+
+
+def skip_rag_node(state: CatalystState) -> dict[str, Any]:
+    """Router 判断不需要检索时，生成统一的空结果。"""
+
+    route = state.get("route", {})
+
+    reason = str(
+        route.get(
+            "rag_reason",
+            "入口路由判断本次任务不需要文献检索。",
+        )
+    ).strip()
+
+    rag_result = {
+        "evidence": [],
+        "synthesis": {
+            "answer": f"本次任务跳过文献检索：{reason}",
+            "citations": [],
+            "mode": "router_skipped",
+        },
+    }
+
+    return {
+        "rag_result": rag_result,
+        "papers": [],
+        "status": "rag_skipped",
+    }
+
+
+def literature_summary_node(
+    state: CatalystState,
+) -> dict[str, Any]:
+    """将 RAG 输出转换成后续节点可以直接使用的统一格式。"""
+
+    route = state.get("route", {})
+    rag_result = state.get("rag_result", {})
+    papers = state.get("papers", [])
+
+    synthesis = rag_result.get(
+        "synthesis",
+        {},
+    )
+
+    evidence_catalog = []
+
+    for index, paper in enumerate(
+        papers,
+        start=1,
+    ):
+        evidence_id = (
+            paper.get("evidence_id")
+            or f"E{index}"
+        )
+
+        evidence_catalog.append(
+            {
+                "evidence_id": evidence_id,
+                "paper_id": paper.get(
+                    "paper_id",
+                    "",
+                ),
+                "title": paper.get(
+                    "title",
+                    "未提供论文标题",
+                ),
+                "year": paper.get("year"),
+                "journal": paper.get(
+                    "journal",
+                    "",
+                ),
+                "doi": paper.get(
+                    "doi",
+                    "",
+                ),
+                "url": paper.get(
+                    "url",
+                    "",
+                ),
+                "abstract": paper.get(
+                    "abstract",
+                    "",
+                ),
+                "elements": paper.get(
+                    "elements",
+                    [],
+                ),
+                "adsorbates": paper.get(
+                    "adsorbates",
+                    [],
+                ),
+                "score": paper.get(
+                    "score",
+                    0,
+                ),
+                "retrieval_origin": paper.get(
+                    "retrieval_origin",
+                    "",
+                ),
+                "review_status": paper.get(
+                    "review_status",
+                    "",
+                ),
+                "evidence_quality": paper.get(
+                    "evidence_quality",
+                    {},
+                ),
+                "version_info": paper.get(
+                    "version_info",
+                    {},
+                ),
+            }
+        )
+
+    warnings = list(
+        state.get("warnings", [])
+    )
+
+    if (
+        route.get("use_rag")
+        and not evidence_catalog
+    ):
+        warning = (
+            "Router 要求使用 RAG，"
+            "但本地数据库没有返回文献证据。"
+        )
+
+        if warning not in warnings:
+            warnings.append(warning)
+
+    review_result = state.get(
+        "literature_review",
+        {},
+    )
+
+    review_completed = (
+        review_result.get("status")
+        == "review_completed"
+    )
+
+    summary = {
+        "rag_used": bool(
+            route.get("use_rag")
+        ),
+        "rag_reason": route.get(
+            "rag_reason",
+            "",
+        ),
+        "rag_query": route.get(
+            "rag_query",
+            "",
+        ),
+        "evidence_count": len(
+            evidence_catalog
+        ),
+        "evidence_catalog": evidence_catalog,
+        "answer": str(
+            synthesis.get("answer", "")
+        ).strip(),
+        "citations": synthesis.get(
+            "citations",
+            [],
+        ),
+        "mode": synthesis.get(
+            "mode",
+            "unknown",
+        ),
+        "requires_human_review": (
+            bool(evidence_catalog)
+            and not review_completed
+        ),
+    }
+
+    return {
+        "literature_summary": summary,
+        "warnings": warnings,
+        "status": "literature_summarized",
+    }
+
+
+def _review_candidate(
+    paper: dict[str, Any],
+) -> dict[str, Any]:
+    """裁剪人工审查界面需要展示的论文信息。"""
+
+    quality = paper.get(
+        "evidence_quality",
+        {},
+    )
+
+    version_info = paper.get(
+        "version_info",
+        {},
+    )
+
+    return {
+        "evidence_id": paper.get(
+            "evidence_id",
+            "",
+        ),
+        "paper_id": paper.get(
+            "paper_id",
+            "",
+        ),
+        "title": paper.get(
+            "title",
+            "未提供标题",
+        ),
+        "year": paper.get("year"),
+        "journal": paper.get(
+            "journal",
+            "",
+        ),
+        "doi": paper.get(
+            "doi",
+            "",
+        ),
+        "url": paper.get(
+            "url",
+            "",
+        ),
+        "abstract": paper.get(
+            "abstract",
+            "",
+        ),
+        "source": paper.get(
+            "source",
+            "",
+        ),
+        "retrieval_origin": paper.get(
+            "retrieval_origin",
+            "",
+        ),
+        "quality_level": quality.get(
+            "quality_level",
+            "D",
+        ),
+        "quality_score": quality.get(
+            "quality_score",
+            0,
+        ),
+        "quality_issues": quality.get(
+            "issues",
+            [],
+        ),
+        "version_info": version_info,
+        "review_status": paper.get(
+            "review_status",
+            "pending_review",
+        ),
+    }
+
+
+def _unique_strings(
+    values: list[Any],
+) -> list[str]:
+    """删除空字符串和重复项，同时保持顺序。"""
+
+    result: list[str] = []
+
+    for value in values:
+        text = str(value).strip()
+
+        if text and text not in result:
+            result.append(text)
+
+    return result
+
+
+def _append_error(
+    state: CatalystState,
+    node: str,
+    error: Exception,
+) -> list[dict[str, Any]]:
+    """保留旧错误，并追加新的节点异常。"""
+
+    errors = list(
+        state.get("errors", [])
+    )
+
+    errors.append(
+        {
+            "node": node,
+            "type": type(error).__name__,
+            "message": str(error),
+        }
+    )
+
+    return errors
+
+
+def _append_message(
+    state: CatalystState,
+    node: str,
+    error_type: str,
+    message: str,
+) -> list[dict[str, Any]]:
+    """追加一个不依赖异常对象的错误。"""
+
+    errors = list(
+        state.get("errors", [])
+    )
+
+    errors.append(
+        {
+            "node": node,
+            "type": error_type,
+            "message": message,
+        }
+    )
+
+    return errors

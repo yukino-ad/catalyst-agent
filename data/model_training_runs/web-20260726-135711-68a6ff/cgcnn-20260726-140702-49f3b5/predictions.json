@@ -1,0 +1,23 @@
+[
+  {
+    "structure_id": "c3-Al4-Co7-Cr7-Fe7-Ni7-119152239e-fcc-01",
+    "formation_energy_ev_per_atom": 0.055331483483314514,
+    "unit": "eV/atom",
+    "source": "temporary_trained",
+    "temporary_model_run_id": "cgcnn-20260726-140702-49f3b5"
+  },
+  {
+    "structure_id": "c3-Co7-Cr6-Fe7-Mo6-Ni6-08eef3bf2a-fcc-01",
+    "formation_energy_ev_per_atom": 0.2085566520690918,
+    "unit": "eV/atom",
+    "source": "temporary_trained",
+    "temporary_model_run_id": "cgcnn-20260726-140702-49f3b5"
+  },
+  {
+    "structure_id": "c3-Co7-Cr6-Fe7-Ni6-Ti6-1391cf7fab-fcc-01",
+    "formation_energy_ev_per_atom": 0.020328659564256668,
+    "unit": "eV/atom",
+    "source": "temporary_trained",
+    "temporary_model_run_id": "cgcnn-20260726-140702-49f3b5"
+  }
+]

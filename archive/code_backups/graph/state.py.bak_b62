@@ -1,0 +1,47 @@
+from __future__ import annotations
+
+from typing import Any, TypedDict
+
+
+class CatalystState(TypedDict, total=False):
+    """LangGraph 中所有节点共享的任务状态。"""
+
+    # 任务基本信息
+    task_id: str
+    question: str
+
+    # 从自然语言中提取出的结构化科研任务
+    task_analysis: dict[str, Any]
+
+    # 与任务匹配的标准化电催化反应档案
+    reaction_profile: dict[str, Any]
+
+    # 当前 Agent 对该任务的工具支持和能力边界
+    capability: dict[str, Any]
+
+    # 入口路由结果
+    route: dict[str, Any]
+
+    # 任务规划结果
+    plan: dict[str, Any]
+
+    # RAG 原始结果
+    rag_result: dict[str, Any]
+
+    # 检索到的论文证据
+    papers: list[dict[str, Any]]
+
+    # 标准化后的文献总结
+    literature_summary: dict[str, Any]
+
+    # 节点运行错误
+    errors: list[dict[str, Any]]
+
+    # 不阻止流程运行的警告
+    warnings: list[str]
+
+    # 当前流程状态
+    status: str
+
+    # 后续循环时使用
+    retry_count: int

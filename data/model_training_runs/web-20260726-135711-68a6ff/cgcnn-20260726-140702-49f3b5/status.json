@@ -1,0 +1,29 @@
+{
+  "schema_version": "c6-cgcnn-training-v1",
+  "task_id": "web-20260726-135711-68a6ff",
+  "run_id": "cgcnn-20260726-140702-49f3b5",
+  "status": "completed",
+  "message": "临时模型训练与候选结构预测完成。",
+  "config": {
+    "epochs": 30,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "workers": 0,
+    "seed": 123,
+    "unit": "eV/atom",
+    "prediction_structure_count": 3
+  },
+  "temporary_model": true,
+  "production_model_replaced": false,
+  "created_at": "2026-07-26T06:07:02.876774+00:00",
+  "updated_at": "2026-07-26T06:10:38.074196+00:00",
+  "metrics": {
+    "mae": 0.022689142156325812,
+    "rmse": 0.03138814436627076,
+    "r2": 0.9401488941090755,
+    "samples": 70
+  },
+  "prediction_count": 3,
+  "completed_at": "2026-07-26T06:10:38.074196+00:00"
+}

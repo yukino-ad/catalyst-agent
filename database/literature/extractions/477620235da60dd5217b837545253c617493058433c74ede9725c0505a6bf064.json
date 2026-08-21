@@ -1,0 +1,496 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback_after_llm_error",
+  "created_at": "2026-07-24T15:00:41.954042+00:00",
+  "paper": {
+    "paper_id": "crossref:10.1088/2053-1591/ad2a88",
+    "title": "Phase composition, surface chemistry and electrochemical studies of electrodeposited AlMnFeCuNi high entropy alloy composite coatings incorporated with carbon nanotubes",
+    "abstract": "Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT). This paper focused on the morphology, hardness, wear and corrosion behaviour for as deposited HEA and HEA-CNT coatings. Both the coatings constituted simple solid solution with face-centered cubic (FCC) structure. The addition of carbon nano tubes in the HEA coatings as revealed by scanning electron microscopy showed more smaller granules and compact morphology with least coating thickness value (5 ± 0.35 μ m). Enhanced Anti-wear performance results in higher hardness and lower coefficient of friction. The presence of CNTs resulted improvised corrosion resistant properties in 3.5% NaCl corrosive media. The formation of more protective oxides such as Al ox +3 , Mn ox +2 and Fe ox +3 on passive oxide layer in HEA-CNT coatings acted as a barrier, protected it from corrosion.",
+    "year": 2024,
+    "journal": "Materials Research Express",
+    "doi": "10.1088/2053-1591/ad2a88",
+    "url": "https://doi.org/10.1088/2053-1591/ad2a88",
+    "source": "Crossref",
+    "publication_type": "journal-article",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [
+      "2053-1591"
+    ],
+    "metadata_verified": true,
+    "metadata_provider": "crossref",
+    "claim_evidence_available": true,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": false,
+      "semantic_scholar_verified": false,
+      "crossref_match_method": "none",
+      "semantic_scholar_match_method": "none",
+      "required_tools_called": false,
+      "cross_verified": false
+    },
+    "summary": "Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT). This paper focused on the morphology, hardness, wear and corrosion behaviour for as deposited HEA and HEA-CNT coatings. Both the coatings constituted simple solid solution with face-centered cubic (FCC) structure. The addition of carbon nano tubes in the HEA coatings as revealed by scanning electron microscopy showed more smaller granules and compact morphology with least coating thickness value (5 ± 0.35 μ m). Enhanced Anti-wear performance results in higher hardness and lower coefficient of friction. The presence of CNTs resulted improvised corrosion resistant properties in 3.5% NaCl corrosive media. The formation of more protective oxides such as Al ox +3 , Mn ox +2 and Fe ox +3 on passive oxide layer in HEA-CNT coatings acted as a barrier, protected it from corrosion.",
+    "assertions": [
+      {
+        "kind": "element_set",
+        "value": [
+          "Al",
+          "Mn",
+          "Fe",
+          "Cu",
+          "Ni"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Phase composition, surface chemistry and electrochemical studies of electrodeposited AlMnFeCuNi high entropy alloy composite coatings incorporated with carbon nanotubes.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E5::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Phase composition, surface chemistry and electrochemical studies of electrodeposited AlMnFeCuNi high entropy alloy composite coatings incorporated with carbon nanotubes.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E5::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Al",
+          "Mn",
+          "Fe",
+          "Cu",
+          "Ni"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT).",
+            "source": "abstract",
+            "sentence_index": 1
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E5::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT).",
+            "source": "abstract",
+            "sentence_index": 1
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E5::A4",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "This paper focused on the morphology, hardness, wear and corrosion behaviour for as deposited HEA and HEA-CNT coatings.",
+            "source": "abstract",
+            "sentence_index": 2
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E5::A5",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The addition of carbon nano tubes in the HEA coatings as revealed by scanning electron microscopy showed more smaller granules and compact morphology with least coating thickness value (5 ± 0.",
+            "source": "abstract",
+            "sentence_index": 4
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E5::A6",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The formation of more protective oxides such as Al ox +3 , Mn ox +2 and Fe ox +3 on passive oxide layer in HEA-CNT coatings acted as a barrier, protected it from corrosion.",
+            "source": "abstract",
+            "sentence_index": 9
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E5::A7",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "Phase composition, surface chemistry and electrochemical studies of electrodeposited AlMnFeCuNi high entropy alloy composite coatings incorporated with carbon nanotubes Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT). This paper focused on the morphology, hardness, wear and corrosion behaviour for as deposited HEA and HEA-CNT coatings. Both the coatings constituted simple solid solution with face-centered cubic (FCC) structure. The addition of carbon nano tubes in the HEA coatings as revealed by scanning electron microscopy showed more smaller granules and compact morphology with least coating thickness value (5 ± 0.35 μ m). Enhanced Anti-wear performance results in higher hardness and lower coefficient of friction. The presence of CNTs resulted improvised corrosion resistant properties in 3.5% NaCl corrosive media. The formation of more protective oxides such as Al ox +3 , Mn ox +2 and Fe ox +3 on passive oxide layer in HEA-CNT coatings acted as a barrier, protected it from corrosion. Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT). This paper focused on the morphology, hardness, wear and corrosion behaviour for as deposited HEA and HEA-CNT coatings. Both the coatings constituted simple solid solution with face-centered cubic (FCC) structure. The addition of carbon nano tubes in the HEA coatings as revealed by scanning electron microscopy showed more smaller granules and compact morphology with least coating thickness value (5 ± 0.35 μ m). Enhanced Anti-wear performance results in higher hardness and lower coefficient of friction. The presence of CNTs resulted improvised corrosion resistant properties in 3.5% NaCl corrosive media. The formation of more protective oxides such as Al ox +3 , Mn ox +2 and Fe ox +3 on passive oxide layer in HEA-CNT coatings acted as a barrier, protected it from corrosion.",
+    "retrieval_origin": "online",
+    "online_rank": 5,
+    "review_status": "pending_review",
+    "stored_in_repository": false,
+    "kimi_web_search_performed": true,
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "crossref:10.1088/2053-1591/ad2a88"
+      ],
+      "dois": [
+        "10.1088/2053-1591/ad2a88"
+      ]
+    },
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 58.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 58.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 20.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": []
+      },
+      "task_relevance": {
+        "score": 14.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 0.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": [
+          "Title/abstract does not directly identify the target reaction.",
+          "Title/abstract does not directly identify the target product."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 24.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT).",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "Phase composition, surface chemistry and electrochemical studies of electrodeposited AlMnFeCuNi high entropy alloy composite coatings incorporated with carbon nanotubes",
+            "source": "title",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Phase composition, surface chemistry and electrochemical studies of electrodeposited AlMnFeCuNi high entropy alloy composite coatings incorporated with carbon nanotubes",
+            "source": "title"
+          },
+          {
+            "quote": "Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT).",
+            "source": "abstract"
+          },
+          {
+            "quote": "This paper focused on the morphology, hardness, wear and corrosion behaviour for as deposited HEA and HEA-CNT coatings.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [
+          {
+            "quote": "The addition of carbon nano tubes in the HEA coatings as revealed by scanning electron microscopy showed more smaller granules and compact morphology with least coating thickness value (5 ± 0.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Enhanced Anti-wear performance results in higher hardness and lower coefficient of friction.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quantitative performance claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 20.0,
+      "relevance_score": 14.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": false,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Al",
+        "Mn",
+        "Fe",
+        "Cu",
+        "Ni"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Cu",
+        "Fe",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Title/abstract does not directly identify the target reaction.",
+        "Title/abstract does not directly identify the target product.",
+        "No quantitative performance claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.107527,
+      "title_coverage": 0.064516,
+      "lexical_relevance": 0.094624,
+      "quality_normalized": 0.586,
+      "recency": 0.8,
+      "combined": 0.337143
+    },
+    "merged_rank": 5,
+    "evidence_id": "E5",
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 58.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 58.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 20.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": []
+      },
+      "task_relevance": {
+        "score": 14.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 0.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": [
+          "Title/abstract does not directly identify the target reaction.",
+          "Title/abstract does not directly identify the target product."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 24.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT).",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "Phase composition, surface chemistry and electrochemical studies of electrodeposited AlMnFeCuNi high entropy alloy composite coatings incorporated with carbon nanotubes",
+            "source": "title",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Phase composition, surface chemistry and electrochemical studies of electrodeposited AlMnFeCuNi high entropy alloy composite coatings incorporated with carbon nanotubes",
+            "source": "title"
+          },
+          {
+            "quote": "Abstract AlMnFeCuNi high entropy alloy (HEA) coatings were electrodeposited onto mild steel substrate with and without incorporation of carbon nano tubes (CNT).",
+            "source": "abstract"
+          },
+          {
+            "quote": "This paper focused on the morphology, hardness, wear and corrosion behaviour for as deposited HEA and HEA-CNT coatings.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [
+          {
+            "quote": "The addition of carbon nano tubes in the HEA coatings as revealed by scanning electron microscopy showed more smaller granules and compact morphology with least coating thickness value (5 ± 0.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Enhanced Anti-wear performance results in higher hardness and lower coefficient of friction.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quantitative performance claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 20.0,
+      "relevance_score": 14.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": false,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Al",
+        "Mn",
+        "Fe",
+        "Cu",
+        "Ni"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Cu",
+        "Fe",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Title/abstract does not directly identify the target reaction.",
+        "Title/abstract does not directly identify the target product.",
+        "No quantitative performance claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "llm_extraction_error": "大模型没有返回合法 JSON: "
+  }
+}

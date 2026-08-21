@@ -1,0 +1,313 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-24T15:31:18.070310+00:00",
+  "paper": {
+    "paper_id": "crossref:10.1016/j.ijhydene.2025.152894",
+    "title": "Microwave synthesis of high-entropy alloy catalysts on different carbon supports for oxygen reduction reactions and carbon dioxide reduction reactions",
+    "abstract": "",
+    "year": 2026,
+    "journal": "International Journal of Hydrogen Energy",
+    "doi": "10.1016/j.ijhydene.2025.152894",
+    "url": "https://doi.org/10.1016/j.ijhydene.2025.152894",
+    "source": "Crossref",
+    "publication_type": "journal-article",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [
+      "0360-3199"
+    ],
+    "metadata_verified": true,
+    "metadata_provider": "crossref",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": true,
+      "semantic_scholar_verified": false,
+      "crossref_match_method": "doi_exact",
+      "semantic_scholar_match_method": "none",
+      "required_tools_called": true,
+      "cross_verified": false
+    },
+    "summary": "",
+    "assertions": [
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Microwave synthesis of high-entropy alloy catalysts on different carbon supports for oxygen reduction reactions and carbon dioxide reduction reactions.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "Microwave synthesis of high-entropy alloy catalysts on different carbon supports for oxygen reduction reactions and carbon dioxide reduction reactions",
+    "retrieval_origin": "online",
+    "online_rank": 9,
+    "review_status": "pending_review",
+    "stored_in_repository": false,
+    "kimi_web_search_performed": true,
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "crossref:10.1016/j.ijhydene.2025.152894"
+      ],
+      "dois": [
+        "10.1016/j.ijhydene.2025.152894"
+      ]
+    },
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 44.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 44.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 16.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": false,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": [
+          "Missing metadata field: abstract"
+        ]
+      },
+      "task_relevance": {
+        "score": 24.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 4.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [
+          {
+            "quote": "Microwave synthesis of high-entropy alloy catalysts on different carbon supports for oxygen reduction reactions and carbon dioxide reduction reactions",
+            "source": "title"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 16.0,
+      "relevance_score": 24.0,
+      "has_title": true,
+      "has_abstract": false,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": false,
+      "evidence_scope": "title_only",
+      "issues": [
+        "Missing metadata field: abstract",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.064516,
+      "title_coverage": 0.064516,
+      "lexical_relevance": 0.064516,
+      "quality_normalized": 0.44,
+      "recency": 1.0,
+      "combined": 0.289484
+    },
+    "merged_rank": 7,
+    "evidence_id": "E7",
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 44.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 44.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 16.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": false,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": [
+          "Missing metadata field: abstract"
+        ]
+      },
+      "task_relevance": {
+        "score": 24.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 4.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [
+          {
+            "quote": "Microwave synthesis of high-entropy alloy catalysts on different carbon supports for oxygen reduction reactions and carbon dioxide reduction reactions",
+            "source": "title"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 16.0,
+      "relevance_score": 24.0,
+      "has_title": true,
+      "has_abstract": false,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": false,
+      "evidence_scope": "title_only",
+      "issues": [
+        "Missing metadata field: abstract",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    }
+  }
+}

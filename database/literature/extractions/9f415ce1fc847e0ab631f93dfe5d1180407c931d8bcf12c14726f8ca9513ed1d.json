@@ -1,0 +1,606 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v3",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback_after_llm_error",
+  "created_at": "2026-07-25T10:22:39.572252+00:00",
+  "paper": {
+    "paper_id": "hea-xlsx-7e53c0c34dd88b2e",
+    "title": "High entropy alloy/C nanoparticles derived from polymetallic MOF as promising electrocatalysts for alkaline oxygen evolution reaction",
+    "abstract": "Abstract Recently, high entropy alloy (HEA) based materials have been vigorously explored as viable catalysts in water electrolysis for their unique properties. However, the synthesis of efficient and robust high entropy catalysts remains a challenge. Here a facile and scalable approach is reported to synthesize advanced HEA (CoNiCuMnAl)/C nanoparticles from the polymetallic Metal–organic framework (MOF). The novel core-shell nanoarchitectures feature face-centered cubic HEA wrapped in ultra-thin carbon shell. The optimized catalyst (deposited upon Ni foam) boosted alkaline Oxygen evolution reaction (OER) (in 1.0 M KOH) with an ultralow overpotential of 215 mV at 10 mA/cm2 (also by a low Tafel slope of 35.6 mV dec−1). The enhanced performance is closely tied to surface reconstruction (i.e., formation of oxyhydroxide catalytic active species) and the high entropy effect, revealed by Fourier-transformed alternating current voltammetry (FTACV) and in-situ Raman spectrum analysis, in conjunction with Density Functional Theory (DFT) computations. Furthermore, the new design showed excellent long-term OER stability with negligible decay through 30 h testing (under 200 mA cm−2). The present work demonstrates the feasibility and advantage of utilizing highly efficient and durable high entropy alloys for catalyzing electrochemical water splitting process.",
+    "year": null,
+    "journal": "",
+    "doi": "10.1016/j.cej.2021.132410",
+    "url": "https://doi.org/10.1016/j.cej.2021.132410",
+    "source": "high_entropy_alloy_xlsx",
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [],
+    "metadata_verified": false,
+    "metadata_provider": "",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": false,
+      "semantic_scholar_verified": false,
+      "required_tools_called": false,
+      "cross_verified": false
+    },
+    "summary": "Abstract Recently, high entropy alloy (HEA) based materials have been vigorously explored as viable catalysts in water electrolysis for their unique properties. However, the synthesis of efficient and robust high entropy catalysts remains a challenge. Here a facile and scalable approach is reported to synthesize advanced HEA (CoNiCuMnAl)/C nanoparticles from the polymetallic Metal–organic framework (MOF). The novel core-shell nanoarchitectures feature face-centered cubic HEA wrapped in ultra-thin carbon shell. The optimized catalyst (deposited upon Ni foam) boosted alkaline Oxygen evolution reaction (OER) (in 1.0 M KOH) with an ultralow overpotential of 215 mV at 10 mA/cm2 (also by a low Tafel slope of 35.6 mV dec−1). The enhanced performance is closely tied to surface reconstruction (i.e., formation of oxyhydroxide catalytic active species) and the high entropy effect, revealed by Fourier-transformed alternating current voltammetry (FTACV) and in-situ Raman spectrum analysis, in conjunction with Density Functional Theory (DFT) computations. Furthermore, the new design showed excellent long-term OER stability with negligible decay through 30 h testing (under 200 mA cm−2). The present work demonstrates the feasibility and advantage of utilizing highly efficient and durable high entropy alloys for catalyzing electrochemical water splitting process.",
+    "source_file": "C:\\Users\\chenheli\\Documents\\xwechat_files\\wxid_p3j4rxifoooa22_1223\\msg\\file\\2026-07\\高熵合金数据库.xlsx",
+    "source_sheet": "Sheet1",
+    "source_row": 77,
+    "composition_raw": "AlCoNiCuMn",
+    "reaction_labels": [
+      "析氧反应（OER）",
+      "水分解"
+    ],
+    "keywords": [
+      "OER",
+      "water electrolysis",
+      "electrocatal"
+    ],
+    "evidence_snippet": "discussed in the paper with different compositions. The study primarily focuses on the synthesis, characterization, and electrocatalytic performance of CoNiCuMnAl. To summarize, the essential high entropy alloy discussed in the paper is: * **CoNiCuMnAl** (Co, Ni, Cu, Mn, Al) This alloy is synthesized using a polymetallic MOF-derived method and is shown to have superior OER performance with",
+    "context_misread_flag": true,
+    "provenance": {
+      "metadata": "xlsx_structured_fields",
+      "composition": "Filtered Alloy Composition",
+      "reaction": "Electrocatalytic Reaction",
+      "claim": "Evidence Snippet, Article Abstract, or Article Title",
+      "prompt_fields_are_primary_evidence": false
+    },
+    "assertions": [
+      {
+        "kind": "reaction",
+        "value": "OER",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "High entropy alloy/C nanoparticles derived from polymetallic MOF as promising electrocatalysts for alkaline oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "High entropy alloy/C nanoparticles derived from polymetallic MOF as promising electrocatalysts for alkaline oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Abstract Recently, high entropy alloy (HEA) based materials have been vigorously explored as viable catalysts in water electrolysis for their unique properties.",
+            "source": "abstract",
+            "sentence_index": 1
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "However, the synthesis of efficient and robust high entropy catalysts remains a challenge.",
+            "source": "abstract",
+            "sentence_index": 2
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A4",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Co",
+          "Ni",
+          "Cu",
+          "Mn",
+          "Al"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Here a facile and scalable approach is reported to synthesize advanced HEA (CoNiCuMnAl)/C nanoparticles from the polymetallic Metal–organic framework (MOF).",
+            "source": "abstract",
+            "sentence_index": 3
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A5",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Here a facile and scalable approach is reported to synthesize advanced HEA (CoNiCuMnAl)/C nanoparticles from the polymetallic Metal–organic framework (MOF).",
+            "source": "abstract",
+            "sentence_index": 3
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A6",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The novel core-shell nanoarchitectures feature face-centered cubic HEA wrapped in ultra-thin carbon shell.",
+            "source": "abstract",
+            "sentence_index": 4
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A7",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "reaction",
+        "value": "OER",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The optimized catalyst (deposited upon Ni foam) boosted alkaline Oxygen evolution reaction (OER) (in 1.",
+            "source": "abstract",
+            "sentence_index": 5
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A8",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": ", formation of oxyhydroxide catalytic active species) and the high entropy effect, revealed by Fourier-transformed alternating current voltammetry (FTACV) and in-situ Raman spectrum analysis, in conjunction with Density Functional Theory (DFT) computations.",
+            "source": "abstract",
+            "sentence_index": 10
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A9",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The present work demonstrates the feasibility and advantage of utilizing highly efficient and durable high entropy alloys for catalyzing electrochemical water splitting process.",
+            "source": "abstract",
+            "sentence_index": 12
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E7::A10",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "High entropy alloy/C nanoparticles derived from polymetallic MOF as promising electrocatalysts for alkaline oxygen evolution reaction Abstract Recently, high entropy alloy (HEA) based materials have been vigorously explored as viable catalysts in water electrolysis for their unique properties. However, the synthesis of efficient and robust high entropy catalysts remains a challenge. Here a facile and scalable approach is reported to synthesize advanced HEA (CoNiCuMnAl)/C nanoparticles from the polymetallic Metal–organic framework (MOF). The novel core-shell nanoarchitectures feature face-centered cubic HEA wrapped in ultra-thin carbon shell. The optimized catalyst (deposited upon Ni foam) boosted alkaline Oxygen evolution reaction (OER) (in 1.0 M KOH) with an ultralow overpotential of 215 mV at 10 mA/cm2 (also by a low Tafel slope of 35.6 mV dec−1). The enhanced performance is closely tied to surface reconstruction (i.e., formation of oxyhydroxide catalytic active species) and the high entropy effect, revealed by Fourier-transformed alternating current voltammetry (FTACV) and in-situ Raman spectrum analysis, in conjunction with Density Functional Theory (DFT) computations. Furthermore, the new design showed excellent long-term OER stability with negligible decay through 30 h testing (under 200 mA cm−2). The present work demonstrates the feasibility and advantage of utilizing highly efficient and durable high entropy alloys for catalyzing electrochemical water splitting process. Abstract Recently, high entropy alloy (HEA) based materials have been vigorously explored as viable catalysts in water electrolysis for their unique properties. However, the synthesis of efficient and robust high entropy catalysts remains a challenge. Here a facile and scalable approach is reported to synthesize advanced HEA (CoNiCuMnAl)/C nanoparticles from the polymetallic Metal–organic framework (MOF). The novel core-shell nanoarchitectures feature face-centered cubic HEA wrapped in ultra-thin carbon shell. The optimized catalyst (deposited upon Ni foam) boosted alkaline Oxygen evolution reaction (OER) (in 1.0 M KOH) with an ultralow overpotential of 215 mV at 10 mA/cm2 (also by a low Tafel slope of 35.6 mV dec−1). The enhanced performance is closely tied to surface reconstruction (i.e., formation of oxyhydroxide catalytic active species) and the high entropy effect, revealed by Fourier-transformed alternating current voltammetry (FTACV) and in-situ Raman spectrum analysis, in conjunction with Density Functional Theory (DFT) computations. Furthermore, the new design showed excellent long-term OER stability with negligible decay through 30 h testing (under 200 mA cm−2). The present work demonstrates the feasibility and advantage of utilizing highly efficient and durable high entropy alloys for catalyzing electrochemical water splitting process. AlCoNiCuMn 析氧反应（OER） 水分解 OER water electrolysis electrocatal discussed in the paper with different compositions. The study primarily focuses on the synthesis, characterization, and electrocatalytic performance of CoNiCuMnAl. To summarize, the essential high entropy alloy discussed in the paper is: * **CoNiCuMnAl** (Co, Ni, Cu, Mn, Al) This alloy is synthesized using a polymetallic MOF-derived method and is shown to have superior OER performance with",
+    "score": 24.9523,
+    "matched_terms": [
+      "abstract",
+      "alloy",
+      "entropy",
+      "evolution",
+      "high",
+      "oer",
+      "oxygen",
+      "reaction"
+    ],
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "A",
+      "quality_score": 75.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 75.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 16.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": false,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: year",
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 29.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Here a facile and scalable approach is reported to synthesize advanced HEA (CoNiCuMnAl)/C nanoparticles from the polymetallic Metal–organic framework (MOF).",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "The study primarily focuses on the synthesis, characterization, and electrocatalytic performance of CoNiCuMnAl.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "To summarize, the essential high entropy alloy discussed in the paper is: * **CoNiCuMnAl** (Co, Ni, Cu, Mn, Al) This alloy is synthesized using a polymetallic MOF-derived method and is shown to have superior OER performance with",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "High entropy alloy/C nanoparticles derived from polymetallic MOF as promising electrocatalysts for alkaline oxygen evolution reaction",
+            "source": "title"
+          },
+          {
+            "quote": "Abstract Recently, high entropy alloy (HEA) based materials have been vigorously explored as viable catalysts in water electrolysis for their unique properties.",
+            "source": "abstract"
+          },
+          {
+            "quote": "However, the synthesis of efficient and robust high entropy catalysts remains a challenge.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "0 M KOH) with an ultralow overpotential of 215 mV at 10 mA/cm2 (also by a low Tafel slope of 35.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Furthermore, the new design showed excellent long-term OER stability with negligible decay through 30 h testing (under 200 mA cm−2).",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "The enhanced performance is closely tied to surface reconstruction (i.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Furthermore, the new design showed excellent long-term OER stability with negligible decay through 30 h testing (under 200 mA cm−2).",
+            "source": "abstract"
+          },
+          {
+            "quote": "The present work demonstrates the feasibility and advantage of utilizing highly efficient and durable high entropy alloys for catalyzing electrochemical water splitting process.",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 16.0,
+      "relevance_score": 29.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": false,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Co",
+        "Ni",
+        "Cu",
+        "Mn",
+        "Al"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cu",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: year",
+        "Missing metadata field: publication_type",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "retrieval_scores": {
+      "lexical_raw": 24.9523,
+      "lexical_normalized": 0.492112,
+      "quality_normalized": 0.756,
+      "combined": 0.597667
+    },
+    "local_rank": 9,
+    "evidence_id": "E7",
+    "retrieval_origin": "local",
+    "stored_in_repository": true,
+    "review_status": "pending_review",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": false,
+      "canonical_status": "unknown",
+      "paper_ids": [
+        "hea-xlsx-7e53c0c34dd88b2e"
+      ],
+      "dois": [
+        "10.1016/j.cej.2021.132410"
+      ]
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.173077,
+      "title_coverage": 0.115385,
+      "lexical_relevance": 0.155769,
+      "quality_normalized": 0.756,
+      "recency": 0.0,
+      "local_source": 0.0,
+      "combined": 0.342485
+    },
+    "merged_rank": 7,
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "A",
+      "quality_score": 75.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 75.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 16.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": false,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: year",
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 29.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Here a facile and scalable approach is reported to synthesize advanced HEA (CoNiCuMnAl)/C nanoparticles from the polymetallic Metal–organic framework (MOF).",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "The study primarily focuses on the synthesis, characterization, and electrocatalytic performance of CoNiCuMnAl.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "To summarize, the essential high entropy alloy discussed in the paper is: * **CoNiCuMnAl** (Co, Ni, Cu, Mn, Al) This alloy is synthesized using a polymetallic MOF-derived method and is shown to have superior OER performance with",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "High entropy alloy/C nanoparticles derived from polymetallic MOF as promising electrocatalysts for alkaline oxygen evolution reaction",
+            "source": "title"
+          },
+          {
+            "quote": "Abstract Recently, high entropy alloy (HEA) based materials have been vigorously explored as viable catalysts in water electrolysis for their unique properties.",
+            "source": "abstract"
+          },
+          {
+            "quote": "However, the synthesis of efficient and robust high entropy catalysts remains a challenge.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "0 M KOH) with an ultralow overpotential of 215 mV at 10 mA/cm2 (also by a low Tafel slope of 35.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Furthermore, the new design showed excellent long-term OER stability with negligible decay through 30 h testing (under 200 mA cm−2).",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "The enhanced performance is closely tied to surface reconstruction (i.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Furthermore, the new design showed excellent long-term OER stability with negligible decay through 30 h testing (under 200 mA cm−2).",
+            "source": "abstract"
+          },
+          {
+            "quote": "The present work demonstrates the feasibility and advantage of utilizing highly efficient and durable high entropy alloys for catalyzing electrochemical water splitting process.",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 16.0,
+      "relevance_score": 29.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": false,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Co",
+        "Ni",
+        "Cu",
+        "Mn",
+        "Al"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cu",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: year",
+        "Missing metadata field: publication_type",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "llm_extraction_error": "大模型没有返回合法 JSON: "
+  }
+}

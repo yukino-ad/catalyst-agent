@@ -1,0 +1,516 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback_after_llm_error",
+  "created_at": "2026-07-24T14:58:36.242215+00:00",
+  "paper": {
+    "paper_id": "crossref:10.3390/catal15080744",
+    "title": "A Quinary-Metallic High-Entropy Electrocatalyst with Driving of Cocktail Effect for Enhanced Oxygen Evolution Reaction",
+    "abstract": "The complex system of high-entropy materials makes it challenging to reveal the specific function of each site for oxygen evolution reaction (OER). Here, with nickel foam (NF) as the substrate, FeCoNiCrMo/NF is designed to be prepared by metal–organic frameworks (MOF) as a precursor under an argon atmosphere. XRD analysis confirms that it retains a partial MOF crystal structure (characteristic peak at 2θ = 11.8°) with amorphous carbon (peaks at 22° and 48°). SEM-EDS mapping and XPS demonstrate uniform distribution of Fe, Co, Ni, Cr, and Mo with a molar ratio of 27:24:30:11:9. Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples. FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline. The OER mechanism of FeCoNiCrMo/NF further reveal that Co and Ni are true active sites, and the dissolution of Cr and Mo promote the conversion of active sites into MOOH following the lattice oxygen mechanism (LOM). The precipitation–dissolution equilibrium of Fe also plays an important role in the OER process. The study of different reaction sites in complex systems points the way to designing efficient and robust catalysts.",
+    "year": 2025,
+    "journal": "Catalysts",
+    "doi": "10.3390/catal15080744",
+    "url": "https://doi.org/10.3390/catal15080744",
+    "source": "Crossref",
+    "publication_type": "journal-article",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [
+      "2073-4344"
+    ],
+    "metadata_verified": true,
+    "metadata_provider": "crossref",
+    "claim_evidence_available": true,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": false,
+      "semantic_scholar_verified": false,
+      "crossref_match_method": "none",
+      "semantic_scholar_match_method": "none",
+      "required_tools_called": false,
+      "cross_verified": false
+    },
+    "summary": "The complex system of high-entropy materials makes it challenging to reveal the specific function of each site for oxygen evolution reaction (OER). Here, with nickel foam (NF) as the substrate, FeCoNiCrMo/NF is designed to be prepared by metal–organic frameworks (MOF) as a precursor under an argon atmosphere. XRD analysis confirms that it retains a partial MOF crystal structure (characteristic peak at 2θ = 11.8°) with amorphous carbon (peaks at 22° and 48°). SEM-EDS mapping and XPS demonstrate uniform distribution of Fe, Co, Ni, Cr, and Mo with a molar ratio of 27:24:30:11:9. Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples. FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline. The OER mechanism of FeCoNiCrMo/NF further reveal that Co and Ni are true active sites, and the dissolution of Cr and Mo promote the conversion of active sites into MOOH following the lattice oxygen mechanism (LOM). The precipitation–dissolution equilibrium of Fe also plays an important role in the OER process. The study of different reaction sites in complex systems points the way to designing efficient and robust catalysts.",
+    "assertions": [
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "A Quinary-Metallic High-Entropy Electrocatalyst with Driving of Cocktail Effect for Enhanced Oxygen Evolution Reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The complex system of high-entropy materials makes it challenging to reveal the specific function of each site for oxygen evolution reaction (OER).",
+            "source": "abstract",
+            "sentence_index": 1
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Fe",
+          "Co",
+          "Ni",
+          "Cr",
+          "Mo"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Here, with nickel foam (NF) as the substrate, FeCoNiCrMo/NF is designed to be prepared by metal–organic frameworks (MOF) as a precursor under an argon atmosphere.",
+            "source": "abstract",
+            "sentence_index": 2
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Fe",
+          "Co",
+          "Ni",
+          "Cr",
+          "Mo"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "SEM-EDS mapping and XPS demonstrate uniform distribution of Fe, Co, Ni, Cr, and Mo with a molar ratio of 27:24:30:11:9.",
+            "source": "abstract",
+            "sentence_index": 5
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A4",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Fe",
+          "Co",
+          "Ni",
+          "Cr",
+          "Mo"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples.",
+            "source": "abstract",
+            "sentence_index": 6
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A5",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Fe",
+          "Co",
+          "Ni",
+          "Cr",
+          "Mo"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline.",
+            "source": "abstract",
+            "sentence_index": 7
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A6",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Fe",
+          "Co",
+          "Ni",
+          "Cr",
+          "Mo"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The OER mechanism of FeCoNiCrMo/NF further reveal that Co and Ni are true active sites, and the dissolution of Cr and Mo promote the conversion of active sites into MOOH following the lattice oxygen mechanism (LOM).",
+            "source": "abstract",
+            "sentence_index": 8
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A7",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "A Quinary-Metallic High-Entropy Electrocatalyst with Driving of Cocktail Effect for Enhanced Oxygen Evolution Reaction The complex system of high-entropy materials makes it challenging to reveal the specific function of each site for oxygen evolution reaction (OER). Here, with nickel foam (NF) as the substrate, FeCoNiCrMo/NF is designed to be prepared by metal–organic frameworks (MOF) as a precursor under an argon atmosphere. XRD analysis confirms that it retains a partial MOF crystal structure (characteristic peak at 2θ = 11.8°) with amorphous carbon (peaks at 22° and 48°). SEM-EDS mapping and XPS demonstrate uniform distribution of Fe, Co, Ni, Cr, and Mo with a molar ratio of 27:24:30:11:9. Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples. FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline. The OER mechanism of FeCoNiCrMo/NF further reveal that Co and Ni are true active sites, and the dissolution of Cr and Mo promote the conversion of active sites into MOOH following the lattice oxygen mechanism (LOM). The precipitation–dissolution equilibrium of Fe also plays an important role in the OER process. The study of different reaction sites in complex systems points the way to designing efficient and robust catalysts. The complex system of high-entropy materials makes it challenging to reveal the specific function of each site for oxygen evolution reaction (OER). Here, with nickel foam (NF) as the substrate, FeCoNiCrMo/NF is designed to be prepared by metal–organic frameworks (MOF) as a precursor under an argon atmosphere. XRD analysis confirms that it retains a partial MOF crystal structure (characteristic peak at 2θ = 11.8°) with amorphous carbon (peaks at 22° and 48°). SEM-EDS mapping and XPS demonstrate uniform distribution of Fe, Co, Ni, Cr, and Mo with a molar ratio of 27:24:30:11:9. Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples. FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline. The OER mechanism of FeCoNiCrMo/NF further reveal that Co and Ni are true active sites, and the dissolution of Cr and Mo promote the conversion of active sites into MOOH following the lattice oxygen mechanism (LOM). The precipitation–dissolution equilibrium of Fe also plays an important role in the OER process. The study of different reaction sites in complex systems points the way to designing efficient and robust catalysts.",
+    "retrieval_origin": "online",
+    "online_rank": 26,
+    "review_status": "pending_review",
+    "stored_in_repository": false,
+    "kimi_web_search_performed": true,
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "crossref:10.3390/catal15080744"
+      ],
+      "dois": [
+        "10.3390/catal15080744"
+      ]
+    },
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "A",
+      "quality_score": 70.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 70.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 20.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": []
+      },
+      "task_relevance": {
+        "score": 20.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 0.0,
+          "target_product": 6.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": [
+          "Title/abstract does not directly identify the target reaction."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "Here, with nickel foam (NF) as the substrate, FeCoNiCrMo/NF is designed to be prepared by metal–organic frameworks (MOF) as a precursor under an argon atmosphere.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "The complex system of high-entropy materials makes it challenging to reveal the specific function of each site for oxygen evolution reaction (OER).",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "A Quinary-Metallic High-Entropy Electrocatalyst with Driving of Cocktail Effect for Enhanced Oxygen Evolution Reaction",
+            "source": "title"
+          },
+          {
+            "quote": "SEM-EDS mapping and XPS demonstrate uniform distribution of Fe, Co, Ni, Cr, and Mo with a molar ratio of 27:24:30:11:9.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples.",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 20.0,
+      "relevance_score": 20.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": false,
+      "product_direct": true,
+      "hea_direct": true,
+      "composition_elements": [
+        "Fe",
+        "Co",
+        "Ni",
+        "Cr",
+        "Mo"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Title/abstract does not directly identify the target reaction.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.086022,
+      "title_coverage": 0.021505,
+      "lexical_relevance": 0.066667,
+      "quality_normalized": 0.706,
+      "recency": 0.9,
+      "combined": 0.373767
+    },
+    "merged_rank": 1,
+    "evidence_id": "E1",
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "A",
+      "quality_score": 70.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 70.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 20.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": []
+      },
+      "task_relevance": {
+        "score": 20.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 0.0,
+          "target_product": 6.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": [
+          "Title/abstract does not directly identify the target reaction."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          },
+          {
+            "quote": "Here, with nickel foam (NF) as the substrate, FeCoNiCrMo/NF is designed to be prepared by metal–organic frameworks (MOF) as a precursor under an argon atmosphere.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "The complex system of high-entropy materials makes it challenging to reveal the specific function of each site for oxygen evolution reaction (OER).",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "FeCoNiCrMo/NF has an overpotential of 285 mV at 100 mA cm−2 and performs continuously for 100 h without significant decline.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "A Quinary-Metallic High-Entropy Electrocatalyst with Driving of Cocktail Effect for Enhanced Oxygen Evolution Reaction",
+            "source": "title"
+          },
+          {
+            "quote": "SEM-EDS mapping and XPS demonstrate uniform distribution of Fe, Co, Ni, Cr, and Mo with a molar ratio of 27:24:30:11:9.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Electrochemical test results show that FeCoNiCrMo/NF has excellent OER characteristics compared with other reference prepared samples.",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 20.0,
+      "relevance_score": 20.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": false,
+      "product_direct": true,
+      "hea_direct": true,
+      "composition_elements": [
+        "Fe",
+        "Co",
+        "Ni",
+        "Cr",
+        "Mo"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Title/abstract does not directly identify the target reaction.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "llm_extraction_error": "大模型没有返回合法 JSON: "
+  }
+}

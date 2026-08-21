@@ -1,0 +1,17 @@
+{
+  "schema_version": "formation-energy-job-link-v1",
+  "task_id": "c116-real-bulk-004",
+  "structure_id": "c3-Au6-Co6-Cu8-Fe6-Ni6-f521bd4e57-fcc-01",
+  "candidate_id": "c116-Cu8Ni6Fe6Au6Co6",
+  "alloy_slurm_job_id": "61687920",
+  "job_source": "c6d_bulk_formation",
+  "composition": {"Cu": 8, "Au": 6, "Co": 6, "Fe": 6, "Ni": 6},
+  "atom_count": 32,
+  "alloy_energy_field": "final_toten_ev",
+  "reference_database": "database/formation_energy_references/element_reference_energies_v1.json",
+  "reference_data_version": "user-dft-reference-v1",
+  "formation_energy": null,
+  "formation_energy_unit": "eV/atom",
+  "formation_energy_status": "ready_for_calculation",
+  "eligible_for_c7_backfill": false
+}

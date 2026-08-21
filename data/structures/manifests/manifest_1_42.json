@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "requested_count": 1,
+  "generated_count": 1,
+  "attempts": 106,
+  "parameters": {
+    "selected_elements": [
+      "Cu",
+      "Fe",
+      "Co",
+      "Ni",
+      "Zn"
+    ],
+    "generation_mode": "fixed_cu",
+    "seed": 42,
+    "min_distance": 1.8,
+    "composition": {
+      "Cu": 8,
+      "Zn": 3,
+      "Fe": 7,
+      "Co": 7,
+      "Ni": 7
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "formula": "Co7Cu8Fe7Ni7Zn3",
+      "elements": [
+        "Cu",
+        "Fe",
+        "Co",
+        "Ni",
+        "Zn"
+      ],
+      "counts": {
+        "Cu": 8,
+        "Zn": 3,
+        "Fe": 7,
+        "Co": 7,
+        "Ni": 7
+      },
+      "lattice_constant_a0": 3.640313,
+      "supercell_a": 7.280625,
+      "minimum_distance": 2.57409,
+      "cif_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\cif\\Cu_HEA_FCC_00001_Co7_Cu8_Fe7_Ni7_Zn3_f3d30b2c.cif",
+      "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\POSCAR\\Cu_HEA_FCC_00001_Co7_Cu8_Fe7_Ni7_Zn3_f3d30b2c.vasp",
+      "signature": "f3d30b2cd6eebfb34f9322c42dba8b38ff2053608f4bf69fdf111df6ebe326a7"
+    }
+  ]
+}

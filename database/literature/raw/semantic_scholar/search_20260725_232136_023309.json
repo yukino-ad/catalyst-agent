@@ -1,0 +1,953 @@
+{
+  "total": 26,
+  "offset": 0,
+  "next": 20,
+  "data": [
+    {
+      "paperId": "647dbf25956f65e5fe677f397affc027d11655e8",
+      "externalIds": {
+        "MAG": "2999482379",
+        "DOI": "10.26434/chemrxiv.9850997",
+        "CorpusId": 213137065
+      },
+      "url": "https://www.semanticscholar.org/paper/647dbf25956f65e5fe677f397affc027d11655e8",
+      "title": "High-Entropy Alloys as Catalysts for the CO2 and CO Reduction Reactions",
+      "venue": "ACS Catalysis",
+      "year": 2019,
+      "citationCount": 389,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.26434/chemrxiv.9850997.v1",
+        "status": "GREEN",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.26434/chemrxiv.9850997?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.26434/chemrxiv.9850997, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "145275892",
+          "name": "T. A. Batchelor"
+        },
+        {
+          "authorId": "24021244",
+          "name": "A. Bagger"
+        },
+        {
+          "authorId": "6447967",
+          "name": "J. Rossmeisl"
+        }
+      ],
+      "abstract": "Using the high-entropy alloys (HEAs) CoCuGaNiZn and AgAuCuPdPt as starting points we provide a framework for tuning the composition of disordered multi-metallic alloys to control the selectivity and activity of the reduction of carbon dioxide (CO2) to highly reduced compounds. By combining density functional theory (DFT) with supervised machine learning we predicted the CO and hydrogen (H) adsorption energies of all surface sites on the (111) surface of the two HEAs. This allowed an optimization for the HEA compositions with increased likelihood for sites with weak hydrogen adsorption{to suppress the formation of molecular hydrogen (H2) and with strong CO adsorption to favor the reduction of CO. This led to the discovery of several disordered alloy catalyst candidates for which selectivity towards highly reduced carbon compounds is expected, as well as insights into the rational design of disordered alloy catalysts for the CO2 and CO reduction reaction."
+    },
+    {
+      "paperId": "4ebe4e5338a903a179a13551c74ef49dc9d4555d",
+      "externalIds": {
+        "DOI": "10.1002/anie.202424121",
+        "CorpusId": 276234452,
+        "PubMed": "39921396"
+      },
+      "url": "https://www.semanticscholar.org/paper/4ebe4e5338a903a179a13551c74ef49dc9d4555d",
+      "title": "Boosting Li-CO2 Battery Performance via High-Entropy Alloy Catalysts: Insights into Configurational Entropy Effect.",
+      "venue": "Angewandte Chemie",
+      "year": 2025,
+      "citationCount": 26,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/anie.202424121?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/anie.202424121, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2221178217",
+          "name": "Zhang Wen"
+        },
+        {
+          "authorId": "2135606176",
+          "name": "Xiaowei Mu"
+        },
+        {
+          "authorId": "2151243376",
+          "name": "Xinyi Sun"
+        },
+        {
+          "authorId": "2260286565",
+          "name": "Zhenming Xu"
+        },
+        {
+          "authorId": "2344797299",
+          "name": "Mingbo Zheng"
+        },
+        {
+          "authorId": "2316170428",
+          "name": "Haoshen Zhou"
+        },
+        {
+          "authorId": "2153239632",
+          "name": "Ping He"
+        }
+      ],
+      "abstract": "Li-CO2 batteries have attracted considerable attention for their ability to combine CO2 fixation and conversion with high-density energy storage. However, sluggish kinetics of CO2 reduction and evolution reactions at cathodes lead to large overpotential and poor cyclic stability. To address this issue, it is critical to develop advanced cathode catalysts. High-entropy alloys (HEAs), a new class of catalysts, have exhibited exceptional catalytic activities in various electrochemical reactions. Nevertheless, the intrinsic relationship between mix configurational entropy (∆Smix) and catalytic properties of HEAs remains unclear. Herein, we prepared a series of quinary FeCoNiCuRu alloys with different ∆Smix values supported on carbon nanofibers as cathode catalysts in Li-CO2 batteries. Experimental and computational results reveal a positive correlation between ∆Smix and catalytic activity, attributed to charge redistribution among elements with different electronegativities. The Li-CO2 battery using the alloy catalyst with the maximum ∆Smix value delivers the largest capacity of 6160 mAh g-1, the lowest charge potential plateau below 4.0 V, and remarkable cycling stability (550 cycles/5500 h), surpassing most reported Ru-based catalysts. Furthermore, fabrication of pouch cells with low noble metal loading demonstrates the practical potential of HEAs for Li-CO2 batteries. This work provides insights into high-entropy engineering for advanced electrocatalysts in Li-CO2 batteries."
+    },
+    {
+      "paperId": "75b5855ff156cd1a164a9060ab501acf2d321894",
+      "externalIds": {
+        "DOI": "10.1039/d5mh01064k",
+        "CorpusId": 280777520,
+        "PubMed": "40891275"
+      },
+      "url": "https://www.semanticscholar.org/paper/75b5855ff156cd1a164a9060ab501acf2d321894",
+      "title": "Breaking scaling relations in AgAuCuPdPt high-entropy alloy nanoparticles for CO2 electroreduction via machine learning.",
+      "venue": "Materials Horizons",
+      "year": 2025,
+      "citationCount": 1,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/mh/d5mh01064k",
+        "status": "HYBRID",
+        "license": "CCBYNC",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1039/d5mh01064k?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/d5mh01064k, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "1412826029",
+          "name": "J. Arce-Ramos"
+        },
+        {
+          "authorId": "8698613",
+          "name": "Q. Trịnh"
+        },
+        {
+          "authorId": "37160011",
+          "name": "Z. Wong"
+        },
+        {
+          "authorId": "2327124645",
+          "name": "Ben Wang"
+        },
+        {
+          "authorId": "2263775875",
+          "name": "Benjamin W. J. Chen"
+        },
+        {
+          "authorId": "2144190229",
+          "name": "Jia Zhang"
+        },
+        {
+          "authorId": "2301105739",
+          "name": "Teck Leong Tan"
+        }
+      ],
+      "abstract": "CO2 electroreduction is limited by linear scaling relationships that couple the stabilities of key intermediates (*COOH, *CHO) to CO adsorption, placing pure Cu catalysts at a volcano-plot ceiling of activity and selectivity. Here, we harness the compositional variety of nanosized AgAuCuPdPt high-entropy-alloy (HEA) particles to break these constraints. We trained an ultralight linear-regression surrogate (MAE ≈ 0.10 eV) based on density functional theory (DFT) calculations on CO adsorption configurations to screen millions of Monte-Carlo-generated local environments of a variety of HEA formulations in seconds. Sites with predicted CO adsorption energy in the optimal -0.6 to -0.4 eV window were probed explicitly for *COOH and *CHO adsorption. From this screening, we discovered a family of \"special\" sites-Au centers with coordination number 8 (CN = 8) neighbored by corner Cu atoms of CN = 6-that stabilize bidentate binding of *COOH and *CHO. This lowers the potential-limiting *CO → *CHO step to ∼0 eV, and decisively breaks the scaling relations between CO* and CHO*. Our two-tier machine-learning + DFT workflow identifies active sites on HEAs that outperform the single-metal volcano limit and provides a transferable roadmap for the rational design of next-generation CO2RR electrocatalysts via tuning of the active site composition."
+    },
+    {
+      "paperId": "77b41b2ea639c2dd58e51504b476e425f1d70055",
+      "externalIds": {
+        "DOI": "10.1007/s11708-025-1010-8",
+        "CorpusId": 279290474
+      },
+      "url": "https://www.semanticscholar.org/paper/77b41b2ea639c2dd58e51504b476e425f1d70055",
+      "title": "Recent advances in high-entropy alloys for electrochemical hydrogen evolution, oxygen reduction, and CO2 reduction reactions",
+      "venue": "Frontiers in Energy",
+      "year": 2025,
+      "citationCount": 6,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11708-025-1010-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11708-025-1010-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2350780940",
+          "name": "Chao Zhang"
+        },
+        {
+          "authorId": "2362351132",
+          "name": "Shengping You"
+        },
+        {
+          "authorId": "2190354124",
+          "name": "Ang Du"
+        },
+        {
+          "authorId": "24833386",
+          "name": "Zewen Zhuang"
+        },
+        {
+          "authorId": "2312346448",
+          "name": "Wei Yan"
+        },
+        {
+          "authorId": "2255737495",
+          "name": "Jiujun Zhang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "1332c44ea46b7265c43c465cec2b30ae8e8ab2db",
+      "externalIds": {
+        "DOI": "10.26434/chemrxiv-2022-v76pk",
+        "CorpusId": 246967170
+      },
+      "url": "https://www.semanticscholar.org/paper/1332c44ea46b7265c43c465cec2b30ae8e8ab2db",
+      "title": "Surface Segregation in AgAuCuPdPt High Entropy Alloy: Insights From Molecular Simulations",
+      "venue": "Molecular Systems Design &amp; Engineering",
+      "year": 2022,
+      "citationCount": 9,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/620ccaa6e0f52961eab46103/original/surface-segregation-in-ag-au-cu-pd-pt-high-entropy-alloy-insights-from-molecular-simulations.pdf",
+        "status": "GREEN",
+        "license": "CCBYNC",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.26434/chemrxiv-2022-v76pk?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.26434/chemrxiv-2022-v76pk, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2155047471",
+          "name": "Chinmay Dahale"
+        },
+        {
+          "authorId": "1396190466",
+          "name": "Sriram Goverapet Srinivasan"
+        },
+        {
+          "authorId": "2427102883",
+          "name": "S. Mishra"
+        },
+        {
+          "authorId": "49585258",
+          "name": "S. Maiti"
+        },
+        {
+          "authorId": "34892487",
+          "name": "B. Rai"
+        }
+      ],
+      "abstract": "High entropy alloys (HEAs) are emerging as a novel class of superior catalysts for diverse chemical conversions. The activity of a catalyst is intimately related to the composition and atomic structure at its surface. In this work, we used embedded atom (EAM) potential based Monte Carlo – Molecular Dynamics simulations to study surface segregation in the equimolar AuAgCuPdPt HEA, that was recently shown to be an efficient catalyst for CO2 electrochemical reduction. Firstly, EAM potentials were extensively validated against experimental segregation data for several different binary and ternary compositions. Subsequently, simulations on the HEA were carried out for four different surface orientations, spherical and cubical nanoparticles, to obtain detailed structural and concentration profiles normal to the surface. In all cases, Ag atoms were found to preferentially segregate to the surface while the subsurface layer mainly consisted of Au atoms. No Pt atoms were found on the surface layer for all systems. A detailed analysis neighborhood of each surface site revealed that the atoms formed a finite number of chemically unique clusters. The percentage of chemically unique sites were larger for elements with lower concentration at the surface. Together with the physical diversity surrounding each site, the enrichment of one or more element(s) at the surface also increased its number of unique catalytically active sites. Results from our work suggest that HEAs are prone to surface segregation and such effects must be taken into consideration while modeling the surface chemistry of these materials."
+    },
+    {
+      "paperId": "83f81cff1d3426df8c825b7686f3094526afa566",
+      "externalIds": {
+        "DOI": "10.1007/s12678-025-00989-9",
+        "CorpusId": 282217690
+      },
+      "url": "https://www.semanticscholar.org/paper/83f81cff1d3426df8c825b7686f3094526afa566",
+      "title": "Electrochemical CO2-Reduction to Formate over Activated-Carbon-Supported Transition Metals (M = Cu, Fe, Zn, Ni, Co)-Based High-Entropy Oxide",
+      "venue": "Electrocatalysis",
+      "year": 2025,
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12678-025-00989-9?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12678-025-00989-9, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2357159807",
+          "name": "Naveen Kumar Verma"
+        },
+        {
+          "authorId": "10017867",
+          "name": "Basker Sundararaju"
+        },
+        {
+          "authorId": "2302432358",
+          "name": "Nishith Verma"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "189baefa1568571075194195110f0ff96aac9e56",
+      "externalIds": {
+        "DOI": "10.1002/cplu.70184",
+        "CorpusId": 289267174,
+        "PubMed": "42289894"
+      },
+      "url": "https://www.semanticscholar.org/paper/189baefa1568571075194195110f0ff96aac9e56",
+      "title": "Acid-Resistant High-Entropy Alloy Electrocatalysts: Unlocking Durable Oxygen Reduction Reaction and Oxygen Evolution Reaction Performance.",
+      "venue": "ChemPlusChem",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/cplu.70184?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/cplu.70184, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2054480230",
+          "name": "D. Khan"
+        },
+        {
+          "authorId": "2442618486",
+          "name": "Hammad Abbas"
+        },
+        {
+          "authorId": "2083760325",
+          "name": "Fatima Nasim"
+        },
+        {
+          "authorId": "2267714442",
+          "name": "Altaf Hussain"
+        },
+        {
+          "authorId": "2264109793",
+          "name": "Muhammad Arif Nadeem"
+        }
+      ],
+      "abstract": "Increasing global energy demands, fossil fuel depletion and rising carbon dioxide (CO2) emissions have made it critical to look for sustainable energy sources. In this regard, proton exchange membrane water electrolysis (PEMWE) and fuel cells (PEMFCs) have gained importance. While PEM systems offer superior operational current density and load flexibility compared to alkaline electrolysis, their performance is limited by slow kinetics of oxygen evolution reaction (OER), and the oxygen reduction reaction (ORR). Achieving high efficiency in acidic environments demands electrocatalysts, capable of sustaining structural integrity with high activity and low overpotentials despite harsh acidic conditions. Thus, high entropy alloys (HEAs) have emerged as compelling solutions; their compositional tunability, intrinsic structural stability and superior corrosion resistance enables them as best candidates to reduce alliance on precious metals while delivering outstanding performance for ORR and OER. This review summarizes recent progress in HEA catalysts, systematically classifying them by metal composition and discussing their stability mechanisms in acid. Finally, the key challenges and future perspectives for the rational design and deployment of acid-stable HEA catalysts in next-generation energy conversion systems are outlined."
+    },
+    {
+      "paperId": "d850d4f0cbcf97594edcb52c351cc7b9b4a33b1c",
+      "externalIds": {
+        "DOI": "10.1007/s40843-025-3596-2",
+        "CorpusId": 283656089
+      },
+      "url": "https://www.semanticscholar.org/paper/d850d4f0cbcf97594edcb52c351cc7b9b4a33b1c",
+      "title": "Pt-optimized AuAgCuPdPt high-entropy alloys for selective CO2 reduction and high-performance Zn-CO2 battery",
+      "venue": "Science China Materials",
+      "year": 2025,
+      "citationCount": 3,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s40843-025-3596-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s40843-025-3596-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2352693413",
+          "name": "Li Li"
+        },
+        {
+          "authorId": "2145052902",
+          "name": "Zengqiang Gao"
+        },
+        {
+          "authorId": "2106622921",
+          "name": "Wenjing Kang"
+        },
+        {
+          "authorId": "2352814710",
+          "name": "Yi Feng"
+        },
+        {
+          "authorId": "2056835822",
+          "name": "Man Hou"
+        },
+        {
+          "authorId": "2256807816",
+          "name": "Peng-Fei Yin"
+        },
+        {
+          "authorId": "2353061333",
+          "name": "Hui Liu"
+        },
+        {
+          "authorId": "2391753618",
+          "name": "Zhicheng Zhang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "652abd176b90e812e14e157438cf084feffd621c",
+      "externalIds": {
+        "CorpusId": 249865709
+      },
+      "url": "https://www.semanticscholar.org/paper/652abd176b90e812e14e157438cf084feffd621c",
+      "title": "High-Entropy Alloys as Catalysts for the CO 2 and CO 1 Reduction Reactions",
+      "venue": "",
+      "year": 2019,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://web.archive.org/web/20200213062358/https://s3-eu-west-1.amazonaws.com/pstorage-chemrxiv-899408398289/17662619/manuscript.pdf, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "145275892",
+          "name": "T. A. Batchelor"
+        },
+        {
+          "authorId": "24021244",
+          "name": "A. Bagger"
+        },
+        {
+          "authorId": "2059092711",
+          "name": "Jan"
+        },
+        {
+          "authorId": "2166887229",
+          "name": "Rossmeisl"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "6d61f23e921757a4052a4e8c647d9ff6c597b6a2",
+      "externalIds": {
+        "PubMedCentral": "12805875",
+        "DOI": "10.1039/d5ey00356c",
+        "CorpusId": 284681053,
+        "PubMed": "41551195"
+      },
+      "url": "https://www.semanticscholar.org/paper/6d61f23e921757a4052a4e8c647d9ff6c597b6a2",
+      "title": "Learning in higher dimensions: a strategy for alloy electrocatalyst discovery",
+      "venue": "EES Catalysis",
+      "year": 2026,
+      "citationCount": 1,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12805875, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "14064207",
+          "name": "V. Mints"
+        },
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "40259475",
+          "name": "G. Wiberg"
+        },
+        {
+          "authorId": "2346492637",
+          "name": "J. Edelvang-Pejrup"
+        },
+        {
+          "authorId": "2341949954",
+          "name": "Divyansh Gautam"
+        },
+        {
+          "authorId": "2250903009",
+          "name": "Kirsten M. Ø. Jensen"
+        },
+        {
+          "authorId": "2275659996",
+          "name": "Jan Rossmeisl"
+        },
+        {
+          "authorId": "2238723856",
+          "name": "M. Arenz"
+        }
+      ],
+      "abstract": "In this work, we demonstrate the inversion of the classical bottom-up approach to drive the discovery of improved energy conversion electrocatalysts top-down. Starting with complex alloy catalysts of many constituents, we down-select to optimal materials by removing low-performing elements from the alloy. The efficiency of this data-driven approach arises from the fact that when studying many elements together in one material, information is also obtained on the less complex alloys that contain fewer constituents. Therefore, the number of experiments required to study the complex alloy is fewer than those needed for studying all constituent alloys individually. In addition, this top-down approach allows for a new way of comparing activity models constructed from experimental data with theoretical simulations. We introduce the approach by studying the Au–Ir–Os–Pd–Pt–Re–Rh–Ru high entropy alloy (HEA) composition space for the acidic oxygen reduction reaction (ORR). By studying 200 compositions, we created a machine-learned activity model and provide evidence that the model can predict the activity of underlying, less complex compositions that are contained in the Au–Ir–Os–Pd–Pt–Re–Rh–Ru HEA composition space."
+    },
+    {
+      "paperId": "dae4852fcdb541d9b0195ed3009c3ba155d48e45",
+      "externalIds": {
+        "CorpusId": 249172129
+      },
+      "url": "https://www.semanticscholar.org/paper/dae4852fcdb541d9b0195ed3009c3ba155d48e45",
+      "title": "High-Entropy Alloys as Catalysts for the CO 2 and CO 1 Reduction Reactions 2",
+      "venue": "",
+      "year": 2019,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c74481567dfe7891ec42d8/original/high-entropy-alloys-as-catalysts-for-the-co2-and-co-reduction-reactions.pdf, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "145275892",
+          "name": "T. A. Batchelor"
+        },
+        {
+          "authorId": "24021244",
+          "name": "A. Bagger"
+        },
+        {
+          "authorId": "2059092711",
+          "name": "Jan"
+        },
+        {
+          "authorId": "2166887229",
+          "name": "Rossmeisl"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "2cac8b80d50e62a2cb2aa5981102dbbddef50c7f",
+      "externalIds": {
+        "DOI": "10.1002/adma.202401288",
+        "CorpusId": 268853340,
+        "PubMed": "38558119"
+      },
+      "url": "https://www.semanticscholar.org/paper/2cac8b80d50e62a2cb2aa5981102dbbddef50c7f",
+      "title": "High Entropy Alloys Enable Durable and Efficient Lithium‐Mediated CO2 Redox Reactions",
+      "venue": "Advances in Materials",
+      "year": 2024,
+      "citationCount": 49,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202401288",
+        "status": "HYBRID",
+        "license": "CCBYNC",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/adma.202401288?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/adma.202401288, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2159640316",
+          "name": "Liang Sun"
+        },
+        {
+          "authorId": "2238938613",
+          "name": "Jodie A. Yuwono"
+        },
+        {
+          "authorId": "2249035637",
+          "name": "Shilin Zhang"
+        },
+        {
+          "authorId": "2156235009",
+          "name": "Biao Chen"
+        },
+        {
+          "authorId": "49461485",
+          "name": "Guanjie Li"
+        },
+        {
+          "authorId": "2282474613",
+          "name": "Huanyu Jin"
+        },
+        {
+          "authorId": "32001877",
+          "name": "B. Johannessen"
+        },
+        {
+          "authorId": "2237493694",
+          "name": "Jianfeng Mao"
+        },
+        {
+          "authorId": "2281019148",
+          "name": "Chaofeng Zhang"
+        },
+        {
+          "authorId": "2294530675",
+          "name": "Muhammad Zubair"
+        },
+        {
+          "authorId": "2266077903",
+          "name": "Nicholas M. Bedford"
+        },
+        {
+          "authorId": "2242514562",
+          "name": "Zaiping Guo"
+        }
+      ],
+      "abstract": "Designing electrocatalysts with high activity and durability for multistep reduction and oxidation reactions is challenging. High‐entropy alloys (HEAs) are intriguing due to their tunable geometric and electronic structure through entropy effects. However, understanding the origin of their exceptional performance and identifying active centers is hindered by the diverse microenvironment in HEAs. Herein, NiFeCoCuRu HEAs designed with an average diameter of 2.17 nm, featuring different adsorption capacities for various reactants and intermediates in Li‐mediated CO2 redox reactions, are introduced. The electronegativity‐dependent nature of NiFeCoCuRu HEAs induces significant charge redistribution, shifting the d‐band center closer to Fermi level and forming highly active clusters of Ru, Co, and Ni for Li‐based compounds adsorptions. This lowers energy barriers and simultaneously stabilizes *LiCO2 and LiCO3+CO intermediates, enhancing the efficiency of both CO2 reduction and Li2CO3 decomposition over extended periods. This work provides insights into specific active site interactions with intermediates, highlighting the potential of HEAs as promising catalysts for intricate CO2 redox reactions."
+    },
+    {
+      "paperId": "b04b476006095233a191e7438cf7c884b67a6218",
+      "externalIds": {
+        "DOI": "10.1088/1674-1056/ade8e6",
+        "CorpusId": 279647699
+      },
+      "url": "https://www.semanticscholar.org/paper/b04b476006095233a191e7438cf7c884b67a6218",
+      "title": "High-entropy alloys in synergistic electrocatalytic conversion applications",
+      "venue": "Chinese Physics B",
+      "year": 2025,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1088/1674-1056/ade8e6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1674-1056/ade8e6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2124194891",
+          "name": "H. Zhang 张"
+        },
+        {
+          "authorId": "2300673114",
+          "name": "Z. Liu 刘"
+        },
+        {
+          "authorId": "2177703691",
+          "name": "Le 乐 Fang 方"
+        },
+        {
+          "authorId": "2308673873",
+          "name": "Y. Wang 王"
+        },
+        {
+          "authorId": "2291796433",
+          "name": "S. Chen 陈"
+        },
+        {
+          "authorId": "2146965967",
+          "name": "W. Ren 任"
+        }
+      ],
+      "abstract": "High-entropy alloys (HEAs), with multi-principal-element composition, are gaining attention for their structural stability and mechanical properties. Extensive research has focused on using HEAs as electrocatalysts in the conversion of single-component reactions, such as hydrogen evolution reaction (HER), oxygen evolution reaction (OER), carbon dioxide reduction reaction (CO2RR), etc. However, their potential in the application of synergistic conversion of pollutants (e.g., carbon dioxide (CO2) and nitrogen oxides (NOx)) has been largely overlooked. This review overviews HEAs’ fundamental concepts and characteristics, and delves into their advantages in transition metals and optimization strategies for the synergistic conversion process. It offers a novel approach for sustainable environmental remediation and resource utilization."
+    },
+    {
+      "paperId": "b9f764d1f6da09a8fb76eaa95ca8644841234bed",
+      "externalIds": {
+        "DOI": "10.1039/d2ta02749f",
+        "CorpusId": 250327909
+      },
+      "url": "https://www.semanticscholar.org/paper/b9f764d1f6da09a8fb76eaa95ca8644841234bed",
+      "title": "Screening binary alloys for electrochemical CO2 reduction towards multi-carbon products",
+      "venue": "Journal of Materials Chemistry A",
+      "year": 2022,
+      "citationCount": 14,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://www.osti.gov/servlets/purl/2429338",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1039/d2ta02749f?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/d2ta02749f, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "3893083",
+          "name": "Jiang Li"
+        },
+        {
+          "authorId": "38222051",
+          "name": "Joakim Halldin Stenlid"
+        },
+        {
+          "authorId": "49116915",
+          "name": "Michael T. Tang"
+        },
+        {
+          "authorId": "12969115",
+          "name": "Hong‐Jie Peng"
+        },
+        {
+          "authorId": "1397788320",
+          "name": "F. Abild-Pedersen"
+        }
+      ],
+      "abstract": "Electrochemical reduction of CO2 (eCO2R) to high-value chemicals presents an attractive approach for utilizing CO2. Copper (Cu) is presently the only electrocatalyst that fulfills this purpose with acceptable activity, but..."
+    },
+    {
+      "paperId": "7193933c1bbe97546b5bfd907435f32912096bc4",
+      "externalIds": {
+        "ArXiv": "2106.08776",
+        "CorpusId": 235446907
+      },
+      "url": "https://www.semanticscholar.org/paper/7193933c1bbe97546b5bfd907435f32912096bc4",
+      "title": "Combinatorial materials discovery strategy for high entropy alloy electrocatalysts using deposition source permutations",
+      "venue": "",
+      "year": 2021,
+      "citationCount": 1,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2106.08776, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "32602845",
+          "name": "Lars Banko"
+        },
+        {
+          "authorId": "93040302",
+          "name": "Olga A. Krysiak"
+        },
+        {
+          "authorId": "48062606",
+          "name": "B. Xiao"
+        },
+        {
+          "authorId": "2112207824",
+          "name": "Tobias Loffler"
+        },
+        {
+          "authorId": "145296617",
+          "name": "A. Savan"
+        },
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "6447967",
+          "name": "J. Rossmeisl"
+        },
+        {
+          "authorId": "145725111",
+          "name": "W. Schuhmann"
+        },
+        {
+          "authorId": "145257258",
+          "name": "A. Ludwig"
+        }
+      ],
+      "abstract": "High entropy alloys offer a huge search space for new electrocatalysts. Searching for a global property maximum in one quinary system could require, depending on compositional resolution, the synthesis of up to 106 samples which is impossible using conventional approaches. Co-sputtered materials libraries address this challenge by synthesis of controlled composition gradients of each element. However, even such a materials library covers less than 1% of the composition space of a quinary system. We present a new strategy using deposition source permutations optimized for highest improvement of the covered new compositions. Using this approach, the composition space can be sampled in different subsections allowing identification of the contribution of individual elements and their combinations on electrochemical activity. Unsupervised machine learning reveals that electrochemical activity is governed by the complex interplay of chemical and structural factors. Out of 2394 measured compositions, a new highly active composition for the oxygen reduction reaction around Ru17Rh5Pd19Ir29Pt30 was identified."
+    },
+    {
+      "paperId": "9fe75add0ce6ad4197a1f4162912dcd34997f25d",
+      "externalIds": {
+        "DOI": "10.1002/aenm.202202962",
+        "CorpusId": 253987772
+      },
+      "url": "https://www.semanticscholar.org/paper/9fe75add0ce6ad4197a1f4162912dcd34997f25d",
+      "title": "Following Paths of Maximum Catalytic Activity in the Composition Space of High‐Entropy Alloys",
+      "venue": "Advanced Energy Materials",
+      "year": 2022,
+      "citationCount": 30,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.202202962",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/aenm.202202962?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/aenm.202202962, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2192452658",
+          "name": "Mads K. Plenge"
+        },
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "14064207",
+          "name": "V. Mints"
+        },
+        {
+          "authorId": "3803398",
+          "name": "M. Arenz"
+        },
+        {
+          "authorId": "6447967",
+          "name": "J. Rossmeisl"
+        }
+      ],
+      "abstract": "The search for better and cheaper electrocatalysts is vital in the global transition to renewable energy resources. High‐entropy alloys (HEAs) provide a near‐infinite number of different alloys with approximately continuous properties such as catalytic activity. In this work, the catalytic activity for the electrochemical oxygen reduction reaction as a function of molar composition of Ag‐Ir‐Pd‐Pt‐Ru HEA is treated as a landscape wherein it is shown that the maxima are connected through ridges. By following the ridges, it is possible to navigate between the maxima using a modified nudged elastic band (NEB) model integrated in a machine learning NEB algorithm. These results provide a new understanding of the composition space being similar to an evolutionary landscape. This provides a possible new search and design strategy for new catalysts in which the composition of known catalysts can be optimized by following ridges rather than exploring the whole alloy composition space."
+    },
+    {
+      "paperId": "9b61c42d689addbcd1a6cd3f8b2a65d3753e149c",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-02221909mtgabs",
+        "CorpusId": 274910463
+      },
+      "url": "https://www.semanticscholar.org/paper/9b61c42d689addbcd1a6cd3f8b2a65d3753e149c",
+      "title": "(Invited) Development of High Entropy Catalysts for Efficient Electrochemical Fuel Production",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2024-02221909mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2024-02221909mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "4645260",
+          "name": "Uk Sim"
+        }
+      ],
+      "abstract": "Electrochemical fuel production methods, such as water splitting, ammonia, and synthetic hydrocarbon production, are at the forefront of sustainable energy resource development. However, the journey to commercialization is fraught with obstacles, particularly in creating active and stable electrocatalysts. This is a critical area of study, as these catalysts are the foundation of electrochemical water splitting for H2 production, nitrogen (NRR) and nitrate (NitRR) reduction reactions for ammonia production and CO2 reduction reaction (CO2RR) for synthetic hydrocarbon synthesis. Therefore, pursuing higher metal utilization efficiency and developing non-precious elements-based catalysts are crucial to ensure the feasibility of cost-effective hydrogen production systems. High entropy catalysts (HEC) with five or more metals are solid solution alloys with unique structures and electrochemical properties. The noble and non-noble metal-based HEC design strategy with strong metal support interaction (SMSI) and porous surfaces amplifies the extrinsic electrocatalytic activity, ensuring high durability over harsh electrochemical conditions for low maintenance and cost-efficiency. The main challenge lies in enhancing their extrinsic activity via catalyst-support interactions for efficient electrochemical reactions. To address this significant and persistent technical barrier, our research is focused on the intensive search for efficient, durable, and inexpensive HEC with high solar energy conversion efficiency for efficient electrochemical water splitting, hydrocarbon conversion reaction, and electrochemical ammonia production processes, thereby making a substantial contribution to the field of sustainable energy resources.\n \n \n \n \n Figure 1\n"
+    },
+    {
+      "paperId": "acfdb56ec664d22c5de6e577e8ee211663942f6d",
+      "externalIds": {
+        "DOI": "10.1021/acsami.2c00210",
+        "CorpusId": 247677156,
+        "PubMed": "35332777"
+      },
+      "url": "https://www.semanticscholar.org/paper/acfdb56ec664d22c5de6e577e8ee211663942f6d",
+      "title": "Revealing the Potential of Ternary Medium-Entropy Alloys as Exceptional Electrocatalysts toward Nitrogen Reduction: An Example of Heusler Alloys.",
+      "venue": "ACS Applied Materials and Interfaces",
+      "year": 2022,
+      "citationCount": 33,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acsami.2c00210?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acsami.2c00210, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2113972926",
+          "name": "Han Y Yin"
+        },
+        {
+          "authorId": "145729520",
+          "name": "A. Du"
+        }
+      ],
+      "abstract": "With less energy consumption and environmental pollution, electrochemical ammonia synthesis is regarded as the most promising way to replace the industrial Haber-Bosch process, which greatly contributes to global energy consumption and CO2 emission. At present, the best metal electrocatalyst for N2 fixation is ruthenium although its performance still suffers from a low Faradaic efficiency and a high overpotential. Alloy engineering is a promising way to discover more metal-based electrocatalysts for dinitrogen reduction reaction (N2RR), and almost all reported alloy catalysts so far are binary alloys. In this work, we proposed a large group of ternary alloy electrocatalysts (Heusler alloys) for N2RR and demonstrated their superior catalytic performance. As an example, alloying Ru with Mn and Si led to a reduced Ru-Ru distance on the surface, which facilitates an uncommon horizontal adsorption mode of N2 and results in effective activation of N2 molecules. The theoretical overpotential of N2RR on Ru2MnSi(100-Ru) is only around 0.28 V, which ranks among the best reported results, and the usage of precious Ru is greatly reduced. Meanwhile, the adsorption of N2 on Ru2MnSi(100-Ru) was much stronger than that of protons, and it also took less energy to drive N2RR than the hydrogen evolution reaction (HER), making HER less competitive on this catalyst. Considering the successful synthesis of numerous Heusler alloys including the six members mentioned here, our work provided a wider range of practical and excellent N2RR electrocatalysts in terms of both catalytic performance and economical cost."
+    },
+    {
+      "paperId": "eab4f9f8e3e6ef7ab687e68bd20c492442838292",
+      "externalIds": {
+        "DOI": "10.1038/s44160-023-00387-3",
+        "CorpusId": 261643269
+      },
+      "url": "https://www.semanticscholar.org/paper/eab4f9f8e3e6ef7ab687e68bd20c492442838292",
+      "title": "Low-temperature non-equilibrium synthesis of anisotropic multimetallic nanosurface alloys for electrochemical CO2 reduction",
+      "venue": "Nature Synthesis",
+      "year": 2023,
+      "citationCount": 100,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s44160-023-00387-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s44160-023-00387-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "1387264675",
+          "name": "C. Koolen"
+        },
+        {
+          "authorId": "15810388",
+          "name": "E. Oveisi"
+        },
+        {
+          "authorId": "49050131",
+          "name": "J. Zhang"
+        },
+        {
+          "authorId": "2142372069",
+          "name": "Mo Li"
+        },
+        {
+          "authorId": "5011736",
+          "name": "O. Safonova"
+        },
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "6447967",
+          "name": "J. Rossmeisl"
+        },
+        {
+          "authorId": "2238669341",
+          "name": "Wen Luo"
+        },
+        {
+          "authorId": "2238757918",
+          "name": "A. Züttel"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "57cab5a3a43738f4de133058e1c357d004d8ed89",
+      "externalIds": {
+        "ArXiv": "2009.08529",
+        "PubMedCentral": "8048820",
+        "MAG": "3087021020",
+        "DOI": "10.1002/anie.202014374",
+        "CorpusId": 221802619,
+        "PubMed": "33372334"
+      },
+      "url": "https://www.semanticscholar.org/paper/57cab5a3a43738f4de133058e1c357d004d8ed89",
+      "title": "Complex‐Solid‐Solution Electrocatalyst Discovery by Computational Prediction and High‐Throughput Experimentation",
+      "venue": "Angewandte Chemie",
+      "year": 2020,
+      "citationCount": 139,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202014374",
+        "status": "HYBRID",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2009.08529, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "145275892",
+          "name": "T. A. Batchelor"
+        },
+        {
+          "authorId": "47516493",
+          "name": "T. Löffler"
+        },
+        {
+          "authorId": "48062606",
+          "name": "B. Xiao"
+        },
+        {
+          "authorId": "93040302",
+          "name": "Olga A. Krysiak"
+        },
+        {
+          "authorId": "30443571",
+          "name": "Valerie Strotkötter"
+        },
+        {
+          "authorId": "143667166",
+          "name": "J. Pedersen"
+        },
+        {
+          "authorId": "51216867",
+          "name": "Christian M. Clausen"
+        },
+        {
+          "authorId": "145296617",
+          "name": "A. Savan"
+        },
+        {
+          "authorId": "2135349950",
+          "name": "Yujiao Li"
+        },
+        {
+          "authorId": "145725111",
+          "name": "W. Schuhmann"
+        },
+        {
+          "authorId": "6447967",
+          "name": "J. Rossmeisl"
+        },
+        {
+          "authorId": "145257258",
+          "name": "A. Ludwig"
+        }
+      ],
+      "abstract": "Abstract Complex solid solutions (“high entropy alloys”), comprising five or more principal elements, promise a paradigm change in electrocatalysis due to the availability of millions of different active sites with unique arrangements of multiple elements directly neighbouring a binding site. Thus, strong electronic and geometric effects are induced, which are known as effective tools to tune activity. With the example of the oxygen reduction reaction, we show that by utilising a data‐driven discovery cycle, the multidimensionality challenge raised by this catalyst class can be mastered. Iteratively refined computational models predict activity trends around which continuous composition‐spread thin‐film libraries are synthesised. High‐throughput characterisation datasets are then used as input for refinement of the model. The refined model correctly predicts activity maxima of the exemplary model system Ag‐Ir‐Pd‐Pt‐Ru. The method can identify optimal complex‐solid‐solution materials for electrocatalytic reactions in an unprecedented manner."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+import uuid
+from typing import Any
+
+from app.graph.workflow import graph
+
+
+def print_section(
+    title: str,
+    value: Any,
+) -> None:
+    """用统一格式输出一个结果区域。"""
+
+    print()
+    print("=" * 70)
+    print(title)
+    print("=" * 70)
+
+    if isinstance(value, str):
+        print(value or "无")
+        return
+
+    print(
+        json.dumps(
+            value,
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+
+
+def main() -> None:
+    """第一阶段 LangGraph 命令行入口。"""
+
+    if hasattr(
+        sys.stdout,
+        "reconfigure",
+    ):
+        sys.stdout.reconfigure(
+            encoding="utf-8",
+            errors="replace",
+        )
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "催化剂科研 Agent "
+            "第一阶段 LangGraph"
+        )
+    )
+
+    parser.add_argument(
+        "question",
+        nargs="?",
+        help="用户输入的科研问题",
+    )
+
+    parser.add_argument(
+        "--thread-id",
+        default="",
+        help="LangGraph 任务线程 ID",
+    )
+
+    args = parser.parse_args()
+
+    question = (
+        args.question
+        or input("请输入科研问题：\n> ")
+    ).strip()
+
+    if not question:
+        raise ValueError(
+            "科研问题不能为空。"
+        )
+
+    thread_id = (
+        args.thread_id.strip()
+        or f"task-{uuid.uuid4().hex[:12]}"
+    )
+
+    initial_state = {
+        "task_id": thread_id,
+        "question": question,
+        "errors": [],
+        "warnings": [],
+        "retry_count": 0,
+        "status": "created",
+    }
+
+    config = {
+        "configurable": {
+            "thread_id": thread_id,
+        }
+    }
+
+    print(
+        f"开始运行 LangGraph，"
+        f"thread_id={thread_id}"
+    )
+
+    result = graph.invoke(
+        initial_state,
+        config=config,
+    )
+
+    print_section(
+        "任务理解",
+        result.get(
+            "task_analysis",
+            {},
+        ),
+    )
+
+    print_section(
+        "Agent 能力边界",
+        result.get(
+            "capability",
+            {},
+        ),
+    )
+
+    print_section(
+        "入口路由",
+        result.get("route", {}),
+    )
+
+    print_section(
+        "任务规划",
+        result.get("plan", {}),
+    )
+
+    summary = result.get(
+        "literature_summary",
+        {},
+    )
+
+    print_section(
+        "文献证据目录",
+        summary.get(
+            "evidence_catalog",
+            [],
+        ),
+    )
+
+    print_section(
+        "RAG 文献总结",
+        summary.get(
+            "answer",
+            "",
+        ),
+    )
+
+    print_section(
+        "警告",
+        result.get("warnings", []),
+    )
+
+    print_section(
+        "错误",
+        result.get("errors", []),
+    )
+
+    print_section(
+        "最终状态",
+        {
+            "task_id": result.get(
+                "task_id",
+            ),
+            "status": result.get(
+                "status",
+            ),
+            "rag_used": summary.get(
+                "rag_used",
+            ),
+            "evidence_count": summary.get(
+                "evidence_count",
+                0,
+            ),
+        },
+    )
+
+
+if __name__ == "__main__":
+    main()

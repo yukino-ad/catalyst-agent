@@ -1,0 +1,44 @@
+{
+  "schema_version": "adsorption-reference-energy-v1",
+  "data_version": "c12.7-reference-v1",
+  "energy_unit": "eV",
+  "status": "accepted",
+  "adsorbates": {
+    "CO": {
+      "reference_scheme": "gas_phase",
+      "reference_expression": "E_CO",
+      "required_components": ["CO"],
+      "manual_reference_required": false
+    },
+    "H": {
+      "reference_scheme": "CHE",
+      "reference_expression": "0.5 * E_H2",
+      "required_components": ["H2"],
+      "manual_reference_required": false
+    },
+    "OH": {
+      "reference_scheme": "CHE",
+      "reference_expression": "E_H2O - 0.5 * E_H2",
+      "required_components": ["H2O", "H2"],
+      "manual_reference_required": false
+    },
+    "O": {
+      "reference_scheme": "CHE",
+      "reference_expression": "E_H2O - E_H2",
+      "required_components": ["H2O", "H2"],
+      "manual_reference_required": false
+    },
+    "OOH": {
+      "reference_scheme": "CHE",
+      "reference_expression": "2 * E_H2O - 1.5 * E_H2",
+      "required_components": ["H2O", "H2"],
+      "manual_reference_required": false
+    },
+    "COOH": {
+      "reference_scheme": "CHE",
+      "reference_expression": "E_CO2 + 0.5 * E_H2",
+      "required_components": ["CO2", "H2"],
+      "manual_reference_required": false
+    }
+  }
+}

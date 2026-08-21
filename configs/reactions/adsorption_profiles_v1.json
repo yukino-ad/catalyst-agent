@@ -1,0 +1,171 @@
+{
+  "schema_version": "adsorption-reaction-profile-v1",
+  "data_version": "c12.1-profile-v1",
+  "status": "accepted",
+  "profiles": {
+    "CO2RR_CO": {
+      "reaction_family": "CO2RR",
+      "target_product": "CO",
+      "support_level": "framework_ready",
+      "primary_adsorbates": [
+        "COOH",
+        "CO"
+      ],
+      "competitive_adsorbates": [
+        "H"
+      ],
+      "descriptor_targets": [
+        "COOH adsorption",
+        "CO adsorption",
+        "H adsorption"
+      ],
+      "reference_strategy": "computational_hydrogen_electrode",
+      "requires_clean_slab_energy": true,
+      "requires_gas_phase_references": true,
+      "notes": [
+        "COOH and CO describe the initial CO2-to-CO pathway.",
+        "H is included to assess HER competition."
+      ]
+    },
+    "CO2RR_HCOOH": {
+      "reaction_family": "CO2RR",
+      "target_product": "HCOOH/HCOO-",
+      "support_level": "framework_ready",
+      "primary_adsorbates": [
+        "OCHO",
+        "HCOO"
+      ],
+      "competitive_adsorbates": [
+        "H",
+        "COOH"
+      ],
+      "descriptor_targets": [
+        "OCHO adsorption",
+        "HCOO adsorption",
+        "H adsorption"
+      ],
+      "reference_strategy": "computational_hydrogen_electrode",
+      "requires_clean_slab_energy": true,
+      "requires_gas_phase_references": true,
+      "notes": [
+        "OCHO and HCOO represent formate-pathway intermediates.",
+        "COOH is retained as a pathway competition marker."
+      ]
+    },
+    "CO2RR_GENERAL": {
+      "reaction_family": "CO2RR",
+      "target_product": null,
+      "support_level": "human_review_required",
+      "primary_adsorbates": [],
+      "competitive_adsorbates": [
+        "H"
+      ],
+      "suggested_adsorbates": [
+        "COOH",
+        "OCHO",
+        "CO"
+      ],
+      "descriptor_targets": [
+        "product-dependent adsorption descriptors"
+      ],
+      "reference_strategy": "computational_hydrogen_electrode",
+      "requires_clean_slab_energy": true,
+      "requires_gas_phase_references": true,
+      "notes": [
+        "A target product must be selected before formal adsorption calculations."
+      ]
+    },
+    "HER": {
+      "reaction_family": "HER",
+      "target_product": "H2",
+      "support_level": "framework_ready",
+      "primary_adsorbates": [
+        "H"
+      ],
+      "competitive_adsorbates": [],
+      "descriptor_targets": [
+        "hydrogen adsorption free energy"
+      ],
+      "reference_strategy": "computational_hydrogen_electrode",
+      "requires_clean_slab_energy": true,
+      "requires_gas_phase_references": true,
+      "notes": [
+        "The initial descriptor is hydrogen adsorption."
+      ]
+    },
+    "OER": {
+      "reaction_family": "OER",
+      "target_product": "O2",
+      "support_level": "human_review_required",
+      "primary_adsorbates": [
+        "OH",
+        "O",
+        "OOH"
+      ],
+      "competitive_adsorbates": [],
+      "descriptor_targets": [
+        "OH adsorption",
+        "O adsorption",
+        "OOH adsorption",
+        "theoretical overpotential"
+      ],
+      "reference_strategy": "computational_hydrogen_electrode",
+      "requires_clean_slab_energy": true,
+      "requires_gas_phase_references": true,
+      "notes": [
+        "Metal surfaces may oxidize or reconstruct under OER conditions.",
+        "The FCC metal slab is an initial precursor model only."
+      ]
+    },
+    "ORR": {
+      "reaction_family": "ORR",
+      "target_product": "H2O/H2O2",
+      "support_level": "human_review_required",
+      "primary_adsorbates": [
+        "O2",
+        "OOH",
+        "O",
+        "OH"
+      ],
+      "competitive_adsorbates": [],
+      "descriptor_targets": [
+        "O2 adsorption",
+        "OOH adsorption",
+        "O adsorption",
+        "OH adsorption"
+      ],
+      "reference_strategy": "computational_hydrogen_electrode",
+      "requires_clean_slab_energy": true,
+      "requires_gas_phase_references": true,
+      "notes": [
+        "The desired two-electron or four-electron pathway must be reviewed."
+      ]
+    },
+    "NRR": {
+      "reaction_family": "NRR",
+      "target_product": "NH3",
+      "support_level": "human_review_required",
+      "primary_adsorbates": [
+        "N2",
+        "NNH",
+        "NH",
+        "NH2"
+      ],
+      "competitive_adsorbates": [
+        "H"
+      ],
+      "descriptor_targets": [
+        "N2 activation",
+        "NNH formation",
+        "H adsorption"
+      ],
+      "reference_strategy": "computational_hydrogen_electrode",
+      "requires_clean_slab_energy": true,
+      "requires_gas_phase_references": true,
+      "notes": [
+        "NRR requires strict contamination control and pathway review.",
+        "H is included to assess HER competition."
+      ]
+    }
+  }
+}

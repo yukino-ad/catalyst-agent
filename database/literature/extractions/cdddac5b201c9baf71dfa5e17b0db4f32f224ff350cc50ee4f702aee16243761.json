@@ -1,0 +1,386 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-24T15:41:49.959452+00:00",
+  "paper": {
+    "paper_id": "openalex:W_TEST",
+    "title": "High entropy alloys for CO2 reduction to CO",
+    "abstract": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+    "year": 2025,
+    "journal": "Example Journal",
+    "doi": "10.1000/test",
+    "url": "",
+    "source": "OpenAlex",
+    "summary": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+    "assertions": [
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "High entropy alloys for CO2 reduction to CO.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Cu",
+          "Fe",
+          "Co",
+          "Ni",
+          "Mn"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract",
+            "sentence_index": 1
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract",
+            "sentence_index": 1
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "retrieval_origin": "online",
+    "review_status": "pending_review",
+    "stored_in_repository": false,
+    "metadata_verified": true,
+    "metadata_provider": "crossref",
+    "claim_evidence_available": true,
+    "cross_verified": true,
+    "kimi_cross_verified": true,
+    "cross_verification": {},
+    "embedding_text": "High entropy alloys for CO2 reduction to CO The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency. The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "openalex:W_TEST"
+      ],
+      "dois": [
+        "10.1000/test"
+      ]
+    },
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "A",
+      "quality_score": 78.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 78.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 2.0
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "High entropy alloys for CO2 reduction to CO",
+            "source": "title"
+          },
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 30.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": true,
+      "hea_direct": true,
+      "composition_elements": [
+        "Cu",
+        "Fe",
+        "Co",
+        "Ni",
+        "Mn"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cu",
+        "Fe",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.1875,
+      "title_coverage": 0.15625,
+      "lexical_relevance": 0.178125,
+      "quality_normalized": 0.78,
+      "recency": 0.9,
+      "combined": 0.460969
+    },
+    "merged_rank": 1,
+    "evidence_id": "E1",
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "A",
+      "quality_score": 78.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 78.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 2.0
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "High entropy alloys for CO2 reduction to CO",
+            "source": "title"
+          },
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "The CuFeCoNiMn high-entropy alloy investigates CO2 reduction and demonstrates 90% Faradaic efficiency.",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 30.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": true,
+      "hea_direct": true,
+      "composition_elements": [
+        "Cu",
+        "Fe",
+        "Co",
+        "Ni",
+        "Mn"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cu",
+        "Fe",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [],
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": ""
+  }
+}

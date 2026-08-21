@@ -1,0 +1,307 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-24T14:43:19.894517+00:00",
+  "paper": {
+    "paper_id": "openalex:W_TEST",
+    "title": "High entropy alloys for CO2 reduction to CO",
+    "abstract": "This study investigates CO2 reduction and selective CO production.",
+    "year": 2025,
+    "journal": "Example Journal",
+    "doi": "10.1000/test",
+    "url": "",
+    "source": "OpenAlex",
+    "summary": "This study investigates CO2 reduction and selective CO production.",
+    "assertions": [
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "High entropy alloys for CO2 reduction to CO.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E1::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "retrieval_origin": "online",
+    "review_status": "pending_review",
+    "stored_in_repository": false,
+    "claim_evidence_available": true,
+    "kimi_web_search_performed": false,
+    "kimi_cross_verified": false,
+    "cross_verified": false,
+    "cross_verification": {
+      "crossref_verified": false,
+      "semantic_scholar_verified": false,
+      "crossref_match_method": "none",
+      "semantic_scholar_match_method": "none",
+      "required_tools_called": false,
+      "cross_verified": false
+    },
+    "metadata_verified": false,
+    "metadata_provider": "",
+    "embedding_text": "High entropy alloys for CO2 reduction to CO This study investigates CO2 reduction and selective CO production. This study investigates CO2 reduction and selective CO production.",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "openalex:W_TEST"
+      ],
+      "dois": [
+        "10.1000/test"
+      ]
+    },
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 46.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 46.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 24.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 9.0,
+          "target_product": 6.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 4.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [
+          {
+            "quote": "High entropy alloys for CO2 reduction to CO",
+            "source": "title"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 24.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": true,
+      "hea_direct": true,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.15625,
+      "title_coverage": 0.15625,
+      "lexical_relevance": 0.15625,
+      "quality_normalized": 0.46,
+      "recency": 0.9,
+      "combined": 0.336938
+    },
+    "merged_rank": 1,
+    "evidence_id": "E1",
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 46.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 46.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 24.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 9.0,
+          "target_product": 6.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 4.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [
+          {
+            "quote": "High entropy alloys for CO2 reduction to CO",
+            "source": "title"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 24.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": true,
+      "hea_direct": true,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": []
+  }
+}

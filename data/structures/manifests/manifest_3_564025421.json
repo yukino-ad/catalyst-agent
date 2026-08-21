@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "requested_count": 1,
+  "generated_count": 1,
+  "attempts": 203,
+  "parameters": {
+    "selected_elements": [
+      "Fe",
+      "Ni",
+      "Cr",
+      "Mn",
+      "Ti"
+    ],
+    "generation_mode": "composition_driven",
+    "seed": 564025421,
+    "min_distance": 1.8,
+    "composition": {
+      "Fe": 7,
+      "Ni": 7,
+      "Cr": 6,
+      "Mn": 6,
+      "Ti": 6
+    }
+  },
+  "results": [
+    {
+      "id": 3,
+      "formula": "Cr6Fe7Mn6Ni7Ti6",
+      "elements": [
+        "Fe",
+        "Ni",
+        "Cr",
+        "Mn",
+        "Ti"
+      ],
+      "counts": {
+        "Fe": 7,
+        "Ni": 7,
+        "Cr": 6,
+        "Mn": 6,
+        "Ti": 6
+      },
+      "lattice_constant_a0": 3.755625,
+      "supercell_a": 7.51125,
+      "minimum_distance": 2.655628,
+      "cif_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\cif\\HEA_FCC_00003_Cr6_Fe7_Mn6_Ni7_Ti6_f67fd61f.cif",
+      "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\POSCAR\\HEA_FCC_00003_Cr6_Fe7_Mn6_Ni7_Ti6_f67fd61f.vasp",
+      "signature": "f67fd61f943023f5d25cf704a273375753831a75b3b78258ffa662fc5e6e9794"
+    }
+  ]
+}

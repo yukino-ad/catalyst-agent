@@ -1,0 +1,1020 @@
+{
+  "total": 28,
+  "offset": 0,
+  "next": 20,
+  "data": [
+    {
+      "paperId": "4ebe4e5338a903a179a13551c74ef49dc9d4555d",
+      "externalIds": {
+        "DOI": "10.1002/anie.202424121",
+        "CorpusId": 276234452,
+        "PubMed": "39921396"
+      },
+      "url": "https://www.semanticscholar.org/paper/4ebe4e5338a903a179a13551c74ef49dc9d4555d",
+      "title": "Boosting Li-CO2 Battery Performance via High-Entropy Alloy Catalysts: Insights into Configurational Entropy Effect.",
+      "venue": "Angewandte Chemie",
+      "year": 2025,
+      "citationCount": 26,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/anie.202424121?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/anie.202424121, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2221178217",
+          "name": "Zhang Wen"
+        },
+        {
+          "authorId": "2135606176",
+          "name": "Xiaowei Mu"
+        },
+        {
+          "authorId": "2151243376",
+          "name": "Xinyi Sun"
+        },
+        {
+          "authorId": "2260286565",
+          "name": "Zhenming Xu"
+        },
+        {
+          "authorId": "2344797299",
+          "name": "Mingbo Zheng"
+        },
+        {
+          "authorId": "2316170428",
+          "name": "Haoshen Zhou"
+        },
+        {
+          "authorId": "2153239632",
+          "name": "Ping He"
+        }
+      ],
+      "abstract": "Li-CO2 batteries have attracted considerable attention for their ability to combine CO2 fixation and conversion with high-density energy storage. However, sluggish kinetics of CO2 reduction and evolution reactions at cathodes lead to large overpotential and poor cyclic stability. To address this issue, it is critical to develop advanced cathode catalysts. High-entropy alloys (HEAs), a new class of catalysts, have exhibited exceptional catalytic activities in various electrochemical reactions. Nevertheless, the intrinsic relationship between mix configurational entropy (∆Smix) and catalytic properties of HEAs remains unclear. Herein, we prepared a series of quinary FeCoNiCuRu alloys with different ∆Smix values supported on carbon nanofibers as cathode catalysts in Li-CO2 batteries. Experimental and computational results reveal a positive correlation between ∆Smix and catalytic activity, attributed to charge redistribution among elements with different electronegativities. The Li-CO2 battery using the alloy catalyst with the maximum ∆Smix value delivers the largest capacity of 6160 mAh g-1, the lowest charge potential plateau below 4.0 V, and remarkable cycling stability (550 cycles/5500 h), surpassing most reported Ru-based catalysts. Furthermore, fabrication of pouch cells with low noble metal loading demonstrates the practical potential of HEAs for Li-CO2 batteries. This work provides insights into high-entropy engineering for advanced electrocatalysts in Li-CO2 batteries."
+    },
+    {
+      "paperId": "189baefa1568571075194195110f0ff96aac9e56",
+      "externalIds": {
+        "DOI": "10.1002/cplu.70184",
+        "CorpusId": 289267174,
+        "PubMed": "42289894"
+      },
+      "url": "https://www.semanticscholar.org/paper/189baefa1568571075194195110f0ff96aac9e56",
+      "title": "Acid-Resistant High-Entropy Alloy Electrocatalysts: Unlocking Durable Oxygen Reduction Reaction and Oxygen Evolution Reaction Performance.",
+      "venue": "ChemPlusChem",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/cplu.70184?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/cplu.70184, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2054480230",
+          "name": "D. Khan"
+        },
+        {
+          "authorId": "2442618486",
+          "name": "Hammad Abbas"
+        },
+        {
+          "authorId": "2083760325",
+          "name": "Fatima Nasim"
+        },
+        {
+          "authorId": "2267714442",
+          "name": "Altaf Hussain"
+        },
+        {
+          "authorId": "2264109793",
+          "name": "Muhammad Arif Nadeem"
+        }
+      ],
+      "abstract": "Increasing global energy demands, fossil fuel depletion and rising carbon dioxide (CO2) emissions have made it critical to look for sustainable energy sources. In this regard, proton exchange membrane water electrolysis (PEMWE) and fuel cells (PEMFCs) have gained importance. While PEM systems offer superior operational current density and load flexibility compared to alkaline electrolysis, their performance is limited by slow kinetics of oxygen evolution reaction (OER), and the oxygen reduction reaction (ORR). Achieving high efficiency in acidic environments demands electrocatalysts, capable of sustaining structural integrity with high activity and low overpotentials despite harsh acidic conditions. Thus, high entropy alloys (HEAs) have emerged as compelling solutions; their compositional tunability, intrinsic structural stability and superior corrosion resistance enables them as best candidates to reduce alliance on precious metals while delivering outstanding performance for ORR and OER. This review summarizes recent progress in HEA catalysts, systematically classifying them by metal composition and discussing their stability mechanisms in acid. Finally, the key challenges and future perspectives for the rational design and deployment of acid-stable HEA catalysts in next-generation energy conversion systems are outlined."
+    },
+    {
+      "paperId": "ae2673797752252a246c869c2740aaecea3e4019",
+      "externalIds": {
+        "DOI": "10.1021/acs.inorgchem.3c01326",
+        "CorpusId": 260163306,
+        "PubMed": "37490736"
+      },
+      "url": "https://www.semanticscholar.org/paper/ae2673797752252a246c869c2740aaecea3e4019",
+      "title": "Chelating Co-reduction Strategy for the Synthesis of High-Entropy Alloy Aerogels.",
+      "venue": "Inorganic Chemistry",
+      "year": 2023,
+      "citationCount": 12,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acs.inorgchem.3c01326?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acs.inorgchem.3c01326, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "1421686025",
+          "name": "Nanzhu Nie"
+        },
+        {
+          "authorId": "2108381327",
+          "name": "Yanyun Zhang"
+        },
+        {
+          "authorId": "2107670627",
+          "name": "Yanli Gu"
+        },
+        {
+          "authorId": "102263413",
+          "name": "H. Du"
+        },
+        {
+          "authorId": "11436793",
+          "name": "Yueyue Yuan"
+        },
+        {
+          "authorId": "153690119",
+          "name": "Yu Yang"
+        },
+        {
+          "authorId": "50979616",
+          "name": "Hongdong Li"
+        },
+        {
+          "authorId": "2152929265",
+          "name": "Bo Yang"
+        },
+        {
+          "authorId": "66465221",
+          "name": "Jianping Lai"
+        },
+        {
+          "authorId": "2086787",
+          "name": "L. Wang"
+        }
+      ],
+      "abstract": "Aerogels, as three-dimensional porous materials, have attracted much attention in almost every field owing to their unique structural properties. Designing high-entropy alloy aerogels (HEAAs) to quinary and above remains an enormous challenge due to the different reduction potentials and nucleation/growth kinetics of different constituent metals. Herein, a novel and universal chelating co-reduction strategy to prepare HEAAs at room temperature in the water phase is proposed. The addition of chelators (ethylenediaminetetraacetic acid tetrasodium salt, sodium citrate, salicylic acid, and 4,4'-bipyridine) with a certain strong coordination capacity can adjust the reduction potential of different metal components, which is the key to synthesize single-phase solid solution alloys successfully. The optimized AgRuPdAuPt HEAA can be an excellent electrocatalyst for hydrogen evolution reaction (HER) with an ultrasmall overpotential of 22 mV at 10 mA cm-2 and excellent stability for 24 h in an alkaline solution. In situ Raman spectroscopy unveils the enhanced hydrogen evolution reaction mechanism of HEAAs. Overall, this work provides a novel chelating co-reduction strategy for the facile and versatile synthesis and design of advanced HEAAs and broadens the development and utilization of multi-elemental alloy electrocatalysts."
+    },
+    {
+      "paperId": "5bdbd432aafb3d85de56653e4ba4eb11dc91cd61",
+      "externalIds": {
+        "DOI": "10.1063/5.0198043",
+        "CorpusId": 268901246
+      },
+      "url": "https://www.semanticscholar.org/paper/5bdbd432aafb3d85de56653e4ba4eb11dc91cd61",
+      "title": "Study of the adsorption sites of high entropy alloys for CO2 reduction using graph convolutional network",
+      "venue": "APL Machine Learning",
+      "year": 2024,
+      "citationCount": 7,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://pubs.aip.org/aip/aml/article-pdf/doi/10.1063/5.0198043/19865417/026103_1_5.0198043.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0198043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0198043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2085294276",
+          "name": "H. Oliaei"
+        },
+        {
+          "authorId": "93122295",
+          "name": "N. Aluru"
+        }
+      ],
+      "abstract": "Carbon dioxide reduction is a major step toward building a cleaner and safer environment. There is a surge of interest in exploring high-entropy alloys (HEAs) as active catalysts for CO2 reduction; however, so far, it is mainly limited to quinary HEAs. Inspired by the successful synthesis of octonary and denary HEAs, herein, the CO2 reduction reaction (CO2RR) performance of an HEA composed of Ag, Au, Cu, Pd, Pt, Co, Ga, Ni, and Zn is studied by developing a high-fidelity graph neural network (GNN) framework. Within this framework, the adsorption site geometry and physics are employed through the featurization of elements. Particularly, featurization is performed using various intrinsic properties, such as electronegativity and atomic radius, to enable not only the supervised learning of CO2RR performance descriptors, namely, CO and H adsorption energies, but also the learning of adsorption physics and generalization to unseen metals and alloys. The developed model evaluates the adsorption strength of ∼3.5 and ∼0.4 billion possible sites for CO and H, respectively. Despite the enormous space of the AgAuCuPdPtCoGaNiZn alloy and the rather small size of the training data, the GNN framework demonstrated high accuracy and good robustness. This study paves the way for the rapid screening and intelligent synthesis of CO2RR-active and selective HEAs."
+    },
+    {
+      "paperId": "6228ce9249f5527893bc78ee33a9a20e204d25de",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-02412696mtgabs",
+        "CorpusId": 274910518
+      },
+      "url": "https://www.semanticscholar.org/paper/6228ce9249f5527893bc78ee33a9a20e204d25de",
+      "title": "Investigation of High Entropy Alloy Nanoparticles Assisted By Resonance Acoustic Mixing for Oxygen Reduction Reaction",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2024-02412696mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2024-02412696mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2238689887",
+          "name": "Jinho Hyun"
+        },
+        {
+          "authorId": "2300163622",
+          "name": "Chanho Pak"
+        }
+      ],
+      "abstract": "High-entropy alloy (HEA) nanoparticles (NPs) are highly promising for electrocatalysis because of their wide range of compositions, adaptable active sites, and robust stability. Nevertheless, synthesizing these complex compositions as uniform NPs remains a challenge by conventional synthesis methods due to variations in reduction rates among metal precursors, leading to phase separation. This study presented a straightforward and scalable method for producing HEAs using a liquid-assisted (LA) solid-state reduction followed by an annealing process. Employing a resonance acoustic mixer (RAM), this process provides a rapid and scalable means for producing dispersed HEA NPs on carbon support. Quinary HEA (PtNiCuCoZn) catalysts were synthesized by initial mixing and reduction using RAM and further annealing under nitrogen at 900 ℃, sequentially. The resulting HEA electrocatalysts have a narrow particle size distribution with minimal particle agglomeration and demonstrate enhanced mass activity (0.75 A/mgPt) and stability toward oxygen reduction reaction (ΔE1/2=16 mV after 10k cycles), outperforming conventional Pt/C catalysts (~0.2 A/mgPt) while achieving superior Pt utilization."
+    },
+    {
+      "paperId": "77b41b2ea639c2dd58e51504b476e425f1d70055",
+      "externalIds": {
+        "DOI": "10.1007/s11708-025-1010-8",
+        "CorpusId": 279290474
+      },
+      "url": "https://www.semanticscholar.org/paper/77b41b2ea639c2dd58e51504b476e425f1d70055",
+      "title": "Recent advances in high-entropy alloys for electrochemical hydrogen evolution, oxygen reduction, and CO2 reduction reactions",
+      "venue": "Frontiers in Energy",
+      "year": 2025,
+      "citationCount": 6,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11708-025-1010-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11708-025-1010-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2350780940",
+          "name": "Chao Zhang"
+        },
+        {
+          "authorId": "2362351132",
+          "name": "Shengping You"
+        },
+        {
+          "authorId": "2190354124",
+          "name": "Ang Du"
+        },
+        {
+          "authorId": "24833386",
+          "name": "Zewen Zhuang"
+        },
+        {
+          "authorId": "2312346448",
+          "name": "Wei Yan"
+        },
+        {
+          "authorId": "2255737495",
+          "name": "Jiujun Zhang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "d850d4f0cbcf97594edcb52c351cc7b9b4a33b1c",
+      "externalIds": {
+        "DOI": "10.1007/s40843-025-3596-2",
+        "CorpusId": 283656089
+      },
+      "url": "https://www.semanticscholar.org/paper/d850d4f0cbcf97594edcb52c351cc7b9b4a33b1c",
+      "title": "Pt-optimized AuAgCuPdPt high-entropy alloys for selective CO2 reduction and high-performance Zn-CO2 battery",
+      "venue": "Science China Materials",
+      "year": 2025,
+      "citationCount": 3,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s40843-025-3596-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s40843-025-3596-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2352693413",
+          "name": "Li Li"
+        },
+        {
+          "authorId": "2145052902",
+          "name": "Zengqiang Gao"
+        },
+        {
+          "authorId": "2106622921",
+          "name": "Wenjing Kang"
+        },
+        {
+          "authorId": "2352814710",
+          "name": "Yi Feng"
+        },
+        {
+          "authorId": "2056835822",
+          "name": "Man Hou"
+        },
+        {
+          "authorId": "2256807816",
+          "name": "Peng-Fei Yin"
+        },
+        {
+          "authorId": "2353061333",
+          "name": "Hui Liu"
+        },
+        {
+          "authorId": "2391753618",
+          "name": "Zhicheng Zhang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "784b6eb6ddb7efb4166b7ba95056b97f0feef94c",
+      "externalIds": {
+        "DOI": "10.1149/ma2025-01351678mtgabs",
+        "CorpusId": 280175023
+      },
+      "url": "https://www.semanticscholar.org/paper/784b6eb6ddb7efb4166b7ba95056b97f0feef94c",
+      "title": "High-Entropy Alloy@Semiconductor Hybrid Nanocrystals for Extending Carrier Lifetime and Improving Photocatalytic Water Splitting",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2025,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2025-01351678mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2025-01351678mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2182412486",
+          "name": "Jui‐Tai Lin"
+        },
+        {
+          "authorId": "2258290859",
+          "name": "Tung‐Han Yang"
+        }
+      ],
+      "abstract": "High-entropy alloy (HEA) nanocrystals possess exceptional potential for photocatalytic water splitting due to their tunable electronic properties and diverse active sites. In this study, quinary HEA core-shell nanocrystals composed of Pt, Pd, Ir, Ru, and Rh with adjustable Pt ratios in the shell (0%, 20%, 40%, 60%, 80%, and 100%) were synthesized using a precise dropwise layer-by-layer epitaxial growth method. The slow drop rate ensured the simultaneous reduction of all five metals, enabling fine compositional control and the formation of well-defined nanocubes and octahedra. The HEA core-shell nanocrystals, integrated with TiO2 (Degussa P25), were systematically evaluated for their photocatalytic performance. The analysis revealed that hybrid catalysts with an HEA shell significantly outperformed those featuring a single-metal surface. Additionally, catalysts enclosed by the {100} facet (nanocubes) demonstrated superior performance compared to those with the {111} facet (octahedra).\n Ultraviolet photoelectron spectroscopy (UPS) confirmed that the metal ratio in the HEA shell effectively tunes the work function, with the presence of a Schottky barrier in the optimal hybrid catalyst (40% Pt HEA core-shell nanocubes) reducing charge recombination and enhancing photocatalytic efficiency. Transient absorption spectroscopy (TAS) further revealed extended charge carrier lifetimes for the HEA-TiO2 hybrids (TiO₂ alone: ~65 µs; Pd nanocubes/TiO2: ~125 µs; 40% Pt HEA core-shell nanocubes/TiO2: ~4 ms), underscoring the superior charge separation efficiency of HEA-based catalysts. Moreover, in-situ synchrotron X-ray photoelectron spectroscopy (in-situ XPS) provided direct evidence of dual active sites (Pt and Ir) for photocatalytic water splitting. Under reaction conditions, negative shifts in the XPS peak positions of Pt and Ir confirmed their roles as active sites that accept photoelectrons from TiO2 during the reaction. The integration of TAS and in-situ XPS offered comprehensive insights into the enhanced photocatalytic performance of HEA-based catalysts, emphasizing the importance of atomic-scale synergy in optimizing charge dynamics. This study highlights the strategic design of HEA core-shell nanocrystals through controlled synthesis and advanced operando characterization, providing a robust foundation for the development of next-generation photocatalysts with outstanding efficiency and versatility for solar hydrogen production.\n \n \n \n \n \n Figure 1\n"
+    },
+    {
+      "paperId": "eac352e19da2bfad779389c4399e8e2f3bd01d5b",
+      "externalIds": {
+        "PubMedCentral": "12402538",
+        "DOI": "10.1038/s41467-025-63527-7",
+        "CorpusId": 281052641,
+        "PubMed": "40890140"
+      },
+      "url": "https://www.semanticscholar.org/paper/eac352e19da2bfad779389c4399e8e2f3bd01d5b",
+      "title": "Hydrocarbothermal flow synthesis of carbon-supported small and dense high-entropy alloy nanoparticles as electrocatalysts",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "citationCount": 21,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12402538, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2153498400",
+          "name": "Guanchao He"
+        },
+        {
+          "authorId": "2337097325",
+          "name": "Xinyu Zhang"
+        },
+        {
+          "authorId": "2135213056",
+          "name": "Jianbin Liu"
+        },
+        {
+          "authorId": "2290539036",
+          "name": "Jinyu Chong"
+        },
+        {
+          "authorId": "5234943",
+          "name": "Gonglan Ye"
+        },
+        {
+          "authorId": "2267978723",
+          "name": "Huilong Fei"
+        }
+      ],
+      "abstract": "Supported small and dense high-entropy-alloy nanoparticles (HEA-NPs) are promising functional materials for many applications. However, their synthesis remains a grand challenge because the extreme heating typically required to raise the entropic contribution to the formation of a solid solution unavoidably causes the sintering of HEA-NPs. Herein, we present a one-step continuous-flow spray pyrolysis strategy to synthesize multicomponent (from quinary to denary) HEA-NPs with an average size of <2 nanometers and metal loadings of ~30 wt% uniformly dispersed on various carbon substrates, including graphene and carbon black. In addition, this flow-type synthesis is featured with notable advantages in facile gram scalability and reproducible production when compared with the existing methods. We identify a hydrocarbothermal synthesis mechanism that in situ generates H2 via the reaction between carbon and water in the aerosol droplets to realize the complete metal reduction and alloying at a reduced temperature. The relatively mild reaction condition, combined with the short heating duration and the strong metal-support interaction, enables the simultaneous achievements of small size and high loading in HEA-NPs. The quinary FeCoNiCuPt HEA-NPs are demonstrated as highly efficient electrocatalysts toward the oxygen reduction and hydrogen evolution reactions. High-entropy alloy nanoparticles (HEA-NPs) are promising catalysts, but their synthesis remains challenging. Here, the authors report a continuous-flow method and a hydrothermal mechanism for the general synthesis of carbon-supported sub-2 nm high-loading HEA-NPs as electrocatalysts."
+    },
+    {
+      "paperId": "1f9b96aa4d6a98a3115385efbc6f81a40902cd70",
+      "externalIds": {
+        "DOI": "10.1002/smll.202504304",
+        "CorpusId": 280668253,
+        "PubMed": "40817628"
+      },
+      "url": "https://www.semanticscholar.org/paper/1f9b96aa4d6a98a3115385efbc6f81a40902cd70",
+      "title": "High-Entropy Rare-Earth-Doped Pt Alloy Concave Nanocubes with High-Index Facets for Hydrazine Oxidation Electrocatalysis.",
+      "venue": "Small",
+      "year": 2025,
+      "citationCount": 5,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/smll.202504304?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/smll.202504304, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2257132444",
+          "name": "Lu Wei"
+        },
+        {
+          "authorId": "2255275916",
+          "name": "Jiayin Guo"
+        },
+        {
+          "authorId": "2321329660",
+          "name": "Wanwan Wu"
+        },
+        {
+          "authorId": "2321330313",
+          "name": "Panyan Chen"
+        },
+        {
+          "authorId": "2353095024",
+          "name": "Heng Bian"
+        },
+        {
+          "authorId": "2254821812",
+          "name": "Weiwei Li"
+        },
+        {
+          "authorId": "2353560095",
+          "name": "Xinsheng Zhao"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "4e709ee5a989aaf76ef2b8a5bf5f80586695c778",
+      "externalIds": {
+        "DOI": "10.1021/acsnano.4c14294",
+        "CorpusId": 276507062,
+        "PubMed": "39981577"
+      },
+      "url": "https://www.semanticscholar.org/paper/4e709ee5a989aaf76ef2b8a5bf5f80586695c778",
+      "title": "A Radical-Assisted Approach to High-Entropy Alloy Nanoparticle Electrocatalysts under Ambient Conditions.",
+      "venue": "ACS Nano",
+      "year": 2025,
+      "citationCount": 28,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "http://hdl.handle.net/10871/140073",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acsnano.4c14294?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acsnano.4c14294, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2306171427",
+          "name": "Xu Li"
+        },
+        {
+          "authorId": "2255744864",
+          "name": "Jianyun Cao"
+        },
+        {
+          "authorId": "2346954374",
+          "name": "Guoliang Chen"
+        },
+        {
+          "authorId": "2238755757",
+          "name": "Jiyang Xie"
+        },
+        {
+          "authorId": "2306127701",
+          "name": "Chengding Gu"
+        },
+        {
+          "authorId": "2216522742",
+          "name": "Xiaohong Li"
+        },
+        {
+          "authorId": "2274589385",
+          "name": "F. C. Walsh"
+        },
+        {
+          "authorId": "2238539170",
+          "name": "Yaming Wang"
+        },
+        {
+          "authorId": "2238905300",
+          "name": "Wanbiao Hu"
+        }
+      ],
+      "abstract": "High-entropy alloy (HEA) nanoparticles are rising as promising catalysts but face challenges in both facile synthesis and correlation of the structure with properties. Herein, utilizing the highly reductive carbon-centered isopropyl alcohol radicals generated by UV irradiation, we report a simple yet robust wet chemical method to synthesize HEA nanoparticles under ambient conditions. These isopropanol radicals verified by electron paramagnetic resonance spectroscopy impose very large overpotentials to reduce diverse metal ions into HEA nanoparticles with five to seven different elements. Specially, the PtPdIrRhAuAgCu HEA nanoparticles on a reduced electrochemical graphene oxide (rEGO) support (PtPdIrRhAuAgCu-rEGO) demonstrate superior activity for the hydrogen evolution reaction (HER) across the entire pH range, with very small overpotentials of 11, 30, and 31 mV to deliver a current density of -10 mA cm-2 in 1 M KOH, 1 M phosphate buffer saline, and 0.5 M H2SO4, respectively. The excellent HER performance of PtPdIrRhAuAgCu-rEGO surpasses that of commercial Pt/C and most contemporary HER catalysts in the literature. Density functional theory calculations using random structures mimicking the chemical disordering in PtPdIrRhAuAgCu HEA confirm its superior HER activity and imply a possible correlation between HER activity and d-band centers of the nearest atoms in a face-centered cubic hollow site."
+    },
+    {
+      "paperId": "df358aab951dba614f6d1a6dd9480e89c3b86440",
+      "externalIds": {
+        "PubMedCentral": "13348174",
+        "DOI": "10.1021/acsnano.6c06368",
+        "CorpusId": 289483842,
+        "PubMed": "42337849"
+      },
+      "url": "https://www.semanticscholar.org/paper/df358aab951dba614f6d1a6dd9480e89c3b86440",
+      "title": "Template-Confined Synthesis of 1 nm High-Entropy-Alloy Nanoparticle Library for Electrocatalysis",
+      "venue": "ACS Nano",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsnano.6c06368?ref=article_openPDF",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13348174, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2182461610",
+          "name": "Chun‐Wei Chang"
+        },
+        {
+          "authorId": "2182351784",
+          "name": "Yueh-Chun Hsiao"
+        },
+        {
+          "authorId": "2182412486",
+          "name": "Jui‐Tai Lin"
+        },
+        {
+          "authorId": "2330059659",
+          "name": "Z. He"
+        },
+        {
+          "authorId": "2281482503",
+          "name": "Cheng-Kuan Lin"
+        },
+        {
+          "authorId": "2313451238",
+          "name": "Yi Chen"
+        },
+        {
+          "authorId": "2301013879",
+          "name": "Wen-Yang Huang"
+        },
+        {
+          "authorId": "2261095759",
+          "name": "Wei‐Hsiang Huang"
+        },
+        {
+          "authorId": "2279397550",
+          "name": "Li‐Yu Wang"
+        },
+        {
+          "authorId": "2346250795",
+          "name": "Han-Yuan Liu"
+        },
+        {
+          "authorId": "2386058079",
+          "name": "Yun-Shan Tsai"
+        },
+        {
+          "authorId": "2214961058",
+          "name": "Chia-Che Chang"
+        },
+        {
+          "authorId": "3055430",
+          "name": "Wei-Chih Hsiao"
+        },
+        {
+          "authorId": "2069640486",
+          "name": "Wenping Zeng"
+        },
+        {
+          "authorId": "2319432783",
+          "name": "Ying-Jui Lu"
+        },
+        {
+          "authorId": "2259992873",
+          "name": "Kun‐Han Lin"
+        },
+        {
+          "authorId": "2242631453",
+          "name": "Sung‐Fu Hung"
+        },
+        {
+          "authorId": "2267594136",
+          "name": "Chih‐Wen Pao"
+        },
+        {
+          "authorId": "2146395669",
+          "name": "Chia-Min Yang"
+        },
+        {
+          "authorId": "2275663739",
+          "name": "Alex Cowan"
+        },
+        {
+          "authorId": "2258290859",
+          "name": "Tung‐Han Yang"
+        }
+      ],
+      "abstract": "High-entropy-alloy (HEA) nanoparticles containing at least five elements are an emerging family of catalysts. Due to the increased complexity of multicomponent atomic mixing, the size reduction of HEA nanoparticles down to around 1 nm is a substantial challenge, which is crucial to enhance the efficiency of atom utilization. Herein, we report a template-confined synthesis strategy for constructing a library of ultrasmall HEA nanoparticles with sizes of approximately 1 nm and compositions containing up to ten elements, including Pt, Pd, Ru, Rh, Fe, Co, Ni, Cu, Mo, and Zn. By leveraging the confinement effect of the mesoporous carbon structure and the autocatalytic reduction of the metal-precursor mixture at a low reaction temperature, we successfully achieve the uniform embedding of a diverse array of ultrasmall multicomponent HEA nanoparticles within the mesoporous framework. Additionally, we demonstrate that the 1 nm PtRuFeCoNi nanoparticles exhibit enhanced mass activity and superior atom utilization in both hydrogen evolution and hydrogen oxidation reactions, surpassing other quinary HEA and commercial Pt/C catalysts. Furthermore, operando X-ray absorption spectroscopy and theoretical calculations suggest a cooperative multielement effect among the five constituent elements, in which Pt- and Ru-containing local environments provide favorable sites for H-intermediate adsorption and contribute to the enhanced catalytic performance."
+    },
+    {
+      "paperId": "83534b46d726967c96d7c6f16eacad645af19111",
+      "externalIds": {
+        "MAG": "3004548100",
+        "DOI": "10.1016/j.jcat.2020.01.024",
+        "CorpusId": 213421520
+      },
+      "url": "https://www.semanticscholar.org/paper/83534b46d726967c96d7c6f16eacad645af19111",
+      "title": "Nanoporous high-entropy alloys with low Pt loadings for high-performance electrochemical oxygen reduction",
+      "venue": "",
+      "year": 2020,
+      "citationCount": 205,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jcat.2020.01.024?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jcat.2020.01.024, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2118325300",
+          "name": "Shiyin Li"
+        },
+        {
+          "authorId": "92522804",
+          "name": "X. Tang"
+        },
+        {
+          "authorId": "11380256",
+          "name": "Henglei Jia"
+        },
+        {
+          "authorId": "1891358",
+          "name": "Huanglong Li"
+        },
+        {
+          "authorId": "144651753",
+          "name": "G. Xie"
+        },
+        {
+          "authorId": "2146035946",
+          "name": "Xingjun Liu"
+        },
+        {
+          "authorId": "1405983603",
+          "name": "Xi Lin"
+        },
+        {
+          "authorId": "11596266",
+          "name": "H. Qiu"
+        }
+      ],
+      "abstract": "Abstract Pt-based alloys have been widely used as high-performance electrocatalysts for the oxygen reduction reaction (ORR). These catalysts contained high Pt contents, typically 60–70 at.% or higher, since further decreasing Pt contents would significantly lower the desired electro-catalytic activity. High-entropy alloys (HEAs) with built-in stability through their low free-energy phases provided a promising route to prepare Pt-based alloy catalysts with less than 50 at.% Pt while maintaining high ORR activity and stability in various environments. In this work, we reported a top-down de-alloying synthetic method to controllably incorporate five immiscible metals in one nanoscale solid phase. By predetermining four elements (Al, Cu, Ni and Pt) and alternating the fifth element including Pd, V, Co, Mn, etc., a series of nanoporous HEAs (np-HEAs) with Pt content of ~20–30 at.% were obtained. Among these quinary alloys, the Al-Cu-Ni-Pt-Mn np-HEA exhibited the best ORR catalytic activity and electrochemical cycling durability, well exceeding the commercial Pt/C catalysts. We expected these nanostructured HEA would offer a new class of alloy catalysts in many electrochemical reactions."
+    },
+    {
+      "paperId": "9b61c42d689addbcd1a6cd3f8b2a65d3753e149c",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-02221909mtgabs",
+        "CorpusId": 274910463
+      },
+      "url": "https://www.semanticscholar.org/paper/9b61c42d689addbcd1a6cd3f8b2a65d3753e149c",
+      "title": "(Invited) Development of High Entropy Catalysts for Efficient Electrochemical Fuel Production",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2024-02221909mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2024-02221909mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "4645260",
+          "name": "Uk Sim"
+        }
+      ],
+      "abstract": "Electrochemical fuel production methods, such as water splitting, ammonia, and synthetic hydrocarbon production, are at the forefront of sustainable energy resource development. However, the journey to commercialization is fraught with obstacles, particularly in creating active and stable electrocatalysts. This is a critical area of study, as these catalysts are the foundation of electrochemical water splitting for H2 production, nitrogen (NRR) and nitrate (NitRR) reduction reactions for ammonia production and CO2 reduction reaction (CO2RR) for synthetic hydrocarbon synthesis. Therefore, pursuing higher metal utilization efficiency and developing non-precious elements-based catalysts are crucial to ensure the feasibility of cost-effective hydrogen production systems. High entropy catalysts (HEC) with five or more metals are solid solution alloys with unique structures and electrochemical properties. The noble and non-noble metal-based HEC design strategy with strong metal support interaction (SMSI) and porous surfaces amplifies the extrinsic electrocatalytic activity, ensuring high durability over harsh electrochemical conditions for low maintenance and cost-efficiency. The main challenge lies in enhancing their extrinsic activity via catalyst-support interactions for efficient electrochemical reactions. To address this significant and persistent technical barrier, our research is focused on the intensive search for efficient, durable, and inexpensive HEC with high solar energy conversion efficiency for efficient electrochemical water splitting, hydrocarbon conversion reaction, and electrochemical ammonia production processes, thereby making a substantial contribution to the field of sustainable energy resources.\n \n \n \n \n Figure 1\n"
+    },
+    {
+      "paperId": "b04b476006095233a191e7438cf7c884b67a6218",
+      "externalIds": {
+        "DOI": "10.1088/1674-1056/ade8e6",
+        "CorpusId": 279647699
+      },
+      "url": "https://www.semanticscholar.org/paper/b04b476006095233a191e7438cf7c884b67a6218",
+      "title": "High-entropy alloys in synergistic electrocatalytic conversion applications",
+      "venue": "Chinese Physics B",
+      "year": 2025,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1088/1674-1056/ade8e6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1674-1056/ade8e6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2124194891",
+          "name": "H. Zhang 张"
+        },
+        {
+          "authorId": "2300673114",
+          "name": "Z. Liu 刘"
+        },
+        {
+          "authorId": "2177703691",
+          "name": "Le 乐 Fang 方"
+        },
+        {
+          "authorId": "2308673873",
+          "name": "Y. Wang 王"
+        },
+        {
+          "authorId": "2291796433",
+          "name": "S. Chen 陈"
+        },
+        {
+          "authorId": "2146965967",
+          "name": "W. Ren 任"
+        }
+      ],
+      "abstract": "High-entropy alloys (HEAs), with multi-principal-element composition, are gaining attention for their structural stability and mechanical properties. Extensive research has focused on using HEAs as electrocatalysts in the conversion of single-component reactions, such as hydrogen evolution reaction (HER), oxygen evolution reaction (OER), carbon dioxide reduction reaction (CO2RR), etc. However, their potential in the application of synergistic conversion of pollutants (e.g., carbon dioxide (CO2) and nitrogen oxides (NOx)) has been largely overlooked. This review overviews HEAs’ fundamental concepts and characteristics, and delves into their advantages in transition metals and optimization strategies for the synergistic conversion process. It offers a novel approach for sustainable environmental remediation and resource utilization."
+    },
+    {
+      "paperId": "c345df40358545f8a334ca03a63b8dc47276ce9e",
+      "externalIds": {
+        "DOI": "10.1149/ma2025-02381809mtgabs",
+        "CorpusId": 283343158
+      },
+      "url": "https://www.semanticscholar.org/paper/c345df40358545f8a334ca03a63b8dc47276ce9e",
+      "title": "High-Performance High-Entropy Intermetallic Catalysts for HDV Applications",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2025,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2025-02381809mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2025-02381809mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2366302622",
+          "name": "Xueru Zhao"
+        },
+        {
+          "authorId": "2281626109",
+          "name": "Hao Cheng"
+        },
+        {
+          "authorId": "2344721260",
+          "name": "Lijun Wu"
+        },
+        {
+          "authorId": "2281429615",
+          "name": "Qi Zhang"
+        },
+        {
+          "authorId": "2157318010",
+          "name": "Xiaobo Chen"
+        },
+        {
+          "authorId": "2253414357",
+          "name": "Nebojsa S. Marinkovic"
+        },
+        {
+          "authorId": "2144130436",
+          "name": "Chenzhao Li"
+        },
+        {
+          "authorId": "2367355740",
+          "name": "Lu Ma"
+        },
+        {
+          "authorId": "2250993749",
+          "name": "Yimei Zhu"
+        },
+        {
+          "authorId": "2323191448",
+          "name": "Jian Xie"
+        },
+        {
+          "authorId": "2283556534",
+          "name": "Kotaro Sasaki"
+        }
+      ],
+      "abstract": "\n With the development of electric vehicles, the polymer electrolyte membrane fuel cells (PEMFCs) have been playing an increasingly crucial role as the power sources in renewable energy applications\n 1-2\n . Compared to binary intermetallic Pt-based alloys, multiple component high-entropy intermetallic (HEI) catalysts (that contain five or more elements) possess improved thermodynamic and chemical stability due to the high configurational entropy and sluggish atomic diffusion\n 3-4\n , making them ideal candidates for oxygen reduction reaction (ORR) electrocatalysts. However, the research on HEI catalysts is still in its infancy. A comprehensive understanding of the relationship between structure and electrocatalytic performance of HEI catalysts remains elusive. It is critical to begin the development of novel HEI catalysts and explore their catalytic mechanisms. Here, we design a new nitrogen (N)-doped L1\n 0\n -ordered PtCoNiFeCu intermetallic (N-HEI/KB) catalyst, which shows great potential in heavy-duty vehicle (HDV) applications with relatively significantly improved overall performance (a high current density of 1388 mA cm\n -2\n at 0.7 V after 90,000 voltage cycles). Combining atomic resolution electron microscopy, X-ray techniques, and density functional theory calculations and machine learning potential, we verify the sub-angstrom strain-induced enhancement of the ORR in N-HEI/KB catalysts. The Pt degradation and the dissolution of transition metals are considerably mitigated owing to the synergistic effect of the sub-angstrom strain effect, the ‘pinning effect’ of M-N bonds, and the high-entropy effect, leading to superior stability of N-HEI catalysts in harsh long-term fuel cell conditions.\n \n \n References\n \n \n \n Debe, M. K., Electrocatalyst approaches and challenges for automotive fuel cells.\n Nature\n 2012,\n 486\n (7401), 43-51.\n \n \n \n \n Staffell, I.; Scamman, D.; Velazquez Abad, A.; Balcombe, P.; Dodds, P. E.; Ekins, P.; Shah, N.; Ward, K. R., The role of hydrogen and fuel cells in the global energy system.\n Energy & Environmental Science\n 2019,\n 12\n (2), 463-491.\n \n \n \n \n Miracle, D. B.; Senkov, O. N., A critical review of high entropy alloys and related concepts.\n Acta Materialia\n 2017,\n 122\n , 448-511.\n \n \n \n \n Wang, H.; He, Q.-F.; Yang, Y., High-entropy intermetallics: from alloy design to structural and functional properties.\n Rare Metals\n 2022,\n 41\n (6), 1989-2001.\n \n \n \n"
+    },
+    {
+      "paperId": "6644257c06f5d058e23f5994bc51e8b36e2cbeee",
+      "externalIds": {
+        "MAG": "2980165457",
+        "DOI": "10.1021/acsmaterialslett.9b00414",
+        "CorpusId": 210749050
+      },
+      "url": "https://www.semanticscholar.org/paper/6644257c06f5d058e23f5994bc51e8b36e2cbeee",
+      "title": "Noble Metal-Free Nanoporous High-Entropy Alloys as Highly Efficient Electrocatalysts for Oxygen Evolution Reaction",
+      "venue": "ACS Materials Letters",
+      "year": 2019,
+      "citationCount": 308,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acsmaterialslett.9b00414?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acsmaterialslett.9b00414, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "11596266",
+          "name": "H. Qiu"
+        },
+        {
+          "authorId": "2084691797",
+          "name": "Gang Fang"
+        },
+        {
+          "authorId": "93573098",
+          "name": "Jiaojiao Gao"
+        },
+        {
+          "authorId": "6105098",
+          "name": "Yuren Wen"
+        },
+        {
+          "authorId": "2048570073",
+          "name": "Juan Lv"
+        },
+        {
+          "authorId": "1891358",
+          "name": "Huanglong Li"
+        },
+        {
+          "authorId": "144651753",
+          "name": "G. Xie"
+        },
+        {
+          "authorId": "2146035946",
+          "name": "Xingjun Liu"
+        },
+        {
+          "authorId": "48904644",
+          "name": "Shuhui Sun"
+        }
+      ],
+      "abstract": "Developing highly efficient catalysts for oxygen evolution reactions (OER) is a key step for rechargeable metal–oxygen batteries and water splitting. Usually, binary NiFe or ternary NiCoFe nano-alloys are used as the OER catalysts. Herein, combining the precursor alloy design with chemical etching, a simple dealloying route is developed to controllably incorporate five or more nonprecious metals into one nanostructured alloy with a naturally oxidized surface, that is, nanoporous high entropy alloys (np-HEAs) covered with high-entropy (oxy)hydroxides (HEOs). It is found that the alloy composition plays a dominant role in the OER activity enhancement with the np-AlNiCoFeX (X = Mo, Nb, Cr) combination showing the highest activity. Forming quinary HEAs also greatly enhances the electrochemical cycling stabilities compared with the ternary and quaternary counterparts. The result indicates the significance of synergistically incorporating five or more metal elements in one single-phase nanostructure, which prov..."
+    },
+    {
+      "paperId": "1d8b0d7e0355a363cb85d1b7e36b296545785858",
+      "externalIds": {
+        "DOI": "10.55421/3034-4689_2025_28_9_37",
+        "CorpusId": 284001785
+      },
+      "url": "https://www.semanticscholar.org/paper/1d8b0d7e0355a363cb85d1b7e36b296545785858",
+      "title": "FORMATION OF PRECURSORS OF A HIGH-ENTROPY METALLIC SYSTEM BY THE METHOD OF GALVANIC REPLACEMENT IN AQUEOUS SOLUTIONS",
+      "venue": "Herald Of Technological University",
+      "year": 2025,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.55421/3034-4689_2025_28_9_37?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.55421/3034-4689_2025_28_9_37, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "91142543",
+          "name": "M. E. Kolpakov"
+        },
+        {
+          "authorId": "91269370",
+          "name": "A. F. Dresvyannikov"
+        },
+        {
+          "authorId": "2399486069",
+          "name": "D. A. Sataraev"
+        },
+        {
+          "authorId": "11705614",
+          "name": "E. A. Ermolaeva"
+        },
+        {
+          "authorId": "2222385884",
+          "name": "R. Gainullin"
+        }
+      ],
+      "abstract": "The process of precursor formation for the high-entropy Fe-Ni-Co-Cu-Sn system is investigated by galvanic replacement in aqueous chloride solutions using dispersed aluminum as a reducing agent. Based on synchronized measurements of electrode potential and temperature, as well as analysis of literature data, a multi-stage process mechanism is proposed. It has been established that the galvanic replacement process can be conditionally divided into four stages. At the initial stage 1 (0-30 s) after the introduction of aluminum powder into the solution, the system is characterized by a stable potential (+0.38 V) and a constant temperature value. This induction period is associated with a certain delay in the activation of the aluminum surface coated with a passive Al2O3 oxide film. The absence of heat generation directly indicates that the exothermic replacement reactions have not yet begun. At the end of the induction period, the second stage begins (30-75 c) - a sharp, two-stage drop in potential, accompanied by an explosive increase in temperature. The first stage is characterized by a rapid decrease in potential to a quasi-stationary value of about 0.0 V, due to the reduction of Fe3+ ions to Fe2+, which act as the primary oxidizer of aluminum. As soon as the local concentration of a strong oxidizing agent (Fe3+) decreases at the surface of the particle, the potential reaches a minimum of -0.38 V. The second stage corresponds to the beginning of the massive co-reduction of Fe2+, Cu2+, Ni2+, Co2+ and Sn2+ ions to form a solid precursor phase of a high-entropy alloy. The third stage characterizes the quasi-stationary state and diffusion control of the process (75-170 s). After reaching the peak of reactivity (minimum potential and maximum rate of temperature increase), the potential begins to slowly shift towards positive values up to -0.26 V, the rate of temperature increase slows down until it reaches a maximum of 90 °C. The steady-state potential is a compromise, and is determined by the coupled reactions of delayed aluminum dissolution, diffusion-controlled metal deposition, and hydrogen release. At the final stage, a gradual cooling of the reaction mixture is observed at a stable potential, which indicates an almost complete depletion of oxidizing ions in the solution. Exothermic reactions cease, and the system begins to strive for thermodynamic equilibrium with the environment. X-ray fluorescence analysis confirmed the joint deposition of all five metals, the ions of which were initially present in the solution. The obtained elemental composition of the sample is close to the theoretical one for the equimolar Fe-Ni-Co-Cu-Sn system, which indicates the high efficiency of the galvanic replacement method in obtaining multicomponent precursors. Using EDS, a fairly uniform distribution of deposited metals over the surface of the particles has been established. It has been found that the accumulation and rapid release of hydrogen in the pores of particles has a mechanochemical effect on them, leading to the dispersion and formation of particles of characteristic morphology with signs of split and hollow structures."
+    },
+    {
+      "paperId": "c3f1c4ba271c24331e1134737e3094a1a361ac1a",
+      "externalIds": {
+        "MAG": "3126486076",
+        "DOI": "10.21203/RS.3.RS-145497/V1",
+        "CorpusId": 264679310
+      },
+      "url": "https://www.semanticscholar.org/paper/c3f1c4ba271c24331e1134737e3094a1a361ac1a",
+      "title": "Engineering sub-2 nm ultrasmall high-entropy alloy nanoparticles with extremely superior performance for hydrogen evolution catalysis",
+      "venue": "",
+      "year": 2021,
+      "citationCount": 2,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.21203/rs.3.rs-145497/v1",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.21203/RS.3.RS-145497/V1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.21203/RS.3.RS-145497/V1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2191063781",
+          "name": "Dingguo Xia"
+        },
+        {
+          "authorId": "2263032858",
+          "name": "Guang Feng"
+        },
+        {
+          "authorId": "8720204",
+          "name": "F. Ning"
+        },
+        {
+          "authorId": "2112622311",
+          "name": "Jin Song"
+        },
+        {
+          "authorId": "46246954",
+          "name": "Huaifang Shang"
+        },
+        {
+          "authorId": "2263098869",
+          "name": "Kun Zhang"
+        },
+        {
+          "authorId": "2264574263",
+          "name": "Zhengping Ding"
+        },
+        {
+          "authorId": "2204657535",
+          "name": "Peng Gao"
+        },
+        {
+          "authorId": "40093034",
+          "name": "Wangsheng Chu"
+        }
+      ],
+      "abstract": "\n The development of intrinsically effective and low-cost catalysts is critical for the large-scale commercial applications of electrocatalytic hydrogen production. Although various electrocatalysts have demonstrated high activities for hydrogen evolution reaction (HER), it remains a formidable challenge to develop an extremely efficient and durable catalyst for practical use, especially in acidic media. Here, we report quinary ultrasmall NiCoFePtRh high-entropy alloy (us-HEA) nanoparticles (NPs) with extremely superior performance for HER. The us-HEA NPs are well dispersed on the carbon supports, with an average diameter of 1.68 nm, which is the smallest size in the reported HEAs. The us-HEA/C achieves an ultrahigh mass activity of 28.3 A mg-1noble metals (much higher than that of other reported advanced catalysts) at -0.05 V (vs the reversible hydrogen electrode, RHE) for HER in 0.5 M H2SO4 solution, which is 40.4 and 74.5 times higher than those of the commercial Pt/C and Rh/C catalysts, respectively. Moreover, the us-HEA/C demonstrates the highest reported turnover frequency of 30.1 s−1 at 50 mV overpotential (41.8 times higher than that of the Pt/C catalyst) and excellent stability with no decay after 10,000 cycles. Both operando X-ray absorption spectroscopy and theoretical calculations reveal the true active sites and a synergistic effect among five elements, which endow us-HEA/C with significantly enhanced HER activity. This work not only provides a general and facile strategy for synthesizing us-HEA NPs, highlights HEAs as sufficiently advanced materials in energy electrocatalysis, but also acts as a guidance for elucidating the actual reaction process and catalytic mechanism of complex multi-element systems."
+    },
+    {
+      "paperId": "4d6b43274fdc1e41562584a7b3408007a0dc6315",
+      "externalIds": {
+        "MAG": "3159410970",
+        "DOI": "10.21203/RS.3.RS-322594/V1",
+        "CorpusId": 235533950
+      },
+      "url": "https://www.semanticscholar.org/paper/4d6b43274fdc1e41562584a7b3408007a0dc6315",
+      "title": "Hydrogen Spillover-Driven Low Temperature Synthesis of High-Entropy Alloy Nanoparticles as a Robust Catalyst",
+      "venue": "",
+      "year": 2021,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://www.researchsquare.com/article/rs-322594/latest.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.21203/RS.3.RS-322594/V1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.21203/RS.3.RS-322594/V1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "9858087",
+          "name": "K. Mori"
+        },
+        {
+          "authorId": "2061086909",
+          "name": "Naoki Hashimoto"
+        },
+        {
+          "authorId": "10364517",
+          "name": "N. Kamiuchi"
+        },
+        {
+          "authorId": "2026752454",
+          "name": "H. Yoshida"
+        },
+        {
+          "authorId": "47584925",
+          "name": "Hisayoshi Kobayashi"
+        },
+        {
+          "authorId": "2183122",
+          "name": "H. Yamashita"
+        }
+      ],
+      "abstract": "\n High-entropy alloys (HEAs) have been intensively pursued as potentially advanced materials because of their exceptional properties. However, the facile fabrication of nanometer-sized HEAs over conventional catalyst supports remains challenging, and the design of rational synthetic protocols would permit the development of innovative catalysts with a wide range of potential compositions. Herein, we demonstrate that titanium dioxide (TiO2) is a promising platform for the low-temperature synthesis of supported CoNiCuRuPd HEA nanoparticles (NPs) at 400°C. This process is driven by the pronounced hydrogen spillover effect on TiO2 in conjunction with coupled proton/electron transfer. In this process, Pd nuclei generated in the early stage act as uptake sites to enhance the migration of active hydrogen atoms, and the five component metals are simultaneously reduced by spilled hydrogen on the support rather than via direct reduction by gaseous H2. The CoNiCuRuPd HEA NPs on TiO2 produced in this work were found to be both active and extremely durable during the CO2 hydrogenation reaction. Characterization by means of various in situ techniques and theoretical calculations elucidated the specific mechanism by which the HEA NPs were formed and also established that a synergistic effect was obtained from this combination of elements."
+    }
+  ]
+}

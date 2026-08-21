@@ -1,0 +1,3786 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 71568,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T20:25:56Z",
+          "timestamp": 1782937556495,
+          "version": "3.54.5"
+        },
+        "reference-count": 44,
+        "publisher": "Royal Society of Chemistry (RSC)",
+        "issue": "86",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  10,
+                  4
+                ]
+              ],
+              "date-time": "2024-10-04T00:00:00Z",
+              "timestamp": 1728000000000
+            },
+            "content-version": "am",
+            "delay-in-days": 642,
+            "URL": "http://rsc.li/journals-terms-of-use"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/100016808",
+            "name": "Natural Science Foundation of Xiamen Municipality",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "3502Z20227321"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "3502Z20227321"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100016808",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "21703088"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "21703088"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100018636",
+            "name": "Xuzhou Science and Technology Program",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "KC21013"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "KC21013"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100018636",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004608",
+            "name": "Natural Science Foundation of Jiangsu Province",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "BE2020759"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "BE2020759"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004608",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "rsc.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Chem. Commun."
+        ],
+        "abstract": "<jats:p>Quinary RuRhPdPtAu high-entropy alloy nanoparticles (HEA-NPs) are synthesized from a choline chloride-urea-based deep eutectic solvent, and exhibit excellent electrocatalytic hydrogen evolution reaction with low overpotential and Tafel slope.</jats:p>",
+        "DOI": "10.1039/d3cc04162j",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              4
+            ]
+          ],
+          "date-time": "2023-10-04T08:23:41Z",
+          "timestamp": 1696407821000
+        },
+        "page": "12863-12866",
+        "update-policy": "https://doi.org/10.1039/rsc_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 17,
+        "title": [
+          "Quinary RuRhPdPtAu high-entropy alloy as an efficient electrocatalyst for the hydrogen evolution reaction"
+        ],
+        "prefix": "10.1039",
+        "volume": "59",
+        "author": [
+          {
+            "given": "Cheng",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Physics and Electronic Engineering, Jiangsu Normal University, Xuzhou 221116, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiayin",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Electronic Engineering, Jiangsu Normal University, Xuzhou 221116, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jianhong",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Electronic Engineering, Jiangsu Normal University, Xuzhou 221116, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weiwei",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Electronic Engineering, Jiangsu Normal University, Xuzhou 221116, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yongsheng",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Electronic Engineering, Jiangsu Normal University, Xuzhou 221116, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Honghui",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Estuarine Ecological Security and Environmental Health, Fujian Province University, Xiamen University Tan Kah Kee College, Zhangzhou 363105, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xinsheng",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Electronic Engineering, Jiangsu Normal University, Xuzhou 221116, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5990-5328",
+            "authenticated-orcid": false,
+            "given": "Lu",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Electronic Engineering, Jiangsu Normal University, Xuzhou 221116, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "292",
+        "published-online": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "D3CC04162J/cit1/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "619",
+            "DOI": "10.1039/D2EE03185J",
+            "volume": "16",
+            "author": "Zhu",
+            "year": "2023",
+            "journal-title": "Energy Environ. Sci."
+          },
+          {
+            "key": "D3CC04162J/cit2/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2300091",
+            "DOI": "10.1002/adma.202300091",
+            "volume": "35",
+            "author": "Kwon",
+            "year": "2023",
+            "journal-title": "Adv. Mater."
+          },
+          {
+            "key": "D3CC04162J/cit3/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2300094",
+            "DOI": "10.1002/advs.202300094",
+            "volume": "10",
+            "author": "Huang",
+            "year": "2023",
+            "journal-title": "Adv. Sci."
+          },
+          {
+            "key": "D3CC04162J/cit4/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2662",
+            "DOI": "10.1038/s41467-022-30379-4",
+            "volume": "13",
+            "author": "Hao",
+            "year": "2022",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "D3CC04162J/cit5/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "11525",
+            "DOI": "10.1021/jacs.2c02755",
+            "volume": "144",
+            "author": "Minamihara",
+            "year": "2022",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "D3CC04162J/cit6/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2016",
+            "DOI": "10.1038/s41467-020-15934-1",
+            "volume": "11",
+            "author": "Gao",
+            "year": "2020",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "D3CC04162J/cit7/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "17117",
+            "DOI": "10.1021/jacs.1c07643",
+            "volume": "143",
+            "author": "Feng",
+            "year": "2021",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "D3CC04162J/cit8/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2200742",
+            "DOI": "10.1002/aenm.202200742",
+            "volume": "12",
+            "author": "Abdelhafiz",
+            "year": "2022",
+            "journal-title": "Adv. Energy Mater."
+          },
+          {
+            "key": "D3CC04162J/cit9/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2204110",
+            "DOI": "10.1002/adfm.202204110",
+            "volume": "32",
+            "author": "Zhang",
+            "year": "2022",
+            "journal-title": "Adv. Funct. Mater."
+          },
+          {
+            "key": "D3CC04162J/cit10/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "18873",
+            "DOI": "10.1021/acsnano.2c07787",
+            "volume": "16",
+            "author": "Bueno",
+            "year": "2022",
+            "journal-title": "ACS Nano"
+          },
+          {
+            "key": "D3CC04162J/cit11/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "10582",
+            "DOI": "10.1021/jacs.2c03544",
+            "volume": "144",
+            "author": "Tao",
+            "year": "2022",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "D3CC04162J/cit12/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "24144",
+            "DOI": "10.1002/anie.202108116",
+            "volume": "60",
+            "author": "Pedersen",
+            "year": "2021",
+            "journal-title": "Angew. Chem., Int. Ed."
+          },
+          {
+            "key": "D3CC04162J/cit13/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2110128",
+            "DOI": "10.1002/adma.202110128",
+            "volume": "34",
+            "author": "Zhu",
+            "year": "2022",
+            "journal-title": "Adv.\nMater."
+          },
+          {
+            "key": "D3CC04162J/cit14/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2209242",
+            "DOI": "10.1002/adma.202209242",
+            "volume": "35",
+            "author": "Li",
+            "year": "2023",
+            "journal-title": "Adv. Mater."
+          },
+          {
+            "key": "D3CC04162J/cit15/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "e202213783",
+            "DOI": "10.1002/anie.202213783",
+            "volume": "62",
+            "author": "Zhan",
+            "year": "2023",
+            "journal-title": "Angew. Chem., Int. Ed."
+          },
+          {
+            "key": "D3CC04162J/cit16/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2206276",
+            "DOI": "10.1002/adma.202206276",
+            "volume": "34",
+            "author": "Chen",
+            "year": "2022",
+            "journal-title": "Adv. Mater."
+          },
+          {
+            "key": "D3CC04162J/cit17/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2204643",
+            "DOI": "10.1002/adfm.202204643",
+            "volume": "32",
+            "author": "Zeng",
+            "year": "2022",
+            "journal-title": "Adv. Funct. Mater."
+          },
+          {
+            "key": "D3CC04162J/cit18/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "121431",
+            "DOI": "10.1016/j.apcatb.2022.121431",
+            "volume": "312",
+            "author": "Li",
+            "year": "2022",
+            "journal-title": "Appl. Catal., B"
+          },
+          {
+            "key": "D3CC04162J/cit19/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "7224",
+            "DOI": "10.1021/jacs.1c13740",
+            "volume": "144",
+            "author": "Fan",
+            "year": "2022",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "D3CC04162J/cit20/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "266",
+            "DOI": "10.1021/acs.chemmater.1c03389",
+            "volume": "34",
+            "author": "Wu",
+            "year": "2022",
+            "journal-title": "Chem. Mater."
+          },
+          {
+            "key": "D3CC04162J/cit21/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "349",
+            "DOI": "10.1016/j.mattod.2015.11.026",
+            "volume": "19",
+            "author": "Ye",
+            "year": "2016",
+            "journal-title": "Mater. Today"
+          },
+          {
+            "key": "D3CC04162J/cit22/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "448",
+            "DOI": "10.1016/j.actamat.2016.08.081",
+            "volume": "122",
+            "author": "Miracle",
+            "year": "2017",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "D3CC04162J/cit23/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "6",
+            "DOI": "10.1016/j.scriptamat.2016.08.024",
+            "volume": "127",
+            "author": "Tsai",
+            "year": "2017",
+            "journal-title": "Scr. Mater."
+          },
+          {
+            "key": "D3CC04162J/cit24/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "984",
+            "DOI": "10.1126/science.abj8114",
+            "volume": "374",
+            "author": "Pan",
+            "year": "2021",
+            "journal-title": "Science"
+          },
+          {
+            "key": "D3CC04162J/cit25/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "227",
+            "DOI": "10.1038/nature17981",
+            "volume": "534",
+            "author": "Li",
+            "year": "2016",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "D3CC04162J/cit26/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "546",
+            "DOI": "10.1038/s41586-018-0685-y",
+            "volume": "563",
+            "author": "Lei",
+            "year": "2018",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "D3CC04162J/cit27/1",
+            "first-page": "011041",
+            "volume": "5",
+            "author": "Troparevsky",
+            "year": "2015",
+            "journal-title": "Phys. Rev. X"
+          },
+          {
+            "key": "D3CC04162J/cit28/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2340",
+            "DOI": "10.1016/j.matt.2021.04.014",
+            "volume": "4",
+            "author": "Yao",
+            "year": "2021",
+            "journal-title": "Matter"
+          },
+          {
+            "key": "D3CC04162J/cit29/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "4893",
+            "DOI": "10.1007/s12274-021-3912-z",
+            "volume": "15",
+            "author": "Guo",
+            "year": "2022",
+            "journal-title": "Nano Res."
+          },
+          {
+            "key": "D3CC04162J/cit30/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1489",
+            "DOI": "10.1126/science.aan5412",
+            "volume": "359",
+            "author": "Yao",
+            "year": "2018",
+            "journal-title": "Science"
+          },
+          {
+            "key": "D3CC04162J/cit31/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "6261",
+            "DOI": "10.1038/s41467-021-26425-2",
+            "volume": "12",
+            "author": "Zhan",
+            "year": "2021",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "D3CC04162J/cit32/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1367",
+            "DOI": "10.3390/coatings11111367",
+            "volume": "11",
+            "author": "Popescu",
+            "year": "2021",
+            "journal-title": "Coatings"
+          },
+          {
+            "key": "D3CC04162J/cit33/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "533",
+            "DOI": "10.1016/j.apsusc.2015.07.142",
+            "volume": "35",
+            "author": "Soare",
+            "year": "2015",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "D3CC04162J/cit34/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "4718",
+            "DOI": "10.1021/ja1117528",
+            "volume": "133",
+            "author": "Huang",
+            "year": "2011",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "D3CC04162J/cit35/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "70",
+            "DOI": "10.1039/b210714g",
+            "author": "Abbott",
+            "year": "2003",
+            "journal-title": "Chem. Commun."
+          },
+          {
+            "key": "D3CC04162J/cit36/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1631",
+            "DOI": "10.1021/acssuschemeng.2c07101",
+            "volume": "11",
+            "author": "Liu",
+            "year": "2023",
+            "journal-title": "ACS Sustainable Chem. Eng."
+          },
+          {
+            "key": "D3CC04162J/cit37/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "696",
+            "DOI": "10.1021/acssuschemeng.1c07700",
+            "volume": "10",
+            "author": "Liu",
+            "year": "2022",
+            "journal-title": "ACS Sustainable Chem. Eng."
+          },
+          {
+            "key": "D3CC04162J/cit38/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "26277",
+            "DOI": "10.1039/D1TA05515A",
+            "volume": "9",
+            "author": "Mao",
+            "year": "2021",
+            "journal-title": "J. Mater. Chem. A"
+          },
+          {
+            "key": "D3CC04162J/cit39/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1206",
+            "DOI": "10.1021/acsenergylett.9b00531",
+            "volume": "4",
+            "author": "Löffler",
+            "year": "2019",
+            "journal-title": "ACS Energy Lett."
+          },
+          {
+            "key": "D3CC04162J/cit40/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "5844",
+            "DOI": "10.1002/anie.201914666",
+            "volume": "59",
+            "author": "Löffler",
+            "year": "2020",
+            "journal-title": "Angew. Chem., Int. Ed."
+          },
+          {
+            "key": "D3CC04162J/cit41/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "26894",
+            "DOI": "10.1002/anie.202109212",
+            "volume": "60",
+            "author": "Löffler",
+            "year": "2021",
+            "journal-title": "Angew. Chem., Int. Ed."
+          },
+          {
+            "key": "D3CC04162J/cit42/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "495",
+            "DOI": "10.1038/s41929-019-0279-6",
+            "volume": "2",
+            "author": "Li",
+            "year": "2019",
+            "journal-title": "Nat. Catal."
+          },
+          {
+            "key": "D3CC04162J/cit43/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "130328",
+            "DOI": "10.1016/j.cej.2021.130328",
+            "volume": "424",
+            "author": "Zhang",
+            "year": "2021",
+            "journal-title": "Chem. Eng. J."
+          },
+          {
+            "key": "D3CC04162J/cit44/1",
+            "doi-asserted-by": "crossref",
+            "first-page": "468",
+            "DOI": "10.1016/j.electacta.2012.05.063",
+            "volume": "76",
+            "author": "Wei",
+            "year": "2012",
+            "journal-title": "Electrochim. Acta"
+          }
+        ],
+        "container-title": [
+          "Chemical Communications"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://pubs.rsc.org/en/content/articlepdf/2023/CC/D3CC04162J",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T18:28:11Z",
+          "timestamp": 1782930491000
+        },
+        "score": 40.37706,
+        "resource": {
+          "primary": {
+            "URL": "https://pubs.rsc.org/cc/article/59/86/12863-12866/798489"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "references-count": 44,
+        "journal-issue": {
+          "issue": "86",
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                26
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1039/d3cc04162j",
+        "ISSN": [
+          "1359-7345",
+          "1364-548X"
+        ],
+        "issn-type": [
+          {
+            "value": "1359-7345",
+            "type": "print"
+          },
+          {
+            "value": "1364-548X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T07:54:19Z",
+          "timestamp": 1718524459676
+        },
+        "reference-count": 19,
+        "publisher": "EJournal Publishing",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IJMMM"
+        ],
+        "DOI": "10.7763/ijmmm.2014.v2.86",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              10,
+              18
+            ]
+          ],
+          "date-time": "2013-10-18T06:45:01Z",
+          "timestamp": 1382078701000
+        },
+        "page": "1-4",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Nonstoichiometric Polyelectrolyte Complexes: Smart Nanoreactors for Alloy and Multimetallic Catalyst"
+        ],
+        "prefix": "10.18178",
+        "author": [
+          {
+            "given": "Md. Shahinul",
+            "family": "Islam",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Won San",
+            "family": "Choi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ha-Jin",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "7629",
+        "published-online": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adma.201003695"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/la103953n"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adma.200801423"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/nn200901g"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/la015725a"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.actbio.2010.11.042"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/la901243m"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/cm202252a"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/la036177z"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s12274-009-9061-4"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp300140s"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ma960120k"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ma991645q"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/cm101109e"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ja1025744"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp054752x"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp012083r"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/j100099a038"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/smll.200700888"
+          }
+        ],
+        "container-title": [
+          "International Journal of Materials, Mechanics and Manufacturing"
+        ],
+        "original-title": [
+          "Nonstoichiometric Polyelectrolyte Complexes: Smart Nanoreactors for Alloy and Multimetallic Catalyst"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              16
+            ]
+          ],
+          "date-time": "2015-10-16T12:16:33Z",
+          "timestamp": 1444997793000
+        },
+        "score": 40.085487,
+        "resource": {
+          "primary": {
+            "URL": "http://www.ijmmm.org/index.php?m=content&c=index&a=show&catid=30&id=110"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "references-count": 19,
+        "URL": "https://doi.org/10.7763/ijmmm.2014.v2.86",
+        "ISSN": [
+          "1793-8198"
+        ],
+        "issn-type": [
+          {
+            "value": "1793-8198",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2026-07-20T11:30:48Z",
+          "timestamp": 1784547048538,
+          "version": "3.55.0"
+        },
+        "reference-count": 85,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2025-03-01T00:00:00Z",
+              "timestamp": 1740787200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  4,
+                  29
+                ]
+              ],
+              "date-time": "2025-04-29T00:00:00Z",
+              "timestamp": 1745884800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 59,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001732",
+            "name": "Danmarks Grundforskningsfond",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "DNRF149"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "DNRF149"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001732",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100000781",
+            "name": "European Research Council",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "101118768"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "101118768"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100000781",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001659",
+            "name": "Deutsche Forschungsgemeinschaft",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "506711657"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "506711657"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001659",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001734",
+            "name": "Copenhagen University",
+            "doi-asserted-by": "crossref",
+            "id": [
+              {
+                "id": "10.13039/501100001734",
+                "id-type": "DOI",
+                "asserted-by": "crossref"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "High Entropy Alloys Mater."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The stability of a nanoparticle catalyst during electrochemical reaction is crucial for its application. Despite increasing interest in multi-metallic alloy nanoparticles, such as high-entropy alloys (HEAs), for electrocatalysis and emerging models for their catalytic activity, there is limited work on frameworks that can predict the metastability of these alloys under reaction conditions, including stability against electrochemical surface dissolution. Incorporating electrochemical stability in multi-objective optimization would advance HEAs as a catalyst discovery platform. To address the knowledge gap on electrochemical stability, we propose a methodology for simulating the dissolution of n-element alloy nanoparticles comprised of density functional theory and machine-learning regression to calculate the dissolution potentials of the surface atoms. We demonstrate the methodology for the Ag–Au–Cu–Ir–Pd–Pt–Rh–Ru HEA system with the conditions of the oxygen reduction reaction. We investigated trends in stability against dissolution through a compositional grid search for the octo-metallic composition space, uncovering two alloying strategies to increase stability against electrochemical surface dissolution: Alloying with a noble metal or a metal with high relative surface energy. In the simulations, stabilization ensues from forming a protective surface layer, and consequently, the dissolution of persistent alloyed nanoparticles results in core–shell structures. The model enables tracing the evolution of the surface and dissolved composition during electrochemical dissolution, forming paths of dissolution and revealing unretainable surface compositions.</jats:p>\n                  <jats:p>\n                    <jats:bold>Graphical Abstract</jats:bold>\n                  </jats:p>",
+        "DOI": "10.1007/s44210-025-00057-3",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2025-04-29T13:59:56Z",
+          "timestamp": 1745935196000
+        },
+        "page": "165-177",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 6,
+        "title": [
+          "Electrochemical Dissolution: Paths in High-Entropy Alloy Composition Space"
+        ],
+        "prefix": "10.1007",
+        "volume": "3",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3859-1921",
+            "authenticated-orcid": false,
+            "given": "Mads K.",
+            "family": "Plenge",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5601-5450",
+            "authenticated-orcid": false,
+            "given": "Jack K.",
+            "family": "Pedersen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3801-7751",
+            "authenticated-orcid": false,
+            "given": "Luis A.",
+            "family": "Cipriano",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7749-6567",
+            "authenticated-orcid": false,
+            "given": "Jan",
+            "family": "Rossmeisl",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              29
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "57_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "16",
+            "DOI": "10.1038/nmat4834",
+            "volume": "16",
+            "author": "S Chu",
+            "year": "2017",
+            "unstructured": "S. Chu, Y. Cui, N. Liu, The path towards sustainable energy. Nat. Mater. 16, 16–22 (2017). https://doi.org/10.1038/nmat4834",
+            "journal-title": "Nat. Mater."
+          },
+          {
+            "key": "57_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "294",
+            "DOI": "10.1038/nature11475",
+            "volume": "488",
+            "author": "S Chu",
+            "year": "2012",
+            "unstructured": "S. Chu, A. Majumdar, Opportunities and challenges for a sustainable energy future. Nature 488, 294–303 (2012). https://doi.org/10.1038/nature11475",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "57_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "3519",
+            "DOI": "10.1039/c4ee01760a",
+            "volume": "7",
+            "author": "MS Faber",
+            "year": "2014",
+            "unstructured": "M.S. Faber, S. Jin, Earth-abundant inorganic electrocatalysts and their nanostructures for energy conversion applications. Energy Environ. Sci. 7, 3519–3542 (2014). https://doi.org/10.1039/c4ee01760a",
+            "journal-title": "Energy Environ. Sci."
+          },
+          {
+            "key": "57_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "15298",
+            "DOI": "10.1002/anie.202007672",
+            "volume": "59",
+            "author": "J Masa",
+            "year": "2020",
+            "unstructured": "J. Masa, C. Andronescu, W. Schuhmann, Electrocatalysis as the nexus for sustainable renewable energy: the Gordian Knot of activity, stability, and selectivity. Angew. Chem. Int. Ed. 59, 15298–15312 (2020). https://doi.org/10.1002/anie.202007672",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "57_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "100398",
+            "DOI": "10.1016/j.cogsc.2020.100398",
+            "volume": "27",
+            "author": "Z Chen",
+            "year": "2021",
+            "unstructured": "Z. Chen, W. Wei, B.-J. Ni, Cost-effective catalysts for renewable hydrogen production via electrochemical water splitting: recent advances. Curr. Opin. Green Sustain. Chem. 27, 100398 (2021). https://doi.org/10.1016/j.cogsc.2020.100398",
+            "journal-title": "Curr. Opin. Green Sustain. Chem."
+          },
+          {
+            "key": "57_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "45",
+            "DOI": "10.1016/j.joule.2019.12.014",
+            "volume": "4",
+            "author": "X Tian",
+            "year": "2020",
+            "unstructured": "X. Tian, X.F. Lu, B.Y. Xia, X.W. Lou, Advanced electrocatalysts for the oxygen reduction reaction in energy conversion technologies. Joule 4, 45–68 (2020). https://doi.org/10.1016/j.joule.2019.12.014",
+            "journal-title": "Joule"
+          },
+          {
+            "key": "57_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "2000503",
+            "DOI": "10.1002/adfm.202000503",
+            "volume": "30",
+            "author": "K Zeng",
+            "year": "2020",
+            "unstructured": "K. Zeng et al., Recent advances in non-noble bifunctional oxygen electrocatalysts toward large-scale production. Adv. Func. Mater. 30, 2000503 (2020). https://doi.org/10.1002/adfm.202000503",
+            "journal-title": "Adv. Func. Mater."
+          },
+          {
+            "key": "57_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "107948",
+            "DOI": "10.1016/j.compchemeng.2022.107948",
+            "volume": "165",
+            "author": "MJ Palys",
+            "year": "2022",
+            "unstructured": "M.J. Palys, P. Daoutidis, Power-to-X: a review and perspective. Comput. Chem. Eng. 165, 107948 (2022). https://doi.org/10.1016/j.compchemeng.2022.107948",
+            "journal-title": "Comput. Chem. Eng."
+          },
+          {
+            "key": "57_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "2302",
+            "DOI": "10.1021/acs.chemrev.7b00488",
+            "volume": "118",
+            "author": "A Kulkarni",
+            "year": "2018",
+            "unstructured": "A. Kulkarni, S. Siahrostami, A. Patel, J.K. Nørskov, Understanding catalytic activity trends in the oxygen reduction reaction. Chem. Rev. 118, 2302–2312 (2018). https://doi.org/10.1021/acs.chemrev.7b00488",
+            "journal-title": "Chem. Rev."
+          },
+          {
+            "key": "57_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "3594",
+            "DOI": "10.1021/acs.chemrev.5b00462",
+            "volume": "116",
+            "author": "M Shao",
+            "year": "2016",
+            "unstructured": "M. Shao, Q. Chang, J.-P. Dodelet, R. Chenitz, Recent advances in electrocatalysts for oxygen reduction reaction. Chem. Rev. 116, 3594–3657 (2016). https://doi.org/10.1021/acs.chemrev.5b00462",
+            "journal-title": "Chem. Rev."
+          },
+          {
+            "key": "57_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "17976",
+            "DOI": "10.1002/ange.202016977",
+            "volume": "133",
+            "author": "S Zaman",
+            "year": "2021",
+            "unstructured": "S. Zaman et al., Oxygen reduction electrocatalysts toward practical fuel cells: progress and perspectives. Angew. Chem. 133, 17976–17996 (2021). https://doi.org/10.1002/ange.202016977",
+            "journal-title": "Angew. Chem."
+          },
+          {
+            "key": "57_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "17886",
+            "DOI": "10.1021/jp047349j",
+            "volume": "108",
+            "author": "JK Nørskov",
+            "year": "2004",
+            "unstructured": "J.K. Nørskov et al., Origin of the overpotential for oxygen reduction at a fuel-cell cathode. J. Phys. Chem. B 108, 17886–17892 (2004). https://doi.org/10.1021/jp047349j",
+            "journal-title": "J. Phys. Chem. B"
+          },
+          {
+            "key": "57_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "311",
+            "DOI": "10.1021/acs.accounts.0c00488",
+            "volume": "54",
+            "author": "L Huang",
+            "year": "2021",
+            "unstructured": "L. Huang et al., Advanced platinum-based oxygen reduction electrocatalysts for fuel cells. Acc. Chem. Res. 54, 311–322 (2021). https://doi.org/10.1021/acs.accounts.0c00488",
+            "journal-title": "Acc. Chem. Res."
+          },
+          {
+            "key": "57_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "2184",
+            "DOI": "10.1039/b912552c",
+            "volume": "39",
+            "author": "Y Bing",
+            "year": "2010",
+            "unstructured": "Y. Bing, H. Liu, L. Zhang, D. Ghosh, J. Zhang, Nanostructured Pt-alloy electrocatalysts for PEM fuel cell oxygen reduction reaction. Chem. Soc. Rev. 39, 2184 (2010). https://doi.org/10.1039/b912552c",
+            "journal-title": "Chem. Soc. Rev."
+          },
+          {
+            "key": "57_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "552",
+            "DOI": "10.1038/nchem.367",
+            "volume": "1",
+            "author": "J Greeley",
+            "year": "2009",
+            "unstructured": "J. Greeley et al., Alloys of platinum and early transition metals as oxygen reduction electrocatalysts. Nat. Chem. 1, 552–556 (2009). https://doi.org/10.1038/nchem.367",
+            "journal-title": "Nat. Chem."
+          },
+          {
+            "key": "57_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "8526",
+            "DOI": "10.1002/anie.201207186",
+            "volume": "52",
+            "author": "S Guo",
+            "year": "2013",
+            "unstructured": "S. Guo, S. Zhang, S. Sun, Tuning nanoparticle catalysis for the oxygen reduction reaction. Angew. Chem. Int. Ed. 52, 8526–8544 (2013). https://doi.org/10.1002/anie.201207186",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "57_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "241",
+            "DOI": "10.1038/nmat1840",
+            "volume": "6",
+            "author": "VR Stamenkovic",
+            "year": "2007",
+            "unstructured": "V.R. Stamenkovic et al., Trends in electrocatalysis on extended and nanoscale Pt-bimetallic alloy surfaces. Nat. Mater. 6, 241–247 (2007). https://doi.org/10.1038/nmat1840",
+            "journal-title": "Nat. Mater."
+          },
+          {
+            "key": "57_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "6744",
+            "DOI": "10.1039/c2ee03590a",
+            "volume": "5",
+            "author": "IEL Stephens",
+            "year": "2012",
+            "unstructured": "I.E.L. Stephens, A.S. Bondarenko, U. Grønbjerg, J. Rossmeisl, I. Chorkendorff, Understanding the electrocatalysis of oxygen reduction on platinum and its alloys. Energy Environ. Sci. 5, 6744 (2012). https://doi.org/10.1039/c2ee03590a",
+            "journal-title": "Energy Environ. Sci."
+          },
+          {
+            "key": "57_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "137",
+            "DOI": "10.1016/j.jpowsour.2013.03.077",
+            "volume": "238",
+            "author": "JK Seo",
+            "year": "2013",
+            "unstructured": "J.K. Seo, A. Khetan, M.H. Seo, H. Kim, B. Han, First-principles thermodynamic study of the electrochemical stability of Pt nanoparticles in fuel cell applications. J. Power. Sources 238, 137–143 (2013). https://doi.org/10.1016/j.jpowsour.2013.03.077",
+            "journal-title": "J. Power. Sources"
+          },
+          {
+            "key": "57_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "596",
+            "DOI": "10.1021/ja9071496",
+            "volume": "132",
+            "author": "L Tang",
+            "year": "2010",
+            "unstructured": "L. Tang et al., Electrochemical stability of nanometer-scale Pt particles in acidic environments. J. Am. Chem. Soc. 132, 596–600 (2010). https://doi.org/10.1021/ja9071496",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "57_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "11722",
+            "DOI": "10.1021/ja104421t",
+            "volume": "132",
+            "author": "L Tang",
+            "year": "2010",
+            "unstructured": "L. Tang, X. Li, R.C. Cammarata, C. Friesen, K. Sieradzki, Electrochemical stability of elemental metal nanoparticles. J. Am. Chem. Soc. 132, 11722–11726 (2010). https://doi.org/10.1021/ja104421t",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "57_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "3750",
+            "DOI": "10.1149/1.1392544",
+            "volume": "146",
+            "author": "T Toda",
+            "year": "1999",
+            "unstructured": "T. Toda, H. Igarashi, H. Uchida, M. Watanabe, Enhancement of the electroreduction of oxygen on Pt alloys with Fe, Ni, and Co. J. Electrochem. Soc. 146, 3750–3756 (1999). https://doi.org/10.1149/1.1392544",
+            "journal-title": "J. Electrochem. Soc."
+          },
+          {
+            "key": "57_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "6085",
+            "DOI": "10.1016/j.jpowsour.2011.03.064",
+            "volume": "196",
+            "author": "FJ Perez-Alonso",
+            "year": "2011",
+            "unstructured": "F.J. Perez-Alonso et al., Identical locations transmission electron microscopy study of Pt/C electrocatalyst degradation during oxygen reduction reaction. J. Power. Sources 196, 6085–6091 (2011). https://doi.org/10.1016/j.jpowsour.2011.03.064",
+            "journal-title": "J. Power. Sources"
+          },
+          {
+            "key": "57_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "8964",
+            "DOI": "10.1002/ange.202014711",
+            "volume": "133",
+            "author": "K Ehelebe",
+            "year": "2021",
+            "unstructured": "K. Ehelebe et al., Platinum dissolution in realistic fuel cell catalyst layers. Angew. Chem. 133, 8964–8970 (2021). https://doi.org/10.1002/ange.202014711",
+            "journal-title": "Angew. Chem."
+          },
+          {
+            "key": "57_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "3904",
+            "DOI": "10.1021/cr050182l",
+            "volume": "107",
+            "author": "R Borup",
+            "year": "2007",
+            "unstructured": "R. Borup et al., Scientific aspects of polymer electrolyte fuel cell durability and degradation. Chem. Rev. 107, 3904–3951 (2007). https://doi.org/10.1021/cr050182l",
+            "journal-title": "Chem. Rev."
+          },
+          {
+            "key": "57_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "192",
+            "DOI": "10.1016/j.coelec.2020.02.007",
+            "volume": "21",
+            "author": "RL Borup",
+            "year": "2020",
+            "unstructured": "R.L. Borup et al., Recent developments in catalyst-related PEM fuel cell durability. Curr. Opin. Electrochem. 21, 192–200 (2020). https://doi.org/10.1016/j.coelec.2020.02.007",
+            "journal-title": "Curr. Opin. Electrochem."
+          },
+          {
+            "key": "57_CR27",
+            "doi-asserted-by": "publisher",
+            "first-page": "285",
+            "DOI": "10.1007/s11244-007-9000-0",
+            "volume": "46",
+            "author": "Y Shao-Horn",
+            "year": "2007",
+            "unstructured": "Y. Shao-Horn et al., Instability of supported platinum nanoparticles in low-temperature fuel cells. Top. Catal. 46, 285–305 (2007). https://doi.org/10.1007/s11244-007-9000-0",
+            "journal-title": "Top. Catal."
+          },
+          {
+            "key": "57_CR28",
+            "doi-asserted-by": "publisher",
+            "first-page": "2634",
+            "DOI": "10.1002/celc.202100387",
+            "volume": "8",
+            "author": "S Popovic",
+            "year": "2021",
+            "unstructured": "S. Popovic, M. Bele, N. Hodnik, Reconstruction of copper nanoparticles at electrochemical CO2 reduction reaction conditions occurs <i>via</i> two-step dissolution/redeposition mechanism. ChemElectroChem 8, 2634–2639 (2021). https://doi.org/10.1002/celc.202100387",
+            "journal-title": "ChemElectroChem"
+          },
+          {
+            "key": "57_CR29",
+            "doi-asserted-by": "publisher",
+            "first-page": "F3161",
+            "DOI": "10.1149/2.0191806jes",
+            "volume": "165",
+            "author": "A Pavlišič",
+            "year": "2018",
+            "unstructured": "A. Pavlišič et al., Platinum dissolution and redeposition from Pt/C fuel cell electrocatalyst at potential cycling. J. Electrochem. Soc. 165, F3161–F3165 (2018). https://doi.org/10.1149/2.0191806jes",
+            "journal-title": "J. Electrochem. Soc."
+          },
+          {
+            "key": "57_CR30",
+            "doi-asserted-by": "publisher",
+            "first-page": "7000",
+            "DOI": "10.1021/acs.nanolett.9b02382",
+            "volume": "19",
+            "author": "S Nagashima",
+            "year": "2019",
+            "unstructured": "S. Nagashima et al., Atomic-level observation of electrochemical platinum dissolution and redeposition. Nano Lett. 19, 7000–7005 (2019). https://doi.org/10.1021/acs.nanolett.9b02382",
+            "journal-title": "Nano Lett."
+          },
+          {
+            "key": "57_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "1207",
+            "DOI": "10.1038/s41563-020-0735-3",
+            "volume": "19",
+            "author": "PP Lopes",
+            "year": "2020",
+            "unstructured": "P.P. Lopes et al., Eliminating dissolution of platinum-based electrocatalysts at the atomic scale. Nat. Mater. 19, 1207–1214 (2020). https://doi.org/10.1038/s41563-020-0735-3",
+            "journal-title": "Nat. Mater."
+          },
+          {
+            "key": "57_CR32",
+            "doi-asserted-by": "publisher",
+            "first-page": "13343",
+            "DOI": "10.1002/anie.202100337",
+            "volume": "60",
+            "author": "FD Speck",
+            "year": "2021",
+            "unstructured": "F.D. Speck, A. Zagalskaya, V. Alexandrov, S. Cherevko, Periodicity in the electrochemical dissolution of transition metals. Angew. Chem. Int. Ed. 60, 13343–13349 (2021). https://doi.org/10.1002/anie.202100337",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "57_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "106876",
+            "DOI": "10.1016/j.elecom.2020.106876",
+            "volume": "122",
+            "author": "P Quaino",
+            "year": "2021",
+            "unstructured": "P. Quaino et al., On the first step in zinc deposition—a case of nonlinear coupling with the solvent. Electrochem. Commun. 122, 106876 (2021). https://doi.org/10.1016/j.elecom.2020.106876",
+            "journal-title": "Electrochem. Commun."
+          },
+          {
+            "key": "57_CR34",
+            "doi-asserted-by": "publisher",
+            "first-page": "4996",
+            "DOI": "10.1039/D3SC05791G",
+            "volume": "15",
+            "author": "R Kang",
+            "year": "2024",
+            "unstructured": "R. Kang et al., Understanding ion-transfer reactions in silver electrodissolution and electrodeposition from first-principles calculations and experiments. Chem. Sci. 15, 4996–5008 (2024). https://doi.org/10.1039/D3SC05791G",
+            "journal-title": "Chem. Sci."
+          },
+          {
+            "key": "57_CR35",
+            "doi-asserted-by": "publisher",
+            "first-page": "11280",
+            "DOI": "10.1021/acscatal.0c03617",
+            "volume": "10",
+            "author": "Y Xin",
+            "year": "2020",
+            "unstructured": "Y. Xin et al., High-entropy alloys as a platform for catalysis: progress, challenges, and opportunities. ACS Catal. 10, 11280–11306 (2020). https://doi.org/10.1021/acscatal.0c03617",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "57_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "100638",
+            "DOI": "10.1016/j.mtener.2021.100638",
+            "volume": "20",
+            "author": "K Li",
+            "year": "2021",
+            "unstructured": "K. Li, W. Chen, Recent progress in high-entropy alloys for catalysts: synthesis, applications, and prospects. Mater. Today Energy 20, 100638 (2021). https://doi.org/10.1016/j.mtener.2021.100638",
+            "journal-title": "Mater. Today Energy"
+          },
+          {
+            "key": "57_CR37",
+            "doi-asserted-by": "publisher",
+            "first-page": "2106715",
+            "DOI": "10.1002/adfm.202106715",
+            "volume": "31",
+            "author": "H Li",
+            "year": "2021",
+            "unstructured": "H. Li, J. Lai, Z. Li, L. Wang, Multi-sites electrocatalysis in high-entropy alloys. Adv. Func. Mater. 31, 2106715 (2021). https://doi.org/10.1002/adfm.202106715",
+            "journal-title": "Adv. Func. Mater."
+          },
+          {
+            "key": "57_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "2104339",
+            "DOI": "10.1002/smll.202104339",
+            "volume": "18",
+            "author": "Y Zhang",
+            "year": "2022",
+            "unstructured": "Y. Zhang, D. Wang, S. Wang, High-entropy alloys for electrocatalysis: design, characterization, and applications. Small 18, 2104339 (2022). https://doi.org/10.1002/smll.202104339",
+            "journal-title": "Small"
+          },
+          {
+            "key": "57_CR39",
+            "doi-asserted-by": "publisher",
+            "first-page": "267",
+            "DOI": "10.1016/B978-0-443-22142-2.00012-0",
+            "volume-title": "High-Entropy Alloys",
+            "author": "MLS Nielsen",
+            "year": "2024",
+            "unstructured": "M.L.S. Nielsen, J. Rossmeisl, High-Entropy Alloys (Elsevier, Amsterdam, 2024), pp.267–288"
+          },
+          {
+            "key": "57_CR40",
+            "doi-asserted-by": "publisher",
+            "first-page": "1600",
+            "DOI": "10.1126/sciadv.abg1600",
+            "volume": "7",
+            "author": "Y Sun",
+            "year": "2021",
+            "unstructured": "Y. Sun, S. Dai, High-entropy materials for catalysis: a new frontier. Sci. Adv. 7, 1600 (2021). https://doi.org/10.1126/sciadv.abg1600",
+            "journal-title": "Sci. Adv."
+          },
+          {
+            "key": "57_CR41",
+            "doi-asserted-by": "publisher",
+            "first-page": "26894",
+            "DOI": "10.1002/anie.202109212",
+            "volume": "60",
+            "author": "T Löffler",
+            "year": "2021",
+            "unstructured": "T. Löffler, A. Ludwig, J. Rossmeisl, W. Schuhmann, What makes high-entropy alloys exceptional electrocatalysts? Angew. Chem. Int. Ed. 60, 26894–26903 (2021). https://doi.org/10.1002/anie.202109212",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "57_CR42",
+            "doi-asserted-by": "publisher",
+            "first-page": "5844",
+            "DOI": "10.1002/anie.201914666",
+            "volume": "59",
+            "author": "T Löffler",
+            "year": "2020",
+            "unstructured": "T. Löffler et al., Design of complex solid-solution electrocatalysts by correlating configuration, adsorption energy distribution patterns, and activity curves. Angew. Chem. Int. Ed. 59, 5844–5850 (2020). https://doi.org/10.1002/anie.201914666",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "57_CR43",
+            "doi-asserted-by": "publisher",
+            "first-page": "834",
+            "DOI": "10.1016/j.joule.2018.12.015",
+            "volume": "3",
+            "author": "TAA Batchelor",
+            "year": "2019",
+            "unstructured": "T.A.A. Batchelor et al., High-entropy alloys as a discovery platform for electrocatalysis. Joule 3, 834–845 (2019). https://doi.org/10.1016/j.joule.2018.12.015",
+            "journal-title": "Joule"
+          },
+          {
+            "key": "57_CR44",
+            "doi-asserted-by": "publisher",
+            "first-page": "120",
+            "DOI": "10.1007/s44210-022-00006-4",
+            "volume": "1",
+            "author": "CM Clausen",
+            "year": "2023",
+            "unstructured": "C.M. Clausen, M.L.S. Nielsen, J.K. Pedersen, J. Rossmeisl, Ab initio to activity: machine learning-assisted optimization of high-entropy alloy catalytic activity. High Entropy Alloy. Mater. 1, 120–133 (2023). https://doi.org/10.1007/s44210-022-00006-4",
+            "journal-title": "High Entropy Alloy. Mater."
+          },
+          {
+            "key": "57_CR45",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adfm.202401887",
+            "author": "X Fan",
+            "year": "2024",
+            "unstructured": "X. Fan et al., From single metals to high-entropy alloys: how machine learning accelerates the development of metal electrocatalysts. Adv. Func. Mater. (2024). https://doi.org/10.1002/adfm.202401887",
+            "journal-title": "Adv. Func. Mater."
+          },
+          {
+            "key": "57_CR46",
+            "doi-asserted-by": "publisher",
+            "first-page": "2202962",
+            "DOI": "10.1002/aenm.202202962",
+            "volume": "13",
+            "author": "MK Plenge",
+            "year": "2023",
+            "unstructured": "M.K. Plenge, J.K. Pedersen, V.A. Mints, M. Arenz, J. Rossmeisl, Following paths of maximum catalytic activity in the composition space of high-entropy alloys. Adv. Energy Mater. 13, 2202962 (2023). https://doi.org/10.1002/aenm.202202962",
+            "journal-title": "Adv. Energy Mater."
+          },
+          {
+            "key": "57_CR47",
+            "doi-asserted-by": "publisher",
+            "first-page": "24144",
+            "DOI": "10.1002/anie.202108116",
+            "volume": "60",
+            "author": "JK Pedersen",
+            "year": "2021",
+            "unstructured": "J.K. Pedersen et al., Bayesian optimization of high-entropy alloy compositions for electrocatalytic oxygen reduction. Angew. Chem. Int. Ed. 60, 24144–24152 (2021). https://doi.org/10.1002/anie.202108116",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "57_CR48",
+            "doi-asserted-by": "publisher",
+            "first-page": "101020",
+            "DOI": "10.1016/j.coche.2024.101020",
+            "volume": "44",
+            "author": "T Priamushko",
+            "year": "2024",
+            "unstructured": "T. Priamushko, A. Kormányos, S. Cherevko, What do we know about the electrochemical stability of high-entropy alloys? Curr. Opin. Chem. Eng. 44, 101020 (2024). https://doi.org/10.1016/j.coche.2024.101020",
+            "journal-title": "Curr. Opin. Chem. Eng."
+          },
+          {
+            "key": "57_CR49",
+            "doi-asserted-by": "publisher",
+            "first-page": "7698",
+            "DOI": "10.1021/jacs.3c14486",
+            "volume": "146",
+            "author": "W Xu",
+            "year": "2024",
+            "unstructured": "W. Xu, E. Diesen, T. He, K. Reuter, J.T. Margraf, Discovering high entropy alloy electrocatalysts in vast composition spaces with multiobjective optimization. J. Am. Chem. Soc. 146, 7698–7707 (2024). https://doi.org/10.1021/jacs.3c14486",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "57_CR50",
+            "doi-asserted-by": "publisher",
+            "first-page": "16697",
+            "DOI": "10.1039/d3nr02808a",
+            "volume": "15",
+            "author": "LA Cipriano",
+            "year": "2023",
+            "unstructured": "L.A. Cipriano et al., Tuning the chemical composition of binary alloy nanoparticles to prevent their dissolution. Nanoscale 15, 16697–16705 (2023). https://doi.org/10.1039/d3nr02808a",
+            "journal-title": "Nanoscale"
+          },
+          {
+            "key": "57_CR51",
+            "doi-asserted-by": "publisher",
+            "first-page": "107775",
+            "DOI": "10.1016/j.isci.2023.107775",
+            "volume": "26",
+            "author": "A Kormányos",
+            "year": "2023",
+            "unstructured": "A. Kormányos et al., Stability of high-entropy alloys under electrocatalytic conditions. iScience 26, 107775 (2023). https://doi.org/10.1016/j.isci.2023.107775",
+            "journal-title": "iScience"
+          },
+          {
+            "key": "57_CR52",
+            "doi-asserted-by": "publisher",
+            "first-page": "5318",
+            "DOI": "10.1021/acscatal.0c04118",
+            "volume": "11",
+            "author": "J Linnemann",
+            "year": "2021",
+            "unstructured": "J. Linnemann, K. Kanokkanchana, K. Tschulik, Design strategies for electrocatalysts from an electrochemist’s perspective. ACS Catal. 11, 5318–5346 (2021). https://doi.org/10.1021/acscatal.0c04118",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "57_CR53",
+            "doi-asserted-by": "publisher",
+            "first-page": "5545",
+            "DOI": "10.1016/j.electacta.2010.04.055",
+            "volume": "55",
+            "author": "J Greeley",
+            "year": "2010",
+            "unstructured": "J. Greeley, Structural effects on trends in the deposition and dissolution of metal-supported metal adstructures. Electrochim. Acta 55, 5545–5550 (2010). https://doi.org/10.1016/j.electacta.2010.04.055",
+            "journal-title": "Electrochim. Acta"
+          },
+          {
+            "key": "57_CR54",
+            "doi-asserted-by": "publisher",
+            "first-page": "5829",
+            "DOI": "10.1016/j.electacta.2007.02.082",
+            "volume": "52",
+            "author": "J Greeley",
+            "year": "2007",
+            "unstructured": "J. Greeley, J.K. Nørskov, Electrochemical dissolution of surface alloys in acids: thermodynamic trends from first-principles calculations. Electrochim. Acta 52, 5829–5836 (2007). https://doi.org/10.1016/j.electacta.2007.02.082",
+            "journal-title": "Electrochim. Acta"
+          },
+          {
+            "key": "57_CR55",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1201/9781315380476",
+            "volume-title": "CRC Handbook of Chemistry and Physics",
+            "author": "WM Haynes",
+            "year": "2016",
+            "unstructured": "W.M. Haynes, CRC Handbook of Chemistry and Physics (CRC Press, Boca Raton, 2016)"
+          },
+          {
+            "key": "57_CR56",
+            "doi-asserted-by": "publisher",
+            "first-page": "273002",
+            "DOI": "10.1088/1361-648x/aa680e",
+            "volume": "29",
+            "author": "A Hjorth Larsen",
+            "year": "2017",
+            "unstructured": "A. Hjorth Larsen et al., The atomic simulation environment—a Python library for working with atoms. J. Phys. Condens. Matter 29, 273002 (2017). https://doi.org/10.1088/1361-648x/aa680e",
+            "journal-title": "J. Phys. Condens. Matter"
+          },
+          {
+            "key": "57_CR57",
+            "doi-asserted-by": "publisher",
+            "first-page": "408",
+            "DOI": "10.1007/s12678-014-0205-2",
+            "volume": "5",
+            "author": "S Rudi",
+            "year": "2014",
+            "unstructured": "S. Rudi, C. Cui, L. Gan, P. Strasser, Comparative study of the electrocatalytically active surface areas (ECSAs) of Pt alloy nanoparticles evaluated by Hupd and CO-stripping voltammetry. Electrocatalysis 5, 408–418 (2014). https://doi.org/10.1007/s12678-014-0205-2",
+            "journal-title": "Electrocatalysis"
+          },
+          {
+            "key": "57_CR58",
+            "doi-asserted-by": "publisher",
+            "first-page": "116505",
+            "DOI": "10.1149/1945-7111/ad09f8",
+            "volume": "170",
+            "author": "P Cignoni",
+            "year": "2023",
+            "unstructured": "P. Cignoni et al., Validating electrochemical active surface area determination of nanostructured electrodes: surface oxide reduction on AuPd nanoparticles. J. Electrochem. Soc. 170, 116505 (2023). https://doi.org/10.1149/1945-7111/ad09f8",
+            "journal-title": "J. Electrochem. Soc."
+          },
+          {
+            "key": "57_CR59",
+            "doi-asserted-by": "publisher",
+            "first-page": "12624",
+            "DOI": "10.1021/ja0742784",
+            "volume": "129",
+            "author": "S Koh",
+            "year": "2007",
+            "unstructured": "S. Koh, P. Strasser, Electrocatalysis on bimetallic surfaces: modifying catalytic reactivity for oxygen reduction by voltammetric surface dealloying. J. Am. Chem. Soc. 129, 12624–12625 (2007). https://doi.org/10.1021/ja0742784",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "57_CR60",
+            "doi-asserted-by": "publisher",
+            "first-page": "454",
+            "DOI": "10.1038/nchem.623",
+            "volume": "2",
+            "author": "P Strasser",
+            "year": "2010",
+            "unstructured": "P. Strasser et al., Lattice-strain control of the activity in dealloyed core–shell fuel cell catalysts. Nat. Chem. 2, 454–460 (2010). https://doi.org/10.1038/nchem.623",
+            "journal-title": "Nat. Chem."
+          },
+          {
+            "key": "57_CR61",
+            "doi-asserted-by": "publisher",
+            "first-page": "8988",
+            "DOI": "10.1002/anie.200703331",
+            "volume": "46",
+            "author": "R Srivastava",
+            "year": "2007",
+            "unstructured": "R. Srivastava, P. Mani, N. Hahn, P. Strasser, Efficient oxygen reduction fuel cell electrocatalysis on voltammetrically dealloyed Pt–Cu–Co nanoparticles. Angew. Chem. Int. Ed. 46, 8988–8991 (2007). https://doi.org/10.1002/anie.200703331",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "57_CR62",
+            "doi-asserted-by": "publisher",
+            "first-page": "8813",
+            "DOI": "10.1021/ja0600476",
+            "volume": "128",
+            "author": "VR Stamenkovic",
+            "year": "2006",
+            "unstructured": "V.R. Stamenkovic, B.S. Mun, K.J.J. Mayrhofer, P.N. Ross, N.M. Markovic, Effect of surface composition on electronic structure, stability, and electrocatalytic properties of Pt-transition metal alloys: Pt-skin versus Pt-skeleton surfaces. J. Am. Chem. Soc. 128, 8813–8819 (2006). https://doi.org/10.1021/ja0600476",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "57_CR63",
+            "doi-asserted-by": "publisher",
+            "first-page": "14396",
+            "DOI": "10.1021/ja2047655",
+            "volume": "133",
+            "author": "C Wang",
+            "year": "2011",
+            "unstructured": "C. Wang et al., Design and synthesis of bimetallic electrocatalyst with multilayered Pt-skin surfaces. J. Am. Chem. Soc. 133, 14396–14403 (2011). https://doi.org/10.1021/ja2047655",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "57_CR64",
+            "doi-asserted-by": "publisher",
+            "first-page": "19405",
+            "DOI": "10.1039/D0TA04880A",
+            "volume": "8",
+            "author": "C Rurainsky",
+            "year": "2020",
+            "unstructured": "C. Rurainsky et al., Electrochemical dealloying as a tool to tune the porosity, composition and catalytic activity of nanomaterials. J. Mater. Chem. A 8, 19405–19413 (2020). https://doi.org/10.1039/D0TA04880A",
+            "journal-title": "J. Mater. Chem. A"
+          },
+          {
+            "key": "57_CR65",
+            "doi-asserted-by": "publisher",
+            "first-page": "286",
+            "DOI": "10.1021/acsmaterialsau.3c00092",
+            "volume": "4",
+            "author": "A Kormanyos",
+            "year": "2024",
+            "unstructured": "A. Kormanyos et al., Stability of Bimetallic PtxRuy – from model surfaces to nanoparticulate electrocatalysts. ACS Mater. Au 4, 286–299 (2024). https://doi.org/10.1021/acsmaterialsau.3c00092",
+            "journal-title": "ACS Mater. Au"
+          },
+          {
+            "key": "57_CR66",
+            "doi-asserted-by": "publisher",
+            "first-page": "2001575",
+            "DOI": "10.1002/adfm.202001575",
+            "volume": "30",
+            "author": "LM Guo",
+            "year": "2020",
+            "unstructured": "L.M. Guo, D.F. Zhang, L. Guo, Structure design reveals the role of Au for ORR catalytic performance optimization in PtCo-based catalysts. Adv. Func. Mater. 30, 2001575 (2020). https://doi.org/10.1002/adfm.202001575",
+            "journal-title": "Adv. Func. Mater."
+          },
+          {
+            "key": "57_CR67",
+            "doi-asserted-by": "publisher",
+            "first-page": "220",
+            "DOI": "10.1126/science.1134569",
+            "volume": "315",
+            "author": "J Zhang",
+            "year": "2007",
+            "unstructured": "J. Zhang, K. Sasaki, E. Sutter, R.R. Adzic, Stabilization of platinum oxygen-reduction electrocatalysts using gold clusters. Science 315, 220–222 (2007). https://doi.org/10.1126/science.1134569",
+            "journal-title": "Science"
+          },
+          {
+            "key": "57_CR68",
+            "doi-asserted-by": "publisher",
+            "first-page": "1115",
+            "DOI": "10.1038/ncomms2124",
+            "volume": "3",
+            "author": "K Sasaki",
+            "year": "2012",
+            "unstructured": "K. Sasaki et al., Highly stable Pt monolayer on PdAu nanoparticle electrocatalysts for the oxygen reduction reaction. Nat. Commun. 3, 1115 (2012). https://doi.org/10.1038/ncomms2124",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "57_CR69",
+            "doi-asserted-by": "publisher",
+            "first-page": "1513",
+            "DOI": "10.1021/cs501710b",
+            "volume": "5",
+            "author": "X Tan",
+            "year": "2015",
+            "unstructured": "X. Tan et al., Pt–Au–Co alloy electrocatalysts demonstrating enhanced activity and durability toward the oxygen reduction reaction. ACS Catal. 5, 1513–1524 (2015). https://doi.org/10.1021/cs501710b",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "57_CR70",
+            "doi-asserted-by": "publisher",
+            "first-page": "6313",
+            "DOI": "10.1002/adma.201302820",
+            "volume": "25",
+            "author": "X Xia",
+            "year": "2013",
+            "unstructured": "X. Xia, Y. Wang, A. Ruditskiy, Y. Xia, 25th anniversary article: galvanic replacement: a simple and versatile route to hollow nanostructures with tunable and well-controlled properties. Adv. Mater. 25, 6313–6333 (2013). https://doi.org/10.1002/adma.201302820",
+            "journal-title": "Adv. Mater."
+          },
+          {
+            "key": "57_CR71",
+            "doi-asserted-by": "publisher",
+            "first-page": "900",
+            "DOI": "10.1021/acs.accounts.3c00067",
+            "volume": "56",
+            "author": "H Cheng",
+            "year": "2023",
+            "unstructured": "H. Cheng, C. Wang, D. Qin, Y. Xia, Galvanic replacement synthesis of metal nanostructures: bridging the gap between chemical and electrochemical approaches. Acc. Chem. Res. 56, 900–909 (2023). https://doi.org/10.1021/acs.accounts.3c00067",
+            "journal-title": "Acc. Chem. Res."
+          },
+          {
+            "key": "57_CR72",
+            "doi-asserted-by": "publisher",
+            "first-page": "6078",
+            "DOI": "10.1021/ja201156s",
+            "volume": "133",
+            "author": "H Zhang",
+            "year": "2011",
+            "unstructured": "H. Zhang et al., Synthesis of Pd−Pt bimetallic nanocrystals with a concave structure through a bromide-induced galvanic replacement reaction. J. Am. Chem. Soc. 133, 6078–6089 (2011). https://doi.org/10.1021/ja201156s",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "57_CR73",
+            "unstructured": "C.J. Owen et al., Surface roughening in nanoparticle catalysts (2024), Preprint arXiv:2407.13643"
+          },
+          {
+            "key": "57_CR74",
+            "doi-asserted-by": "publisher",
+            "first-page": "5125",
+            "DOI": "10.1557/s43578-023-01123-5",
+            "volume": "38",
+            "author": "Y Liang",
+            "year": "2023",
+            "unstructured": "Y. Liang et al., Atomic cluster expansion for Pt–Rh catalysts: from ab initio to the simulation of nanoclusters in few steps. J. Mater. Res. 38, 5125–5135 (2023). https://doi.org/10.1557/s43578-023-01123-5",
+            "journal-title": "J. Mater. Res."
+          },
+          {
+            "key": "57_CR75",
+            "doi-asserted-by": "publisher",
+            "first-page": "014104",
+            "DOI": "10.1103/PhysRevB.99.014104",
+            "volume": "99",
+            "author": "R Drautz",
+            "year": "2019",
+            "unstructured": "R. Drautz, Atomic cluster expansion for accurate and transferable interatomic potentials. Phys. Rev. B 99, 014104 (2019). https://doi.org/10.1103/PhysRevB.99.014104",
+            "journal-title": "Phys. Rev. B"
+          },
+          {
+            "key": "57_CR76",
+            "doi-asserted-by": "publisher",
+            "first-page": "134704",
+            "DOI": "10.1063/5.0143891",
+            "volume": "158",
+            "author": "J Kloppenburg",
+            "year": "2023",
+            "unstructured": "J. Kloppenburg, L.B. Pártay, H. Jónsson, M.A. Caro, A general-purpose machine learning Pt interatomic potential for an accurate description of bulk, surfaces, and nanoparticles. J. Chem. Phys. 158, 134704 (2023). https://doi.org/10.1063/5.0143891",
+            "journal-title": "J. Chem. Phys."
+          },
+          {
+            "key": "57_CR77",
+            "doi-asserted-by": "publisher",
+            "first-page": "A242",
+            "DOI": "10.1149/1.1836156",
+            "volume": "152",
+            "author": "RM Darling",
+            "year": "2005",
+            "unstructured": "R.M. Darling, J.P. Meyers, Mathematical model of platinum movement in PEM fuel cells. J. Electrochem. Soc. 152, A242 (2005). https://doi.org/10.1149/1.1836156",
+            "journal-title": "J. Electrochem. Soc."
+          },
+          {
+            "key": "57_CR78",
+            "doi-asserted-by": "publisher",
+            "first-page": "A1523",
+            "DOI": "10.1149/1.1613669",
+            "volume": "150",
+            "author": "RM Darling",
+            "year": "2003",
+            "unstructured": "R.M. Darling, J.P. Meyers, Kinetic model of platinum dissolution in PEMFCs. J. Electrochem. Soc. 150, A1523 (2003). https://doi.org/10.1149/1.1613669",
+            "journal-title": "J. Electrochem. Soc."
+          },
+          {
+            "key": "57_CR79",
+            "doi-asserted-by": "publisher",
+            "first-page": "3491",
+            "DOI": "10.1002/cssc.201900617",
+            "volume": "12",
+            "author": "JHJ Wijten",
+            "year": "2019",
+            "unstructured": "J.H.J. Wijten et al., Electrolyte effects on the stability of Ni−Mo cathodes for the hydrogen evolution reaction. Chemsuschem 12, 3491–3500 (2019). https://doi.org/10.1002/cssc.201900617",
+            "journal-title": "Chemsuschem"
+          },
+          {
+            "key": "57_CR80",
+            "doi-asserted-by": "publisher",
+            "first-page": "230851",
+            "DOI": "10.1016/j.jpowsour.2021.230851",
+            "volume": "521",
+            "author": "I Martens",
+            "year": "2022",
+            "unstructured": "I. Martens, R. Chattot, J. Drnec, Decoupling catalyst aggregation, ripening, and coalescence processes inside operating fuel cells. J. Power. Sources 521, 230851 (2022). https://doi.org/10.1016/j.jpowsour.2021.230851",
+            "journal-title": "J. Power. Sources"
+          },
+          {
+            "key": "57_CR81",
+            "doi-asserted-by": "publisher",
+            "first-page": "4417",
+            "DOI": "10.1021/nl203920s",
+            "volume": "12",
+            "author": "Y Yu",
+            "year": "2012",
+            "unstructured": "Y. Yu et al., Three-dimensional tracking and visualization of hundreds of Pt−Co fuel cell nanocatalysts during electrochemical aging. Nano Lett. 12, 4417–4423 (2012). https://doi.org/10.1021/nl203920s",
+            "journal-title": "Nano Lett."
+          },
+          {
+            "key": "57_CR82",
+            "doi-asserted-by": "publisher",
+            "first-page": "7381",
+            "DOI": "10.1021/acscatal.0c01765",
+            "volume": "10",
+            "author": "X Yao",
+            "year": "2020",
+            "unstructured": "X. Yao, Y. Wei, Z. Wang, L. Gan, Revealing the role of surface composition on the particle mobility and coalescence of carbon-supported Pt alloy fuel cell catalysts by in situ heating (S)TEM. ACS Catal. 10, 7381–7388 (2020). https://doi.org/10.1021/acscatal.0c01765",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "57_CR83",
+            "doi-asserted-by": "publisher",
+            "first-page": "941",
+            "DOI": "10.1039/d4ey00023d",
+            "volume": "2",
+            "author": "MP Salinas-Quezada",
+            "year": "2024",
+            "unstructured": "M.P. Salinas-Quezada et al., Toward understanding CO oxidation on high-entropy alloy electrocatalysts. EES Catal. 2, 941–952 (2024). https://doi.org/10.1039/d4ey00023d",
+            "journal-title": "EES Catal."
+          },
+          {
+            "key": "57_CR84",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/sciadv.adl3693",
+            "author": "C-Y Wu",
+            "year": "2024",
+            "unstructured": "C.-Y. Wu et al., A catalyst family of high-entropy alloy atomic layers with square atomic arrangements comprising iron- and platinum-group metals. Sci. Adv. (2024). https://doi.org/10.1126/sciadv.adl3693",
+            "journal-title": "Sci. Adv."
+          },
+          {
+            "key": "57_CR85",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41467-021-26425-2",
+            "author": "C Zhan",
+            "year": "2021",
+            "unstructured": "C. Zhan et al., Subnanometer high-entropy alloy nanowires enable remarkable hydrogen oxidation catalysis. Nat. Commun. (2021). https://doi.org/10.1038/s41467-021-26425-2",
+            "journal-title": "Nat. Commun."
+          }
+        ],
+        "container-title": [
+          "High Entropy Alloys &amp; Materials"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s44210-025-00057-3.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s44210-025-00057-3/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s44210-025-00057-3.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2025-09-06T12:46:35Z",
+          "timestamp": 1757162795000
+        },
+        "score": 39.409443,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s44210-025-00057-3"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "references-count": 85,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                3
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "57"
+        ],
+        "URL": "https://doi.org/10.1007/s44210-025-00057-3",
+        "relation": {
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.26434/chemrxiv-2024-4vt27",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "ISSN": [
+          "2731-5819",
+          "2731-5827"
+        ],
+        "issn-type": [
+          {
+            "value": "2731-5819",
+            "type": "print"
+          },
+          {
+            "value": "2731-5827",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "6 January 2025",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "9 April 2025",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "29 April 2025",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "The authors have no relevant financial or non-financial interests to disclose.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Conflict of interest"
+            }
+          },
+          {
+            "value": "Not applicable.",
+            "order": 3,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Ethical Approval"
+            }
+          },
+          {
+            "value": "Not applicable.",
+            "order": 4,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Consent to Participate"
+            }
+          },
+          {
+            "value": "Not applicable.",
+            "order": 5,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Consent for Publication"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2026-07-07T04:45:36Z",
+          "timestamp": 1783399536368,
+          "version": "3.54.6"
+        },
+        "reference-count": 36,
+        "publisher": "Wiley",
+        "issue": "44",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  8,
+                  11
+                ]
+              ],
+              "date-time": "2022-08-11T00:00:00Z",
+              "timestamp": 1660176000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100012166",
+            "name": "National Basic Research Program of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2019YFB1504503"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2019YFB1504503"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100012166",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "21878030"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "21878030"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "advanced.onlinelibrary.wiley.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Adv Funct Materials"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Immobilizing ultrafine high‐entropy Pt alloy nanocrystals (HENs) in porous carbon (PC) with strong interface interaction, which is crucial to efficient and durable oxygen reduction reaction (ORR), remains a challenge. In this study, an anchoring‐carbonization strategy for strongly bonding sub‐3 nm HENs in ordered mesoporous carbon is reported. When heating the orderly assembled composites containing hydrophobic organometallic precursors, structure directing agent F127, and hydrophilic resol, F127 is first removed at moderate temperature region, leading to reduced metallic species directly anchored on partially carbonized resol framework. Then along further temperature increase, in situ carbonization of resol around the HENs, enables more effective plane bonding rather than a single point contact of HENs with carbon. It not only enhances the anchor strength, but also inhibits migration and size growth of HENs along the subsequent high‐temperature carbonization. As a result, senary, septenary, octonary, and denary Pt‐based HENs with average nanocrystal sizes of 2.2, 2.6, 2.9, and 2.8 nm, respectively, are successfully imbedded into porous carbon. In electrocatalytic ORR, porous carbon‐supported senary Pt‐based HENs (6‐HENs/PC) exhibit superior activity and durability, representing a promising electrocatalyst. This strategy allows for the preparation of a range of ultrafine HENs strongly loaded on porous carbon for wide applications.</jats:p>",
+        "DOI": "10.1002/adfm.202204110",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              12
+            ]
+          ],
+          "date-time": "2022-08-12T01:49:22Z",
+          "timestamp": 1660268962000
+        },
+        "update-policy": "https://doi.org/10.1002/crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 64,
+        "title": [
+          "Stably Immobilizing Sub‐3 nm High‐Entropy Pt Alloy Nanocrystals in Porous Carbon as Durable Oxygen Reduction Electrocatalyst"
+        ],
+        "prefix": "10.1002",
+        "volume": "32",
+        "author": [
+          {
+            "given": "Wenjing",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Chemistry and Chemical Engineering Chongqing University  Daxuecheng South Road 55 Chongqing 401331 China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xin",
+            "family": "Feng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Materials Science and Engineering Chongqing University  Shazhengjie 174 Chongqing 400044 China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhan Xin",
+            "family": "Mao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Chemistry and Chemical Engineering Chongqing University  Daxuecheng South Road 55 Chongqing 401331 China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jing",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Chemistry and Chemical Engineering Chongqing University  Daxuecheng South Road 55 Chongqing 401331 China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8001-9729",
+            "authenticated-orcid": false,
+            "given": "Zidong",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Chemistry and Chemical Engineering Chongqing University  Daxuecheng South Road 55 Chongqing 401331 China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              11
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_8_1_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.chemrev.7b00542"
+          },
+          {
+            "key": "e_1_2_8_2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.chemrev.7b00488"
+          },
+          {
+            "key": "e_1_2_8_3_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aenm.201700544"
+          },
+          {
+            "key": "e_1_2_8_4_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41586-019-1617-1"
+          },
+          {
+            "key": "e_1_2_8_5_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41467-019-08460-2"
+          },
+          {
+            "key": "e_1_2_8_6_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jacs.0c11384"
+          },
+          {
+            "key": "e_1_2_8_7_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/C9TA00505F"
+          },
+          {
+            "key": "e_1_2_8_8_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41578-019-0121-4"
+          },
+          {
+            "key": "e_1_2_8_9_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41467-019-11848-9"
+          },
+          {
+            "key": "e_1_2_8_10_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jacs.0c04807"
+          },
+          {
+            "key": "e_1_2_8_11_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adma.202000385"
+          },
+          {
+            "key": "e_1_2_8_12_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.1903721117"
+          },
+          {
+            "key": "e_1_2_8_13_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/D0TA02125C"
+          },
+          {
+            "key": "e_1_2_8_14_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.partic.2018.08.013"
+          },
+          {
+            "key": "e_1_2_8_15_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aic.16140"
+          },
+          {
+            "key": "e_1_2_8_16_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adfm.201201244"
+          },
+          {
+            "key": "e_1_2_8_17_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ja210924t"
+          },
+          {
+            "key": "e_1_2_8_18_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ja305623m"
+          },
+          {
+            "key": "e_1_2_8_19_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adfm.202006939"
+          },
+          {
+            "key": "e_1_2_8_20_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.matt.2021.04.014"
+          },
+          {
+            "key": "e_1_2_8_21_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/science.aan5412"
+          },
+          {
+            "key": "e_1_2_8_22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jacs.1c07643"
+          },
+          {
+            "key": "e_1_2_8_23_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/sciadv.abg1600"
+          },
+          {
+            "key": "e_1_2_8_24_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acscatal.0c03617"
+          },
+          {
+            "key": "e_1_2_8_25_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adma.201907226"
+          },
+          {
+            "key": "e_1_2_8_26_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.commatsci.2018.04.003"
+          },
+          {
+            "key": "e_1_2_8_27_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.actamat.2016.08.081"
+          },
+          {
+            "key": "e_1_2_8_28_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/ncomms15634"
+          },
+          {
+            "key": "e_1_2_8_29_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adem.202000466"
+          },
+          {
+            "key": "e_1_2_8_30_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/D0TA09601F"
+          },
+          {
+            "key": "e_1_2_8_31_1",
+            "first-page": "1404",
+            "volume": "85",
+            "author": "Ranganathan S.",
+            "year": "2003",
+            "journal-title": "Curr. Sci."
+          },
+          {
+            "key": "e_1_2_8_32_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adfm.202001575"
+          },
+          {
+            "key": "e_1_2_8_33_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adfm.202103671"
+          },
+          {
+            "key": "e_1_2_8_34_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/anie.202101019"
+          },
+          {
+            "key": "e_1_2_8_35_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jacs.9b10239"
+          },
+          {
+            "key": "e_1_2_8_36_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/D1TA90014E"
+          }
+        ],
+        "container-title": [
+          "Advanced Functional Materials"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/adfm.202204110",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/adfm.202204110",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adfm.202204110",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              6
+            ]
+          ],
+          "date-time": "2025-10-06T11:18:10Z",
+          "timestamp": 1759749490000
+        },
+        "score": 38.760014,
+        "resource": {
+          "primary": {
+            "URL": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202204110"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              11
+            ]
+          ]
+        },
+        "references-count": 36,
+        "journal-issue": {
+          "issue": "44",
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                10
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1002/adfm.202204110"
+        ],
+        "URL": "https://doi.org/10.1002/adfm.202204110",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "1616-301X",
+          "1616-3028"
+        ],
+        "issn-type": [
+          {
+            "value": "1616-301X",
+            "type": "print"
+          },
+          {
+            "value": "1616-3028",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              11
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2022-04-12",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2022-08-11",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "article-number": "2204110"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2026-07-02T07:12:17Z",
+          "timestamp": 1782976337103,
+          "version": "3.54.5"
+        },
+        "reference-count": 68,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2020-02-01T00:00:00Z",
+              "timestamp": 1580515200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2020-02-01T00:00:00Z",
+              "timestamp": 1580515200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/100000001",
+            "name": "National Science Foundation",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100000001",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Computational Materials Science"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.commatsci.2019.109366",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              4
+            ]
+          ],
+          "date-time": "2019-12-04T09:16:12Z",
+          "timestamp": 1575450972000
+        },
+        "page": "109366",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 62,
+        "special_numbering": "C",
+        "title": [
+          "Atomistic modeling of dislocations in a random quinary high-entropy alloy"
+        ],
+        "prefix": "10.1016",
+        "volume": "173",
+        "author": [
+          {
+            "given": "Roberto",
+            "family": "Pasianot",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3976-0595",
+            "authenticated-orcid": false,
+            "given": "Diana",
+            "family": "Farkas",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0005",
+            "doi-asserted-by": "crossref",
+            "unstructured": "B.S. Murty, J.W. Yeh, S. Ranganathan, High-entropy alloys, in: High-Entropy Alloys, 2014, pp. 1–204.",
+            "DOI": "10.1016/B978-0-12-800251-3.00001-8"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.pmatsci.2013.10.001",
+            "volume": "61",
+            "author": "Zhang",
+            "year": "2014",
+            "journal-title": "Prog. Mater Sci."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0015",
+            "doi-asserted-by": "crossref",
+            "first-page": "448",
+            "DOI": "10.1016/j.actamat.2016.08.081",
+            "volume": "122",
+            "author": "Miracle",
+            "year": "2017",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "2024",
+            "DOI": "10.1007/s11837-017-2484-6",
+            "volume": "69",
+            "author": "Macdonald",
+            "year": "2017",
+            "journal-title": "JOM"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "213",
+            "DOI": "10.1016/j.msea.2003.10.257",
+            "volume": "375",
+            "author": "Cantor",
+            "year": "2004",
+            "journal-title": "Mater. Sci. Eng. A"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0030",
+            "doi-asserted-by": "crossref",
+            "first-page": "2628",
+            "DOI": "10.1016/j.actamat.2013.01.042",
+            "volume": "61",
+            "author": "Otto",
+            "year": "2013",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0035",
+            "doi-asserted-by": "crossref",
+            "first-page": "1153",
+            "DOI": "10.1126/science.1254581",
+            "volume": "345",
+            "author": "Gludovatz",
+            "year": "2014",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0040",
+            "doi-asserted-by": "crossref",
+            "first-page": "2262",
+            "DOI": "10.1007/s11837-015-1589-z",
+            "volume": "67",
+            "author": "Gludovatz",
+            "year": "2015",
+            "journal-title": "JOM"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0045",
+            "volume": "113",
+            "author": "Ding",
+            "year": "2018",
+            "journal-title": "Appl. Phys. Lett."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0050",
+            "doi-asserted-by": "crossref",
+            "first-page": "8919",
+            "DOI": "10.1073/pnas.1808660115",
+            "volume": "115",
+            "author": "Ding",
+            "year": "2018",
+            "journal-title": "Proc. Natl. Acad. Sci. U.S.A"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0055",
+            "doi-asserted-by": "crossref",
+            "first-page": "296",
+            "DOI": "10.1016/j.pmatsci.2018.12.003",
+            "volume": "102",
+            "author": "Li",
+            "year": "2019",
+            "journal-title": "Prog. Mater Sci."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0060",
+            "doi-asserted-by": "crossref",
+            "first-page": "188",
+            "DOI": "10.1016/j.actamat.2017.05.071",
+            "volume": "134",
+            "author": "Rao",
+            "year": "2017",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0065",
+            "doi-asserted-by": "crossref",
+            "first-page": "658",
+            "DOI": "10.1016/j.actamat.2018.12.037",
+            "volume": "166",
+            "author": "Antillon",
+            "year": "2019",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0070",
+            "doi-asserted-by": "crossref",
+            "first-page": "1780",
+            "DOI": "10.1007/s11837-013-0771-4",
+            "volume": "65",
+            "author": "Zaddach",
+            "year": "2013",
+            "journal-title": "JOM"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0075",
+            "doi-asserted-by": "crossref",
+            "first-page": "35863",
+            "DOI": "10.1038/srep35863",
+            "volume": "6",
+            "author": "Okamoto",
+            "year": "2016",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0080",
+            "doi-asserted-by": "crossref",
+            "first-page": "9",
+            "DOI": "10.1016/j.scriptamat.2017.05.001",
+            "volume": "137",
+            "author": "Liu",
+            "year": "2017",
+            "journal-title": "Scr. Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0085",
+            "doi-asserted-by": "crossref",
+            "first-page": "334",
+            "DOI": "10.1016/j.actamat.2017.05.001",
+            "volume": "134",
+            "author": "Zhao",
+            "year": "2017",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "134",
+            "DOI": "10.1016/j.scriptamat.2018.06.002",
+            "volume": "155",
+            "author": "He",
+            "year": "2018",
+            "journal-title": "Scr. Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0095",
+            "doi-asserted-by": "crossref",
+            "first-page": "655",
+            "DOI": "10.3390/e20090655",
+            "volume": "20",
+            "author": "Ikeda",
+            "year": "2018",
+            "journal-title": "Entropy"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "424",
+            "DOI": "10.1016/j.commatsci.2018.04.043",
+            "volume": "150",
+            "author": "Kumar",
+            "year": "2018",
+            "journal-title": "Comput. Mater. Sci."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0105",
+            "doi-asserted-by": "crossref",
+            "first-page": "132",
+            "DOI": "10.1016/j.msea.2018.09.028",
+            "volume": "737",
+            "author": "Pei",
+            "year": "2018",
+            "journal-title": "Mater. Sci. Eng. A"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.actamat.2018.09.066",
+            "volume": "164",
+            "author": "Zeng",
+            "year": "2019",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0115",
+            "doi-asserted-by": "crossref",
+            "first-page": "38",
+            "DOI": "10.1016/j.eml.2017.09.015",
+            "volume": "17",
+            "author": "Wang",
+            "year": "2017",
+            "journal-title": "Extreme Mech. Lett."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "1003",
+            "DOI": "10.1016/j.jallcom.2017.01.165",
+            "volume": "701",
+            "author": "Zhao",
+            "year": "2017",
+            "journal-title": "J. Alloys Compd."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0125",
+            "doi-asserted-by": "crossref",
+            "first-page": "95",
+            "DOI": "10.1016/j.actamat.2018.05.027",
+            "volume": "158",
+            "author": "Nohring",
+            "year": "2018",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "107",
+            "DOI": "10.1016/j.actamat.2017.10.050",
+            "volume": "144",
+            "author": "Xu",
+            "year": "2018",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0135",
+            "doi-asserted-by": "crossref",
+            "first-page": "741",
+            "DOI": "10.1016/j.actamat.2018.11.020",
+            "volume": "164",
+            "author": "Osetsky",
+            "year": "2019",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0140",
+            "doi-asserted-by": "crossref",
+            "first-page": "285",
+            "DOI": "10.1016/j.msea.2018.10.010",
+            "volume": "740",
+            "author": "Zhai",
+            "year": "2019",
+            "journal-title": "Mater. Sci. Eng. A"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0145",
+            "volume": "B93",
+            "author": "Varvenne",
+            "year": "2016",
+            "journal-title": "Phys. Rev. B"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0150",
+            "doi-asserted-by": "crossref",
+            "first-page": "1261",
+            "DOI": "10.1002/pssb.200301997",
+            "volume": "241",
+            "author": "Pasianot",
+            "year": "2004",
+            "journal-title": "Physica Status Solidi B"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0155",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1006/jcph.1995.1039",
+            "volume": "117",
+            "author": "Plimpton",
+            "year": "1995",
+            "journal-title": "J. Comput. Phys."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0160",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1063/1.3073889",
+            "volume": "130",
+            "author": "Bussi",
+            "year": "2009",
+            "journal-title": "J. Chem. Phys."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0165",
+            "doi-asserted-by": "crossref",
+            "first-page": "6443",
+            "DOI": "10.1103/PhysRevB.29.6443",
+            "volume": "29",
+            "author": "Daw",
+            "year": "1984",
+            "journal-title": "Phys. Rev. B"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0170",
+            "doi-asserted-by": "crossref",
+            "first-page": "3218",
+            "DOI": "10.1557/jmr.2018.245",
+            "volume": "33",
+            "author": "Farkas",
+            "year": "2018",
+            "journal-title": "J. Mater. Res."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0175",
+            "doi-asserted-by": "crossref",
+            "first-page": "96",
+            "DOI": "10.1016/j.intermet.2013.05.002",
+            "volume": "41",
+            "author": "Guo",
+            "year": "2013",
+            "journal-title": "Intermetallics"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0180",
+            "doi-asserted-by": "crossref",
+            "first-page": "3393",
+            "DOI": "10.1103/PhysRevB.59.3393",
+            "volume": "59",
+            "author": "Mishin",
+            "year": "1999",
+            "journal-title": "Phys. Rev. B"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0185",
+            "doi-asserted-by": "crossref",
+            "first-page": "10324",
+            "DOI": "10.1103/PhysRevB.41.10324",
+            "volume": "41",
+            "author": "Ackland",
+            "year": "1990",
+            "journal-title": "Phys. Rev. B"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0190",
+            "doi-asserted-by": "crossref",
+            "first-page": "3451",
+            "DOI": "10.1080/14786430903299337",
+            "volume": "89",
+            "author": "Bonny",
+            "year": "2009",
+            "journal-title": "Philos. Mag."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0195",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1103/PhysRevB.81.214106",
+            "volume": "81",
+            "author": "Terentyev",
+            "year": "2010",
+            "journal-title": "Phys. Rev. B"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0200",
+            "doi-asserted-by": "crossref",
+            "first-page": "559",
+            "DOI": "10.1080/09500839.2010.481268",
+            "volume": "90",
+            "author": "Bonny",
+            "year": "2010",
+            "journal-title": "Philos. Mag. Lett."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0205",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1088/0965-0393/19/8/085008",
+            "volume": "19",
+            "author": "Bonny",
+            "year": "2011",
+            "journal-title": "Modell. Simul. Mater. Sci. Eng."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0210",
+            "doi-asserted-by": "crossref",
+            "first-page": "162",
+            "DOI": "10.1016/j.msea.2012.07.106",
+            "volume": "558",
+            "author": "Schoeck",
+            "year": "2012",
+            "journal-title": "Mater. Sci. Eng. A"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0215",
+            "doi-asserted-by": "crossref",
+            "first-page": "215",
+            "DOI": "10.1088/0965-0393/9/3/308",
+            "volume": "9",
+            "author": "Olmsted",
+            "year": "2001",
+            "journal-title": "Modell. Simul. Mater. Sci. Eng."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0220",
+            "doi-asserted-by": "crossref",
+            "first-page": "883",
+            "DOI": "10.1088/0965-0393/11/6/006",
+            "volume": "11",
+            "author": "Szelestey",
+            "year": "2003",
+            "journal-title": "Modell. Simul. Mater. Sci. Eng."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0225",
+            "volume": "18",
+            "author": "Stukowski",
+            "year": "2010",
+            "journal-title": "Modell. Simul. Mater. Sci. Eng."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0230",
+            "volume": "18",
+            "author": "Stukowski",
+            "year": "2010",
+            "journal-title": "Modell. Simul. Mater. Sci. Eng."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0235",
+            "doi-asserted-by": "crossref",
+            "first-page": "4950",
+            "DOI": "10.1021/j100303a014",
+            "volume": "91",
+            "author": "Honeycutt",
+            "year": "1987",
+            "journal-title": "J. Phys. Chem.-US"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0240",
+            "volume": "20",
+            "author": "Stukowski",
+            "year": "2012",
+            "journal-title": "Model. Simul. Mater. Sci."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0245",
+            "volume": "20",
+            "author": "Stukowski",
+            "year": "2012",
+            "journal-title": "Model. Simul. Mater. Sci."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0250",
+            "doi-asserted-by": "crossref",
+            "first-page": "409",
+            "DOI": "10.1016/1359-6454(95)00145-5",
+            "volume": "44",
+            "author": "Farkas",
+            "year": "1996",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0255",
+            "first-page": "997",
+            "volume": "1",
+            "author": "Pasianot",
+            "year": "1991",
+            "journal-title": "J. Phys. Iii"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0260",
+            "doi-asserted-by": "crossref",
+            "first-page": "352",
+            "DOI": "10.1016/j.actamat.2016.03.045",
+            "volume": "110",
+            "author": "Smith",
+            "year": "2016",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0265",
+            "doi-asserted-by": "crossref",
+            "first-page": "660",
+            "DOI": "10.1016/j.actamat.2016.09.046",
+            "volume": "124",
+            "author": "Varvenne",
+            "year": "2017",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0270",
+            "doi-asserted-by": "crossref",
+            "first-page": "92",
+            "DOI": "10.1016/j.scriptamat.2017.05.035",
+            "volume": "138",
+            "author": "Varvenne",
+            "year": "2017",
+            "journal-title": "Scr. Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0275",
+            "doi-asserted-by": "crossref",
+            "first-page": "4477",
+            "DOI": "10.1080/14786430500300181",
+            "volume": "85",
+            "author": "Henager",
+            "year": "2005",
+            "journal-title": "Philos. Mag."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0280",
+            "doi-asserted-by": "crossref",
+            "first-page": "18",
+            "DOI": "10.1016/j.commatsci.2018.01.055",
+            "volume": "147",
+            "author": "Smith",
+            "year": "2018",
+            "journal-title": "Comput. Mater. Sci."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0285",
+            "doi-asserted-by": "crossref",
+            "first-page": "949",
+            "DOI": "10.1080/14786430412331314654",
+            "volume": "85",
+            "author": "Schoeck",
+            "year": "2005",
+            "journal-title": "Philos. Mag."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0290",
+            "doi-asserted-by": "crossref",
+            "first-page": "135",
+            "DOI": "10.1016/j.actamat.2017.02.027",
+            "volume": "128",
+            "author": "Nohring",
+            "year": "2017",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0295",
+            "doi-asserted-by": "crossref",
+            "first-page": "164",
+            "DOI": "10.1016/j.actamat.2016.07.040",
+            "volume": "118",
+            "author": "Varvenne",
+            "year": "2016",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0300",
+            "doi-asserted-by": "crossref",
+            "first-page": "659",
+            "DOI": "10.1002/pssb.19700410221",
+            "volume": "41",
+            "author": "Labusch",
+            "year": "1970",
+            "journal-title": "Phys. Status Solidi"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0305",
+            "doi-asserted-by": "crossref",
+            "first-page": "310",
+            "DOI": "10.1016/j.matchar.2019.02.034",
+            "volume": "151",
+            "author": "LaRosa",
+            "year": "2019",
+            "journal-title": "Mater. Charact."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0310",
+            "doi-asserted-by": "crossref",
+            "first-page": "14",
+            "DOI": "10.1016/j.actamat.2014.11.014",
+            "volume": "85",
+            "author": "Toda-Caraballo",
+            "year": "2015",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0315",
+            "doi-asserted-by": "crossref",
+            "first-page": "1028",
+            "DOI": "10.1007/BF00540987",
+            "volume": "12",
+            "author": "Gypen",
+            "year": "1977",
+            "journal-title": "J. Mater. Sci."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0320",
+            "doi-asserted-by": "crossref",
+            "first-page": "1034",
+            "DOI": "10.1007/BF00540988",
+            "volume": "12",
+            "author": "Gypen",
+            "year": "1977",
+            "journal-title": "J. Mater. Sci."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0325",
+            "doi-asserted-by": "crossref",
+            "first-page": "424",
+            "DOI": "10.1016/j.actamat.2018.12.032",
+            "volume": "166",
+            "author": "Zhang",
+            "year": "2019",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0330",
+            "volume": "8",
+            "author": "Coury",
+            "year": "2018",
+            "journal-title": "Sci. Rep.-UK"
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0335",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.actamat.2019.01.029",
+            "volume": "167",
+            "author": "Coury",
+            "year": "2019",
+            "journal-title": "Acta Mater."
+          },
+          {
+            "key": "10.1016/j.commatsci.2019.109366_b0340",
+            "doi-asserted-by": "crossref",
+            "first-page": "3563",
+            "DOI": "10.1038/s41467-019-11464-7",
+            "volume": "10",
+            "author": "Li",
+            "year": "2019",
+            "journal-title": "Nat. Commun."
+          }
+        ],
+        "container-title": [
+          "Computational Materials Science"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0927025619306652?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0927025619306652?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2025-10-15T06:18:26Z",
+          "timestamp": 1760509106000
+        },
+        "score": 38.54079,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0927025619306652"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              2
+            ]
+          ]
+        },
+        "references-count": 68,
+        "alternative-id": [
+          "S0927025619306652"
+        ],
+        "URL": "https://doi.org/10.1016/j.commatsci.2019.109366",
+        "ISSN": [
+          "0927-0256"
+        ],
+        "issn-type": [
+          {
+            "value": "0927-0256",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              2
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Atomistic modeling of dislocations in a random quinary high-entropy alloy",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Computational Materials Science",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.commatsci.2019.109366",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2019 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "109366"
+      }
+    ],
+    "items-per-page": 5,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

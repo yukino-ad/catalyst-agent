@@ -1,0 +1,349 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-24T15:00:41.958556+00:00",
+  "paper": {
+    "paper_id": "openalex:W4413138366",
+    "title": "Cavity-confined Au@Cu2O yolk-shell nanoreactors enable switchable CH4/C2H4 selectivity",
+    "abstract": "The regulation of product selectivity in electrochemical CO2 reduction (ECO2R) remains fundamentally constrained by the dynamic equilibrium between intermediate transport and surface coverage. In this study, we report a progress in catalytic architecture through precision-engineered Au@Cu2O yolk-shell tandem nanoreactors featuring dual-tunable parameters: cavity confinement dimensions and shell thickness gradients. This structural modulation enables dynamic control over both *CO intermediate enrichment and reaction pathway bifurcation. ECO2R performance evaluations demonstrate significant product selectivity switching at −1.31 V (vs. reversible hydrogen electrode (RHE)). The Faradaic efficiency (FE) for CH4 exhibits significant architectural dependence, increasing from 43.02% (thick-shell/large-cavity) to 65.54% (medium-dimension) and then decreasing to 23.26% (thin-shell/small-cavity). Conversely, the FE for C2H4 demonstrates an inverse structural correlation, improving from 6.68% (medium-dimension) to 38.73% (thin-shell/small-cavity). The spatial domain-limiting mechanism of the yolk-shell structure directly controls the transition between protonation-dominated CH4 formation and coupling-driven C2H4 production. This work establishes a pioneering paradigm for dynamically steering catalytic selectivity through purely geometrical modulation, bypassing traditional compositional tuning limitations, thereby opening avenues for precision design of advanced electrocatalytic systems. Product-selective regulation of electrochemical carbon dioxide reduction is governed by the dynamic equilibrium between intermediate transport and surface coverage. Here, the authors report a yolk-shell nano-catalyst that achieves dynamic regulation of reduction products.",
+    "year": 2025,
+    "journal": "Nature Communications",
+    "doi": "https://doi.org/10.1038/s41467-025-62875-8",
+    "url": "https://doi.org/10.1038/s41467-025-62875-8",
+    "source": "OpenAlex",
+    "summary": "The regulation of product selectivity in electrochemical CO2 reduction (ECO2R) remains fundamentally constrained by the dynamic equilibrium between intermediate transport and surface coverage. In this study, we report a progress in catalytic architecture through precision-engineered Au@Cu2O yolk-shell tandem nanoreactors featuring dual-tunable parameters: cavity confinement dimensions and shell thickness gradients. This structural modulation enables dynamic control over both *CO intermediate enrichment and reaction pathway bifurcation. ECO2R performance evaluations demonstrate significant product selectivity switching at −1.31 V (vs. reversible hydrogen electrode (RHE)). The Faradaic efficiency (FE) for CH4 exhibits significant architectural dependence, increasing from 43.02% (thick-shell/large-cavity) to 65.54% (medium-dimension) and then decreasing to 23.26% (thin-shell/small-cavity). Conversely, the FE for C2H4 demonstrates an inverse structural correlation, improving from 6.68% (medium-dimension) to 38.73% (thin-shell/small-cavity). The spatial domain-limiting mechanism of the yolk-shell structure directly controls the transition between protonation-dominated CH4 formation and coupling-driven C2H4 production. This work establishes a pioneering paradigm for dynamically steering catalytic selectivity through purely geometrical modulation, bypassing traditional compositional tuning limitations, thereby opening avenues for precision design of advanced electrocatalytic systems. Product-selective regulation of electrochemical carbon dioxide reduction is governed by the dynamic equilibrium between intermediate transport and surface coverage. Here, the authors report a yolk-shell nano-catalyst that achieves dynamic regulation of reduction products.",
+    "assertions": [],
+    "embedding_text": "Cavity-confined Au@Cu2O yolk-shell nanoreactors enable switchable CH4/C2H4 selectivity The regulation of product selectivity in electrochemical CO2 reduction (ECO2R) remains fundamentally constrained by the dynamic equilibrium between intermediate transport and surface coverage. In this study, we report a progress in catalytic architecture through precision-engineered Au@Cu2O yolk-shell tandem nanoreactors featuring dual-tunable parameters: cavity confinement dimensions and shell thickness gradients. This structural modulation enables dynamic control over both *CO intermediate enrichment and reaction pathway bifurcation. ECO2R performance evaluations demonstrate significant product selectivity switching at −1.31 V (vs. reversible hydrogen electrode (RHE)). The Faradaic efficiency (FE) for CH4 exhibits significant architectural dependence, increasing from 43.02% (thick-shell/large-cavity) to 65.54% (medium-dimension) and then decreasing to 23.26% (thin-shell/small-cavity). Conversely, the FE for C2H4 demonstrates an inverse structural correlation, improving from 6.68% (medium-dimension) to 38.73% (thin-shell/small-cavity). The spatial domain-limiting mechanism of the yolk-shell structure directly controls the transition between protonation-dominated CH4 formation and coupling-driven C2H4 production. This work establishes a pioneering paradigm for dynamically steering catalytic selectivity through purely geometrical modulation, bypassing traditional compositional tuning limitations, thereby opening avenues for precision design of advanced electrocatalytic systems. Product-selective regulation of electrochemical carbon dioxide reduction is governed by the dynamic equilibrium between intermediate transport and surface coverage. Here, the authors report a yolk-shell nano-catalyst that achieves dynamic regulation of reduction products. The regulation of product selectivity in electrochemical CO2 reduction (ECO2R) remains fundamentally constrained by the dynamic equilibrium between intermediate transport and surface coverage. In this study, we report a progress in catalytic architecture through precision-engineered Au@Cu2O yolk-shell tandem nanoreactors featuring dual-tunable parameters: cavity confinement dimensions and shell thickness gradients. This structural modulation enables dynamic control over both *CO intermediate enrichment and reaction pathway bifurcation. ECO2R performance evaluations demonstrate significant product selectivity switching at −1.31 V (vs. reversible hydrogen electrode (RHE)). The Faradaic efficiency (FE) for CH4 exhibits significant architectural dependence, increasing from 43.02% (thick-shell/large-cavity) to 65.54% (medium-dimension) and then decreasing to 23.26% (thin-shell/small-cavity). Conversely, the FE for C2H4 demonstrates an inverse structural correlation, improving from 6.68% (medium-dimension) to 38.73% (thin-shell/small-cavity). The spatial domain-limiting mechanism of the yolk-shell structure directly controls the transition between protonation-dominated CH4 formation and coupling-driven C2H4 production. This work establishes a pioneering paradigm for dynamically steering catalytic selectivity through purely geometrical modulation, bypassing traditional compositional tuning limitations, thereby opening avenues for precision design of advanced electrocatalytic systems. Product-selective regulation of electrochemical carbon dioxide reduction is governed by the dynamic equilibrium between intermediate transport and surface coverage. Here, the authors report a yolk-shell nano-catalyst that achieves dynamic regulation of reduction products.",
+    "score": 26.2434,
+    "matched_terms": [
+      "au",
+      "carbon",
+      "co2",
+      "dioxide",
+      "efficiency",
+      "electrochemical",
+      "faradaic",
+      "fe",
+      "formation",
+      "product",
+      "reaction",
+      "reduction",
+      "selectivity"
+    ],
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 45.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 45.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 15.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 9.0,
+          "target_product": 6.0,
+          "high_entropy_material": 0.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "The paper does not explicitly identify a high-entropy material.",
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 12.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 0.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [],
+        "performance_claims": [
+          {
+            "quote": "Cavity-confined Au@Cu2O yolk-shell nanoreactors enable switchable CH4/C2H4 selectivity",
+            "source": "title"
+          },
+          {
+            "quote": "The regulation of product selectivity in electrochemical CO2 reduction (ECO2R) remains fundamentally constrained by the dynamic equilibrium between intermediate transport and surface coverage.",
+            "source": "abstract"
+          },
+          {
+            "quote": "ECO2R performance evaluations demonstrate significant product selectivity switching at −1.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "ECO2R performance evaluations demonstrate significant product selectivity switching at −1.",
+            "source": "abstract"
+          },
+          {
+            "quote": "The Faradaic efficiency (FE) for CH4 exhibits significant architectural dependence, increasing from 43.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Conversely, the FE for C2H4 demonstrates an inverse structural correlation, improving from 6.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quotable high-entropy designation."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 15.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": true,
+      "hea_direct": false,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "The paper does not explicitly identify a high-entropy material.",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quotable high-entropy designation.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "retrieval_scores": {
+      "lexical_raw": 26.2434,
+      "lexical_normalized": 0.77488,
+      "quality_normalized": 0.45,
+      "combined": 0.644928
+    },
+    "local_rank": 4,
+    "evidence_id": "E8",
+    "metadata_verified": false,
+    "metadata_provider": "",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "retrieval_origin": "local",
+    "stored_in_repository": true,
+    "review_status": "pending_review",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "openalex:W4413138366"
+      ],
+      "dois": [
+        "10.1038/s41467-025-62875-8"
+      ]
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.139785,
+      "title_coverage": 0.021505,
+      "lexical_relevance": 0.104301,
+      "quality_normalized": 0.45,
+      "recency": 0.9,
+      "combined": 0.304866
+    },
+    "merged_rank": 8,
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "C",
+      "quality_score": 45.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 45.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 18.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 15.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 9.0,
+          "target_product": 6.0,
+          "high_entropy_material": 0.0,
+          "four_or_five_metal_composition": 0.0,
+          "common_hea_transition_metals": 0.0
+        },
+        "issues": [
+          "The paper does not explicitly identify a high-entropy material.",
+          "No explicit four- or five-metal composition was found."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 12.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 0.0,
+          "explicit_high_entropy_quote": 0.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [],
+        "high_entropy_claims": [],
+        "performance_claims": [
+          {
+            "quote": "Cavity-confined Au@Cu2O yolk-shell nanoreactors enable switchable CH4/C2H4 selectivity",
+            "source": "title"
+          },
+          {
+            "quote": "The regulation of product selectivity in electrochemical CO2 reduction (ECO2R) remains fundamentally constrained by the dynamic equilibrium between intermediate transport and surface coverage.",
+            "source": "abstract"
+          },
+          {
+            "quote": "ECO2R performance evaluations demonstrate significant product selectivity switching at −1.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "ECO2R performance evaluations demonstrate significant product selectivity switching at −1.",
+            "source": "abstract"
+          },
+          {
+            "quote": "The Faradaic efficiency (FE) for CH4 exhibits significant architectural dependence, increasing from 43.",
+            "source": "abstract"
+          },
+          {
+            "quote": "Conversely, the FE for C2H4 demonstrates an inverse structural correlation, improving from 6.",
+            "source": "abstract"
+          }
+        ],
+        "issues": [
+          "No quotable explicit four- or five-metal composition claim.",
+          "No quotable high-entropy designation."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 18.0,
+      "relevance_score": 15.0,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": true,
+      "hea_direct": false,
+      "composition_elements": [],
+      "composition_element_count": 0,
+      "four_or_five_metals": false,
+      "hea_composition_eligible": false,
+      "common_hea_transition_metals": [],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Missing metadata field: publication_type",
+        "The paper does not explicitly identify a high-entropy material.",
+        "No explicit four- or five-metal composition was found.",
+        "No quotable explicit four- or five-metal composition claim.",
+        "No quotable high-entropy designation.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [],
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {}
+  }
+}

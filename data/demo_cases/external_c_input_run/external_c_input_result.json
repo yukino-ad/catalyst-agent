@@ -1,0 +1,174 @@
+{
+  "schema_version": "c-external-input-demo-v1",
+  "stage": "c7_c8_external_input_demo",
+  "input": {
+    "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\demo_cases\\predicted_bulk_to_co_adsorption\\Cu_HEA_FCC_0279_Co6_Cu8_Fe6_Ga6_Ni6_ID36855603",
+    "elements": [
+      "Ga",
+      "Fe",
+      "Co",
+      "Cu",
+      "Ni"
+    ],
+    "composition": {
+      "Ga": 6,
+      "Fe": 6,
+      "Co": 6,
+      "Cu": 8,
+      "Ni": 6
+    },
+    "formation_energy": -0.05748231,
+    "formation_energy_unit": "eV/atom"
+  },
+  "c7_result": {
+    "schema_version": "c7.0",
+    "stage": "c7",
+    "status": "stability_screening_completed_all_passed",
+    "structure_count": 1,
+    "passed_count": 1,
+    "failed_count": 0,
+    "pending_count": 0,
+    "evaluation_error_count": 0,
+    "structures": [
+      {
+        "structure_id": "external-c-input-fcc-01",
+        "candidate_id": "external-c-input",
+        "elements": [
+          "Ga",
+          "Fe",
+          "Co",
+          "Cu",
+          "Ni"
+        ],
+        "composition": {
+          "Ga": 6,
+          "Fe": 6,
+          "Co": 6,
+          "Cu": 8,
+          "Ni": 6
+        },
+        "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\demo_cases\\predicted_bulk_to_co_adsorption\\Cu_HEA_FCC_0279_Co6_Cu8_Fe6_Ga6_Ni6_ID36855603",
+        "formation_energy": -0.05748231,
+        "formation_energy_unit": "eV/atom",
+        "formation_energy_status": "predicted",
+        "formation_energy_source": "user_provided_cgcnn_prediction",
+        "average_atomic_radius_ang": 1.2781250000000002,
+        "average_melting_point_k": 1391.3006249999999,
+        "mixing_enthalpy_kj_mol": 2.71875,
+        "mixing_entropy_j_mol_k": 13.32023402102735,
+        "delta_percent": 2.8509018771928476,
+        "omega": 6.8165333033936975,
+        "delta_threshold_percent": 6.6,
+        "omega_threshold": 1.1,
+        "delta_pass": true,
+        "omega_pass": true,
+        "formation_energy_threshold_ev_atom": 0.05,
+        "formation_energy_available": true,
+        "formation_energy_pass": true,
+        "solid_solution_pass": true,
+        "stability_decision": "passed",
+        "eligible_for_slab": true,
+        "stability_status": "evaluated"
+      }
+    ],
+    "slab_eligible_structures": [
+      {
+        "structure_id": "external-c-input-fcc-01",
+        "candidate_id": "external-c-input",
+        "elements": [
+          "Ga",
+          "Fe",
+          "Co",
+          "Cu",
+          "Ni"
+        ],
+        "composition": {
+          "Ga": 6,
+          "Fe": 6,
+          "Co": 6,
+          "Cu": 8,
+          "Ni": 6
+        },
+        "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\demo_cases\\predicted_bulk_to_co_adsorption\\Cu_HEA_FCC_0279_Co6_Cu8_Fe6_Ga6_Ni6_ID36855603",
+        "formation_energy": -0.05748231,
+        "formation_energy_unit": "eV/atom",
+        "formation_energy_status": "predicted",
+        "formation_energy_source": "user_provided_cgcnn_prediction",
+        "average_atomic_radius_ang": 1.2781250000000002,
+        "average_melting_point_k": 1391.3006249999999,
+        "mixing_enthalpy_kj_mol": 2.71875,
+        "mixing_entropy_j_mol_k": 13.32023402102735,
+        "delta_percent": 2.8509018771928476,
+        "omega": 6.8165333033936975,
+        "delta_threshold_percent": 6.6,
+        "omega_threshold": 1.1,
+        "delta_pass": true,
+        "omega_pass": true,
+        "formation_energy_threshold_ev_atom": 0.05,
+        "formation_energy_available": true,
+        "formation_energy_pass": true,
+        "solid_solution_pass": true,
+        "stability_decision": "passed",
+        "eligible_for_slab": true,
+        "stability_status": "evaluated"
+      }
+    ],
+    "errors": [],
+    "criteria": {
+      "formation_energy": "< 0.05 eV/atom",
+      "atomic_size_delta": "≤ 6.6%",
+      "omega": "≥ 1.1",
+      "all_required": true
+    },
+    "slab_generated": false,
+    "next_stage": "c8_slab_generation"
+  },
+  "c8_result": {
+    "schema_version": "c8.0",
+    "stage": "c8",
+    "status": "slab_generation_completed",
+    "input_structure_count": 1,
+    "slab_count": 1,
+    "failure_count": 0,
+    "slabs": [
+      {
+        "schema_version": "c8.0",
+        "slab_id": "external-c-input-fcc-01-slab111",
+        "source_structure_id": "external-c-input-fcc-01",
+        "candidate_id": "external-c-input",
+        "miller_index": [
+          1,
+          1,
+          1
+        ],
+        "atom_count": 48,
+        "vacuum_angstrom": 18.0,
+        "slab_thickness_angstrom": 4.232699160996447,
+        "fixed_atom_count": 32,
+        "movable_atom_count": 16,
+        "bulk_cif_path": null,
+        "bulk_poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\demo_cases\\predicted_bulk_to_co_adsorption\\Cu_HEA_FCC_0279_Co6_Cu8_Fe6_Ga6_Ni6_ID36855603",
+        "cif_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\demo_cases\\external_c_input_run\\cif\\Cu_HEA_FCC_0279_Co6_Cu8_Fe6_Ga6_Ni6_ID36855603_slab111.cif",
+        "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\demo_cases\\external_c_input_run\\POSCAR\\Cu_HEA_FCC_0279_Co6_Cu8_Fe6_Ga6_Ni6_ID36855603_slab111.vasp",
+        "source_stability_decision": "passed",
+        "status": "slab_created"
+      }
+    ],
+    "failures": [],
+    "miller_index": [
+      1,
+      1,
+      1
+    ],
+    "expected_atom_count": 48,
+    "vacuum_angstrom": 18.0,
+    "stability_recalculated": false,
+    "next_stage": "structure_visualization",
+    "manifest_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\demo_cases\\external_c_input_run\\latest_c8_result.json"
+  },
+  "c12_status": {
+    "status": "waiting_for_clean_slab_relaxed_contcar",
+    "reason": "C12.3 requires a clean-slab DFT-relaxed CONTCAR; a Bulk POSCAR alone cannot produce a scientifically valid adsorption-energy result.",
+    "next_stage": "clean_slab_dft_then_c12_adsorption"
+  }
+}

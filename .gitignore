@@ -1,0 +1,66 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+database/literature/literature.db
+database/literature/raw/openalex/*.json
+database/literature/extracted/*.json
+database/literature/rejected/*.json
+# Local environment and credentials
+.env
+*.pem
+*.key
+secrets/
+
+# SSH credentials must never enter the repository
+scnet_hpccube
+catalyst_cluster*
+id_rsa
+id_ed25519
+
+# Python cache and test artifacts
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+data/cluster_monitor/
+data/checkpoints/
+data/workflow_runs/
+data/cluster_jobs/
+data/cluster_results/
+data/reports/
+data/edge-qa-selection/
+data/*.log
+*.log
+
+# Virtual environments
+.venv/
+.venv-repro/
+venv/
+models/cgcnn-master/venv/
+
+# Frontend build output and local logs
+frontend/.next/
+frontend/node_modules/
+frontend/*.log
+frontend/*.tsbuildinfo
+tmp/
+
+# Licensed VASP PAW datasets must never be published.
+database/PBE/
+
+# Host-specific tool interpreter locations
+.cgcnn-python
+.ovito-path
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db

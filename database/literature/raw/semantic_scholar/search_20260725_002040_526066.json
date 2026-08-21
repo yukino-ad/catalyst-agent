@@ -1,0 +1,271 @@
+{
+  "total": 393,
+  "offset": 0,
+  "next": 5,
+  "data": [
+    {
+      "paperId": "6b86c021ec1052c59572b8d5bbc9684d5ac8bc5c",
+      "externalIds": {
+        "DOI": "10.1016/j.ijhydene.2025.152894",
+        "CorpusId": 283651915
+      },
+      "url": "https://www.semanticscholar.org/paper/6b86c021ec1052c59572b8d5bbc9684d5ac8bc5c",
+      "title": "Microwave synthesis of high-entropy alloy catalysts on different carbon supports for oxygen reduction reactions and carbon dioxide reduction reactions",
+      "venue": "International journal of hydrogen energy",
+      "year": 2026,
+      "citationCount": 0,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.ijhydene.2025.152894?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.ijhydene.2025.152894, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2044751926",
+          "name": "Aswini Kumar Nath"
+        },
+        {
+          "authorId": "69491527",
+          "name": "Ajeet Singh"
+        },
+        {
+          "authorId": "2206071934",
+          "name": "Meng-Fang Lin"
+        },
+        {
+          "authorId": "2247985561",
+          "name": "Po-Chih Yang"
+        },
+        {
+          "authorId": "2248135190",
+          "name": "Chien-Te Hsieh"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "66e7c924b9bf2cb244adaf32cd5a6fcdb13b651c",
+      "externalIds": {
+        "DOI": "10.1016/j.ijhydene.2025.02.312",
+        "CorpusId": 276668293
+      },
+      "url": "https://www.semanticscholar.org/paper/66e7c924b9bf2cb244adaf32cd5a6fcdb13b651c",
+      "title": "Liquid-phase microwave synthesis of platinum-based high-entropy alloy catalysts on carbon supports for electrochemical hydrogen adsorption/desorption and oxygen evolution/reduction reactions",
+      "venue": "International journal of hydrogen energy",
+      "year": 2025,
+      "citationCount": 15,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.ijhydene.2025.02.312?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.ijhydene.2025.02.312, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2220744075",
+          "name": "Pradeep Kumar Panda"
+        },
+        {
+          "authorId": "2344209952",
+          "name": "Heng-Yu Huang"
+        },
+        {
+          "authorId": "2005324129",
+          "name": "Pranjyan Dash"
+        },
+        {
+          "authorId": "2248135190",
+          "name": "Chien-Te Hsieh"
+        },
+        {
+          "authorId": "143844812",
+          "name": "Jeng‐Kuei Chang"
+        },
+        {
+          "authorId": "2269697843",
+          "name": "Wei‐Ren Liu"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "0824cc88092be27b5e53b78d2b32099687278a1c",
+      "externalIds": {
+        "DOI": "10.1007/s42247-025-01209-2",
+        "CorpusId": 281166696
+      },
+      "url": "https://www.semanticscholar.org/paper/0824cc88092be27b5e53b78d2b32099687278a1c",
+      "title": "High-entropy carbon nanodots as metal-free electrochemical catalysts for oxygen reduction and oxygen evolution reactions",
+      "venue": "Emergent Materials",
+      "year": 2025,
+      "citationCount": 7,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s42247-025-01209-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s42247-025-01209-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2220744075",
+          "name": "Pradeep Kumar Panda"
+        },
+        {
+          "authorId": "2218762948",
+          "name": "Kuan-Chien Liu"
+        },
+        {
+          "authorId": "2344028780",
+          "name": "You-Cheng Lin"
+        },
+        {
+          "authorId": "2308767100",
+          "name": "Min-Wei Wu"
+        },
+        {
+          "authorId": "2005324129",
+          "name": "Pranjyan Dash"
+        },
+        {
+          "authorId": "2344714533",
+          "name": "Chiao-An Hsieh"
+        },
+        {
+          "authorId": "94736449",
+          "name": "B. Mallick"
+        },
+        {
+          "authorId": "2269697843",
+          "name": "Wei‐Ren Liu"
+        },
+        {
+          "authorId": "143844812",
+          "name": "Jeng‐Kuei Chang"
+        },
+        {
+          "authorId": "2307736274",
+          "name": "Chien-Te Hsieh"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "4f8ed7782a361253b45da69e7f2aada99022ff1e",
+      "externalIds": {
+        "PubMedCentral": "12692486",
+        "DOI": "10.3390/ijms262311504",
+        "CorpusId": 283387899,
+        "PubMed": "41373657"
+      },
+      "url": "https://www.semanticscholar.org/paper/4f8ed7782a361253b45da69e7f2aada99022ff1e",
+      "title": "High-Temperature Synthesis of High-Entropy Alloy PtPd_CoNiCu Nanoparticles as a Catalyst for the Oxygen Reduction Reaction",
+      "venue": "International Journal of Molecular Sciences",
+      "year": 2025,
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12692486, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "94956952",
+          "name": "A. Nevelskaya"
+        },
+        {
+          "authorId": "2301520027",
+          "name": "Anna Gavrilova"
+        },
+        {
+          "authorId": "2395188977",
+          "name": "Nikolay Lyanguzov"
+        },
+        {
+          "authorId": "92306124",
+          "name": "M. Tolstunov"
+        },
+        {
+          "authorId": "144391088",
+          "name": "I. Pankov"
+        },
+        {
+          "authorId": "1693669545",
+          "name": "A. Kremneva"
+        },
+        {
+          "authorId": "143911231",
+          "name": "E. Gerasimov"
+        },
+        {
+          "authorId": "2395189523",
+          "name": "A. Kokhanov"
+        },
+        {
+          "authorId": "95013367",
+          "name": "S. Belenov"
+        }
+      ],
+      "abstract": "The aim of this work was high-temperature synthesis of PtPdCoNiCu/C nanoparticles with high-entropy alloy (HEA) structure as catalysts for oxygen reduction reaction. The materials were synthesized using a highly dispersed PtPd/C support, which was impregnated with Cu, Ni, and Co precursors followed by their precipitation with an alkali. Subsequently, the material was subjected to thermal treatment in a tube furnace at 600 °C for 1 h in a stream of argon containing 5% hydrogen. In combination with HRTEM, element mapping and line scan, XRD, and XPS data, these results confirm the successful synthesis of five-component PtPdCoNiCu high-entropy alloy nanoparticles on the surface of the carbon support. The obtained materials are characterized by a high electrochemical surface area of up to 63 m2/g(PGM), as determined by hydrogen adsorption/desorption and CO-stripping, and a high specific oxygen reduction reaction (ORR) activity of approximately 269 A/g(PGM) at 0.9 V vs. RHE. The synthesized material demonstrated outstanding stability, as confirmed by an accelerated stress test of 10,000 cycles. After the test, the electrochemical surface area decreased by only 12%, while the catalytic activity for ORR even increased. The proposed synthetic strategy opens a new pathway for obtaining promising highly stable five-component HEA nanoparticles of various compositions for application in catalysts."
+    },
+    {
+      "paperId": "ca65d679b435c0908b3d441f5119ef7cf9582c89",
+      "externalIds": {
+        "DOI": "10.1002/admt.202501921",
+        "CorpusId": 285044869
+      },
+      "url": "https://www.semanticscholar.org/paper/ca65d679b435c0908b3d441f5119ef7cf9582c89",
+      "title": "High‐Entropy Alloy Catalysts with Hydrogen‐Rich Skin Layers for Enhanced Carbon Dioxide Electroreduction in Anion Exchange Membrane Cells",
+      "venue": "Advanced Materials & Technologies",
+      "year": 2026,
+      "citationCount": 1,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/admt.202501921?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/admt.202501921, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2220744075",
+          "name": "Pradeep Kumar Panda"
+        },
+        {
+          "authorId": "2349745148",
+          "name": "Hsueh‐Yen Fu"
+        },
+        {
+          "authorId": "2005324129",
+          "name": "Pranjyan Dash"
+        },
+        {
+          "authorId": "2310969090",
+          "name": "Siyong Gu"
+        },
+        {
+          "authorId": "2344714533",
+          "name": "Chiao-An Hsieh"
+        },
+        {
+          "authorId": "2295484687",
+          "name": "Congrui Jin"
+        },
+        {
+          "authorId": "2237385058",
+          "name": "Jianlin Li"
+        },
+        {
+          "authorId": "2248135190",
+          "name": "Chien-Te Hsieh"
+        }
+      ],
+      "abstract": "The growing demand for efficient CO2 conversion technologies in electrochemical systems has spurred the development of advanced catalysts and membrane designs. This study investigates the impact of hydrogen‐rich (H‐rich) skin layers, created through barbituric acid (BTA) modification, on the catalytic performance of Pt‐based and high‐entropy alloy (HEA) catalysts in anion exchange membrane (AEM) water electrolysis systems. The results show that BTA‐modified Pt and HEA catalysts significantly enhance CO2 conversion efficiency, achieving a maximum current density of 395 mA cm−2 at 3 V and 40°C, alongside a CO2 removal rate of 39.3%. The H‐rich skin layer on the catalysts enhances surface hydrophilicity, increasing water molecule affinity and facilitating higher surface concentrations of H2O and CO2, thereby accelerating crucial reaction steps in CO2 reduction. Furthermore, these skin layers enhance ionic transport via hydrogen‐bonding interactions, optimizing both the oxygen evolution reaction at the anode and CO2 reduction at the cathode. These findings suggest that the synergistic effects of H‐rich skin layers and HEA catalysts offer a promising strategy for improving the efficiency of electrochemical CO2 conversion processes, providing valuable insights into the design of high‐performance AEM systems."
+    }
+  ]
+}

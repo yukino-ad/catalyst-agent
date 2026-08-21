@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "requested_count": 1,
+  "generated_count": 1,
+  "attempts": 3,
+  "parameters": {
+    "selected_elements": [
+      "Fe",
+      "Co",
+      "Ni",
+      "Cr",
+      "Ti"
+    ],
+    "generation_mode": "composition_driven",
+    "seed": 2397635761,
+    "min_distance": 1.8,
+    "composition": {
+      "Fe": 7,
+      "Co": 7,
+      "Ni": 6,
+      "Cr": 6,
+      "Ti": 6
+    }
+  },
+  "results": [
+    {
+      "id": 3,
+      "formula": "Co7Cr6Fe7Ni6Ti6",
+      "elements": [
+        "Fe",
+        "Co",
+        "Ni",
+        "Cr",
+        "Ti"
+      ],
+      "counts": {
+        "Fe": 7,
+        "Co": 7,
+        "Ni": 6,
+        "Cr": 6,
+        "Ti": 6
+      },
+      "lattice_constant_a0": 3.705,
+      "supercell_a": 7.41,
+      "minimum_distance": 2.619831,
+      "cif_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\cif\\HEA_FCC_00003_Co7_Cr6_Fe7_Ni6_Ti6_6049e263.cif",
+      "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\POSCAR\\HEA_FCC_00003_Co7_Cr6_Fe7_Ni6_Ti6_6049e263.vasp",
+      "signature": "6049e2632a4bab5eb38522116a35ac1f9e87147045cd3889eb90f936759cf4f2"
+    }
+  ]
+}

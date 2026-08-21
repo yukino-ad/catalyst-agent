@@ -1,0 +1,31 @@
+{
+  "property": "formation_energy_per_atom",
+  "unit": "eV/atom",
+  "dataset": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\database\\750-Formation-regression-t-v-t",
+  "split": {
+    "train": 560,
+    "validation": 70,
+    "test": 70
+  },
+  "epochs": 60,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "atom_fea_len": 64,
+  "h_fea_len": 128,
+  "n_conv": 3,
+  "metrics": {
+    "mae": 0.020588721506231065,
+    "rmse": 0.029328947660956006,
+    "r2": 0.947744277396379,
+    "samples": 70
+  },
+  "previous_production_metrics": {
+    "mae": 0.021385792587950293,
+    "rmse": 0.03147764584693176,
+    "r2": 0.9398070835335024,
+    "samples": 70
+  },
+  "experiment_model_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\models\\formation-energy-cgcnn\\experiments\\run_20260719_232647\\model_best.pth.tar",
+  "promoted_to_production": true,
+  "stdout_tail": "(0.0676)\tMAE 0.028 (0.028)\n * MAE 0.029\nEpoch: [46][0/18]\tTime 0.139 (0.139)\tData 0.001 (0.001)\tLoss 0.0414 (0.0414)\tMAE 0.022 (0.022)\nEpoch: [46][10/18]\tTime 0.135 (0.137)\tData 0.001 (0.001)\tLoss 0.0623 (0.0661)\tMAE 0.028 (0.028)\nTest: [0/3]\tTime 0.033 (0.033)\tLoss 0.0491 (0.0491)\tMAE 0.024 (0.024)\n * MAE 0.025\nEpoch: [47][0/18]\tTime 0.121 (0.121)\tData 0.001 (0.001)\tLoss 0.0575 (0.0575)\tMAE 0.028 (0.028)\nEpoch: [47][10/18]\tTime 0.147 (0.129)\tData 0.001 (0.001)\tLoss 0.0372 (0.0493)\tMAE 0.020 (0.024)\nTest: [0/3]\tTime 0.026 (0.026)\tLoss 0.0421 (0.0421)\tMAE 0.024 (0.024)\n * MAE 0.020\nEpoch: [48][0/18]\tTime 0.138 (0.138)\tData 0.001 (0.001)\tLoss 0.0729 (0.0729)\tMAE 0.030 (0.030)\nEpoch: [48][10/18]\tTime 0.135 (0.136)\tData 0.001 (0.002)\tLoss 0.1400 (0.0776)\tMAE 0.043 (0.031)\nTest: [0/3]\tTime 0.031 (0.031)\tLoss 0.1553 (0.1553)\tMAE 0.043 (0.043)\n * MAE 0.042\nEpoch: [49][0/18]\tTime 0.132 (0.132)\tData 0.001 (0.001)\tLoss 0.1753 (0.1753)\tMAE 0.053 (0.053)\nEpoch: [49][10/18]\tTime 0.122 (0.132)\tData 0.001 (0.001)\tLoss 0.0225 (0.0693)\tMAE 0.017 (0.029)\nTest: [0/3]\tTime 0.028 (0.028)\tLoss 0.0404 (0.0404)\tMAE 0.023 (0.023)\n * MAE 0.022\nEpoch: [50][0/18]\tTime 0.136 (0.136)\tData 0.002 (0.002)\tLoss 0.0186 (0.0186)\tMAE 0.014 (0.014)\nEpoch: [50][10/18]\tTime 0.146 (0.135)\tData 0.001 (0.002)\tLoss 0.0273 (0.0430)\tMAE 0.017 (0.022)\nTest: [0/3]\tTime 0.036 (0.036)\tLoss 0.0700 (0.0700)\tMAE 0.027 (0.027)\n * MAE 0.024\nEpoch: [51][0/18]\tTime 0.134 (0.134)\tData 0.002 (0.002)\tLoss 0.0977 (0.0977)\tMAE 0.037 (0.037)\nEpoch: [51][10/18]\tTime 0.144 (0.141)\tData 0.001 (0.002)\tLoss 0.0654 (0.0601)\tMAE 0.028 (0.026)\nTest: [0/3]\tTime 0.029 (0.029)\tLoss 0.0491 (0.0491)\tMAE 0.024 (0.024)\n * MAE 0.021\nEpoch: [52][0/18]\tTime 0.152 (0.152)\tData 0.001 (0.001)\tLoss 0.0424 (0.0424)\tMAE 0.022 (0.022)\nEpoch: [52][10/18]\tTime 0.112 (0.142)\tData 0.001 (0.001)\tLoss 0.0638 (0.0688)\tMAE 0.028 (0.027)\nTest: [0/3]\tTime 0.030 (0.030)\tLoss 0.0960 (0.0960)\tMAE 0.035 (0.035)\n * MAE 0.036\nEpoch: [53][0/18]\tTime 0.140 (0.140)\tData 0.001 (0.001)\tLoss 0.0403 (0.0403)\tMAE 0.023 (0.023)\nEpoch: [53][10/18]\tTime 0.153 (0.139)\tData 0.001 (0.001)\tLoss 0.0618 (0.1059)\tMAE 0.027 (0.036)\nTest: [0/3]\tTime 0.030 (0.030)\tLoss 0.0749 (0.0749)\tMAE 0.029 (0.029)\n * MAE 0.025\nEpoch: [54][0/18]\tTime 0.156 (0.156)\tData 0.001 (0.001)\tLoss 0.0602 (0.0602)\tMAE 0.027 (0.027)\nEpoch: [54][10/18]\tTime 0.130 (0.135)\tData 0.001 (0.001)\tLoss 0.0984 (0.0700)\tMAE 0.039 (0.028)\nTest: [0/3]\tTime 0.031 (0.031)\tLoss 0.0432 (0.0432)\tMAE 0.023 (0.023)\n * MAE 0.021\nEpoch: [55][0/18]\tTime 0.121 (0.121)\tData 0.001 (0.001)\tLoss 0.0257 (0.0257)\tMAE 0.016 (0.016)\nEpoch: [55][10/18]\tTime 0.122 (0.118)\tData 0.001 (0.001)\tLoss 0.1663 (0.0520)\tMAE 0.049 (0.023)\nTest: [0/3]\tTime 0.024 (0.024)\tLoss 0.0457 (0.0457)\tMAE 0.024 (0.024)\n * MAE 0.025\nEpoch: [56][0/18]\tTime 0.128 (0.128)\tData 0.001 (0.001)\tLoss 0.0197 (0.0197)\tMAE 0.014 (0.014)\nEpoch: [56][10/18]\tTime 0.139 (0.132)\tData 0.001 (0.001)\tLoss 0.0388 (0.0455)\tMAE 0.020 (0.022)\nTest: [0/3]\tTime 0.028 (0.028)\tLoss 0.0559 (0.0559)\tMAE 0.026 (0.026)\n * MAE 0.025\nEpoch: [57][0/18]\tTime 0.162 (0.162)\tData 0.001 (0.001)\tLoss 0.0358 (0.0358)\tMAE 0.022 (0.022)\nEpoch: [57][10/18]\tTime 0.142 (0.145)\tData 0.001 (0.002)\tLoss 0.0202 (0.0485)\tMAE 0.015 (0.024)\nTest: [0/3]\tTime 0.036 (0.036)\tLoss 0.0985 (0.0985)\tMAE 0.036 (0.036)\n * MAE 0.035\nEpoch: [58][0/18]\tTime 0.182 (0.182)\tData 0.002 (0.002)\tLoss 0.0468 (0.0468)\tMAE 0.025 (0.025)\nEpoch: [58][10/18]\tTime 0.113 (0.139)\tData 0.001 (0.002)\tLoss 0.1188 (0.0629)\tMAE 0.042 (0.027)\nTest: [0/3]\tTime 0.036 (0.036)\tLoss 0.0830 (0.0830)\tMAE 0.033 (0.033)\n * MAE 0.029\nEpoch: [59][0/18]\tTime 0.136 (0.136)\tData 0.002 (0.002)\tLoss 0.0838 (0.0838)\tMAE 0.033 (0.033)\nEpoch: [59][10/18]\tTime 0.124 (0.131)\tData 0.001 (0.002)\tLoss 0.0775 (0.0636)\tMAE 0.031 (0.027)\nTest: [0/3]\tTime 0.028 (0.028)\tLoss 0.0505 (0.0505)\tMAE 0.023 (0.023)\n * MAE 0.021\n---------训练完成，加载最优模型评估测试集---------------\nTest: [0/3]\tTime 0.605 (0.605)\tLoss 0.0561 (0.0561)\tMAE 0.021 (0.021)\n ** MAE 0.021"
+}

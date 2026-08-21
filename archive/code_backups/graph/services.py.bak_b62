@@ -1,0 +1,46 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+from app.capability_gate import CapabilityGate
+from app.planner import TaskPlanner
+from app.task_analyzer import TaskAnalyzer
+from app.task_router import TaskRouter
+from tools.literature_rag import LiteratureRAG
+
+
+@dataclass
+class GraphServices:
+    """增强版第一阶段使用的服务集合。"""
+
+    analyzer: TaskAnalyzer
+    capability_gate: CapabilityGate
+    router: TaskRouter
+    planner: TaskPlanner
+    rag: LiteratureRAG
+
+
+def create_services() -> GraphServices:
+    """创建共享服务，并复用同一个 LLM 客户端。"""
+
+    planner = TaskPlanner()
+
+    analyzer = TaskAnalyzer(
+        llm=planner.llm,
+    )
+
+    router = TaskRouter(
+        llm=planner.llm,
+    )
+
+    rag = LiteratureRAG(
+        llm=planner.llm,
+    )
+
+    return GraphServices(
+        analyzer=analyzer,
+        capability_gate=CapabilityGate(),
+        router=router,
+        planner=planner,
+        rag=rag,
+    )

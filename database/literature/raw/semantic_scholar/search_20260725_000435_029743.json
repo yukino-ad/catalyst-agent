@@ -1,0 +1,177 @@
+{
+  "total": 4,
+  "offset": 0,
+  "data": [
+    {
+      "paperId": "67cba535d1002267d65b60607119d73a78ec5ea0",
+      "externalIds": {
+        "DOI": "10.1002/adma.202209242",
+        "CorpusId": 253508738,
+        "PubMed": "36373568"
+      },
+      "url": "https://www.semanticscholar.org/paper/67cba535d1002267d65b60607119d73a78ec5ea0",
+      "title": "High‐Entropy Alloy Aerogels: A New Platform for Carbon Dioxide Reduction",
+      "venue": "Advances in Materials",
+      "year": 2022,
+      "citationCount": 180,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/adma.202209242?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/adma.202209242, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2118386209",
+          "name": "Hanjun Li"
+        },
+        {
+          "authorId": "143922280",
+          "name": "H. Huang"
+        },
+        {
+          "authorId": "2155437422",
+          "name": "Yao Chen"
+        },
+        {
+          "authorId": "4918877",
+          "name": "Feili Lai"
+        },
+        {
+          "authorId": "2118645317",
+          "name": "Hui Fu"
+        },
+        {
+          "authorId": "92385690",
+          "name": "Longsheng Zhang"
+        },
+        {
+          "authorId": "2153284016",
+          "name": "Nan Zhang"
+        },
+        {
+          "authorId": "152190762",
+          "name": "Shuxing Bai"
+        },
+        {
+          "authorId": "2149904443",
+          "name": "Tianxi Liu"
+        }
+      ],
+      "abstract": "High‐entropy alloy aerogels (HEAAs) combined with the advantages of high‐entropy alloys and aerogels are prospective new platforms in catalytic reactions. However, due to the differences in reduction potentials and miscibility behavior of different metals, the realization of HEAAs with a single phase is still a great challenge. Herein, a series of HEAAs is fabricated via the freeze–thaw method as highly active and durable electrocatalysts for the carbon dioxide reduction reaction (CO2RR). Especially, the PdCuAuAgBiIn HEAAs can achieve Faradaic efficiency (FE) of C1 products almost 100% from −0.7 to −1.1 V versus reversible hydrogen electrode (VRHE), and a maximum FE for formic acid (FEHCOOH) of 98.1% at −1.1 VRHE, outperforming PdCuAuAgBiIn high‐entropy alloy particles (HEAPs) and Pd metallic aerogels (MAs). Specifically, the current density and FEHCOOH are almost 200 mA cm−2 and 87% in a flow cell. The impressive CO2RR performance of the PdCuAuAgBiIn HEAAs is attributed to the strong interactions between the different metals and the surface unsaturated sites, which can regulate the electronic structures of different metals and allow the optimal HCOO* intermediate adsorption and desorption onto the catalysts surface to enhance HCOOH production. The work not only provides a facile synthetic strategy to fabricate HEAAs, but also opens the avenue for development of efficient catalysts and beyond."
+    },
+    {
+      "paperId": "bd5388670f5bac0f5a11f769a63de8db4c1d0950",
+      "externalIds": {
+        "PubMedCentral": "11935979",
+        "DOI": "10.1002/smsc.202200109",
+        "CorpusId": 257993568,
+        "PubMed": "40213323"
+      },
+      "url": "https://www.semanticscholar.org/paper/bd5388670f5bac0f5a11f769a63de8db4c1d0950",
+      "title": "High‐Entropy Nanomaterials for Advanced Electrocatalysis",
+      "venue": "Small Science",
+      "year": 2023,
+      "citationCount": 69,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smsc.202200109",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11935979, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2108266281",
+          "name": "Sol A Lee"
+        },
+        {
+          "authorId": "2213774945",
+          "name": "Jeewon Bu"
+        },
+        {
+          "authorId": "25370958",
+          "name": "Ji-Woo Lee"
+        },
+        {
+          "authorId": "4244453",
+          "name": "Ho Won Jang"
+        }
+      ],
+      "abstract": "High‐entropy alloys refer to near‐equimolar alloys of five or more elements and are receiving attention due to their unique physical and chemical properties. In electrocatalysis, they serve as active sites in multiple elements, favoring the optimized adsorption/desorption property toward the target reaction. High‐entropy nanomaterials (HENMs) are attractive candidates as electrocatalysts by taking advantage of a high surface‐to‐volume ratio and tailored composition. This review begins with the concept of high‐entropy materials and various strategies for designing electrocatalysts. Then, the recent advances in HENMs as electrocatalysts for various applications (water‐splitting reaction, carbon dioxide reduction reaction, alcohol oxidation reaction, etc.) are introduced with their catalytic performances. Finally, based on the current status of HENMs for electrocatalysis, the challenging aspects and the future insight of HENMs for advanced electrocatalysis are discussed and proposed."
+    },
+    {
+      "paperId": "4bdb80252f060f7c239502629aa72ae681c4e355",
+      "externalIds": {
+        "DOI": "10.1007/s13369-025-10912-5",
+        "CorpusId": 284681983
+      },
+      "url": "https://www.semanticscholar.org/paper/4bdb80252f060f7c239502629aa72ae681c4e355",
+      "title": "Electrodeposited Medium- and High-Entropy Alloys: A Review of Recent Advances in Electrochemical Energy-Related Applications",
+      "venue": "The Arabian journal for science and engineering",
+      "year": 2026,
+      "citationCount": 2,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s13369-025-10912-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s13369-025-10912-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2189570877",
+          "name": "Samavia Rafiq"
+        },
+        {
+          "authorId": "2310414087",
+          "name": "M. A. Gondal"
+        },
+        {
+          "authorId": "2376771938",
+          "name": "Farhan Arshad"
+        },
+        {
+          "authorId": "2410912321",
+          "name": "M. A. Almessiere"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "182ed3914e04e654816546fd28508b251a0135c0",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-02694842mtgabs",
+        "CorpusId": 274929651
+      },
+      "url": "https://www.semanticscholar.org/paper/182ed3914e04e654816546fd28508b251a0135c0",
+      "title": "Carbothermal Shock Derived Electrochemical Regeneration of Spent Biochar for Remediation of Ciprofloxacine Contaminated Water",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 4,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1149/ma2024-02694842mtgabs?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1149/ma2024-02694842mtgabs, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2336705190",
+          "name": "Hye-Jin Hong"
+        },
+        {
+          "authorId": "2287852922",
+          "name": "Gyubin Lee"
+        },
+        {
+          "authorId": "2283878778",
+          "name": "Hyeon Su Jeong"
+        }
+      ],
+      "abstract": "Biochar, derived from waste biomass, is a potent material for carbon dioxide sequestration, owing to its stable, non-degradable aromatic structure [1]. Biochar is found to have advantageous characteristics, such as a unique pore structure, large specific surface area, complex surface-active functional groups, and stable chemical properties. These properties make biochar as a high potential biosorbent for removal of pollutants from water [2]. Meanwhile, the escalating use of pharmaceuticals has led to pervasive environmental residues, posing public health risks. Specifically, antibiotic contamination risks augmenting antibiotic resistance, underscoring the need for efficient wastewater treatment methods [3]. However, current wastewater treatment plant(WWTP) based on biological treatment was not effectively eliminate this types of waste in the water and it is necessary to investigate efficient method for removal of antibiotics from wastewater.\n This study explores the use of biochar for ciprofloxacin (CIP) removal from water and introduces a novel electrochemical biochar regeneration technique. We utilized sludge from chemical plants to produce biochar through standard and alkali-activated pyrolysis, yielding CB (normal pyrolysis) and CAB (alkali activated pyrolysis) types with distinct physicochemical properties. CAB, with an exceptionally high surface area (~2330 m²/g) and carbon purity (95.4%), demonstrated superior CIP adsorption capacity (~550 mg/g). We investigated the CIP adsorption isotherm, kinetics and thermodynamics to elucidate the underlying mechanisms, which appear dominated by π-π and electrostatic interactions facilitated by the high pyrolysis temperatures reducing oxygen-containing groups on the biochar. After the biochar became saturated with CIP, we regenerated it using joule heating in Ar atmosphere, employing the carbothermal shock method for rapid, short-duration temperature increases [4]. In contrast to traditional CTS which can sometimes lead to structural damage by directly heating the material on the carbon substrate [5], we used radiant heat from the CTS process to ensure controlled temperature elevation. This modified approach maintains the structural integrity of the biochar by avoiding direct contact between the biochar and the carbon substrate while facilitating the regeneration process. Additionally, this method facilitates the physical separation of the biochar from the carbon substrate, enhancing the recovery and reuse of biochar. Such an approach contributes to the efficient regeneration of biochar and environmentally friendly processing. We examined parameters such as distance from the substrate and duration to optimize the regeneration conditions. Ultimately, we assessed the efficacy of the CIP adsorption by the regenerated biochar. Traditional thermal treatments for biochar regeneration are energy-intensive and time-consuming. We propose an innovative approach using joule heating under a nitrogen atmosphere, employing carbothermal shock for rapid, efficient regeneration. By optimizing parameters such as voltage and duration, we identified ideal conditions for regenerating biochar, significantly enhancing its CIP adsorption efficacy. This study not only highlights the potential of biochar in environmental remediation but also introduces an energy-efficient regeneration method, contributing to sustainable pollution management solutions.\n \n References\n \n [1] J. Lehmann, A. Cowie, C.A. Masiello, C. Kammann, D. Woolf, J.E. Ammonette, M.L.Cayuela, M.C-Arbestain, T. Whitman, Biochar in climate change mitigation, Nature Geoscience (2021) 14, 883\n [2] B. Qui, Y. Tao, H. Wang, W. Li, X. Ding, H. Chu, Biochar as a low-cost adsorbent for aqueous heavy metal removal: A review, Journal of Analytical and Applied pyrolysis (2021) 155, 105081\n [3] M. B. Ahmed, J. L. Zhou, H. H. Ngo, W. Guo, Adsorptive removal of antibiotics from water and wastewater: Progress and challenges (2015) 532, 112\n [4] Y. Yao, Z. Huang, P. Xie, S. Lacey, R. Jacob, H. Xie, F. Chen, A. Nie, T. Pu, M. Rehwoldt, D. Yu, M. R. Zachariah, C. Wang, R. Shahbazian-Yassar, J. Li, L. Hu, Carbothermal shock synthesis of high-entropy-alloy nanoparticles. Science (2018) 359, 1489\n [5] C. Kim, J.-Y. Song, C. Choi, J. P. Ha, W. Lee, Y. T. Nam, D. Lee, G. Kim, I. G., W.-B. Jung, H. Lee, Y., H. Jeong, H.-T. Jung, Atomic-Scale Homogeneous Ru-Cu Alloy Nanoparticles for Highly Efficient Electrocatalytic Nitrogen Reduction, Advanced Materials (2022) 34, 2205270\n \n \n \n \n Figure 1\n"
+    }
+  ]
+}

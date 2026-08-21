@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "requested_count": 1,
+  "generated_count": 1,
+  "attempts": 24,
+  "parameters": {
+    "selected_elements": [
+      "Cu",
+      "Fe",
+      "Co",
+      "Ni",
+      "Mn"
+    ],
+    "generation_mode": "composition_driven",
+    "seed": 377479133,
+    "min_distance": 1.8,
+    "composition": {
+      "Cu": 8,
+      "Fe": 6,
+      "Co": 6,
+      "Ni": 6,
+      "Mn": 6
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "formula": "Co6Cu8Fe6Mn6Ni6",
+      "elements": [
+        "Cu",
+        "Fe",
+        "Co",
+        "Ni",
+        "Mn"
+      ],
+      "counts": {
+        "Cu": 8,
+        "Fe": 6,
+        "Co": 6,
+        "Ni": 6,
+        "Mn": 6
+      },
+      "lattice_constant_a0": 3.665625,
+      "supercell_a": 7.33125,
+      "minimum_distance": 2.591988,
+      "cif_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\cif\\Cu_HEA_FCC_00001_Co6_Cu8_Fe6_Mn6_Ni6_9a22cd98.cif",
+      "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\POSCAR\\Cu_HEA_FCC_00001_Co6_Cu8_Fe6_Mn6_Ni6_9a22cd98.vasp",
+      "signature": "9a22cd98bdf316197da72c9f7eb5dcb9b29ad5c4f96d988a744b7052a0f1e4cb"
+    }
+  ]
+}

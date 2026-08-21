@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "requested_count": 1,
+  "generated_count": 1,
+  "attempts": 3,
+  "parameters": {
+    "selected_elements": [
+      "Cu",
+      "Fe",
+      "Au",
+      "Ag",
+      "Pt"
+    ],
+    "generation_mode": "composition_driven",
+    "seed": 4021637756,
+    "min_distance": 1.8,
+    "composition": {
+      "Cu": 8,
+      "Fe": 6,
+      "Au": 6,
+      "Ag": 6,
+      "Pt": 6
+    }
+  },
+  "results": [
+    {
+      "id": 3,
+      "formula": "Ag6Au6Cu8Fe6Pt6",
+      "elements": [
+        "Cu",
+        "Fe",
+        "Au",
+        "Ag",
+        "Pt"
+      ],
+      "counts": {
+        "Cu": 8,
+        "Fe": 6,
+        "Au": 6,
+        "Ag": 6,
+        "Pt": 6
+      },
+      "lattice_constant_a0": 3.845625,
+      "supercell_a": 7.69125,
+      "minimum_distance": 2.719268,
+      "cif_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\cif\\Cu_HEA_FCC_00003_Ag6_Au6_Cu8_Fe6_Pt6_9ddf62c9.cif",
+      "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\POSCAR\\Cu_HEA_FCC_00003_Ag6_Au6_Cu8_Fe6_Pt6_9ddf62c9.vasp",
+      "signature": "9ddf62c94f6f962110590400dd39b8461b4f2bfae32a9b276f503e658aaea80d"
+    }
+  ]
+}

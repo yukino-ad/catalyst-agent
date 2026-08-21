@@ -1,0 +1,9 @@
+{
+  "schema_version": "c12.7-demo-reference-v1",
+  "adsorbate": "CO",
+  "reference_energy_ev": -14.123456,
+  "energy_unit": "eV",
+  "source": "user_provided_dft",
+  "approved": true,
+  "note": "Replace reference_energy_ev with the actual calculated CO reference energy."
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "element-reference-energy-v1",
+  "data_version": "user-dft-reference-v1",
+  "status": "accepted",
+  "energy_unit": "eV/atom",
+  "energy_convention": "stable_element_dft_energy_per_atom",
+  "exchange_correlation": "PBE",
+  "source": "user_calculated",
+  "references": {
+    "Al": {"energy_ev_atom": -3.7245215, "potcar": "Al"},
+    "Co": {"energy_ev_atom": -7.029217835, "potcar": "Co_pv"},
+    "Cr": {"energy_ev_atom": -9.513143995, "potcar": "Cr_pv"},
+    "Cu": {"energy_ev_atom": -3.755005118, "potcar": "Cu_pv"},
+    "Fe": {"energy_ev_atom": -8.251687055, "potcar": "Fe_pv"},
+    "Ga": {"energy_ev_atom": -2.892262659, "potcar": "Ga_d"},
+    "Ge": {"energy_ev_atom": -4.509593831, "potcar": "Ge_d"},
+    "Mn": {"energy_ev_atom": -8.8536416, "potcar": "Mn_pv"},
+    "Mo": {"energy_ev_atom": -10.93156904, "potcar": "Mo_pv"},
+    "Ni": {"energy_ev_atom": -5.494297523, "potcar": "Ni_pv"},
+    "Ti": {"energy_ev_atom": -7.799852055, "potcar": "Ti_pv"},
+    "Zn": {"energy_ev_atom": -1.12022364, "potcar": "Zn"},
+    "Ag": {"energy_ev_atom": -2.720812308, "potcar": "Ag"},
+    "Pd": {"energy_ev_atom": -5.22680325, "potcar": "Pd"},
+    "Pt": {"energy_ev_atom": -6.097019345, "potcar": "Pt"},
+    "Au": {"energy_ev_atom": -3.21382148, "potcar": "Au"}
+  }
+}

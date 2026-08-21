@@ -1,0 +1,286 @@
+{
+  "total": 41037,
+  "offset": 0,
+  "next": 5,
+  "data": [
+    {
+      "paperId": "1cd3ffcdd21fb91ebe17b25b81c6eae4319da775",
+      "externalIds": {
+        "DOI": "10.1016/j.annonc.2021.09.019",
+        "CorpusId": 239472287,
+        "PubMed": "34678411"
+      },
+      "url": "https://www.semanticscholar.org/paper/1cd3ffcdd21fb91ebe17b25b81c6eae4319da775",
+      "title": "ESMO Clinical Practice Guideline for the diagnosis, staging and treatment of patients with metastatic breast cancer.",
+      "venue": "Annals of Oncology",
+      "year": 2021,
+      "citationCount": 1243,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://www.annalsofoncology.org/article/S0923-7534(21)04498-7/pdf",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.annonc.2021.09.019?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.annonc.2021.09.019, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "114896382",
+          "name": "A. Gennari"
+        },
+        {
+          "authorId": "150098707",
+          "name": "F. André"
+        },
+        {
+          "authorId": "2104799184",
+          "name": "C. Barrios"
+        },
+        {
+          "authorId": "2065103075",
+          "name": "J. Cortés"
+        },
+        {
+          "authorId": "5192810",
+          "name": "E. de Azambuja"
+        },
+        {
+          "authorId": "82191719",
+          "name": "A. Demichele"
+        },
+        {
+          "authorId": "83840471",
+          "name": "R. Dent"
+        },
+        {
+          "authorId": "144086078",
+          "name": "D. Fenlon"
+        },
+        {
+          "authorId": "2985945",
+          "name": "J. Gligorov"
+        },
+        {
+          "authorId": "5294627",
+          "name": "S. Hurvitz"
+        },
+        {
+          "authorId": "2149872443",
+          "name": "S. Im"
+        },
+        {
+          "authorId": "144596743",
+          "name": "D. Krug"
+        },
+        {
+          "authorId": "50287326",
+          "name": "W. Kunz"
+        },
+        {
+          "authorId": "144818993",
+          "name": "S. Loi"
+        },
+        {
+          "authorId": "2076592259",
+          "name": "F. P. Lorca"
+        },
+        {
+          "authorId": "96733962",
+          "name": "J. Ricke"
+        },
+        {
+          "authorId": "32385821",
+          "name": "M. Robson"
+        },
+        {
+          "authorId": "4326032",
+          "name": "H. Rugo"
+        },
+        {
+          "authorId": "143772689",
+          "name": "C. Saura"
+        },
+        {
+          "authorId": "144715273",
+          "name": "P. Schmid"
+        },
+        {
+          "authorId": "2375878",
+          "name": "C. Singer"
+        },
+        {
+          "authorId": "5175128",
+          "name": "T. Španić"
+        },
+        {
+          "authorId": "2304677901",
+          "name": "S. Tolaney"
+        },
+        {
+          "authorId": "28875689",
+          "name": "N. Turner"
+        },
+        {
+          "authorId": "50603238",
+          "name": "G. Curigliano"
+        },
+        {
+          "authorId": "4144471",
+          "name": "S. Loibl"
+        },
+        {
+          "authorId": "1399390428",
+          "name": "S. Paluch-Shimon"
+        },
+        {
+          "authorId": "2060588131",
+          "name": "N. Harbeck"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "fbe1fbd007bdcd72f8fd99cc10ab8f26b04dc7e4",
+      "externalIds": {
+        "DOI": "10.1088/1361-6528/ac0136",
+        "CorpusId": 235673836,
+        "PubMed": "34185024"
+      },
+      "url": "https://www.semanticscholar.org/paper/fbe1fbd007bdcd72f8fd99cc10ab8f26b04dc7e4",
+      "title": "Retraction: Fabrication of black TiO2−x/NiFe2O4 supported on diatomaceous earth with enhanced sonocatalytic activity for ibuprofen mitigation (2021 Nanotechnology 32 055706)",
+      "venue": "Nanotechnology",
+      "year": 2021,
+      "citationCount": 1,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1088/1361-6528/ac0136?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1361-6528/ac0136, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [],
+      "abstract": "1. The article was published with Zhaohong Zhang as corresponding author without her permission and with no knowledge. Qiong Wu admits and apologizes for submitting the work in Zhaohong Zhang’s name without Zhaohong Zhang’s permission. IOP Publishing have now removed Zhaohong Zhang as an author on the article in line with the COPE guidelines on author removal. 2. Similar papers (a–e) by the same author (Qiong Wu) were also published elsewhere without proper attribution to previous sources or disclosure to the editor, permission to republish, or justification. (a) Journal of Materiomics: black TiO2/cobalt ferrite nanoparticle supported on diatomaceous earth as magnetically recyclable sonocatalyst for ibuprofen removal. https://doi.org/10.1016/j.jmat.2020.10.006 (b) Environmental Research: fabrication of erbium and nitrogen modified TiO2/diatomaceous earth as a sunlight-driven floating photocatalyst for ibuprofen mitigation. https://doi.org/10.1016/j.envres.2020.110475 (c) Ceramics International: fabrication of black TiO2-x/ZnFe2O4 decorated on diatomaceous earth with improved sonocatalytic activity for ibuprofen mitigation. https://doi.org/10.1016/j.ceramint.2020. 10.019 (d) Journal of Alloys and Compounds: immobilization of black TiO2-x/SrFe2O4 heterojunction on diatomaceous earth as magnetic visible-light-driven photocatalyst for efficient ibuprofen mitigation. https://doi.org/10.1016/j.jallcom.2020.157728 (e) Catalysis Science & Technology: fabrication of black TiO2-x/CuFe2O4 decorated on diatomaceous earth with enhanced sonocatalytic activity for ibuprofen mitigation. https://doi.org/10.1039/D0CY01478H 3. The author, Qiong Wu admits that some results (relating to sonodegradation as shown in figures 6–10) are unable to be replicated and therefore are unreliable. The author (Qiong Wu)‘s explanation follows: ‘During the preparation period of TiO2-x/NiFe2O4/diatomaceous earth, one of the raw materials is NaBH4, which is the reductant used to turn the outermost TiO2 layer into black TiO2-x. This NaBH4, which is white powder, has been noticed to be mixed (polluted) with another white powder, urea. As a result, the reported final sonocatalyst might be N-doped (urea as precursor of nitrogen dopant) TiO2-x/NiFe2O4/diatomaceous earth. Thus, the related sonodegradation results can’t be replicated since the actual catalyst is not TiO2-x/NiFe2O4/diatomaceous earth.’ Please note that this statement no.3 is made by Qiong Wu only and Zhaohong Zhang disputes this explanation. Nanotechnology"
+    },
+    {
+      "paperId": "fdbea4f84be7418d5d6f606a1857304b8c4cbda0",
+      "externalIds": {
+        "DOI": "10.5194/amt-2021-103-cc1",
+        "CorpusId": 241166055
+      },
+      "url": "https://www.semanticscholar.org/paper/fdbea4f84be7418d5d6f606a1857304b8c4cbda0",
+      "title": "Comment on amt-2021-103",
+      "venue": "",
+      "year": 2021,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.5194/amt-2021-103-cc1",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/amt-2021-103-cc1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/amt-2021-103-cc1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2114633035",
+          "name": "Dennis Piontek"
+        },
+        {
+          "authorId": "46935529",
+          "name": "H. Ishimoto"
+        }
+      ],
+      "abstract": "A very interesting and promising work! One remark: As you pointed out in line 64, fine ash particles might might have, for example, an increased fraction of volcanic glasses. Also porosities can be present. In https://doi.org/10.1016/j.jvolgeores.2021.107174 we derived the refractive indices of volcanic ashes by combining the refractive indices of minerals according to generic petrological compositions of volcanic ashes. Furthermore, we calculated the densities and the resulting optical properties to investigate the impact of the composition on these properties. The results indicated that the refractive index might be dominated the silica content and possibly the porosity, and influenced only to a lesser degree by the glass-to-crystal-ratio. However, the glass-to-crystal-ratio has a notable impact on the optical properties. This could explain some of the deviations between your retrievals and the laboratory measurements of tephra samples (as reported in line 966)."
+    },
+    {
+      "paperId": "2cc4573df3996269da387b4bd11d4ee6b2b9aa49",
+      "externalIds": {
+        "CorpusId": 260767064
+      },
+      "url": "https://www.semanticscholar.org/paper/2cc4573df3996269da387b4bd11d4ee6b2b9aa49",
+      "title": ": a systematic review and",
+      "venue": "",
+      "year": 2021,
+      "citationCount": 57,
+      "isOpenAccess": false,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://www.providence.org/-/media/project/psjh/providence/socal/files/global/library/environmentalstewardship5122021-to-5182021.pdf?hash=F293051D876931DA6ABB7DE2CF669F0B&la=en&rev=a0a7f9e0260b4cc2921ecb998973b5c7, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "39235251",
+          "name": "K. Maharajan"
+        },
+        {
+          "authorId": "8070279",
+          "name": "Kechun Liu"
+        },
+        {
+          "authorId": "2228733871",
+          "name": "Jonidi Jafari"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "b6fc5bb771a6cc308327ebfb54bbc291f778ffae",
+      "externalIds": {
+        "MAG": "3151691048",
+        "DOI": "10.1016/J.JENVP.2021.101597",
+        "CorpusId": 233854201
+      },
+      "url": "https://www.semanticscholar.org/paper/b6fc5bb771a6cc308327ebfb54bbc291f778ffae",
+      "title": "Theory enhances impact. Reply to: ‘The case for impact-focused environmental psychology’",
+      "venue": "Journal of Environmental Psychology",
+      "year": 2021,
+      "citationCount": 41,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://pure.rug.nl/ws/files/168040562/1_s2.0_S0272494421000505_main.pdf",
+        "status": "GREEN",
+        "license": "other-oa",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.JENVP.2021.101597?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.JENVP.2021.101597, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2125607974",
+          "name": "A. V. van Valkengoed"
+        },
+        {
+          "authorId": "152370145",
+          "name": "L. Steg"
+        },
+        {
+          "authorId": "5692559",
+          "name": "G. Perlaviciute"
+        },
+        {
+          "authorId": "2059826368",
+          "name": "P. Schultz"
+        },
+        {
+          "authorId": "2256291",
+          "name": "T. Brosch"
+        },
+        {
+          "authorId": "2666509",
+          "name": "B. Gatersleben"
+        },
+        {
+          "authorId": "52186803",
+          "name": "A. Nordlund"
+        },
+        {
+          "authorId": "32798029",
+          "name": "S. Pahl"
+        },
+        {
+          "authorId": "1729182",
+          "name": "L. Whitmarsh"
+        }
+      ],
+      "abstract": "Citation for published version (APA): van Valkengoed, A. M., Steg, L., Perlaviciute, G., Schultz, P. W., Brosch, T., Gatersleben, B., Nordlund, A., Pahl, S., & Whitmarsh, L. (2021). Theory enhances impact. Reply to: ‘The case for impact-focused environmental psychology’. Journal of Environmental Psychology, 75, Article 101597. Advance online publication. https://doi.org/10.1016/j.jenvp.2021.101597"
+    }
+  ]
+}

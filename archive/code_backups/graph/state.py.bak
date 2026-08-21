@@ -1,0 +1,50 @@
+from __future__ import annotations
+
+from typing import Any, TypedDict
+
+
+class CatalystState(TypedDict, total=False):
+    """All state shared by the catalyst LangGraph nodes."""
+
+    # Basic task information.
+    task_id: str
+    question: str
+
+    # A-stage task understanding and capability routing.
+    task_analysis: dict[str, Any]
+    reaction_profile: dict[str, Any]
+    capability: dict[str, Any]
+    route: dict[str, Any]
+    plan: dict[str, Any]
+
+    # B2-B6 literature evidence workflow.
+    local_literature_result: dict[str, Any]
+    online_search_policy: dict[str, Any]
+    online_literature_result: dict[str, Any]
+    merged_literature_result: dict[str, Any]
+    literature_review: dict[str, Any]
+    literature_commit: dict[str, Any]
+    rag_result: dict[str, Any]
+    papers: list[dict[str, Any]]
+    literature_summary: dict[str, Any]
+
+    # R1: whether this reaction and material family may enter C stage.
+    c_stage_capability: dict[str, Any]
+
+    # C1: hard constraints for candidate generation.
+    candidate_constraints: dict[str, Any]
+
+    # C2+C3: generated candidates and their soft-score ranking.
+    candidate_generation: dict[str, Any]
+
+    # C4: human review result for displayed candidates.
+    candidate_review: dict[str, Any]
+
+    # Candidates accepted by the user for later FCC modeling.
+    selected_candidates: list[dict[str, Any]]
+
+    # Shared execution diagnostics.
+    errors: list[dict[str, Any]]
+    warnings: list[str]
+    status: str
+    retry_count: int

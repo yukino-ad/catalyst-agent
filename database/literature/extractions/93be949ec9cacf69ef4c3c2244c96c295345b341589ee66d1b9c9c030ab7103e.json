@@ -1,0 +1,388 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v3",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-25T10:21:55.166891+00:00",
+  "paper": {
+    "paper_id": "crossref:10.1016/j.apmt.2024.102128",
+    "title": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction",
+    "abstract": "",
+    "year": 2024,
+    "journal": "Applied Materials Today",
+    "doi": "10.1016/j.apmt.2024.102128",
+    "url": "https://doi.org/10.1016/j.apmt.2024.102128",
+    "source": "Crossref",
+    "publication_type": "journal-article",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [
+      "2352-9407"
+    ],
+    "metadata_verified": true,
+    "metadata_provider": "crossref",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": true,
+      "semantic_scholar_verified": false,
+      "required_tools_called": true,
+      "cross_verified": false
+    },
+    "summary": "",
+    "source_file": "",
+    "source_sheet": "",
+    "source_row": null,
+    "composition_raw": "",
+    "reaction_labels": [],
+    "keywords": [],
+    "evidence_snippet": "",
+    "context_misread_flag": false,
+    "provenance": {},
+    "assertions": [
+      {
+        "kind": "element_set",
+        "value": [
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E4::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "reaction",
+        "value": "OER",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E4::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E4::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction    ",
+    "retrieval_origin": "local+online",
+    "online_rank": 4,
+    "review_status": "pending_review",
+    "stored_in_repository": true,
+    "kimi_web_search_performed": true,
+    "version_info": {
+      "record_count": 2,
+      "is_multi_record": true,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "crossref:10.1016/j.apmt.2024.102128",
+        "hea-xlsx-bd04eb48d31ea206"
+      ],
+      "dois": [
+        "10.1016/j.apmt.2024.102128"
+      ]
+    },
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 64.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 64.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 16.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": false,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": [
+          "Missing metadata field: abstract"
+        ]
+      },
+      "task_relevance": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 2.0
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 18.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction",
+            "source": "title",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction",
+            "source": "title"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 16.0,
+      "relevance_score": 30.0,
+      "has_title": true,
+      "has_abstract": false,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Cr",
+        "Mn",
+        "Fe",
+        "Co",
+        "Ni"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": false,
+      "evidence_scope": "title_only",
+      "issues": [
+        "Missing metadata field: abstract",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.134615,
+      "title_coverage": 0.134615,
+      "lexical_relevance": 0.134615,
+      "quality_normalized": 0.64,
+      "recency": 0.8,
+      "local_source": 0.0,
+      "combined": 0.371308
+    },
+    "merged_rank": 4,
+    "evidence_id": "E4",
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 64.0,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 64.0,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 16.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": false,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": [
+          "Missing metadata field: abstract"
+        ]
+      },
+      "task_relevance": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 2.0
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 18.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction",
+            "source": "title",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Fabrication and characterisation of CrMnFeCoNi high entropy alloy electrocatalyst for oxygen evolution reaction",
+            "source": "title"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 16.0,
+      "relevance_score": 30.0,
+      "has_title": true,
+      "has_abstract": false,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Cr",
+        "Mn",
+        "Fe",
+        "Co",
+        "Ni"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": false,
+      "evidence_scope": "title_only",
+      "issues": [
+        "Missing metadata field: abstract",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    }
+  }
+}

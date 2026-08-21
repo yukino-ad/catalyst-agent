@@ -1,0 +1,2899 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3181007,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              3
+            ]
+          ],
+          "date-time": "2026-07-03T21:02:02Z",
+          "timestamp": 1783112522077,
+          "version": "3.54.6"
+        },
+        "reference-count": 48,
+        "publisher": "Elsevier BV",
+        "issue": "5",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2025-05-01T00:00:00Z",
+              "timestamp": 1746057600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2025-05-01T00:00:00Z",
+              "timestamp": 1746057600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100003453",
+            "name": "Natural Science Foundation of Guangdong Province",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2024A1515010030"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2024A1515010030"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100003453",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "22272059"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "22272059"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Chinese Journal of Structural Chemistry"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cjsc.2025.100571",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2025-03-11T20:23:21Z",
+          "timestamp": 1741724601000
+        },
+        "page": "100571",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": [
+          "CuMoRuFeW high entropy alloy surfaced nanorods: Superior electrochemical CO2 reduction to ethylene"
+        ],
+        "prefix": "10.1016",
+        "volume": "44",
+        "author": [
+          {
+            "given": "Jundi",
+            "family": "Qin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dezhong",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dong",
+            "family": "Xiang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2587-4962",
+            "authenticated-orcid": false,
+            "given": "Xiongwu",
+            "family": "Kang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1234",
+            "DOI": "10.1039/D1CS00893E",
+            "article-title": "Rational design of electrocatalytic carbon dioxide reduction for a zero-carbon network",
+            "volume": "51",
+            "author": "Li",
+            "year": "2022",
+            "journal-title": "Chem. Soc. Rev."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib2",
+            "first-page": "12849",
+            "article-title": "Phosphorus coordination in second shell of single-atom Cu catalyst toward acetate production in CO electroreduction",
+            "volume": "24",
+            "author": "Miao",
+            "year": "2024",
+            "journal-title": "Nano Lett"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib3",
+            "article-title": "Mesoporous CuCe dual-metal catalysts for efficient electrochemical reduction of CO2 to methane",
+            "volume": "43",
+            "author": "Yang",
+            "year": "2024",
+            "journal-title": "Chin. J. Struct. Chem."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib4",
+            "first-page": "100089",
+            "article-title": "Selective CO2-to-formic acid electrochemical conversion by modulating electronic environment of copper phthalocyanine with defective graphene",
+            "volume": "42",
+            "author": "Zhang",
+            "year": "2023",
+            "journal-title": "Chin. J. Struct. Chem."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "101045",
+            "DOI": "10.1016/j.mtphys.2023.101045",
+            "article-title": "Theory-guided synthesis of heterostructured Cu@Cu0.4W0.6 catalyst towards superior electrochemical reduction of CO2 to C2 products",
+            "volume": "33",
+            "author": "Xiang",
+            "year": "2023",
+            "journal-title": "Mater. Today. Phys"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "499",
+            "DOI": "10.1016/j.jechem.2024.01.008",
+            "article-title": "Cobalt phthalocyanine promoted copper catalysts toward enhanced electro reduction of CO2 to C2: synergistic catalysis or tandem catalysis?",
+            "volume": "92",
+            "author": "Luo",
+            "year": "2024",
+            "journal-title": "J. Energy Chem."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "2418727",
+            "DOI": "10.1002/adfm.202418727",
+            "article-title": "Synergistic electroconversion of CO2-to-n-propanol over atomically dispersed Lewis acid Zr-doped Cuδ+ catalysts",
+            "author": "Zhou",
+            "year": "2025",
+            "journal-title": "Adv. Funct. Mater"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "421",
+            "DOI": "10.1038/s41929-018-0084-7",
+            "article-title": "Steering post-C–C coupling selectivity enables high efficiency electroreduction of carbon dioxide to multi-carbon alcohols",
+            "volume": "1",
+            "author": "Zhuang",
+            "year": "2018",
+            "journal-title": "Nat. Catal."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "1730",
+            "DOI": "10.1039/C8EE03781G",
+            "article-title": "Defect engineering in earth-abundant electrocatalysts for CO2 and N2 reduction",
+            "volume": "12",
+            "author": "Wang",
+            "year": "2019",
+            "journal-title": "Energy Environ. Sci."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "732",
+            "DOI": "10.1038/s41560-019-0450-y",
+            "article-title": "Advances and challenges in understanding the electrocatalytic conversion of carbon dioxide to fuels",
+            "volume": "4",
+            "author": "Birdja",
+            "year": "2019",
+            "journal-title": "Nat. Energy"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib11",
+            "first-page": "28131",
+            "article-title": "Hierarchical assembly of high-nuclearity copper(I) alkynide nanoclusters: highly effective CO2 electroreduction catalyst toward hydrocarbons",
+            "volume": "146",
+            "author": "Mu",
+            "year": "2024",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "178",
+            "DOI": "10.1038/s41586-020-2242-8",
+            "article-title": "Accelerated discovery of CO2 electrocatalysts using active machine learning",
+            "volume": "581",
+            "author": "Zhong",
+            "year": "2020",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "14335",
+            "DOI": "10.1021/jacs.3c03022",
+            "article-title": "C2+ selectivity for CO2 electroreduction on oxidized Cu-based catalysts",
+            "volume": "145",
+            "author": "Li",
+            "year": "2023",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "1124",
+            "DOI": "10.1038/s41929-019-0380-x",
+            "article-title": "Constraining CO coverage on copper promotes high-efficiency ethylene electroproduction",
+            "volume": "2",
+            "author": "Li",
+            "year": "2019",
+            "journal-title": "Nat. Catal."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "974",
+            "DOI": "10.1038/s41557-018-0092-x",
+            "article-title": "Dopant-induced electron localization drives CO2 reduction to C2 hydrocarbons",
+            "volume": "10",
+            "author": "Zhou",
+            "year": "2018",
+            "journal-title": "Nat. Chem."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "15848",
+            "DOI": "10.1021/jacs.7b08607",
+            "article-title": "Electrochemical CO2 reduction over compressively strained CuAg surface alloys with enhanced multi-carbon oxygenate selectivity",
+            "volume": "139",
+            "author": "Clark",
+            "year": "2017",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib17",
+            "doi-asserted-by": "crossref",
+            "first-page": "1096",
+            "DOI": "10.1007/s11426-020-9934-0",
+            "article-title": "Enhance the activity of multi-carbon products for Cu via P doping towards CO2 reduction",
+            "volume": "64",
+            "author": "Kong",
+            "year": "2021",
+            "journal-title": "Sci. China Chem."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib18",
+            "doi-asserted-by": "crossref",
+            "first-page": "804",
+            "DOI": "10.1038/s41929-020-00504-x",
+            "article-title": "Highly active and stable stepped Cu surface for enhanced electrochemical CO2 reduction to C2H4",
+            "volume": "3",
+            "author": "Choi",
+            "year": "2020",
+            "journal-title": "Nat. Catal."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib19",
+            "doi-asserted-by": "crossref",
+            "first-page": "219",
+            "DOI": "10.1021/acscatal.5b01967",
+            "article-title": "Facet dependence of CO2 reduction paths on Cu electrodes",
+            "volume": "6",
+            "author": "Luo",
+            "year": "2016",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "382",
+            "DOI": "10.1016/j.jechem.2022.02.027",
+            "article-title": "Enhanced electrochemical CO2-to-C2+ conversion from synergistic interaction between terrace and step sites on monocrystalline high-index Cu facets",
+            "volume": "70",
+            "author": "Zhu",
+            "year": "2022",
+            "journal-title": "J. Energy Chem."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib21",
+            "first-page": "214",
+            "article-title": "Electrochemical CO2 reduction reaction over Cu nanoparticles with tunable activity and selectivity mediated by functional groups in polymeric binder",
+            "volume": "2",
+            "author": "Chang",
+            "year": "2022",
+            "journal-title": "J. Am. Chem. Soc. Au"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "7210",
+            "DOI": "10.1038/s41467-021-27456-5",
+            "article-title": "Improved electrochemical conversion of CO2 to multicarbon products by using molecular doping",
+            "volume": "12",
+            "author": "Wu",
+            "year": "2021",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib23",
+            "doi-asserted-by": "crossref",
+            "first-page": "3724",
+            "DOI": "10.1038/s41467-019-11352-0",
+            "article-title": "Tuning the activity and selectivity of electroreduction of CO2 to synthesis gas using bimetallic catalysts",
+            "volume": "10",
+            "author": "Lee",
+            "year": "2019",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "4948",
+            "DOI": "10.1038/ncomms5948",
+            "article-title": "Synergistic geometric and electronic effects for electrochemical reduction of carbon dioxide using gold-copper bimetallic nanoparticles",
+            "volume": "5",
+            "author": "Kim",
+            "year": "2014",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "9359",
+            "DOI": "10.1021/jacs.7b04892",
+            "article-title": "Tunable Cu enrichment enables designer syngas electrosynthesis from CO2",
+            "volume": "139",
+            "author": "Ross",
+            "year": "2017",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib26",
+            "article-title": "Surface reconstruction of Cu-based bimetallic catalysts for electrochemical CO2 reduction",
+            "volume": "43",
+            "author": "Jia",
+            "year": "2024",
+            "journal-title": "Chin. J. Struct. Chem."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "3249",
+            "DOI": "10.1021/acs.nanolett.4c00306",
+            "article-title": "Identification of synergies in Fe,Co-coordinated polyphthalocyanines scaffolds for electrochemical CO2 reduction reaction",
+            "volume": "24",
+            "author": "Wang",
+            "year": "2024",
+            "journal-title": "Nano Lett"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "2490",
+            "DOI": "10.1021/jacs.8b12381",
+            "article-title": "Structural sensitivities in bimetallic catalysts for electrochemical CO2 reduction revealed by Ag–Cu nanodimers",
+            "volume": "141",
+            "author": "Huang",
+            "year": "2019",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib29",
+            "doi-asserted-by": "crossref",
+            "first-page": "2508",
+            "DOI": "10.1002/anie.202012631",
+            "article-title": "Breaking the linear scaling relationship by compositional and structural crafting of ternary Cu–Au/Ag nanoframes for electrocatalytic ethylene production",
+            "volume": "60",
+            "author": "Xiong",
+            "year": "2021",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib30",
+            "article-title": "Cooperation of different active sites to promote CO electroreduction to multi-carbon products at ampere-level",
+            "volume": "63",
+            "author": "Zhou",
+            "year": "2024",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib31",
+            "doi-asserted-by": "crossref",
+            "first-page": "14864",
+            "DOI": "10.1021/acscatal.2c03675",
+            "article-title": "Machine-learning-driven high-entropy alloy catalyst discovery to circumvent the scaling relation for CO2 reduction reaction",
+            "volume": "12",
+            "author": "Chen",
+            "year": "2022",
+            "journal-title": "ACS Catal"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib32",
+            "doi-asserted-by": "crossref",
+            "first-page": "5991",
+            "DOI": "10.1021/acs.jpclett.2c00929",
+            "article-title": "Machine learning assisted exploration of high entropy alloy-based catalysts for selective CO2 reduction to methanol",
+            "volume": "13",
+            "author": "Roy",
+            "year": "2022",
+            "journal-title": "J. Phys. Chem. Lett."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib33",
+            "doi-asserted-by": "crossref",
+            "first-page": "3658",
+            "DOI": "10.1021/acscatal.9b04302",
+            "article-title": "High-entropy alloys as catalysts for the CO2 and CO reduction reactions: experimental realization",
+            "volume": "10",
+            "author": "Nellaiappan",
+            "year": "2020",
+            "journal-title": "ACS Catal"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib34",
+            "doi-asserted-by": "crossref",
+            "first-page": "2313209",
+            "DOI": "10.1002/adma.202313209",
+            "article-title": "Noble-metal-free high-entropy alloy nanoparticles for efficient solar-driven photocatalytic CO2 reduction",
+            "volume": "36",
+            "author": "Huang",
+            "year": "2024",
+            "journal-title": "Adv. Mater."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib35",
+            "doi-asserted-by": "crossref",
+            "first-page": "3158",
+            "DOI": "10.1021/acscatal.9b03883",
+            "article-title": "Unraveling structure sensitivity in CO2 electroreduction to near-unity CO on silver nanocubes",
+            "volume": "10",
+            "author": "Liu",
+            "year": "2020",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib36",
+            "doi-asserted-by": "crossref",
+            "first-page": "423",
+            "DOI": "10.1038/s41929-019-0269-8",
+            "article-title": "Two-dimensional copper nanosheets for electrochemical reduction of carbon monoxide to acetate",
+            "volume": "2",
+            "author": "Luc",
+            "year": "2019",
+            "journal-title": "Nat. Catal."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib37",
+            "doi-asserted-by": "crossref",
+            "first-page": "2807",
+            "DOI": "10.1038/s41467-019-10819-4",
+            "article-title": "Structural defects on converted bismuth oxide nanotubes enable highly active electrocatalysis of carbon dioxide reduction",
+            "volume": "10",
+            "author": "Gong",
+            "year": "2019",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib38",
+            "doi-asserted-by": "crossref",
+            "first-page": "8355",
+            "DOI": "10.1039/C6CY01643J",
+            "article-title": "Ruthenium nanoclusters dispersed on titania nanorods and nanoparticles as high-performance catalysts for aqueous-phase Fischer-Tropsch synthesis",
+            "volume": "6",
+            "author": "Yu",
+            "year": "2016",
+            "journal-title": "Catal. Sci. Technol."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib39",
+            "doi-asserted-by": "crossref",
+            "first-page": "63",
+            "DOI": "10.1007/s00339-014-8426-z",
+            "article-title": "Position-controlled and catalyst-free growth of ZnO nanocrystals by nanoparticle-assisted pulsed laser deposition",
+            "volume": "117",
+            "author": "Nakao",
+            "year": "2014",
+            "journal-title": "Appl. Phys. A"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib40",
+            "doi-asserted-by": "crossref",
+            "first-page": "8706",
+            "DOI": "10.1021/ja00072a025",
+            "article-title": "Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites",
+            "volume": "115",
+            "author": "Murray",
+            "year": "1993",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib41",
+            "doi-asserted-by": "crossref",
+            "first-page": "81",
+            "DOI": "10.1016/j.msea.2017.08.087",
+            "article-title": "Synthesis of Ni0.5Zn0.5Fe2O4 nanoparticles by thermal decomposition method",
+            "volume": "45",
+            "author": "Zhao",
+            "year": "2017",
+            "journal-title": "J. Mater. Eng."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib42",
+            "doi-asserted-by": "crossref",
+            "first-page": "4341",
+            "DOI": "10.1038/s41467-020-18143-y",
+            "article-title": "A Mn-N3 single-atom catalyst embedded in graphitic carbon nitride for efficient CO2 electroreduction",
+            "volume": "11",
+            "author": "Feng",
+            "year": "2020",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib43",
+            "doi-asserted-by": "crossref",
+            "first-page": "9373",
+            "DOI": "10.1039/C8TA01677A",
+            "article-title": "Cuprous ions embedded in ceria lattice for selective and stable electrochemical reduction of carbon dioxide to ethylene",
+            "volume": "6",
+            "author": "Wu",
+            "year": "2018",
+            "journal-title": "J. Mater. Chem. A"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib44",
+            "article-title": "Monodispersed Cu-TCPP/Cu2O hybrid microspheres: a superior cascade electrocatalyst toward CO2 reduction to C2 products",
+            "volume": "30",
+            "author": "Wan",
+            "year": "2024",
+            "journal-title": "J. Electrochem."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib45",
+            "doi-asserted-by": "crossref",
+            "first-page": "2400433",
+            "DOI": "10.1002/adma.202400433",
+            "article-title": "Octahedral nanocrystals of Ru-doped PtFeNiCuW/CNTs high-entropy alloy: high performance toward pH-universal",
+            "volume": "36",
+            "author": "Wang",
+            "year": "2024",
+            "journal-title": "Adv. Mater."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib46",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1002/anie.202419956",
+            "article-title": "IrPdCuFeNiCoMo based core-shell icosahedron nanocrystals and nanocages for efficient and robust acidic oxygen evolution",
+            "volume": "64",
+            "author": "Long",
+            "year": "2025",
+            "journal-title": "Angew. Chem. Int. Ed."
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib47",
+            "article-title": "Convex cube-shaped Pt34Fe5Ni20Cu31Mo9Ru high entropy alloy catalysts toward high-performance multifunctional",
+            "volume": "18",
+            "author": "Chen",
+            "year": "2022",
+            "journal-title": "Electrocatalysis"
+          },
+          {
+            "key": "10.1016/j.cjsc.2025.100571_bib48",
+            "article-title": "Selective CO2 reduction to formate on heterostructured Sn/SnO2 nanoparticles promoted by carbon layer networks",
+            "volume": "28",
+            "author": "Teng",
+            "year": "2022",
+            "journal-title": "J. Electrochem."
+          }
+        ],
+        "container-title": [
+          "Chinese Journal of Structural Chemistry"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0254586125000613?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0254586125000613?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              4
+            ]
+          ],
+          "date-time": "2025-11-04T16:38:15Z",
+          "timestamp": 1762274295000
+        },
+        "score": 28.027676,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0254586125000613"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "references-count": 48,
+        "journal-issue": {
+          "issue": "5",
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                5
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0254586125000613"
+        ],
+        "URL": "https://doi.org/10.1016/j.cjsc.2025.100571",
+        "ISSN": [
+          "0254-5861"
+        ],
+        "issn-type": [
+          {
+            "value": "0254-5861",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "CuMoRuFeW high entropy alloy surfaced nanorods: Superior electrochemical CO2 reduction to ethylene",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Chinese Journal of Structural Chemistry",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cjsc.2025.100571",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2025 Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences. Published by Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "100571"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2026-07-15T23:34:51Z",
+          "timestamp": 1784158491364,
+          "version": "3.55.0"
+        },
+        "reference-count": 47,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100002398",
+            "name": "Sharif University of Technology",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "Pajoohaaneh-1402"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "Pajoohaaneh-1402"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100002398",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100003968",
+            "name": "INSF",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "4005066"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "4005066"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100003968",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Applied Surface Science"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.apsusc.2024.161555",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2024-10-19T20:14:05Z",
+          "timestamp": 1729368845000
+        },
+        "page": "161555",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 10,
+        "special_numbering": "C",
+        "title": [
+          "Ab initio calculations of high-entropy clusters for oxygen reduction and evolution as well as CO2 reduction reactions"
+        ],
+        "prefix": "10.1016",
+        "volume": "681",
+        "author": [
+          {
+            "given": "Mohsen",
+            "family": "Tamtaji",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5681-962X",
+            "authenticated-orcid": false,
+            "given": "Mohammad",
+            "family": "Kazemeini",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1998-210X",
+            "authenticated-orcid": false,
+            "given": "Jafar",
+            "family": "Abdi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "339",
+            "DOI": "10.1038/s41929-018-0063-z",
+            "article-title": "A universal principle for a rational design of single-atom electrocatalysts",
+            "volume": "1",
+            "author": "Xu",
+            "year": "2018",
+            "journal-title": "Nat. Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "2300612",
+            "DOI": "10.1002/smll.202300612",
+            "article-title": "Revealing atomic configuration and synergistic interaction of single-atom-based Zn-Co-Fe trimetallic sites for enhancing oxygen reduction and evolution reactions",
+            "volume": "19",
+            "author": "Lin",
+            "year": "2023",
+            "journal-title": "Small."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0015",
+            "doi-asserted-by": "crossref",
+            "first-page": "4",
+            "DOI": "10.1038/s41586-021-04080-3",
+            "article-title": "Regulating Fe-spin state by atomically dispersed Mn-N in Fe-N-C catalysts with high oxygen reduction activity",
+            "volume": "12",
+            "author": "Yang",
+            "year": "2021",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0020",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.nanoen.2023.108218",
+            "article-title": "Non-bonding interaction of dual atom catalysts for enhanced oxygen reduction reaction",
+            "volume": "108",
+            "author": "Tamtaji",
+            "year": "2023",
+            "journal-title": "Nano Energy."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0025",
+            "article-title": "Synthesis of dual-metal single atom in porous carbon nanospheres with enhanced oxygen reduction activity in both acidic and alkaline electrolytes",
+            "author": "Zhao",
+            "year": "2022",
+            "journal-title": "J. Colloid Interf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0030",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.nanoen.2024.109634",
+            "article-title": "High-throughput screening of dual atom catalysts for oxygen reduction and evolution reactions and rechargeable zinc-air battery",
+            "volume": "126",
+            "author": "Tamtaji",
+            "year": "2024",
+            "journal-title": "Nano Energy."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0035",
+            "doi-asserted-by": "crossref",
+            "first-page": "17281",
+            "DOI": "10.1021/jacs.7b10385",
+            "article-title": "Design of N-coordinated dual-metal sites: a stable and active Pt-free catalyst for acidic oxygen reduction reaction",
+            "volume": "139",
+            "author": "Wang",
+            "year": "2017",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0040",
+            "doi-asserted-by": "crossref",
+            "first-page": "2309883",
+            "DOI": "10.1002/advs.202309883",
+            "article-title": "A high-entropy single-atom catalyst toward oxygen reduction reaction in acidic and alkaline conditions",
+            "author": "Tamtaji",
+            "year": "2024",
+            "journal-title": "Adv. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0045",
+            "article-title": "Reaction mechanism of rapid CO electroreduction to propylene and cyclopropane (C3+) over triple atom",
+            "author": "Tamtaji",
+            "year": "2024",
+            "journal-title": "Catalysts"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0050",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1038/s41467-023-39153-6",
+            "article-title": "In-situ spectroscopic probe of the intrinsic structure feature of single-atom center in electrochemical CO/CO2 reduction to methanol",
+            "volume": "14",
+            "author": "Ren",
+            "year": "2023",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0055",
+            "first-page": "584",
+            "article-title": "Breaking the scaling relationship limit: from single-atom to dual-atom catalysts, accounts",
+            "volume": "3",
+            "author": "Li",
+            "year": "2022",
+            "journal-title": "Mater. Res."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0060",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2024.160860",
+            "article-title": "Applied Surface Science Mechanism study of trimetallic single-cluster catalysts loaded on graphdiyne for highly efficient oxygen-reduction reactions",
+            "volume": "672",
+            "author": "Liu",
+            "year": "2024",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0065",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.cej.2023.143942",
+            "article-title": "High-entropy transition metal disulfide colloid clusters: synergistic atomic scale interaction and interconnected network for ultra-stable potassium ion storage",
+            "volume": "469",
+            "author": "Liao",
+            "year": "2023",
+            "journal-title": "Chem. Eng. J."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0070",
+            "doi-asserted-by": "crossref",
+            "first-page": "515",
+            "DOI": "10.1038/s41578-019-0121-4",
+            "article-title": "High-entropy alloys",
+            "volume": "4",
+            "author": "George",
+            "year": "2019",
+            "journal-title": "Nat. Rev. Mater."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0075",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.cej.2024.153840",
+            "article-title": "Cooperativity between atoms in supported “Single-Atom Catalysts” and metal clusters",
+            "author": "Serna",
+            "year": "2024",
+            "journal-title": "Chem. Eng. J."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0080",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2022.153625",
+            "article-title": "Iron single atoms and clusters anchored on natural N-doped nanocarbon with dual reaction sites as superior Fenton-like catalysts",
+            "volume": "597",
+            "author": "Mao",
+            "year": "2022",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0085",
+            "first-page": "1",
+            "article-title": "Sub-2 nm microstrained high-entropy-alloy nanoparticles boost hydrogen electrocatalysis",
+            "author": "Luo",
+            "year": "2024",
+            "journal-title": "Adv. Mater."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0090",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2022.154510",
+            "article-title": "Formic acid dehydrogenation over Pd single atom or cluster supported on nitrogen-doped graphene: a DFT study",
+            "volume": "604",
+            "author": "Liu",
+            "year": "2022",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0095",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1021/jacs.4c07502",
+            "article-title": "Highly selective electrocatalytic CO2 conversion to tailored products through precise regulation of hydrogenation and C-C coupling",
+            "author": "Xia",
+            "year": "2024",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "2131",
+            "DOI": "10.1021/jacsau.3c00210",
+            "article-title": "Sub-nanometric high-entropy alloy cluster: hydrogen spillover driven synthesis on CeO2 and structural reversibility",
+            "volume": "3",
+            "author": "Hashimoto",
+            "year": "2023",
+            "journal-title": "JACS Au."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0105",
+            "doi-asserted-by": "crossref",
+            "first-page": "600",
+            "DOI": "10.1016/j.jcis.2024.05.022",
+            "article-title": "Single-cluster anchored on PC6 monolayer as high-performance electrocatalyst for carbon dioxide reduction reaction: First principles study",
+            "volume": "669",
+            "author": "Liu",
+            "year": "2024",
+            "journal-title": "J. Colloid Interface Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0110",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2024.160299",
+            "article-title": "Supported tetra-atom clusters on g-CN as catalysts for electrochemical reduction of carbon dioxide to formate: A computational study",
+            "volume": "665",
+            "author": "Zhou",
+            "year": "2024",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0115",
+            "doi-asserted-by": "crossref",
+            "first-page": "10510",
+            "DOI": "10.1021/acscatal.4c00858",
+            "article-title": "Selective CO2-to-HCOOH electroreduction on graphdiyne-supported bimetallic single-cluster catalysts",
+            "volume": "14",
+            "author": "Chen",
+            "year": "2024",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "14954",
+            "DOI": "10.1021/jacs.4c05669",
+            "article-title": "Not one, not two, but at least three: activity origin of copper single-atom catalysts toward CO2/CO electroreduction to C2+ products",
+            "volume": "146",
+            "author": "Zhang",
+            "year": "2024",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0125",
+            "doi-asserted-by": "crossref",
+            "first-page": "1211",
+            "DOI": "10.1039/D1NR05200D",
+            "article-title": "Graphdiyne-supported single-cluster electrocatalysts for highly efficient carbon dioxide reduction reaction",
+            "volume": "14",
+            "author": "Ge",
+            "year": "2022",
+            "journal-title": "Nanoscale."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "10568",
+            "DOI": "10.1021/acscatal.4c01369",
+            "article-title": "Highly efficient and selective nitrogen reduction reaction catalysis of cluster-modified mxene nanosheets",
+            "volume": "14",
+            "author": "Yu",
+            "year": "2024",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0135",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2022.154945",
+            "article-title": "Transition metal single-atom supported on PC3 monolayer for highly efficient hydrogen evolution reaction by combined density functional theory and machine learning study",
+            "volume": "606",
+            "author": "Lu",
+            "year": "2022",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0140",
+            "doi-asserted-by": "crossref",
+            "first-page": "705",
+            "DOI": "10.1038/s41557-023-01163-8",
+            "article-title": "Electrochemical synthesis of propylene from carbon dioxide on copper nanocrystals",
+            "volume": "15",
+            "author": "Gao",
+            "year": "2023",
+            "journal-title": "Nat. Chem."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0145",
+            "doi-asserted-by": "crossref",
+            "first-page": "479",
+            "DOI": "10.1016/j.ijhydene.2024.06.141",
+            "article-title": "Tailoring hydrogen evolution reaction with single-atom catalysts on Ti2B MBenes: insights from computational screening",
+            "volume": "77",
+            "author": "Shukla",
+            "year": "2024",
+            "journal-title": "Int. J. Hydrogen Energy."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0150",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2023.158642",
+            "article-title": "Ti3C2Tx/ZIF-67 hybrid nanocomposite as a highly effective adsorbent for Pb (II) removal from water: synthesis and DFT calculations",
+            "volume": "643",
+            "author": "Jafaar Ghafil",
+            "year": "2024",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0155",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1038/s41929-024-01197-2",
+            "article-title": "CO2-to-methanol electroconversion on a molecular cobalt catalyst facilitated by acidic cations",
+            "author": "Yu",
+            "year": "2024",
+            "journal-title": "Nat. Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0160",
+            "doi-asserted-by": "crossref",
+            "first-page": "6590",
+            "DOI": "10.1021/acs.chemmater.9b00414",
+            "article-title": "Surface termination dependent work function and electronic properties of Ti3C2Tx MXene",
+            "volume": "31",
+            "author": "Schultz",
+            "year": "2019",
+            "journal-title": "Chem. Mater."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0165",
+            "doi-asserted-by": "crossref",
+            "first-page": "3996",
+            "DOI": "10.1021/acsnano.1c00248",
+            "article-title": "Ti3C2TXMXene for sensing applications: recent progress, design principles, and future perspectives",
+            "volume": "15",
+            "author": "Pei",
+            "year": "2021",
+            "journal-title": "ACS Nano."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0170",
+            "doi-asserted-by": "crossref",
+            "first-page": "580",
+            "DOI": "10.1002/jcc.22885",
+            "article-title": "Multiwfn: A multifunctional wavefunction analyzer",
+            "volume": "33",
+            "author": "Lu",
+            "year": "2012",
+            "journal-title": "J. Comput. Chem."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0175",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1038/s43246-023-00341-y",
+            "article-title": "Functional two-dimensional high-entropy materials",
+            "volume": "4",
+            "author": "Nemani",
+            "year": "2023",
+            "journal-title": "Commun. Mater."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0180",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1038/s41467-018-05774-5",
+            "article-title": "High entropy oxides for reversible energy storage",
+            "volume": "9",
+            "author": "Sarkar",
+            "year": "2018",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0185",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1126/sciadv.abg1600",
+            "article-title": "High-entropy materials for catalysis: A new frontier",
+            "volume": "7",
+            "author": "Sun",
+            "year": "2021",
+            "journal-title": "Sci. Adv."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0190",
+            "doi-asserted-by": "crossref",
+            "first-page": "1075",
+            "DOI": "10.1016/j.ijhydene.2024.07.244",
+            "article-title": "DFT and machine learning studies on a multi-functional single-atom catalyst for enhanced oxygen and hydrogen evolution as well as CO2 reduction reactions",
+            "volume": "80",
+            "author": "Tamtaji",
+            "year": "2024",
+            "journal-title": "Int. J. Hydrogen Energy."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0195",
+            "first-page": "1",
+            "article-title": "Densely Populated Macrocyclic Dicobalt Sites in Ladder Polymers for Ultralow Overpotential Oxygen Reduction",
+            "author": "Liu",
+            "year": "2024",
+            "journal-title": "Catalysis"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0200",
+            "doi-asserted-by": "crossref",
+            "first-page": "1389",
+            "DOI": "10.1016/j.ijhydene.2024.01.135",
+            "article-title": "The first row transition metal-corrole complexes as a single atom catalyst for electrochemical hydrogen evolution reaction: A DFT insight",
+            "volume": "57",
+            "author": "Yaseen",
+            "year": "2024",
+            "journal-title": "Int. J. Hydrogen Energy."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0205",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2023.157024",
+            "article-title": "Electrocatalytic nitrogen reduction on defective graphene modulated from single atom catalyst to aluminium clusters",
+            "volume": "623",
+            "author": "Maibam",
+            "year": "2023",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0210",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.nanoen.2021.106488",
+            "article-title": "Stone-Wales defect-rich carbon-supported dual-metal single atom sites for Zn-air batteries",
+            "volume": "90",
+            "author": "Khan",
+            "year": "2021",
+            "journal-title": "Nano Energy."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0215",
+            "doi-asserted-by": "crossref",
+            "first-page": "9992",
+            "DOI": "10.1021/acs.jpcc.3c00765",
+            "article-title": "A surrogate machine learning model for the design of single-atom catalyst on carbon and porphyrin supports towards electrochemistry",
+            "volume": "127",
+            "author": "Tamtaji",
+            "year": "2023",
+            "journal-title": "J. Phys. Chem. C."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0220",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2023.158959",
+            "article-title": "Theoretical screening of transition metal atoms doped two-dimensional VSe2 monolayers as single-atom catalysts for HER, OER and ORR",
+            "volume": "646",
+            "author": "Li",
+            "year": "2024",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0225",
+            "doi-asserted-by": "crossref",
+            "first-page": "9616",
+            "DOI": "10.1021/acscatal.3c01584",
+            "article-title": "Double-atom catalysts featuring inverse sandwich structure for CO2 reduction reaction: a synergetic first-principles and machine learning investigation",
+            "volume": "13",
+            "author": "Yu",
+            "year": "2023",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0230",
+            "doi-asserted-by": "crossref",
+            "first-page": "25662",
+            "DOI": "10.1039/D3TA05498E",
+            "article-title": "Homonuclear multi-atom catalysts for CO2 electroreduction: a comparison density functional theory study with their single-atom counterparts",
+            "volume": "11",
+            "author": "Xiao",
+            "year": "2023",
+            "journal-title": "J. Mater. Chem. A."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.161555_b0235",
+            "first-page": "1",
+            "article-title": "Ni cluster-decorated single-atom catalysts achieve near-unity CO2-to-CO conversion with an ultrawide potential window of ≈1.7 V",
+            "author": "Li",
+            "year": "2024",
+            "journal-title": "Small."
+          }
+        ],
+        "container-title": [
+          "Applied Surface Science"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0169433224022700?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0169433224022700?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              17
+            ]
+          ],
+          "date-time": "2024-11-17T03:06:06Z",
+          "timestamp": 1731812766000
+        },
+        "score": 24.615194,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169433224022700"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "references-count": 47,
+        "alternative-id": [
+          "S0169433224022700"
+        ],
+        "URL": "https://doi.org/10.1016/j.apsusc.2024.161555",
+        "ISSN": [
+          "0169-4332"
+        ],
+        "issn-type": [
+          {
+            "value": "0169-4332",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Ab initio calculations of high-entropy clusters for oxygen reduction and evolution as well as CO2 reduction reactions",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Applied Surface Science",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.apsusc.2024.161555",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "161555"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2026-07-07T04:37:55Z",
+          "timestamp": 1783399075292,
+          "version": "3.54.6"
+        },
+        "reference-count": 67,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  9
+                ]
+              ],
+              "date-time": "2026-01-09T00:00:00Z",
+              "timestamp": 1767916800000
+            },
+            "content-version": "am",
+            "delay-in-days": 648,
+            "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2024-04-01T00:00:00Z",
+              "timestamp": 1711929600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100004063",
+            "name": "Knut och Alice Wallenbergs Stiftelse",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "KAW-2018.0194"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "KAW-2018.0194"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004063",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001868",
+            "name": "National Science Council",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2022-06725"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2022-06725"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001868",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100003945",
+            "name": "Linköpings universitet",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100003945",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001729",
+            "name": "Stiftelsen för Strategisk Forskning",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "FFL 15-0290"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "FFL 15-0290"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001729",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004192",
+            "name": "NSTDA",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100004192",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004359",
+            "name": "Vetenskapsrådet",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2019-05403"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2019-05403"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004359",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004704",
+            "name": "National Research Council of Thailand",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2009 00971"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2009 00971"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004704",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100002873",
+            "name": "Chulalongkorn University",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100002873",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Applied Surface Science"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.apsusc.2024.159297",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              7
+            ]
+          ],
+          "date-time": "2024-01-07T09:52:16Z",
+          "timestamp": 1704621136000
+        },
+        "page": "159297",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 44,
+        "special_numbering": "C",
+        "title": [
+          "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory"
+        ],
+        "prefix": "10.1016",
+        "volume": "652",
+        "author": [
+          {
+            "given": "Meena",
+            "family": "Rittiruam",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pisit",
+            "family": "Khamloet",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Annop",
+            "family": "Ektarawong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chayanon",
+            "family": "Atthapak",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tinnakorn",
+            "family": "Saelee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Patcharaporn",
+            "family": "Khajondetchairit",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Björn",
+            "family": "Alling",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Supareak",
+            "family": "Praserthdam",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Piyasan",
+            "family": "Praserthdam",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0005",
+            "article-title": "Tailoring grain boundaries and doping on Cu-based electrocatalyst for efficient CO2 reduction reaction",
+            "volume": "645",
+            "author": "Zhu",
+            "year": "2023",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "96",
+            "DOI": "10.3390/methane1020009",
+            "article-title": "The fuel of our future: Hydrogen or methane?",
+            "volume": "1",
+            "author": "Arutyunov",
+            "year": "2022",
+            "journal-title": "Methane"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0015",
+            "series-title": "Methanol: the basic chemical and energy feedstock of the future",
+            "author": "Bertau",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1023/B:CATL.0000017043.93210.9c",
+            "article-title": "After oil and gas: methanol economy",
+            "volume": "93",
+            "author": "Olah",
+            "year": "2004",
+            "journal-title": "Catal. Lett."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "376",
+            "DOI": "10.3390/catal13020376",
+            "article-title": "Research progress of copper-based bimetallic electrocatalytic reduction of CO2",
+            "volume": "13",
+            "author": "Hong",
+            "year": "2023",
+            "journal-title": "Catalysts"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0030",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2023.157360",
+            "article-title": "Synergistic effect of Z-scheme and oxygen vacancy of CeO2/WO3 heterojunction for enhanced CO2 reduction activity",
+            "volume": "631",
+            "author": "Yaseen",
+            "year": "2023",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0035",
+            "doi-asserted-by": "crossref",
+            "first-page": "1311",
+            "DOI": "10.1039/c0ee00071j",
+            "article-title": "How copper catalyzes the electroreduction of carbon dioxide into hydrocarbon fuels",
+            "volume": "3",
+            "author": "Peterson",
+            "year": "2010",
+            "journal-title": "Energy Environ. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0040",
+            "doi-asserted-by": "crossref",
+            "first-page": "17886",
+            "DOI": "10.1021/jp047349j",
+            "article-title": "Origin of the overpotential for oxygen reduction at a fuel-cell cathode",
+            "volume": "108",
+            "author": "Nørskov",
+            "year": "2004",
+            "journal-title": "J. Phys. Chem. B"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0045",
+            "doi-asserted-by": "crossref",
+            "first-page": "2303677",
+            "DOI": "10.1002/advs.202303677",
+            "article-title": "Realistic modeling of the electrocatalytic process at complex solid-liquid interface",
+            "volume": "10",
+            "author": "Zhao",
+            "year": "2023",
+            "journal-title": "Adv. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0050",
+            "series-title": "CO2 Conversion and Utilization: Photocatalytical and Electrochemical Methods and Applications",
+            "first-page": "37",
+            "article-title": "Cu-based metal materials for electrocatalytic CO2 reduction",
+            "author": "Li",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0055",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2021.150423",
+            "article-title": "Cu acting as Fe activity promoter in dual-atom Cu/Fe-NC catalyst in CO2RR to C1 products",
+            "volume": "564",
+            "author": "Wei",
+            "year": "2021",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0060",
+            "doi-asserted-by": "crossref",
+            "first-page": "9616",
+            "DOI": "10.1021/acscatal.3c01584",
+            "article-title": "Double-atom catalysts featuring inverse sandwich structure for CO2 reduction reaction: A synergetic first-principles and machine learning investigation",
+            "volume": "13",
+            "author": "Yu",
+            "year": "2023",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0065",
+            "doi-asserted-by": "crossref",
+            "first-page": "1193",
+            "DOI": "10.3390/met13071193",
+            "article-title": "Novel frontiers in high-entropy alloys",
+            "volume": "13",
+            "author": "Bridges",
+            "year": "2023",
+            "journal-title": "Metals"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0070",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2023.157246",
+            "article-title": "Computational design of one FeCoNiCuZn high-entropy alloy for high-performance electrocatalytic nitrate reduction",
+            "volume": "626",
+            "author": "Yu",
+            "year": "2023",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0075",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2023.157354",
+            "article-title": "High throughput screening of noble metal-free high-entropy alloys catalysts for selective catalytic oxidation of NH3",
+            "volume": "628",
+            "author": "Chen",
+            "year": "2023",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0080",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2021.149327",
+            "article-title": "Defect-rich FeCoNiPB/(FeCoNi) 3O4-x high-entropy composite nanoparticles for oxygen evolution reaction: Impact of surface activation",
+            "volume": "549",
+            "author": "Wei",
+            "year": "2021",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0085",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2023.157282",
+            "article-title": "Self-reconstruction of (CoNiFeCuCr) Se high-entropy selenide for efficient oxygen evolution reaction",
+            "volume": "627",
+            "author": "Jiang",
+            "year": "2023",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "433",
+            "DOI": "10.1016/S1002-0071(12)60080-X",
+            "article-title": "Phase stability in high entropy alloys: Formation of solid-solution phase or amorphous phase",
+            "volume": "21",
+            "author": "Sheng",
+            "year": "2011",
+            "journal-title": "Prog. Nat. Sci.: Mater."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0095",
+            "doi-asserted-by": "crossref",
+            "first-page": "11280",
+            "DOI": "10.1021/acscatal.0c03617",
+            "article-title": "High-entropy alloys as a platform for catalysis: progress, challenges, and opportunities",
+            "volume": "10",
+            "author": "Xin",
+            "year": "2020",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "9978",
+            "DOI": "10.1063/1.1323224",
+            "article-title": "Improved tangent estimate in the nudged elastic band method for finding minimum energy paths and saddle points",
+            "volume": "113",
+            "author": "Henkelman",
+            "year": "2000",
+            "journal-title": "J. Chem. Phys."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0105",
+            "series-title": "Density functional theory: a practical introduction",
+            "author": "Sholl",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "834",
+            "DOI": "10.1016/j.joule.2018.12.015",
+            "article-title": "High-entropy alloys as a discovery platform for electrocatalysis",
+            "volume": "3",
+            "author": "Batchelor",
+            "year": "2019",
+            "journal-title": "Joule"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0115",
+            "doi-asserted-by": "crossref",
+            "first-page": "2370026",
+            "DOI": "10.1002/adts.202370026",
+            "article-title": "First-principles active-site model design for high-entropy-alloy catalyst screening: The impact of host element selection on catalytic properties",
+            "volume": "6",
+            "author": "Rittiruam",
+            "year": "2023",
+            "journal-title": "Adv. Theory Simul."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "2169",
+            "DOI": "10.1021/acscatal.9b04343",
+            "article-title": "High-entropy alloys as catalysts for the CO2 and CO reduction reactions",
+            "volume": "10",
+            "author": "Pedersen",
+            "year": "2020",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0125",
+            "doi-asserted-by": "crossref",
+            "first-page": "56151",
+            "DOI": "10.1021/acsami.1c16696",
+            "article-title": "Machine learning-driven high-throughput screening of alloy-based catalysts for selective CO2 hydrogenation to methanol",
+            "volume": "13",
+            "author": "Roy",
+            "year": "2021",
+            "journal-title": "ACS Appl. Mater. Interfaces"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "5991",
+            "DOI": "10.1021/acs.jpclett.2c00929",
+            "article-title": "Machine learning assisted exploration of high entropy alloy-based catalysts for selective CO2 reduction to methanol",
+            "volume": "13",
+            "author": "Roy",
+            "year": "2022",
+            "journal-title": "J. Phys. Chem. Lett."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0135",
+            "doi-asserted-by": "crossref",
+            "first-page": "14864",
+            "DOI": "10.1021/acscatal.2c03675",
+            "article-title": "Machine-learning-driven high-entropy alloy catalyst discovery to circumvent the scaling relation for CO2 reduction reaction",
+            "volume": "12",
+            "author": "Chen",
+            "year": "2022",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0140",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apsusc.2023.157023",
+            "article-title": "On the enhanced performance of Pt-based high-entropy alloys catalyst during water–gas shift reaction: A density functional theory study",
+            "volume": "623",
+            "author": "Saelee",
+            "year": "2023",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0145",
+            "article-title": "Cu-based bimetallic electrocatalysts for CO2 reduction",
+            "volume": "1",
+            "author": "Jia",
+            "year": "2022",
+            "journal-title": "APM"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0150",
+            "doi-asserted-by": "crossref",
+            "first-page": "3658",
+            "DOI": "10.1021/acscatal.9b04302",
+            "article-title": "High-entropy alloys as catalysts for the CO2 and CO reduction reactions: Experimental realization",
+            "volume": "10",
+            "author": "Nellaiappan",
+            "year": "2020",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0155",
+            "doi-asserted-by": "crossref",
+            "first-page": "12113",
+            "DOI": "10.1039/C7TA00353F",
+            "article-title": "Selective electro-or photo-reduction of carbon dioxide to formic acid using a Cu–Zn alloy catalyst",
+            "volume": "5",
+            "author": "Yin",
+            "year": "2017",
+            "journal-title": "J. Mater. Chem. A."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0160",
+            "doi-asserted-by": "crossref",
+            "first-page": "19879",
+            "DOI": "10.1021/jacs.9b10709",
+            "article-title": "Operando insight into the correlation between the structure and composition of CuZn nanoparticles and their selectivity for the electrochemical CO2 reduction",
+            "volume": "141",
+            "author": "Jeon",
+            "year": "2019",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0165",
+            "doi-asserted-by": "crossref",
+            "first-page": "14107",
+            "DOI": "10.1021/ja505791r",
+            "article-title": "Electrocatalytic conversion of carbon dioxide to methane and methanol on transition metal surfaces",
+            "volume": "136",
+            "author": "Kuhl",
+            "year": "2014",
+            "journal-title": "J. Am. Chem. Soc."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0170",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.apcatb.2019.118391",
+            "article-title": "Carbon nitride embedded with transition metals for selective electrocatalytic CO2 reduction",
+            "volume": "268",
+            "author": "Ding",
+            "year": "2020",
+            "journal-title": "Appl. Catal. B: Environ."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0175",
+            "doi-asserted-by": "crossref",
+            "first-page": "2168",
+            "DOI": "10.1002/asia.202100583",
+            "article-title": "Recent advances in bimetallic Cu-based nanocrystals for electrocatalytic CO2 conversion",
+            "volume": "16",
+            "author": "Talukdar",
+            "year": "2021",
+            "journal-title": "Chem. Asian J."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0180",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.cplett.2020.137852",
+            "article-title": "Double atom-anchored defective boron nitride catalyst for efficient electroreduction of CO2 to CH4: a first principles study",
+            "volume": "756",
+            "author": "Huang",
+            "year": "2020",
+            "journal-title": "Chem. Phys. Lett."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0185",
+            "doi-asserted-by": "crossref",
+            "first-page": "487",
+            "DOI": "10.1016/j.pnsc.2016.08.007",
+            "article-title": "CO2 activation on bimetallic CuNi nanoparticles",
+            "volume": "26",
+            "author": "Austin",
+            "year": "2016",
+            "journal-title": "Prog. Nat. Sci.: Mater."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0190",
+            "doi-asserted-by": "crossref",
+            "first-page": "1296",
+            "DOI": "10.1126/science.aal3573",
+            "article-title": "Active sites for CO2 hydrogenation to methanol on Cu/ZnO catalysts",
+            "volume": "355",
+            "author": "Kattel",
+            "year": "2017",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0195",
+            "doi-asserted-by": "crossref",
+            "first-page": "11927",
+            "DOI": "10.1021/acs.jpcc.2c00520",
+            "article-title": "Surface coverage as an important parameter for predicting selectivity trends in electrochemical CO2 reduction",
+            "volume": "126",
+            "author": "Morrison",
+            "year": "2022",
+            "journal-title": "J. Phys. Chem. C"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0200",
+            "doi-asserted-by": "crossref",
+            "first-page": "108",
+            "DOI": "10.1016/j.jcat.2014.01.013",
+            "article-title": "Reaction mechanisms of CO2 electrochemical reduction on Cu (1 1 1) determined with density functional theory",
+            "volume": "312",
+            "author": "Nie",
+            "year": "2014",
+            "journal-title": "J. Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0205",
+            "doi-asserted-by": "crossref",
+            "first-page": "11938",
+            "DOI": "10.1039/C6RA28815D",
+            "article-title": "Theoretical insight into effect of doping of transition metal M (M= Ni, Pd and Pt) on CO 2 reduction pathways on Cu (111) and understanding of origin of electrocatalytic activity",
+            "volume": "7",
+            "author": "Ou",
+            "year": "2017",
+            "journal-title": "RSC Adv."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0210",
+            "doi-asserted-by": "crossref",
+            "first-page": "4910",
+            "DOI": "10.1021/la063097x",
+            "article-title": "Adsorption of atoms on Cu surfaces: a density functional theory study",
+            "volume": "23",
+            "author": "Pang",
+            "year": "2007",
+            "journal-title": "Langmuir"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0215",
+            "first-page": "2825",
+            "article-title": "Scikit-learn: Machine learning in Python",
+            "volume": "12",
+            "author": "Pedregosa",
+            "year": "2011",
+            "journal-title": "JMLR"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0220",
+            "doi-asserted-by": "crossref",
+            "first-page": "7583",
+            "DOI": "10.1021/acs.jpclett.2c01401",
+            "article-title": "Rational designing of bimetallic/trimetallic hydrogen evolution reaction catalysts using supervised machine learning",
+            "volume": "13",
+            "author": "Pandit",
+            "year": "2022",
+            "journal-title": "J. Phys. Chem. Lett."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0225",
+            "doi-asserted-by": "crossref",
+            "first-page": "4854",
+            "DOI": "10.1021/acscatal.0c00297",
+            "article-title": "Facet-dependent selectivity of Cu catalysts in electrochemical CO2 reduction at commercially viable current densities",
+            "volume": "10",
+            "author": "De Gregorio",
+            "year": "2020",
+            "journal-title": "ACS Catal."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0230",
+            "doi-asserted-by": "crossref",
+            "first-page": "353",
+            "DOI": "10.1103/PhysRevLett.65.353",
+            "article-title": "Special quasirandom structures",
+            "volume": "65",
+            "author": "Zunger",
+            "year": "1990",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0235",
+            "doi-asserted-by": "crossref",
+            "first-page": "2200926",
+            "DOI": "10.1002/adts.202200926",
+            "article-title": "First-principles density functional theory and machine learning technique for the prediction of water adsorption site on PtPd-based high-entropy-alloy catalysts",
+            "volume": "6",
+            "author": "Rittiruam",
+            "year": "2023",
+            "journal-title": "Adv. Theory Simul."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0240",
+            "doi-asserted-by": "crossref",
+            "first-page": "558",
+            "DOI": "10.1103/PhysRevB.47.558",
+            "article-title": "Ab initio molecular dynamics for liquid metals",
+            "volume": "47",
+            "author": "Kresse",
+            "year": "1993",
+            "journal-title": "Phys. Rev. B."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0245",
+            "doi-asserted-by": "crossref",
+            "first-page": "15",
+            "DOI": "10.1016/0927-0256(96)00008-0",
+            "article-title": "Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set",
+            "volume": "6",
+            "author": "Kresse",
+            "year": "1996",
+            "journal-title": "Comput. Mater. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0250",
+            "doi-asserted-by": "crossref",
+            "first-page": "14251",
+            "DOI": "10.1103/PhysRevB.49.14251",
+            "article-title": "Ab initio molecular-dynamics simulation of the liquid-metal–amorphous-semiconductor transition in germanium",
+            "volume": "49",
+            "author": "Kresse",
+            "year": "1994",
+            "journal-title": "Phys. Rev. B."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0255",
+            "doi-asserted-by": "crossref",
+            "first-page": "11169",
+            "DOI": "10.1103/PhysRevB.54.11169",
+            "article-title": "Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set",
+            "volume": "54",
+            "author": "Kresse",
+            "year": "1996",
+            "journal-title": "Phys. Rev. B."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0260",
+            "doi-asserted-by": "crossref",
+            "first-page": "3865",
+            "DOI": "10.1103/PhysRevLett.77.3865",
+            "article-title": "Generalized gradient approximation made simple",
+            "volume": "77",
+            "author": "Perdew",
+            "year": "1996",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0265",
+            "doi-asserted-by": "crossref",
+            "first-page": "5188",
+            "DOI": "10.1103/PhysRevB.13.5188",
+            "article-title": "Special points for Brillouin-zone integrations",
+            "volume": "13",
+            "author": "Monkhorst",
+            "year": "1976",
+            "journal-title": "Phys. Rev. B."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0270",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1063/1.3382344",
+            "article-title": "A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu",
+            "volume": "132",
+            "author": "Grimme",
+            "year": "2010",
+            "journal-title": "J. Chem. Phys."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0275",
+            "doi-asserted-by": "crossref",
+            "first-page": "12301",
+            "DOI": "10.1103/PhysRevB.59.12301",
+            "article-title": "Dipole correction for surface supercell calculations",
+            "volume": "59",
+            "author": "Bengtsson",
+            "year": "1999",
+            "journal-title": "Phys. Rev. B."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0280",
+            "doi-asserted-by": "crossref",
+            "first-page": "211",
+            "DOI": "10.1016/0039-6028(96)80007-0",
+            "article-title": "Electronic factors determining the reactivity of metal surfaces",
+            "volume": "343",
+            "author": "Hammer",
+            "year": "1995",
+            "journal-title": "Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0285",
+            "doi-asserted-by": "crossref",
+            "first-page": "421",
+            "DOI": "10.1016/S1381-1169(96)00348-2",
+            "article-title": "Surface electronic structure and reactivity of transition and noble metals",
+            "volume": "115",
+            "author": "Ruban",
+            "year": "1997",
+            "journal-title": "J. Mol. Catal. A."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0290",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.cpc.2021.108033",
+            "article-title": "VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code",
+            "volume": "267",
+            "author": "Wang",
+            "year": "2021",
+            "journal-title": "Comput. Phys. Commun."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0295",
+            "doi-asserted-by": "crossref",
+            "first-page": "8262",
+            "DOI": "10.1021/jp400937e",
+            "article-title": "Electroreduction of carbon dioxide to methane on copper, copper–silver, and copper–gold catalysts: a DFT study",
+            "volume": "117",
+            "author": "Hirunsit",
+            "year": "2013",
+            "journal-title": "J. Phys. Chem. C"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0300",
+            "doi-asserted-by": "crossref",
+            "first-page": "653",
+            "DOI": "10.1107/S0021889808012016",
+            "article-title": "VESTA: a three-dimensional visualization system for electronic and structural analysis",
+            "volume": "41",
+            "author": "Momma",
+            "year": "2008",
+            "journal-title": "J. Appl. Crystallogr."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0305",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.jcou.2022.102165",
+            "article-title": "Design and screening of transition-metal doped chalcogenides as CO2-to-CO electrocatalysts",
+            "volume": "64",
+            "author": "Wei",
+            "year": "2022",
+            "journal-title": "J. CO2 Util."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0310",
+            "series-title": "Catalysis: concepts and green applications",
+            "author": "Rothenberg",
+            "year": "2017"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0315",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1038/s41598-022-21209-0",
+            "article-title": "High-throughput materials screening algorithm based on first-principles density functional theory and artificial neural network for high-entropy alloys",
+            "volume": "12",
+            "author": "Rittiruam",
+            "year": "2022",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0320",
+            "doi-asserted-by": "crossref",
+            "first-page": "937",
+            "DOI": "10.1073/pnas.1006652108",
+            "article-title": "Density functional theory in surface chemistry and catalysis",
+            "volume": "108",
+            "author": "Nørskov",
+            "year": "2011",
+            "journal-title": "PNAS"
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0325",
+            "doi-asserted-by": "crossref",
+            "first-page": "976",
+            "DOI": "10.1016/j.apsusc.2019.06.002",
+            "article-title": "Electrochemical hydrogen evolution and CO2 reduction over hierarchical MoSxSe2-x hybrid nanostructures",
+            "volume": "489",
+            "author": "Lee",
+            "year": "2019",
+            "journal-title": "Appl. Surf. Sci."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0330",
+            "doi-asserted-by": "crossref",
+            "first-page": "872",
+            "DOI": "10.1039/D1TA09184K",
+            "article-title": "A transferable machine-learning scheme from pure metals to alloys for predicting adsorption energies",
+            "volume": "10",
+            "author": "Li",
+            "year": "2022",
+            "journal-title": "J. Mater. Chem. A."
+          },
+          {
+            "key": "10.1016/j.apsusc.2024.159297_b0335",
+            "doi-asserted-by": "crossref",
+            "first-page": "5240",
+            "DOI": "10.1021/acscatal.7b03308",
+            "article-title": "Calculations of product selectivity in electrochemical CO2 reduction",
+            "volume": "8",
+            "author": "Hussain",
+            "year": "2018",
+            "journal-title": "ACS Catal."
+          }
+        ],
+        "container-title": [
+          "Applied Surface Science"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0169433224000114?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0169433224000114?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              14
+            ]
+          ],
+          "date-time": "2026-05-14T04:04:31Z",
+          "timestamp": 1778731471000
+        },
+        "score": 24.441353,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169433224000114"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "references-count": 67,
+        "alternative-id": [
+          "S0169433224000114"
+        ],
+        "URL": "https://doi.org/10.1016/j.apsusc.2024.159297",
+        "ISSN": [
+          "0169-4332"
+        ],
+        "issn-type": [
+          {
+            "value": "0169-4332",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Applied Surface Science",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.apsusc.2024.159297",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2024 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "159297"
+      }
+    ],
+    "items-per-page": 3,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,22 @@
+services:
+  backend:
+    environment:
+      WEB_REMOTE_OPERATIONS_ENABLED: "true"
+      CLUSTER_PREFLIGHT_ENABLED: "true"
+      CLUSTER_REMOTE_WRITE_ENABLED: "true"
+      CLUSTER_SUBMISSION_ENABLED: "true"
+      CLUSTER_SSH_KEY_PATH: /run/secrets/cluster_key
+      CLUSTER_SSH_KNOWN_HOSTS: /run/secrets/known_hosts
+    volumes:
+      - type: bind
+        source: ${CLUSTER_SSH_KEY_HOST_PATH}
+        target: /run/secrets/cluster_key
+        read_only: true
+      - type: bind
+        source: ${CLUSTER_KNOWN_HOSTS_HOST_PATH}
+        target: /run/secrets/known_hosts
+        read_only: true
+      - type: bind
+        source: ${VASP_PBE_HOST_PATH}
+        target: /app/database/PBE
+        read_only: true

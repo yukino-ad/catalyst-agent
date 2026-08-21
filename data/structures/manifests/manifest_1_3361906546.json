@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "requested_count": 1,
+  "generated_count": 1,
+  "attempts": 124,
+  "parameters": {
+    "selected_elements": [
+      "Cu",
+      "Fe",
+      "Ni",
+      "Mn",
+      "Al"
+    ],
+    "generation_mode": "composition_driven",
+    "seed": 3361906546,
+    "min_distance": 1.8,
+    "composition": {
+      "Cu": 8,
+      "Fe": 7,
+      "Ni": 7,
+      "Mn": 7,
+      "Al": 3
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "formula": "Al3Cu8Fe7Mn7Ni7",
+      "elements": [
+        "Cu",
+        "Fe",
+        "Ni",
+        "Mn",
+        "Al"
+      ],
+      "counts": {
+        "Cu": 8,
+        "Fe": 7,
+        "Ni": 7,
+        "Mn": 7,
+        "Al": 3
+      },
+      "lattice_constant_a0": 3.719062,
+      "supercell_a": 7.438125,
+      "minimum_distance": 2.629774,
+      "cif_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\cif\\Cu_HEA_FCC_00001_Al3_Cu8_Fe7_Mn7_Ni7_ec8bd1e1.cif",
+      "poscar_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\data\\structures\\POSCAR\\Cu_HEA_FCC_00001_Al3_Cu8_Fe7_Mn7_Ni7_ec8bd1e1.vasp",
+      "signature": "ec8bd1e15f5c129a4deb95c8968902d238dc0aa04f9058c57c875fc7e7801d62"
+    }
+  ]
+}

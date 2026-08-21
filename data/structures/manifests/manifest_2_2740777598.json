@@ -1,0 +1,26 @@
+{
+  "success": false,
+  "requested_count": 1,
+  "generated_count": 0,
+  "attempts": 5000,
+  "parameters": {
+    "selected_elements": [
+      "Fe",
+      "Ni",
+      "Mn",
+      "Ti",
+      "Al"
+    ],
+    "generation_mode": "composition_driven",
+    "seed": 2740777598,
+    "min_distance": 1.8,
+    "composition": {
+      "Fe": 7,
+      "Ni": 7,
+      "Mn": 7,
+      "Ti": 7,
+      "Al": 4
+    }
+  },
+  "results": []
+}

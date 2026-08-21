@@ -1,0 +1,362 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback",
+  "created_at": "2026-07-24T15:30:34.136684+00:00",
+  "paper": {
+    "paper_id": "openalex:W4390653010",
+    "title": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory",
+    "abstract": "",
+    "year": 2024,
+    "journal": "Applied Surface Science",
+    "doi": "https://doi.org/10.1016/j.apsusc.2024.159297",
+    "url": "https://doi.org/10.1016/j.apsusc.2024.159297",
+    "source": "OpenAlex",
+    "summary": "",
+    "assertions": [
+      {
+        "kind": "element_set",
+        "value": [
+          "Cu",
+          "Mn",
+          "Ni",
+          "Zn"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E3::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E3::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory",
+    "score": 5.7077,
+    "matched_terms": [
+      "alloy",
+      "co2",
+      "reaction",
+      "reduction"
+    ],
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 61.2,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 61.2,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 14.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": false,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: abstract",
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 29.2,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.2000000000000002
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 18.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory",
+            "source": "title",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory",
+            "source": "title"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 14.0,
+      "relevance_score": 29.2,
+      "has_title": true,
+      "has_abstract": false,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Cu",
+        "Mn",
+        "Ni",
+        "Zn"
+      ],
+      "composition_element_count": 4,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Cu",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": false,
+      "evidence_scope": "title_only",
+      "issues": [
+        "Missing metadata field: abstract",
+        "Missing metadata field: publication_type",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "retrieval_scores": {
+      "lexical_raw": 5.7077,
+      "lexical_normalized": 0.252581,
+      "quality_normalized": 0.612,
+      "combined": 0.396349
+    },
+    "local_rank": 10,
+    "evidence_id": "E3",
+    "metadata_verified": false,
+    "metadata_provider": "",
+    "claim_evidence_available": false,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "retrieval_origin": "local",
+    "stored_in_repository": true,
+    "review_status": "pending_review",
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "openalex:W4390653010"
+      ],
+      "dois": [
+        "10.1016/j.apsusc.2024.159297"
+      ]
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.064516,
+      "title_coverage": 0.064516,
+      "lexical_relevance": 0.064516,
+      "quality_normalized": 0.612,
+      "recency": 0.8,
+      "combined": 0.329684
+    },
+    "merged_rank": 3,
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 61.2,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 61.2,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 14.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": false,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": false
+        },
+        "issues": [
+          "Missing metadata field: abstract",
+          "Missing metadata field: publication_type"
+        ]
+      },
+      "task_relevance": {
+        "score": 29.2,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.2000000000000002
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 18.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 0.0,
+          "conclusion_quote": 0.0
+        },
+        "composition_claims": [
+          {
+            "quote": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory",
+            "source": "title",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Screening of Cu-Mn-Ni-Zn high-entropy alloy catalysts for CO2 reduction reaction by machine-learning-accelerated density functional theory",
+            "source": "title"
+          }
+        ],
+        "performance_claims": [],
+        "conclusion_claims": [],
+        "issues": [
+          "No quantitative performance claim was found in title/abstract.",
+          "No quotable conclusion claim was found in title/abstract."
+        ]
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 14.0,
+      "relevance_score": 29.2,
+      "has_title": true,
+      "has_abstract": false,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Cu",
+        "Mn",
+        "Ni",
+        "Zn"
+      ],
+      "composition_element_count": 4,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Cu",
+        "Mn",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": false,
+      "metadata_provider": "",
+      "claim_evidence_available": false,
+      "evidence_scope": "title_only",
+      "issues": [
+        "Missing metadata field: abstract",
+        "Missing metadata field: publication_type",
+        "No quantitative performance claim was found in title/abstract.",
+        "No quotable conclusion claim was found in title/abstract.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "publication_type": "",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [],
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {}
+  }
+}

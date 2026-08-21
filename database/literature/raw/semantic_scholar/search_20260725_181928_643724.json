@@ -1,0 +1,217 @@
+{
+  "total": 40371,
+  "offset": 0,
+  "next": 5,
+  "data": [
+    {
+      "paperId": "156ac1307614b5b36dc6efd154e81f79117ecedb",
+      "externalIds": {
+        "DOI": "10.1016/j.heliyon.2023.e14213",
+        "CorpusId": 257348545,
+        "PubMed": "37101486"
+      },
+      "url": "https://www.semanticscholar.org/paper/156ac1307614b5b36dc6efd154e81f79117ecedb",
+      "title": "Corrigendum to \"The impact of broadband speed on innovation: City-level evidence from China\" [Heliyon 9 (1) (January 2023) Article e12692].",
+      "venue": "Heliyon",
+      "year": 2023,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://www.cell.com/article/S2405844023014202/pdf",
+        "status": "GOLD",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.heliyon.2023.e14213?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.heliyon.2023.e14213, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2200083310",
+          "name": "Jialing Chen"
+        },
+        {
+          "authorId": "2110144393",
+          "name": "Jiancheng Wang"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1016/j.heliyon.2022.e12692.]."
+    },
+    {
+      "paperId": "9b07cd4825dd49a61d7ce1ec8a172b7cf65d3775",
+      "externalIds": {
+        "PubMedCentral": "10395041",
+        "DOI": "10.1016/j.heliyon.2023.e17578",
+        "CorpusId": 259291618,
+        "PubMed": "37539302"
+      },
+      "url": "https://www.semanticscholar.org/paper/9b07cd4825dd49a61d7ce1ec8a172b7cf65d3775",
+      "title": "Corrigendum to “Safety and efficacy of ablation index-guided high-power ablation for the treatment of atrial fibrillation” [Heliyon 9 (4), (April 2023) Article e15311]",
+      "venue": "Heliyon",
+      "year": 2023,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "http://www.cell.com/article/S2405844023047862/pdf",
+        "status": "GOLD",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10395041, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2146271916",
+          "name": "Jing Zhu"
+        },
+        {
+          "authorId": "2219030808",
+          "name": "Xiangdong Lin"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1016/j.heliyon.2023.e15311.]."
+    },
+    {
+      "paperId": "3f3f5fe2dfeefb022eaf60a1b520165603b3b8cf",
+      "externalIds": {
+        "DOI": "10.1016/j.lana.2023.100515",
+        "CorpusId": 258860785,
+        "PubMed": "37274552"
+      },
+      "url": "https://www.semanticscholar.org/paper/3f3f5fe2dfeefb022eaf60a1b520165603b3b8cf",
+      "title": "Corrigendum to \"How, what, and why: housing, water & sanitation and wealth patterns in a cross-sectional study of the Guarani Birth Cohort, the first indigenous birth cohort in Brazil\" [The Lancet Regional Health - Americas 2023;21: 100496].",
+      "venue": "The Lancet Regional Health - Americas",
+      "year": 2023,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1016/j.lana.2023.100515",
+        "status": "GOLD",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.lana.2023.100515?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.lana.2023.100515, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2218702678",
+          "name": "Aline Diniz Rodrigues Caldas"
+        },
+        {
+          "authorId": "8414000",
+          "name": "A. Nobre"
+        },
+        {
+          "authorId": "7906642",
+          "name": "E. Brickley"
+        },
+        {
+          "authorId": "2216489538",
+          "name": "Neal Alexander"
+        },
+        {
+          "authorId": "2162760355",
+          "name": "G. Werneck"
+        },
+        {
+          "authorId": "40094960",
+          "name": "Y. Farias"
+        },
+        {
+          "authorId": "2216454800",
+          "name": "Carla Tatiana Garcia Barreto Ferrão"
+        },
+        {
+          "authorId": "1388892824",
+          "name": "F. Tavares"
+        },
+        {
+          "authorId": "2102004113",
+          "name": "Lídia de Nazaré Pantoja"
+        },
+        {
+          "authorId": "2218755481",
+          "name": "Márcia Cristina da Luz Duarte"
+        },
+        {
+          "authorId": "5084559",
+          "name": "A. Cardoso"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1016/j.lana.2023.100496.]."
+    },
+    {
+      "paperId": "456e2f62b1f873c9689a6ad7311e94f62151b7e6",
+      "externalIds": {
+        "PubMedCentral": "10517352",
+        "DOI": "10.1016/j.conctc.2023.101205",
+        "CorpusId": 261391074,
+        "PubMed": "37745287"
+      },
+      "url": "https://www.semanticscholar.org/paper/456e2f62b1f873c9689a6ad7311e94f62151b7e6",
+      "title": "Corrigendum to “The ePark study protocol: A decentralized trial of individual video-assisted cognitive behavioural therapy for depressive disorder in Parkinson's disease” [Contemp. Clinic. Trials Commun. 32 (2023) 101080]",
+      "venue": "Contemporary Clinical Trials Communications",
+      "year": 2023,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1016/j.conctc.2023.101205",
+        "status": "GOLD",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10517352, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "3915560",
+          "name": "A. Erga"
+        },
+        {
+          "authorId": "2987883",
+          "name": "G. Alves"
+        },
+        {
+          "authorId": "1400054560",
+          "name": "A. Leentjens"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1016/j.conctc.2023.101080.]."
+    },
+    {
+      "paperId": "e94abce8d533389cd24a4b4d0a2dcf71b3ac8450",
+      "externalIds": {
+        "PubMedCentral": "10471913",
+        "DOI": "10.1016/j.dib.2023.109498",
+        "CorpusId": 260982558,
+        "PubMed": "37663776"
+      },
+      "url": "https://www.semanticscholar.org/paper/e94abce8d533389cd24a4b4d0a2dcf71b3ac8450",
+      "title": "Corrigendum to “Experimental dataset on the compressive mechanical properties of high-density pressboard used in power transformers spacers” [Data in Brief 50 (2023) 109471]",
+      "venue": "Data in Brief",
+      "year": 2023,
+      "citationCount": 0,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1016/j.dib.2023.109498",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10471913, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2081257376",
+          "name": "C. Oria"
+        },
+        {
+          "authorId": "10760961",
+          "name": "I. Carrascal"
+        },
+        {
+          "authorId": "81688711",
+          "name": "D. Ferreño"
+        },
+        {
+          "authorId": "146400164",
+          "name": "C. Méndez"
+        },
+        {
+          "authorId": "50257407",
+          "name": "A. Ortiz"
+        }
+      ],
+      "abstract": "[This corrects the article DOI: 10.1016/j.dib.2023.109471.]."
+    }
+  ]
+}

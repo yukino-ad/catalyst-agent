@@ -1,0 +1,10 @@
+{
+  "screening": [
+    {
+      "cif_path": "C:\\Users\\chenheli\\Documents\\agent\u5f00\u53d1\\catalyst-agent\\data\\structures\\cif\\Cu_HEA_FCC_00001_Al3_Co7_Cr7_Cu8_Mn7_3f4f44e5.cif",
+      "passed": false,
+      "reason": "error: [Errno 2] No such file or directory: 'C:\\\\Users\\\\chenheli\\\\Documents\\\\agent\u5f00\u53d1\\\\catalyst-agent\\\\data\\\\structures\\\\cif\\\\Cu_HEA_FCC_00001_Al3_Co7_Cr7_Cu8_Mn7_3f4f44e5.cif'"
+    }
+  ],
+  "slabs": []
+}

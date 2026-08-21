@@ -1,0 +1,38 @@
+from __future__ import annotations
+
+from typing import Literal
+
+from app.graph.state import CatalystState
+
+
+def route_after_planner(
+    state: CatalystState,
+) -> Literal["rag", "skip_rag"]:
+    """根据 Router 的决定选择 RAG 分支。"""
+
+    route = state.get("route", {})
+
+    if bool(route.get("use_rag")):
+        return "rag"
+
+    return "skip_rag"
+    
+def route_after_literature_summary(
+    state: CatalystState,
+) -> Literal["candidate_design", "end"]:
+    """Decide whether the task should enter C-stage design."""
+
+    task_analysis = state.get(
+        "task_analysis",
+        {},
+    )
+
+    if bool(
+        task_analysis.get(
+            "needs_candidate_design",
+            False,
+        )
+    ):
+        return "candidate_design"
+
+    return "end"

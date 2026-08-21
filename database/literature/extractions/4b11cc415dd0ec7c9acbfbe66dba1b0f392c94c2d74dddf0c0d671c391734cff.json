@@ -1,0 +1,415 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v3",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback_after_llm_error",
+  "created_at": "2026-07-25T10:21:05.440093+00:00",
+  "paper": {
+    "paper_id": "crossref:10.1007/s12598-022-02255-z",
+    "title": "A porous high‐entropy alloy for high‐efficient oxygen evolution reaction",
+    "abstract": "摘要 析氧反应(OER)在电解水制氢过程中起着至关重要的作用，急需一种高效、稳定、低成本的电催化剂。本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。SPD‐48 h在1 mol·L ‐1 KOH碱性溶液中达到10 mA·cm ‐2 的电流密度时具有260 mV的过电位和58.0 mV·dec ‐1 的Tafel斜率。扫描电镜 (SEM)分析表明，经过10 h的计时电流测试后，微观结构没有变化，证实了SPD‐48 h的优异稳定性。多孔高熵合金优异的电催化性能不仅取决于合金自身的性能，也可以归因于其物理上独特的多孔结构。这些发现显示SPD‐48 h是有益OER的，因此，对制备高性能电催化剂的研究人员来说应该是有价值的。",
+    "year": 2023,
+    "journal": "Rare Metals",
+    "doi": "10.1007/s12598-022-02255-z",
+    "url": "https://doi.org/10.1007/s12598-022-02255-z",
+    "source": "Crossref",
+    "publication_type": "journal-article",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [
+      "1001-0521",
+      "1867-7185"
+    ],
+    "metadata_verified": true,
+    "metadata_provider": "crossref",
+    "claim_evidence_available": true,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": true,
+      "semantic_scholar_verified": false,
+      "required_tools_called": true,
+      "cross_verified": false
+    },
+    "summary": "摘要 析氧反应(OER)在电解水制氢过程中起着至关重要的作用，急需一种高效、稳定、低成本的电催化剂。本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。SPD‐48 h在1 mol·L ‐1 KOH碱性溶液中达到10 mA·cm ‐2 的电流密度时具有260 mV的过电位和58.0 mV·dec ‐1 的Tafel斜率。扫描电镜 (SEM)分析表明，经过10 h的计时电流测试后，微观结构没有变化，证实了SPD‐48 h的优异稳定性。多孔高熵合金优异的电催化性能不仅取决于合金自身的性能，也可以归因于其物理上独特的多孔结构。这些发现显示SPD‐48 h是有益OER的，因此，对制备高性能电催化剂的研究人员来说应该是有价值的。",
+    "source_file": "",
+    "source_sheet": "",
+    "source_row": null,
+    "composition_raw": "",
+    "reaction_labels": [],
+    "keywords": [],
+    "evidence_snippet": "",
+    "context_misread_flag": false,
+    "provenance": {},
+    "assertions": [
+      {
+        "kind": "reaction",
+        "value": "OER",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "A porous high‐entropy alloy for high‐efficient oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E2::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "A porous high‐entropy alloy for high‐efficient oxygen evolution reaction.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E2::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Al",
+          "Co",
+          "Cr",
+          "Fe",
+          "Ni"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。",
+            "source": "abstract",
+            "sentence_index": 2
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E2::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "A porous high‐entropy alloy for high‐efficient oxygen evolution reaction 摘要 析氧反应(OER)在电解水制氢过程中起着至关重要的作用，急需一种高效、稳定、低成本的电催化剂。本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。SPD‐48 h在1 mol·L ‐1 KOH碱性溶液中达到10 mA·cm ‐2 的电流密度时具有260 mV的过电位和58.0 mV·dec ‐1 的Tafel斜率。扫描电镜 (SEM)分析表明，经过10 h的计时电流测试后，微观结构没有变化，证实了SPD‐48 h的优异稳定性。多孔高熵合金优异的电催化性能不仅取决于合金自身的性能，也可以归因于其物理上独特的多孔结构。这些发现显示SPD‐48 h是有益OER的，因此，对制备高性能电催化剂的研究人员来说应该是有价值的。 摘要 析氧反应(OER)在电解水制氢过程中起着至关重要的作用，急需一种高效、稳定、低成本的电催化剂。本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。SPD‐48 h在1 mol·L ‐1 KOH碱性溶液中达到10 mA·cm ‐2 的电流密度时具有260 mV的过电位和58.0 mV·dec ‐1 的Tafel斜率。扫描电镜 (SEM)分析表明，经过10 h的计时电流测试后，微观结构没有变化，证实了SPD‐48 h的优异稳定性。多孔高熵合金优异的电催化性能不仅取决于合金自身的性能，也可以归因于其物理上独特的多孔结构。这些发现显示SPD‐48 h是有益OER的，因此，对制备高性能电催化剂的研究人员来说应该是有价值的。    ",
+    "retrieval_origin": "online",
+    "online_rank": 5,
+    "review_status": "pending_review",
+    "stored_in_repository": false,
+    "kimi_web_search_performed": true,
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "crossref:10.1007/s12598-022-02255-z"
+      ],
+      "dois": [
+        "10.1007/s12598-022-02255-z"
+      ]
+    },
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "A",
+      "quality_score": 79.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 79.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 20.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": []
+      },
+      "task_relevance": {
+        "score": 29.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。",
+            "source": "abstract"
+          },
+          {
+            "quote": "多孔高熵合金优异的电催化性能不仅取决于合金自身的性能，也可以归因于其物理上独特的多孔结构。",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。",
+            "source": "abstract"
+          },
+          {
+            "quote": "SPD‐48 h在1 mol·L ‐1 KOH碱性溶液中达到10 mA·cm ‐2 的电流密度时具有260 mV的过电位和58.",
+            "source": "abstract"
+          },
+          {
+            "quote": "扫描电镜 (SEM)分析表明，经过10 h的计时电流测试后，微观结构没有变化，证实了SPD‐48 h的优异稳定性。",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "扫描电镜 (SEM)分析表明，经过10 h的计时电流测试后，微观结构没有变化，证实了SPD‐48 h的优异稳定性。",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 20.0,
+      "relevance_score": 29.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Al",
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.134615,
+      "title_coverage": 0.115385,
+      "lexical_relevance": 0.128846,
+      "quality_normalized": 0.796,
+      "recency": 0.7,
+      "local_source": 0.0,
+      "combined": 0.413023
+    },
+    "merged_rank": 2,
+    "evidence_id": "E2",
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "A",
+      "quality_score": 79.6,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 79.6,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 20.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": []
+      },
+      "task_relevance": {
+        "score": 29.6,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 15.0,
+          "target_product": 0.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 1.6
+        },
+        "issues": []
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。",
+            "source": "abstract"
+          },
+          {
+            "quote": "多孔高熵合金优异的电催化性能不仅取决于合金自身的性能，也可以归因于其物理上独特的多孔结构。",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "本文采用一种简单的选择性相溶解的方法，成功地制备了一种多孔的AlCoCrFeNi高熵合金(SPD‐48 h)。",
+            "source": "abstract"
+          },
+          {
+            "quote": "SPD‐48 h在1 mol·L ‐1 KOH碱性溶液中达到10 mA·cm ‐2 的电流密度时具有260 mV的过电位和58.",
+            "source": "abstract"
+          },
+          {
+            "quote": "扫描电镜 (SEM)分析表明，经过10 h的计时电流测试后，微观结构没有变化，证实了SPD‐48 h的优异稳定性。",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "扫描电镜 (SEM)分析表明，经过10 h的计时电流测试后，微观结构没有变化，证实了SPD‐48 h的优异稳定性。",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 20.0,
+      "relevance_score": 29.6,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": true,
+      "product_direct": false,
+      "hea_direct": true,
+      "composition_elements": [
+        "Al",
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Cr",
+        "Fe",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "llm_extraction_error": "大模型没有返回合法 JSON: "
+  }
+}

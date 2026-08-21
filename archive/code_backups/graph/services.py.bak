@@ -1,0 +1,81 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+from app.capability_gate import CapabilityGate
+from app.planner import TaskPlanner
+from app.task_analyzer import TaskAnalyzer
+from app.task_router import TaskRouter
+from tools.literature.evidence_merger import (
+    LiteratureEvidenceMerger,
+)
+from tools.literature.local_retriever import (
+    LocalLiteratureRetriever,
+)
+from tools.literature.online_retriever import (
+    OnlineLiteratureRetriever,
+)
+from tools.literature.online_search_policy import (
+    OnlineSearchPolicy,
+)
+from tools.literature.review_gate import (
+    LiteratureReviewGate,
+)
+from tools.literature_rag import LiteratureRAG
+
+
+@dataclass
+class GraphServices:
+    """LangGraph 节点共享的服务集合。"""
+
+    analyzer: TaskAnalyzer
+    capability_gate: CapabilityGate
+    router: TaskRouter
+    planner: TaskPlanner
+
+    # 旧 RAG 的回答生成能力继续保留。
+    rag: LiteratureRAG
+
+    # B2-B6 文献证据流水线。
+    local_retriever: LocalLiteratureRetriever
+    online_policy: OnlineSearchPolicy
+    online_retriever: OnlineLiteratureRetriever
+    evidence_merger: LiteratureEvidenceMerger
+    review_gate: LiteratureReviewGate
+
+
+def create_services() -> GraphServices:
+    """创建共享服务，并复用同一个 LLM 客户端。"""
+
+    planner = TaskPlanner()
+
+    analyzer = TaskAnalyzer(
+        llm=planner.llm,
+    )
+
+    router = TaskRouter(
+        llm=planner.llm,
+    )
+
+    rag = LiteratureRAG(
+        llm=planner.llm,
+    )
+
+    return GraphServices(
+        analyzer=analyzer,
+        capability_gate=CapabilityGate(),
+        router=router,
+        planner=planner,
+        rag=rag,
+        local_retriever=(
+            LocalLiteratureRetriever()
+        ),
+        online_policy=OnlineSearchPolicy(),
+        online_retriever=(
+            OnlineLiteratureRetriever()
+        ),
+        evidence_merger=(
+            LiteratureEvidenceMerger()
+        ),
+        review_gate=LiteratureReviewGate(),
+    )

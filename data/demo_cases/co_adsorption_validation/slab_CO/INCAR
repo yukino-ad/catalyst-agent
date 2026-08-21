@@ -1,0 +1,26 @@
+SYSTEM = {system_name}
+
+LWAVE   = F
+LCHARG  = F
+ENCUT   = 400
+ALGO = Fast
+NELM    = 100
+NELMDL  = -4
+NELMIN  = 6
+EDIFF   = 1.0E-4
+LREAL   = Auto
+NSW     = 100
+EDIFFG  = -0.1
+IBRION  = 2
+POTIM   = 0.2
+ISIF    = 2
+ISMEAR  = 1
+SIGMA   = 0.1
+LORBIT  = 11
+ENAUG   = 800.0
+IDIPOL = 3
+LDIPOL = .True
+NCORE = 4
+
+ISPIN   = 2
+MAGMOM  = 8*2.0 13*0.0 8*2.0 8*2.0 11*0.0 1*0.0 1*0.0

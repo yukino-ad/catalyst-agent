@@ -1,0 +1,31 @@
+{
+  "property": "formation_energy_per_atom",
+  "unit": "eV/atom",
+  "dataset": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\database\\750-Formation-regression-t-v-t",
+  "split": {
+    "train": 560,
+    "validation": 70,
+    "test": 70
+  },
+  "epochs": 1,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "atom_fea_len": 64,
+  "h_fea_len": 128,
+  "n_conv": 3,
+  "metrics": {
+    "mae": 0.09900373748470363,
+    "rmse": 0.11523540972442722,
+    "r2": 0.19329862498314532,
+    "samples": 70
+  },
+  "previous_production_metrics": {
+    "mae": 0.02224116358473631,
+    "rmse": 0.03299400958402116,
+    "r2": 0.9338680865013936,
+    "samples": 70
+  },
+  "experiment_model_path": "C:\\Users\\chenheli\\Documents\\agent开发\\catalyst-agent\\models\\formation-energy-cgcnn\\experiments\\gui_smoke_1epoch\\model_best.pth.tar",
+  "promoted_to_production": false,
+  "stdout_tail": "=> Using manual split mode\n   train file: train.csv\n   val file:   val.csv\n   test file:  test.csv\nEpoch: [0][0/18]\tTime 0.323 (0.323)\tData 0.082 (0.082)\tLoss 1.8071 (1.8071)\tMAE 0.130 (0.130)\nEpoch: [0][10/18]\tTime 0.286 (0.246)\tData 0.132 (0.093)\tLoss 0.1882 (0.6461)\tMAE 0.047 (0.079)\nTest: [0/3]\tTime 0.568 (0.568)\tLoss 1.0674 (1.0674)\tMAE 0.111 (0.111)\n * MAE 0.106\n---------训练完成，加载最优模型评估测试集---------------\nTest: [0/3]\tTime 0.618 (0.618)\tLoss 0.7488 (0.7488)\tMAE 0.098 (0.098)\n ** MAE 0.099"
+}

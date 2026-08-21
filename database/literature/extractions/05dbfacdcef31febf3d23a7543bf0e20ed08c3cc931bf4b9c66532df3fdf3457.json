@@ -1,0 +1,419 @@
+{
+  "schema_version": "b1-extraction-v1",
+  "prompt_version": "literature-extraction-v2",
+  "model": "kimi-k3",
+  "mode": "deterministic_fallback_after_llm_error",
+  "created_at": "2026-07-24T14:59:55.154937+00:00",
+  "paper": {
+    "paper_id": "crossref:10.1149/1945-7111/ada2bb",
+    "title": "Ni-Co-W-Zr(P) Quinary-based Medium Entropy Alloy Achieved by an Electrochemical Route and Its Properties",
+    "abstract": "Over the ages, the concept of alloying has evolved, and in the last fifteen years, the theory of high-entropy alloys has emerged, dramatically altering our understanding of alloy design. In this study, we report the novel synthesis of a quinary Ni-Co-W-Zr(P) medium-entropy alloy using an electroless deposition technique. This represents the first documented attempt to fabricate such a composition using this method, providing new insights into alloy development and synthesis processes. In this work, we examine how the microstructure and mechanical and electrochemical characteristics of the quinary medium-entropy alloy NiCoWZr(P) are interrelated. The morphology, phase composition, and elemental content of the samples were examined using SEM, XRD, and EDS, which revealed their microstructure. The mechanical properties of the materials were assessed through scratch testing. The coefficient of friction rose sharply from 0.23 to 3.25 due to the presence of additional elements in the Ni(P) matrix. To evaluate the corrosion characteristics of deposits in a non-deaerated 3.5% wt. NaCl solution, polarization analysis and EIS tests were conducted. The results show that the corrosion potential exhibited a positive shift, and the corrosion current density decreased to 62.803 μA/cm 2 as the concentration of CoWZr components in the bath increased.",
+    "year": 2025,
+    "journal": "Journal of The Electrochemical Society",
+    "doi": "10.1149/1945-7111/ada2bb",
+    "url": "https://doi.org/10.1149/1945-7111/ada2bb",
+    "source": "Crossref",
+    "publication_type": "journal-article",
+    "is_retracted": false,
+    "is_corrected": false,
+    "journal_impact_factor": null,
+    "journal_metric_year": null,
+    "journal_metric_source": "",
+    "openalex_source_id": "",
+    "issn_l": "",
+    "issns": [
+      "0013-4651",
+      "1945-7111"
+    ],
+    "metadata_verified": true,
+    "metadata_provider": "crossref",
+    "claim_evidence_available": true,
+    "cross_verified": false,
+    "kimi_cross_verified": false,
+    "semantic_scholar_id": "",
+    "citation_count": 0,
+    "open_access_pdf_url": "",
+    "cross_verification": {
+      "crossref_verified": false,
+      "semantic_scholar_verified": false,
+      "crossref_match_method": "none",
+      "semantic_scholar_match_method": "none",
+      "required_tools_called": false,
+      "cross_verified": false
+    },
+    "summary": "Over the ages, the concept of alloying has evolved, and in the last fifteen years, the theory of high-entropy alloys has emerged, dramatically altering our understanding of alloy design. In this study, we report the novel synthesis of a quinary Ni-Co-W-Zr(P) medium-entropy alloy using an electroless deposition technique. This represents the first documented attempt to fabricate such a composition using this method, providing new insights into alloy development and synthesis processes. In this work, we examine how the microstructure and mechanical and electrochemical characteristics of the quinary medium-entropy alloy NiCoWZr(P) are interrelated. The morphology, phase composition, and elemental content of the samples were examined using SEM, XRD, and EDS, which revealed their microstructure. The mechanical properties of the materials were assessed through scratch testing. The coefficient of friction rose sharply from 0.23 to 3.25 due to the presence of additional elements in the Ni(P) matrix. To evaluate the corrosion characteristics of deposits in a non-deaerated 3.5% wt. NaCl solution, polarization analysis and EIS tests were conducted. The results show that the corrosion potential exhibited a positive shift, and the corrosion current density decreased to 62.803 μA/cm 2 as the concentration of CoWZr components in the bath increased.",
+    "assertions": [
+      {
+        "kind": "element_set",
+        "value": [
+          "Ni",
+          "Co",
+          "W",
+          "Zr"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Ni-Co-W-Zr(P) Quinary-based Medium Entropy Alloy Achieved by an Electrochemical Route and Its Properties.",
+            "source": "title",
+            "sentence_index": 0
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E3::A1",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "material_family",
+        "value": "high_entropy_alloy",
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Over the ages, the concept of alloying has evolved, and in the last fifteen years, the theory of high-entropy alloys has emerged, dramatically altering our understanding of alloy design.",
+            "source": "abstract",
+            "sentence_index": 1
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E3::A2",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Ni",
+          "Co",
+          "W",
+          "Zr"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "In this study, we report the novel synthesis of a quinary Ni-Co-W-Zr(P) medium-entropy alloy using an electroless deposition technique.",
+            "source": "abstract",
+            "sentence_index": 2
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E3::A3",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      },
+      {
+        "kind": "element_set",
+        "value": [
+          "Ni",
+          "Co",
+          "W",
+          "Zr"
+        ],
+        "evidence_level": "explicit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "In this work, we examine how the microstructure and mechanical and electrochemical characteristics of the quinary medium-entropy alloy NiCoWZr(P) are interrelated.",
+            "source": "abstract",
+            "sentence_index": 4
+          }
+        ],
+        "inferred": false,
+        "assertion_id": "E3::A4",
+        "validation_status": "passed",
+        "review_status": "pending_review"
+      }
+    ],
+    "embedding_text": "Ni-Co-W-Zr(P) Quinary-based Medium Entropy Alloy Achieved by an Electrochemical Route and Its Properties Over the ages, the concept of alloying has evolved, and in the last fifteen years, the theory of high-entropy alloys has emerged, dramatically altering our understanding of alloy design. In this study, we report the novel synthesis of a quinary Ni-Co-W-Zr(P) medium-entropy alloy using an electroless deposition technique. This represents the first documented attempt to fabricate such a composition using this method, providing new insights into alloy development and synthesis processes. In this work, we examine how the microstructure and mechanical and electrochemical characteristics of the quinary medium-entropy alloy NiCoWZr(P) are interrelated. The morphology, phase composition, and elemental content of the samples were examined using SEM, XRD, and EDS, which revealed their microstructure. The mechanical properties of the materials were assessed through scratch testing. The coefficient of friction rose sharply from 0.23 to 3.25 due to the presence of additional elements in the Ni(P) matrix. To evaluate the corrosion characteristics of deposits in a non-deaerated 3.5% wt. NaCl solution, polarization analysis and EIS tests were conducted. The results show that the corrosion potential exhibited a positive shift, and the corrosion current density decreased to 62.803 μA/cm 2 as the concentration of CoWZr components in the bath increased. Over the ages, the concept of alloying has evolved, and in the last fifteen years, the theory of high-entropy alloys has emerged, dramatically altering our understanding of alloy design. In this study, we report the novel synthesis of a quinary Ni-Co-W-Zr(P) medium-entropy alloy using an electroless deposition technique. This represents the first documented attempt to fabricate such a composition using this method, providing new insights into alloy development and synthesis processes. In this work, we examine how the microstructure and mechanical and electrochemical characteristics of the quinary medium-entropy alloy NiCoWZr(P) are interrelated. The morphology, phase composition, and elemental content of the samples were examined using SEM, XRD, and EDS, which revealed their microstructure. The mechanical properties of the materials were assessed through scratch testing. The coefficient of friction rose sharply from 0.23 to 3.25 due to the presence of additional elements in the Ni(P) matrix. To evaluate the corrosion characteristics of deposits in a non-deaerated 3.5% wt. NaCl solution, polarization analysis and EIS tests were conducted. The results show that the corrosion potential exhibited a positive shift, and the corrosion current density decreased to 62.803 μA/cm 2 as the concentration of CoWZr components in the bath increased.",
+    "retrieval_origin": "online",
+    "online_rank": 23,
+    "review_status": "pending_review",
+    "stored_in_repository": false,
+    "kimi_web_search_performed": true,
+    "version_info": {
+      "record_count": 1,
+      "is_multi_record": false,
+      "has_preprint_version": false,
+      "has_formal_version": true,
+      "canonical_status": "formal",
+      "paper_ids": [
+        "crossref:10.1149/1945-7111/ada2bb"
+      ],
+      "dois": [
+        "10.1149/1945-7111/ada2bb"
+      ]
+    },
+    "evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 69.8,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 69.8,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 20.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": []
+      },
+      "task_relevance": {
+        "score": 19.8,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 0.0,
+          "target_product": 6.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 0.8
+        },
+        "issues": [
+          "Title/abstract does not directly identify the target reaction."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "In this study, we report the novel synthesis of a quinary Ni-Co-W-Zr(P) medium-entropy alloy using an electroless deposition technique.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Over the ages, the concept of alloying has evolved, and in the last fifteen years, the theory of high-entropy alloys has emerged, dramatically altering our understanding of alloy design.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "The results show that the corrosion potential exhibited a positive shift, and the corrosion current density decreased to 62.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "Ni-Co-W-Zr(P) Quinary-based Medium Entropy Alloy Achieved by an Electrochemical Route and Its Properties",
+            "source": "title"
+          },
+          {
+            "quote": "The results show that the corrosion potential exhibited a positive shift, and the corrosion current density decreased to 62.",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 20.0,
+      "relevance_score": 19.8,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": false,
+      "product_direct": true,
+      "hea_direct": true,
+      "composition_elements": [
+        "In",
+        "Ni",
+        "Co",
+        "W",
+        "Zr"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Title/abstract does not directly identify the target reaction.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "merged_ranking_scores": {
+      "document_coverage": 0.053763,
+      "title_coverage": 0.032258,
+      "lexical_relevance": 0.047312,
+      "quality_normalized": 0.698,
+      "recency": 0.9,
+      "combined": 0.360322
+    },
+    "merged_rank": 3,
+    "evidence_id": "E3",
+    "preliminary_evidence_quality": {
+      "schema_version": "b1.1",
+      "quality_level": "B",
+      "quality_score": 69.8,
+      "quality_score_max": 100.0,
+      "core_scientific_score": 69.8,
+      "core_scientific_score_max": 80.0,
+      "evaluation_phase": "preliminary",
+      "score_weights": {
+        "metadata_quality": 20.0,
+        "task_relevance": 30.0,
+        "claim_evidence_quality": 30.0,
+        "journal_impact": 20.0
+      },
+      "metadata_quality": {
+        "score": 20.0,
+        "max_score": 20.0,
+        "checks": {
+          "title": true,
+          "abstract": true,
+          "doi": true,
+          "identifier": true,
+          "journal_or_source": true,
+          "year": true,
+          "publication_type": true
+        },
+        "issues": []
+      },
+      "task_relevance": {
+        "score": 19.8,
+        "max_score": 30.0,
+        "components": {
+          "reaction": 0.0,
+          "target_product": 6.0,
+          "high_entropy_material": 9.0,
+          "four_or_five_metal_composition": 4.0,
+          "common_hea_transition_metals": 0.8
+        },
+        "issues": [
+          "Title/abstract does not directly identify the target reaction."
+        ]
+      },
+      "claim_evidence_quality": {
+        "score": 30.0,
+        "max_score": 30.0,
+        "components": {
+          "explicit_composition_quote": 14.0,
+          "explicit_high_entropy_quote": 4.0,
+          "performance_quote": 6.0,
+          "conclusion_quote": 6.0
+        },
+        "composition_claims": [
+          {
+            "quote": "In this study, we report the novel synthesis of a quinary Ni-Co-W-Zr(P) medium-entropy alloy using an electroless deposition technique.",
+            "source": "abstract",
+            "method": "deterministic_text_detection"
+          }
+        ],
+        "high_entropy_claims": [
+          {
+            "quote": "Over the ages, the concept of alloying has evolved, and in the last fifteen years, the theory of high-entropy alloys has emerged, dramatically altering our understanding of alloy design.",
+            "source": "abstract"
+          }
+        ],
+        "performance_claims": [
+          {
+            "quote": "The results show that the corrosion potential exhibited a positive shift, and the corrosion current density decreased to 62.",
+            "source": "abstract"
+          }
+        ],
+        "conclusion_claims": [
+          {
+            "quote": "Ni-Co-W-Zr(P) Quinary-based Medium Entropy Alloy Achieved by an Electrochemical Route and Its Properties",
+            "source": "title"
+          },
+          {
+            "quote": "The results show that the corrosion potential exhibited a positive shift, and the corrosion current density decreased to 62.",
+            "source": "abstract"
+          }
+        ],
+        "issues": []
+      },
+      "journal_impact": {
+        "score": 0.0,
+        "max_score": 20.0,
+        "impact_factor": null,
+        "metric_year": null,
+        "source": "",
+        "status": "unavailable",
+        "warning": "A verified impact factor was not supplied."
+      },
+      "metadata_score": 20.0,
+      "relevance_score": 19.8,
+      "has_title": true,
+      "has_abstract": true,
+      "has_doi": true,
+      "has_identifier": true,
+      "has_source": true,
+      "has_year": true,
+      "reaction_direct": false,
+      "product_direct": true,
+      "hea_direct": true,
+      "composition_elements": [
+        "In",
+        "Ni",
+        "Co",
+        "W",
+        "Zr"
+      ],
+      "composition_element_count": 5,
+      "four_or_five_metals": true,
+      "hea_composition_eligible": true,
+      "common_hea_transition_metals": [
+        "Co",
+        "Ni"
+      ],
+      "is_retracted": false,
+      "is_corrected": false,
+      "metadata_verified": true,
+      "metadata_provider": "crossref",
+      "claim_evidence_available": true,
+      "evidence_scope": "title_abstract",
+      "issues": [
+        "Title/abstract does not directly identify the target reaction.",
+        "Journal impact factor is unavailable or lacks a source/year; no journal-impact points were assigned."
+      ],
+      "requires_human_review": true,
+      "scientific_boundary": "Journal impact is a source-level aid and does not validate a paper's composition, performance, or conclusions."
+    },
+    "llm_extraction_error": "大模型没有返回合法 JSON: "
+  }
+}
